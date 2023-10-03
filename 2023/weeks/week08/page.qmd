@@ -12,21 +12,16 @@ We'll learn how to use  R libraries to read, query and visualize geospatial data
 
 ## **Practical exercises**:
 
-Students complete two geospatial notebooks using 2022 agricultural data:
+Students complete one geospatial notebook using 2022 agricultural data:
 
-#### 1. Read and subset excel data
+#### Read and subset excel data
 ::: {.callout-important collapse="true"}
 [Link to the guide](https://rpubs.com/ials2un/okra_vez_eva)
 :::
 
-#### 2. Joins & thematic maps
-::: {.callout-important collapse="true"}
-[Link to the guide](https://rpubs.com/ials2un/thematic_maps_v2)
-:::
-
 
 ## Homework
-### ** Publish your geospatial notebooks on 5th October 2023 (12.5%)**
+### ** Publish your notebook on 5th October 2023**
 
 🎥 
 

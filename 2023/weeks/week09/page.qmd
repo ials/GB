@@ -1,0 +1,35 @@
+---
+title: "🗓️ Week 09 - Join spatial and no spatial data"
+---
+
+In this week, we will learn **how to join data** using R. 
+
+
+## 👨‍🏫 Lecture Slides 
+
+We'll learn what are [*joins*](https://dplyr.tidyverse.org/reference/mutate-joins.html)
+
+
+## **Practical exercises**:
+
+Students complete one geospatial notebook:
+
+#### Joins & thematic maps
+::: {.callout-important collapse="true"}
+[Link to the guide](https://rpubs.com/ials2un/thematic_maps_v2)
+:::
+
+
+## Homework
+### ** Publish your geospatial notebook on 8th October 2023**
+
+🎥 
+
+## 📚 Recommended Reading 
+
+Study [dplyr joins](https://dplyr.tidyverse.org/reference/mutate-joins.html).
+
+
+
+
+
