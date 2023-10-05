@@ -2,12 +2,16 @@
 title: "🗓️ Week 09 - Join spatial and no spatial data"
 ---
 
-In this week, we will learn **how to join data** using R. 
+In this week, we understand how to read, process, and analyze spatial data in R. 
 
 
 ## 👨‍🏫 Lecture Slides 
 
-We'll learn what are [*joins*](https://dplyr.tidyverse.org/reference/mutate-joins.html)
+We'll learn:
+
+- What are [*joins*](https://dplyr.tidyverse.org/reference/mutate-joins.html)
+
+- What are main functionalities of the [simple features (sf) library](https://github.com/rstudio/cheatsheets/blob/main/sf.pdf)
 
 
 ## **Practical exercises**:
@@ -21,8 +25,8 @@ Students complete one geospatial notebook:
 
 
 ## Homework
-### ** Publish your geospatial notebook on 8th October 2023**
-
+1. Publish your geospatial notebook not later than 10th October 2023
+2. Create several geospatial data (i.e. points, lines and polygons ) using [geojson.io](https://geojson.io/) as explained in class
 🎥 
 
 ## 📚 Recommended Reading 
