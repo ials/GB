@@ -4,14 +4,14 @@
     "href": "2023/weeks/week09/page.html",
     "title": "🗓️ Week 09 - Join spatial and no spatial data",
     "section": "",
-    "text": "In this week, we will learn how to join data using R."
+    "text": "In this week, we understand how to read, process, and analyze spatial data in R."
   },
   {
     "objectID": "2023/weeks/week09/page.html#lecture-slides",
     "href": "2023/weeks/week09/page.html#lecture-slides",
     "title": "🗓️ Week 09 - Join spatial and no spatial data",
     "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nWe’ll learn what are joins"
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat are joins\nWhat are main functionalities of the simple features (sf) library"
   },
   {
     "objectID": "2023/weeks/week09/page.html#practical-exercises",
@@ -25,7 +25,7 @@
     "href": "2023/weeks/week09/page.html#homework",
     "title": "🗓️ Week 09 - Join spatial and no spatial data",
     "section": "Homework",
-    "text": "Homework\n\n** Publish your geospatial notebook on 8th October 2023**\n🎥"
+    "text": "Homework\n\nPublish your geospatial notebook not later than 10th October 2023\nCreate several geospatial data (i.e. points, lines and polygons ) using geojson.io as explained in class 🎥"
   },
   {
     "objectID": "2023/weeks/week09/page.html#recommended-reading",
