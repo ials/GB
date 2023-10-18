@@ -8,7 +8,7 @@
 
 <meta name="author" content="Ivan Lizarazo">
 
-<title>GEOMATICA BASICA 2023 - 🗓️ Week 08 - Handling geospatial data with R</title>
+<title>GEOMATICA BASICA 2023 - 🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../2023/weeks/week09/page.html" rel="next">
-<link href="../../../2023/weeks/week06/page.html" rel="prev">
 <link href="../../../figures/icons/ARS-1.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
@@ -67,10 +65,10 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../../css/custom_style.css">
 <link rel="stylesheet" href="../../../css/syllabus.css">
-<meta property="og:title" content="GEOMATICA BASICA 2023 - 🗓️ Week 08 - Handling geospatial data with R">
+<meta property="og:title" content="GEOMATICA BASICA 2023 - 🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)">
 <meta property="og:description" content="">
 <meta property="og:site-name" content="GEOMATICA BASICA 2023">
-<meta name="twitter:title" content="GEOMATICA BASICA 2023 - 🗓️ Week 08 - Handling geospatial data with R">
+<meta name="twitter:title" content="GEOMATICA BASICA 2023 - 🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)">
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@<twitter-handle>">
 <meta name="twitter:site" content="\@<twitter-handle>">
@@ -103,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../2023/weeks/week01/page.html">🗓️ Weeks</a></li><li class="breadcrumb-item"><a href="../../../2023/weeks/week08/page.html">Week 08</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -240,16 +238,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../2023/weeks/week08/page.html" class="sidebar-item-text sidebar-link active">
+            <a href="../../../2023/weeks/week08/page.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 08</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../2023/weeks/week08/page.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../2023/weeks/week08/page.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">👨‍🏫 Lecture Material</span></a>
   </div>
 </li>
@@ -320,10 +318,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#lecture-slides" id="toc-lecture-slides" class="nav-link active" data-scroll-target="#lecture-slides">👨‍🏫 Lecture Slides</a></li>
   <li><a href="#practical-exercises" id="toc-practical-exercises" class="nav-link" data-scroll-target="#practical-exercises"><strong>Practical exercises</strong>:</a></li>
-  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a>
-  <ul class="collapse">
-  <li><a href="#publish-your-notebook-on-5th-october-2023" id="toc-publish-your-notebook-on-5th-october-2023" class="nav-link" data-scroll-target="#publish-your-notebook-on-5th-october-2023">** Publish your notebook on 5th October 2023**</a></li>
-  </ul></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
   <li><a href="#recommended-reading" id="toc-recommended-reading" class="nav-link" data-scroll-target="#recommended-reading">📚 Recommended Reading</a></li>
   </ul>
 </nav>
@@ -333,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">🗓️ Week 08 - Handling geospatial data with <strong>R</strong></h1>
+<h1 class="title">🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)</h1>
 </div>
 
 
@@ -354,16 +349,21 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>In this week, we will handle <strong>geospatial data</strong> using R.</p>
+<p>In this week, we will learn about GNSS.</p>
 <section id="lecture-slides" class="level2">
 <h2 class="anchored" data-anchor-id="lecture-slides">👨‍🏫 Lecture Slides</h2>
-<p>We’ll learn how to use R libraries to read, query and visualize geospatial data. In particular, we will focus on <a href="https://r-spatial.github.io/sf/articles/sf1.html"><em>simple features for R</em></a></p>
+<p>We’ll learn:</p>
+<ul>
+<li><p><a href="https://tinyurl.com/49w9wb7k">What is GNSS?</a>?</p></li>
+<li><p>How to use handheld GNSS devices?</p></li>
+<li><p>How to download GNSS data to a computer?</p></li>
+<li><p>What is the positional accuracy of GNSS data?</p></li>
+</ul>
 </section>
 <section id="practical-exercises" class="level2">
 <h2 class="anchored" data-anchor-id="practical-exercises"><strong>Practical exercises</strong>:</h2>
-<p>Students complete one geospatial notebook using 2022 agricultural data:</p>
-<section id="read-and-subset-excel-data" class="level4">
-<h4 class="anchored" data-anchor-id="read-and-subset-excel-data">Read and subset excel data</h4>
+<section id="working-with-gnss-data" class="level4">
+<h4 class="anchored" data-anchor-id="working-with-gnss-data">Working with GNSS data</h4>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -376,7 +376,7 @@ Important
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><a href="https://rpubs.com/ials2un/okra_vez_eva">Link to the guide</a></p>
+<p><a href="https://www.youtube.com/watch?v=ik00P5_LNks">Importing GNSS data to QGIS3.x</a></p>
 </div>
 </div>
 </div>
@@ -384,14 +384,11 @@ Important
 </section>
 <section id="homework" class="level2">
 <h2 class="anchored" data-anchor-id="homework">Homework</h2>
-<section id="publish-your-notebook-on-5th-october-2023" class="level3">
-<h3 class="anchored" data-anchor-id="publish-your-notebook-on-5th-october-2023">** Publish your notebook on 5th October 2023**</h3>
-<p>🎥</p>
-</section>
+<p>Students prepare 8 targets for the campus practice 🎥</p>
 </section>
 <section id="recommended-reading" class="level2">
 <h2 class="anchored" data-anchor-id="recommended-reading">📚 Recommended Reading</h2>
-<p>Study <a href="https://rpubs.com/Juve_Campos/LeafletTutorial">Tutorial de Leaflet en R</a>.</p>
+<p>Study <a href="https://www.geospatialworld.net/blogs/how-gnss-works/">How GNSS works</a>.</p>
 
 
 </section>
@@ -646,18 +643,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../../../2023/weeks/week06/page.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Week 06</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../../../2023/weeks/week09/page.html" class="pagination-link">
-        <span class="nav-page-text">Week 09</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

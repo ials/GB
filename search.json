@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "2023/weeks/week11/page.html",
+    "href": "2023/weeks/week11/page.html",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "",
+    "text": "In this week, we will learn about GNSS."
+  },
+  {
+    "objectID": "2023/weeks/week11/page.html#lecture-slides",
+    "href": "2023/weeks/week11/page.html#lecture-slides",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat is GNSS??\nHow to use handheld GNSS devices?\nHow to download GNSS data to a computer?\nWhat is the positional accuracy of GNSS data?"
+  },
+  {
+    "objectID": "2023/weeks/week11/page.html#practical-exercises",
+    "href": "2023/weeks/week11/page.html#practical-exercises",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nWorking with GNSS data\n\n\n\n\n\n\nImportant\n\n\n\n\n\nImporting GNSS data to QGIS3.x"
+  },
+  {
+    "objectID": "2023/weeks/week11/page.html#homework",
+    "href": "2023/weeks/week11/page.html#homework",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "Homework",
+    "text": "Homework\nStudents prepare 8 targets for the campus practice 🎥"
+  },
+  {
+    "objectID": "2023/weeks/week11/page.html#recommended-reading",
+    "href": "2023/weeks/week11/page.html#recommended-reading",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy How GNSS works."
+  },
+  {
     "objectID": "2023/weeks/week10/page.html",
     "href": "2023/weeks/week10/page.html",
     "title": "🗓️ Week 10 - Digital elevation data",
@@ -30,6 +65,41 @@
   {
     "objectID": "2023/weeks/week10/page.html#recommended-reading",
     "href": "2023/weeks/week10/page.html#recommended-reading",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy how slope works."
+  },
+  {
+    "objectID": "2023/weeks/week10/Npage.html",
+    "href": "2023/weeks/week10/Npage.html",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "",
+    "text": "In this week, we will learn about digital elevation models (DEMs)."
+  },
+  {
+    "objectID": "2023/weeks/week10/Npage.html#lecture-slides",
+    "href": "2023/weeks/week10/Npage.html#lecture-slides",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat is a DEM?\nWhat variables can be derived from a DEM?\nHow to calculate slope from a DEM?"
+  },
+  {
+    "objectID": "2023/weeks/week10/Npage.html#practical-exercises",
+    "href": "2023/weeks/week10/Npage.html#practical-exercises",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDEM processing and analysis\n\n\n\n\n\n\nImportant\n\n\n\n\n\nDEM notebook"
+  },
+  {
+    "objectID": "2023/weeks/week10/Npage.html#homework",
+    "href": "2023/weeks/week10/Npage.html#homework",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Homework",
+    "text": "Homework\nReplicate and publish the DEM notebook 🎥"
+  },
+  {
+    "objectID": "2023/weeks/week10/Npage.html#recommended-reading",
+    "href": "2023/weeks/week10/Npage.html#recommended-reading",
     "title": "🗓️ Week 10 - Digital elevation data",
     "section": "📚 Recommended Reading",
     "text": "📚 Recommended Reading\nStudy how slope works."
@@ -305,7 +375,7 @@
     "href": "2023/index.html",
     "title": "2015896 - GEOMATICA BASICA",
     "section": "",
-    "text": "📢 Syllabus\n\n\n\n\n\n(09/08/2023)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n\n\n\n\n\n📢 Important\n\n\n\n\n\n(10/10/2023)\n\n🗓️ Week 10 lecture material is now available!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Fridays 10:30 am every fortnight\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103"
+    "text": "📢 Syllabus\n\n\n\n\n\n(09/08/2023)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n\n\n\n\n\n📢 Important\n\n\n\n\n\n(18/10/2023)\n\n🗓️ Week 11 lecture material is now available!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Fridays 10:30 am every fortnight\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103"
   },
   {
     "objectID": "2023/weeks/week01/page.html",
@@ -621,5 +691,75 @@
     "title": "🗓️ Week 09 - Join spatial and no spatial data",
     "section": "📚 Recommended Reading",
     "text": "📚 Recommended Reading\nStudy dplyr joins."
+  },
+  {
+    "objectID": "2023/weeks/week10/Opage.html",
+    "href": "2023/weeks/week10/Opage.html",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "",
+    "text": "In this week, we will learn about GNSS."
+  },
+  {
+    "objectID": "2023/weeks/week10/Opage.html#lecture-slides",
+    "href": "2023/weeks/week10/Opage.html#lecture-slides",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat is GNSS??\nHow to use handheld GNSS devices?\nHow to download GNSS data to a computer?\nWhat is the positional accuracy of GNSS data?"
+  },
+  {
+    "objectID": "2023/weeks/week10/Opage.html#practical-exercises",
+    "href": "2023/weeks/week10/Opage.html#practical-exercises",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nWorking with GNSS data\n\n\n\n\n\n\nImportant\n\n\n\n\n\nImporting GNSS data to QGIS3.x"
+  },
+  {
+    "objectID": "2023/weeks/week10/Opage.html#homework",
+    "href": "2023/weeks/week10/Opage.html#homework",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "Homework",
+    "text": "Homework\nStudents prepare 8 targets for the campus practice 🎥"
+  },
+  {
+    "objectID": "2023/weeks/week10/Opage.html#recommended-reading",
+    "href": "2023/weeks/week10/Opage.html#recommended-reading",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy How GNSS works."
+  },
+  {
+    "objectID": "2023/weeks/week11/Npage.html",
+    "href": "2023/weeks/week11/Npage.html",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "",
+    "text": "In this week, we will learn about digital elevation models (DEMs)."
+  },
+  {
+    "objectID": "2023/weeks/week11/Npage.html#lecture-slides",
+    "href": "2023/weeks/week11/Npage.html#lecture-slides",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat is a DEM?\nWhat variables can be derived from a DEM?\nHow to calculate slope from a DEM?"
+  },
+  {
+    "objectID": "2023/weeks/week11/Npage.html#practical-exercises",
+    "href": "2023/weeks/week11/Npage.html#practical-exercises",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDEM processing and analysis\n\n\n\n\n\n\nImportant\n\n\n\n\n\nDEM notebook"
+  },
+  {
+    "objectID": "2023/weeks/week11/Npage.html#homework",
+    "href": "2023/weeks/week11/Npage.html#homework",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Homework",
+    "text": "Homework\nReplicate and publish the DEM notebook 🎥"
+  },
+  {
+    "objectID": "2023/weeks/week11/Npage.html#recommended-reading",
+    "href": "2023/weeks/week11/Npage.html#recommended-reading",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy how slope works."
   }
 ]
