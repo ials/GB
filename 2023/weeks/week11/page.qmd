@@ -1,0 +1,41 @@
+---
+title: "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)"
+---
+
+In this week, we will learn about GNSS. 
+
+
+## 👨‍🏫 Lecture Slides 
+
+We'll learn:
+
+- [What is GNSS?](https://tinyurl.com/49w9wb7k)?
+
+- How to use handheld GNSS devices?
+
+- How to download GNSS data to a computer?
+
+- What is the positional accuracy of GNSS data?
+
+
+## **Practical exercises**:
+
+
+#### Working with GNSS data 
+::: {.callout-important collapse="true"}
+[Importing GNSS data to QGIS3.x](https://www.youtube.com/watch?v=ik00P5_LNks)
+:::
+
+
+## Homework
+Students prepare 8 targets for the campus practice
+🎥 
+
+## 📚 Recommended Reading 
+
+Study [How GNSS works](https://www.geospatialworld.net/blogs/how-gnss-works/).
+
+
+
+
+

@@ -1,0 +1,39 @@
+---
+title: "🗓️ Week 10 - Digital elevation data"
+---
+
+In this week, we will learn  about digital elevation models (DEMs). 
+
+
+## 👨‍🏫 Lecture Slides 
+
+We'll learn:
+
+- [What is a DEM](https://equatorstudios.com/what-is-a-digital-elevation-model-dem/)?
+
+- What variables can be derived from a DEM?
+
+- How to calculate slope from a DEM?
+
+
+## **Practical exercises**:
+
+
+#### DEM processing and analysis
+::: {.callout-important collapse="true"}
+[DEM notebook](https://rpubs.com/ials2un/dem_analysis)
+:::
+
+
+## Homework
+Replicate and publish the DEM notebook
+🎥 
+
+## 📚 Recommended Reading 
+
+Study [how slope works](https://pro.arcgis.com/en/pro-app/3.0/tool-reference/spatial-analyst/how-slope-works.htm).
+
+
+
+
+
