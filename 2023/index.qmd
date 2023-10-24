@@ -16,9 +16,10 @@ format: html
 ::: {.callout-note collapse=false}
 ## 📢 Important
 
-(18/10/2023)
+(24/10/2023)
 
-- [🗓️ Week 11 lecture material](/2023/weeks/week11/page.qmd) is now available!
+- [Notas acumuladas a 24.10.2023](https://drive.google.com/file/d/1kF3f2NlfgyveF0HLiutn9mr1RWupRRx6/view?usp=sharing)
+- [🗓️ Week 12 lecture material](/2023/weeks/week12/page.qmd) is now available!
 
 :::
 
