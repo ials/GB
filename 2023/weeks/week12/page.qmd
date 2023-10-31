@@ -9,7 +9,7 @@ In this week, we will learn what is remote sensing and how can it help agricultu
 
 We'll learn:
 
-- [What are spectral indices?](https://docs.google.com/presentation/d/1yWZQSifVKWLVPKfgpdVhd-ZbeXAshjGM/edit?usp=sharing&ouid=101294548671143516389&rtpof=true&sd=true)?
+- [What are spectral indices?](https://drive.google.com/file/d/13M8D7NzfEUinfzSjDBI2gk61zCBW3Wmc/view?usp=sharing)?
 
 
 ## **Practical exercises**:

@@ -1,0 +1,27 @@
+---
+title: "🗓️ Week 13 - Structure from motion"
+---
+
+In this week, we will learn what is structure from motion. 
+
+
+## 👨‍🏫 Lecture Slides 
+
+We'll learn:
+
+- [What is structure from motion?](https://ecampusontario.pressbooks.pub/remotesensing/chapter/chapter-10-photogrammetry-and-structure-from-motion/)?
+
+
+## **Practical exercises**:
+
+#### Attend the *salida de campus*
+
+
+## 📚 Recommended Reading 
+
+Study [Photogrammetry and structure from motion](https://ecampusontario.pressbooks.pub/remotesensing/chapter/chapter-10-photogrammetry-and-structure-from-motion/).
+
+
+
+
+
