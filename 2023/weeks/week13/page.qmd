@@ -1,5 +1,5 @@
 ---
-title: "🗓️ Week 13 - Structure from motion"
+title: "🗓️ Week 13 - Photogrammetry"
 ---
 
 In this week, we will learn what is structure from motion. 
@@ -9,7 +9,7 @@ In this week, we will learn what is structure from motion.
 
 We'll learn:
 
-- [What is structure from motion?](https://ecampusontario.pressbooks.pub/remotesensing/chapter/chapter-10-photogrammetry-and-structure-from-motion/)?
+- [What is structure from motion?](https://cloud.sdsc.edu/v1/AUTH_opentopography/www/shortcourses/16UNAVCO/nissen-OpenTopo-ASU-APR-2016-structure-from-motion.pdf)
 
 
 ## **Practical exercises**:
