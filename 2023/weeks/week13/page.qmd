@@ -7,14 +7,13 @@ In this week, we will learn what is structure from motion.
 
 ## 👨‍🏫 Lecture Slides 
 
-We'll learn:
 
 - [What is structure from motion?](https://cloud.sdsc.edu/v1/AUTH_opentopography/www/shortcourses/16UNAVCO/nissen-OpenTopo-ASU-APR-2016-structure-from-motion.pdf)
 
 
 ## **Practical exercises**:
 
-#### Attend the *salida de campus*
+#### Attend the *salida de campus* and collect GNSS data
 
 
 ## 📚 Recommended Reading 
