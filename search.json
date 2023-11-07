@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "2023/weeks/week14/page.html",
+    "href": "2023/weeks/week14/page.html",
+    "title": "🗓️ Week 14 - Spatial interpolation",
+    "section": "",
+    "text": "In this week, we will learn what is spatial interpolation."
+  },
+  {
+    "objectID": "2023/weeks/week14/page.html#lecture-slides",
+    "href": "2023/weeks/week14/page.html#lecture-slides",
+    "title": "🗓️ Week 14 - Spatial interpolation",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\n\nWhat is spatial estimation?"
+  },
+  {
+    "objectID": "2023/weeks/week14/page.html#practical-exercises",
+    "href": "2023/weeks/week14/page.html#practical-exercises",
+    "title": "🗓️ Week 14 - Spatial interpolation",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDownload 250-m SOC data for your study area\nDue on 16.11.2023\n\n\nInterpolation of SOC data for your study area\nDue on 23.11.2023"
+  },
+  {
+    "objectID": "2023/weeks/week14/page.html#recommended-reading",
+    "href": "2023/weeks/week14/page.html#recommended-reading",
+    "title": "🗓️ Week 14 - Spatial interpolation",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy Spatial interpolation."
+  },
+  {
     "objectID": "2023/weeks/week13/page.html",
     "href": "2023/weeks/week13/page.html",
     "title": "🗓️ Week 13 - Photogrammetry",
@@ -431,7 +459,7 @@
     "href": "2023/index.html",
     "title": "2015896 - GEOMATICA BASICA",
     "section": "",
-    "text": "📢 Syllabus\n\n\n\n\n\n(09/08/2023)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n\n\n\n\n\n📢 Important\n\n\n\n\n\n(31/10/2023)\n\nNotas acumuladas a 24.10.2023\n🗓️ Week 13 lecture material is now available!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Fridays 10:30 am every fortnight\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103"
+    "text": "📢 Syllabus\n\n\n\n\n\n(09/08/2023)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n\n\n\n\n\n📢 Important\n\n\n\n\n\n(31/10/2023)\n\nNotas acumuladas a 24.10.2023\n\n(07/11/2023)\n\n🗓️ Week 14 lecture material is now available!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Fridays 10:30 am every fortnight\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103"
   },
   {
     "objectID": "2023/weeks/week01/page.html",
@@ -884,6 +912,41 @@
   {
     "objectID": "2023/weeks/week13/Npage.html#recommended-reading",
     "href": "2023/weeks/week13/Npage.html#recommended-reading",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy how slope works."
+  },
+  {
+    "objectID": "2023/weeks/week14/Npage.html",
+    "href": "2023/weeks/week14/Npage.html",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "",
+    "text": "In this week, we will learn about digital elevation models (DEMs)."
+  },
+  {
+    "objectID": "2023/weeks/week14/Npage.html#lecture-slides",
+    "href": "2023/weeks/week14/Npage.html#lecture-slides",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat is a DEM?\nWhat variables can be derived from a DEM?\nHow to calculate slope from a DEM?"
+  },
+  {
+    "objectID": "2023/weeks/week14/Npage.html#practical-exercises",
+    "href": "2023/weeks/week14/Npage.html#practical-exercises",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDEM processing and analysis\n\n\n\n\n\n\nImportant\n\n\n\n\n\nDEM notebook"
+  },
+  {
+    "objectID": "2023/weeks/week14/Npage.html#homework",
+    "href": "2023/weeks/week14/Npage.html#homework",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Homework",
+    "text": "Homework\nReplicate and publish the DEM notebook 🎥"
+  },
+  {
+    "objectID": "2023/weeks/week14/Npage.html#recommended-reading",
+    "href": "2023/weeks/week14/Npage.html#recommended-reading",
     "title": "🗓️ Week 10 - Digital elevation data",
     "section": "📚 Recommended Reading",
     "text": "📚 Recommended Reading\nStudy how slope works."
