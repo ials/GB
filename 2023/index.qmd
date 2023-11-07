@@ -19,7 +19,10 @@ format: html
 (31/10/2023)
 
 - [Notas acumuladas a 24.10.2023](https://drive.google.com/file/d/1kF3f2NlfgyveF0HLiutn9mr1RWupRRx6/view?usp=sharing)
-- [🗓️ Week 13 lecture material](/2023/weeks/week13/page.qmd) is now available!
+
+(07/11/2023)
+
+- [🗓️ Week 14 lecture material](/2023/weeks/week14/page.qmd) is now available!
 
 :::
 

@@ -1,0 +1,31 @@
+---
+title: "🗓️ Week 14 - Spatial interpolation"
+---
+
+In this week, we will learn what is spatial interpolation. 
+
+
+## 👨‍🏫 Lecture Slides 
+
+
+- [What is spatial estimation?](https://docs.google.com/presentation/d/1vQdDXGxq4VqAawlCiNNfNJWqLq5IXRUG/edit?usp=sharing&ouid=101294548671143516389&rtpof=true&sd=true)
+
+
+## **Practical exercises**:
+
+#### [Download 250-m SOC data for your study area](https://rpubs.com/ials2un/gettingSoilGrids)
+
+Due on 16.11.2023
+
+#### [Interpolation of SOC data for your study area](https://rpubs.com/ials2un/soc_interp)
+
+Due on 23.11.2023
+
+## 📚 Recommended Reading 
+
+Study [Spatial interpolation](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s12-03-surface-analysis-spatial-inter.html).
+
+
+
+
+
