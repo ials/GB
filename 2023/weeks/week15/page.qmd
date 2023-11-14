@@ -1,0 +1,31 @@
+---
+title: "🗓️ Week 15 - Kriging interpolation"
+---
+
+In this week, we will learn what is kriging interpolation. 
+
+
+## 👨‍🏫 Lecture Slides 
+
+
+- [How kriging works?](https://pro.arcgis.com/en/pro-app/latest/tool-reference/3d-analyst/how-kriging-works.htm)
+
+
+## **Practical exercises**:
+
+#### [Download 250-m SOC data for your study area](https://rpubs.com/ials2un/gettingSoilGrids)
+
+Due on 16.11.2023
+
+#### [Interpolation of SOC data for your study area](https://rpubs.com/ials2un/soc_interp)
+
+Due on 23.11.2023
+
+## 📚 Recommended Reading 
+
+Study [Kriging interpolation](https://www.publichealth.columbia.edu/research/population-health-methods/kriging-interpolation).
+
+
+
+
+
