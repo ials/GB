@@ -8,6 +8,8 @@ In this week, we will learn what is kriging interpolation.
 ## 👨‍🏫 Lecture Slides 
 
 
+- [Introduction to kriging](https://mycourses.aalto.fi/pluginfile.php/1265858/course/section/161436/Lecture%204%20Introduction%20to%20kriging.pdf)
+
 - [How kriging works?](https://pro.arcgis.com/en/pro-app/latest/tool-reference/3d-analyst/how-kriging-works.htm)
 
 
