@@ -20,6 +20,7 @@ project:
     - "2023/weeks/week14/*.qmd"
     - "2023/weeks/week15/*.qmd"
     - "2023/weeks/week16/*.qmd"
+    - "2023/weeks/week17/*.qmd"
 
 website:
   title: "GEOMATICA BASICA 2023"
@@ -132,6 +133,11 @@ website:
            contents:
              - href: 2023/weeks/week16/page.qmd
                text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week17/page.qmd
+           text: Week 17
+           contents:
+             - href: 2023/weeks/week17/page.qmd
+               text: 👨‍🏫 Calificaciones
   navbar:
     background: primary
   page-footer:
