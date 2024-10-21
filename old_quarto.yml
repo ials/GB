@@ -1,0 +1,175 @@
+project:
+  type: "website"
+  title: "GEOMATICA BASICA 2023"
+  output-dir: _output
+  render:
+    - "index.qmd"
+    - "2023/*.qmd"
+    - "2023/weeks/week01/*.qmd"
+    - "2023/weeks/week02/*.qmd"
+    - "2023/weeks/week03/*.qmd"
+    - "2023/weeks/week04/*.qmd"
+    - "2023/weeks/week05/*.qmd"
+    - "2023/weeks/week06/*.qmd"
+    - "2023/weeks/week08/*.qmd"
+    - "2023/weeks/week09/*.qmd"
+    - "2023/weeks/week10/*.qmd"
+    - "2023/weeks/week11/*.qmd"
+    - "2023/weeks/week12/*.qmd"
+    - "2023/weeks/week13/*.qmd"
+    - "2023/weeks/week14/*.qmd"
+    - "2023/weeks/week15/*.qmd"
+    - "2023/weeks/week16/*.qmd"
+    - "2023/weeks/week17/*.qmd"
+
+website:
+  title: "GEOMATICA BASICA 2023"
+  page-navigation: true
+  reader-mode: true
+  open-graph: true
+  twitter-card: 
+    creator: "@<twitter-handle>"
+    site: "\\@<twitter-handle>"
+  favicon: "figures/icons/ARS-1.png"
+  search:
+    location: navbar
+    type: textbox
+  sidebar:
+    style: docked
+    contents:
+      - href: 2023/index.qmd
+        text: "🏠 Home"
+      - href: 2023/syllabus.qmd
+        text: "📓 Syllabus"
+      # - href: 2023/communication.qmd
+      #   text: "📟 Communication"
+      # - href: 2023/assignments.qmd
+      #   text: "✍️ Assignments"
+      #   contents:
+      #     - href: 2023/assignments/assignment01.qmd
+      #       text: "📝 Assignment 01"
+      #     - href: 2023/assignments/assignment02.qmd
+      #       text: "📝 Assignment 02"
+      #     - href: 2023/assignments/group_project.qmd
+      #       text: "👥 Group Project"
+      - section: "🗓️ Weeks"
+        contents:
+         - href: 2023/weeks/week01/page.qmd
+           text: Week 01
+           contents:
+             - href: 2023/weeks/week01/page.qmd
+               text: 👨‍🏫 Lecture Material
+            #  - href: 2023/weeks/week01/lab.qmd
+            #    text: 💻 Lab Roadmap
+            #  - href: 2023/weeks/week01/appendix.qmd
+            #    text: 🔖 Appendix
+         - href: 2023/weeks/week02/page.qmd
+           text: Week 02
+           contents:
+             - href: 2023/weeks/week02/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week03/page.qmd
+           text: Week 03
+           contents:
+             - href: 2023/weeks/week03/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week04/page.qmd
+           text: Week 04
+           contents:
+             - href: 2023/weeks/week04/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week05/page.qmd
+           text: Week 05
+           contents:
+             - href: 2023/weeks/week05/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week06/page.qmd
+           text: Week 06
+           contents:
+             - href: 2023/weeks/week06/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week08/page.qmd
+           text: Week 08
+           contents:
+             - href: 2023/weeks/week08/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week09/page.qmd
+           text: Week 09
+           contents:
+             - href: 2023/weeks/week09/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week10/page.qmd
+           text: Week 10
+           contents:
+             - href: 2023/weeks/week10/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week11/page.qmd
+           text: Week 11
+           contents:
+             - href: 2023/weeks/week11/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week12/page.qmd
+           text: Week 12
+           contents:
+             - href: 2023/weeks/week12/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week13/page.qmd
+           text: Week 13
+           contents:
+             - href: 2023/weeks/week13/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week14/page.qmd
+           text: Week 14
+           contents:
+             - href: 2023/weeks/week14/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week15/page.qmd
+           text: Week 15
+           contents:
+             - href: 2023/weeks/week15/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week16/page.qmd
+           text: Week 16
+           contents:
+             - href: 2023/weeks/week16/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2023/weeks/week17/page.qmd
+           text: Week 17
+           contents:
+             - href: 2023/weeks/week17/page.qmd
+               text: 👨‍🏫 Calificaciones
+  navbar:
+    background: primary
+  page-footer:
+    background: light
+    left: "Copyright 2023, IALS" 
+
+
+
+bibliography: references/references.bib
+csl: references/chicago-author-date.csl
+
+
+format:
+  html:
+    author: Ivan Lizarazo
+    author-meta: Ivan Lizarazo
+    date-format: "DD MMMM YYYY"
+
+    email-obfuscation: javascript
+    link-external-newwindow: true
+    link-external-icon: true
+    link-external-filter: ^(?:http:|https:)\/\/(?:ials\.github\.io\/|localhost)
+
+    theme:
+      light: 
+        - journal
+        - css/custom.scss # I use this just to change the default colour
+    css: 
+      - css/custom_style.css
+      - css/syllabus.css
+    toc: true
+
+#margin-header: 
+#![](/figures/icons/UNAL-1.png)
+
