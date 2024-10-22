@@ -36,4 +36,4 @@ T5 - What is computer science?
 
 ## 📟 Communication
 
-- If you feel like it, get to know your peers in the course and organize study groups 
+- Get to know your peers in the course and organize a study group 
