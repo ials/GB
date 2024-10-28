@@ -1,7 +1,7 @@
 ---
 subtitle: " 2015896-- GEOMATICA BASICA"
 title: "<font style='font-size:1em;'>🗓️ Week 01<br/> Introduction</font>"
-author: Ivan Lizarazo(#)
+author: Ivan Lizarazo
 institute: '[Universidad Nacional de Colombia](#)'
 date: 29 October 2024
 date-meta: 29 October 2024
@@ -112,6 +112,14 @@ The distance between Sun and Earth is ... km
 
 A flipped classroom is structured around the idea that lecture or direct instruction is not the best use of class time. Instead students encounter information before class, freeing class time for activities that involve higher order thinking
 
+## To do before tomorrow
+
+Install [QGIS 3.34.11 'Prizren'](https://qgis.org/download/) in your computer.
+
+<p align="center">
+<img src="figures/QGIS.png" width="65%" height="65%" />
+</p>
+
 # To do before next week
 
 ## Read [this document](https://drive.google.com/file/d/1C2lJOKFKODd9KatWsp7Q-L5pJQEPO6mo/view?usp=sharing) and take notes
@@ -140,4 +148,3 @@ Describe this map made by Diego Gutierrez (1562):
 <p align="center">
 <img src="figures/SA_1562.png" width="65%" height="65%" />
 </p>
-#![](figures/SA_1562.png)
