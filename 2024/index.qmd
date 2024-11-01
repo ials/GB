@@ -16,9 +16,9 @@ format: html
 ::: {.callout-note collapse=false}
 ## 📢 Important
 
-(27/10/2024)
+(01/11/2024)
 
-- Las clases empiezan el 29 de octubre de 2024
+- No olvide realizar las tareas de la primera semana
 
 :::
 
