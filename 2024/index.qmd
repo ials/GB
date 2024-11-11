@@ -16,9 +16,9 @@ format: html
 ::: {.callout-note collapse=false}
 ## 📢 Important
 
-(01/11/2024)
+(11/11/2024)
 
-- No olvide realizar las tareas de la primera semana
+- Recuerde realizar backup de sus datos
 
 :::
 
