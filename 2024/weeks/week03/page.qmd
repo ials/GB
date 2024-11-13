@@ -12,9 +12,11 @@ In this week, we will cover the following topics:
 
 **Practical exercises**:
 
-Download & replicate the map making guide for your department:
+1. Download & replicate the map making guide for your department:
 
-- [My first map](https://drive.google.com/file/d/18UMx5zLUpfd_UetZwmBlX97J8yPMeJwk/view?usp=sharing)
+- [Make your first map](https://drive.google.com/file/d/18UMx5zLUpfd_UetZwmBlX97J8yPMeJwk/view?usp=sharing)
+
+2. Add cities, roads and water to your map
 
 ## 👨‍🏫 Lecture Slides 
 
