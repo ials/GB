@@ -49,7 +49,7 @@ Download *Proyecciones de población DANE*
 *DCD-area-proypoblacion-Mun-2020-2035-ActPostCOVID-19.xlsx*
 
  <figure>
-    <img src="figures/raw_table.png"  width="80%" height="80%" >
+    <img src="figures/raw_table.png"  width="70%" height="70%" >
 </figure>
 
 ## Edited table
@@ -69,7 +69,7 @@ To join two tables, a common attribute is needed. While *their names* don't matt
 Cordoba municipalities table *after deleting several fields*
 
 <figure>
-    <img src="figures/cordoba_table.png"  width="75%" height="75%" >
+    <img src="figures/cordoba_table.png"  width="70%" height="70%" >
 </figure>
 
 ## Joins in QGIS [1]
@@ -77,7 +77,7 @@ Cordoba municipalities table *after deleting several fields*
 Go to *Municipalities* Layer Properties:
 
 <figure>
-    <img src="figures/layer_properties.png"  width="70%" height="70%" >
+    <img src="figures/layer_properties.png"  width="60%" height="60%" >
 </figure>
 
 ## Joins in QGIS [2]
@@ -85,7 +85,7 @@ Go to *Municipalities* Layer Properties:
 Execute this procedure: 
 
 <p align="center">
-<img src="figures/join_process.png" width="70%" height="70%" />
+<img src="figures/join_process.png" width="60%" height="60%" />
 </p>
 
 ## Result
@@ -102,7 +102,7 @@ Open the municipalities attribute table:
 Visualization of 2020 population per municipality (and OSM background):
 
 <figure>
-    <img src="figures/Goal2.png"  width="70%" height="70%" >
+    <img src="figures/Goal2.png"  width="65%" height="65%" >
 </figure>
 
 
