@@ -2,70 +2,70 @@
   {
     "objectID": "2024/weeks/week04/slides.html#goal",
     "href": "2024/weeks/week04/slides.html#goal",
-    "title": "🗓️ Week 01 Spatial data models",
+    "title": "🗓️ Week 4Non spatial joins",
     "section": "Goal",
     "text": "Goal\nTo join a population table to a municipalities geopackage"
   },
   {
     "objectID": "2024/weeks/week04/slides.html#dane-population-table",
     "href": "2024/weeks/week04/slides.html#dane-population-table",
-    "title": "🗓️ Week 01 Spatial data models",
+    "title": "🗓️ Week 4Non spatial joins",
     "section": "DANE population table",
     "text": "DANE population table\nDownload Proyecciones de población DANE"
   },
   {
     "objectID": "2024/weeks/week04/slides.html#original-table",
     "href": "2024/weeks/week04/slides.html#original-table",
-    "title": "🗓️ Week 01 Spatial data models",
+    "title": "🗓️ Week 4Non spatial joins",
     "section": "Original table",
     "text": "Original table\nDCD-area-proypoblacion-Mun-2020-2035-ActPostCOVID-19.xlsx"
   },
   {
     "objectID": "2024/weeks/week04/slides.html#edited-table",
     "href": "2024/weeks/week04/slides.html#edited-table",
-    "title": "🗓️ Week 01 Spatial data models",
+    "title": "🗓️ Week 4Non spatial joins",
     "section": "Edited table",
     "text": "Edited table\nDANE table after going from long to wide format:"
   },
   {
     "objectID": "2024/weeks/week04/slides.html#edited-municipalities-table",
     "href": "2024/weeks/week04/slides.html#edited-municipalities-table",
-    "title": "🗓️ Week 01 Spatial data models",
+    "title": "🗓️ Week 4Non spatial joins",
     "section": "Edited Municipalities table",
     "text": "Edited Municipalities table\nCordoba municipalities table after deleting several fields"
   },
   {
     "objectID": "2024/weeks/week04/slides.html#joins-in-qgis-1",
     "href": "2024/weeks/week04/slides.html#joins-in-qgis-1",
-    "title": "🗓️ Week 01 Spatial data models",
+    "title": "🗓️ Week 4Non spatial joins",
     "section": "Joins in QGIS [1]",
     "text": "Joins in QGIS [1]\nGo to Municipalities Layer Properties:"
   },
   {
     "objectID": "2024/weeks/week04/slides.html#joins-in-qgis-2",
     "href": "2024/weeks/week04/slides.html#joins-in-qgis-2",
-    "title": "🗓️ Week 01 Spatial data models",
+    "title": "🗓️ Week 4Non spatial joins",
     "section": "Joins in QGIS [2]",
     "text": "Joins in QGIS [2]\nExecute this procedure:"
   },
   {
     "objectID": "2024/weeks/week04/slides.html#result",
     "href": "2024/weeks/week04/slides.html#result",
-    "title": "🗓️ Week 01 Spatial data models",
+    "title": "🗓️ Week 4Non spatial joins",
     "section": "Result",
     "text": "Result\nOpen the municipalities attribute table:"
   },
   {
     "objectID": "2024/weeks/week04/slides.html#goal-accomplished",
     "href": "2024/weeks/week04/slides.html#goal-accomplished",
-    "title": "🗓️ Week 01 Spatial data models",
+    "title": "🗓️ Week 4Non spatial joins",
     "section": "Goal accomplished!",
     "text": "Goal accomplished!\nVisualization of 2020 population per municipality (and OSM background):"
   },
   {
     "objectID": "2024/weeks/week04/slides.html#look-for-socio-economic-data",
     "href": "2024/weeks/week04/slides.html#look-for-socio-economic-data",
-    "title": "🗓️ Week 01 Spatial data models",
+    "title": "🗓️ Week 4Non spatial joins",
     "section": "Look for socio-economic data",
     "text": "Look for socio-economic data\nThen, visualize them using QGIS (and start making your map)\n\n\n\n\n2015896 – GEOMATICA BASICA"
   },
