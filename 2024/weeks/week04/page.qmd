@@ -1,0 +1,43 @@
+---
+title: "🗓️ Week 04 -Table Joins"
+---
+
+In this week, we will cover the following topics:
+
+**Theoretical topics**:
+
+## 👨‍🏫 Lecture Slides 
+
+You can find the slides [here](slides.qmd)
+
+
+## **Practical exercises**:
+
+-  Join your department's municipalities to a DANE's population table
+
+-  Review socio-economic data for your department (and summarize it)
+
+**Make sure you bring your first map, the physical one for your department, in PDF format,  to the classroom on 27th November**
+
+🎥 
+
+## 📚 Recommended Reading 
+
+Read [Cartography: an Introduction](https://www.cartography.org.uk/_files/ugd/583f72_c795f5c26b3f44df84e33d1210842d80.pdf) and take notes
+
+## ✍️ Coursework
+
+🚧 In your  notebook,  answer the following questions 🚧
+
+### Cartography
+::: {.callout-important collapse=true}
+1. What is the geographic area covered by one IGAC map sheet at 1:100000 scale?
+2. At 1:25000 scale map, how many cm2 represent 100 ha?
+3. At 1:5000 scale map, 10 cm2 equals how many hectares?
+:::
+
+
+
+
+
+

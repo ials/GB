@@ -1,0 +1,113 @@
+---
+subtitle: " 2015896-- GEOMATICA BASICA"
+title: "<font style='font-size:1em;'>🗓️ Week 01<br/> Spatial data models</font>"
+author: Ivan Lizarazo
+institute: '[Universidad Nacional de Colombia](#)'
+date: 20 November 2024
+date-meta: 20 November 2024
+date-format: "DD MMM YYYY"
+toc: true
+toc-depth: 1
+toc-title: "What we will cover today:"
+center-title-slide: false
+from: markdown+emoji
+format:
+  revealjs: 
+    fig-responsive: true
+    theme: simple
+    slide-number: true
+    mouse-wheel: false
+    preview-links: auto
+    logo: /figures/icons/earth.jpeg
+    css: /css/styles_slides.css
+    footer: '2015896 -- GEOMATICA BASICA'
+---
+
+# Non spatial joins
+
+## Goal
+
+To join a population table to a municipalities geopackage
+
+<figure>
+    <img src="figures/goal.png" width="70%" height="70%" >
+</figure>
+
+## DANE population table
+
+Proyecciones de población DANE
+
+<figure>
+    <img src="figures/continuous.png" width="70%" height="70%" >
+</figure>
+
+
+# Raw table reading & pre-processing in Excel
+
+## Original table
+
+*DCD-area-proypoblacion-Mun-2020-2035-ActPostCOVID-19.xlsx*
+
+ <figure>
+    <img src="figures/raw_table.png"  width="70%" height="70%" >
+</figure>
+
+## Edited table
+
+DANE table after going from *long* to *wide* format
+
+<figure>
+    <img src="figures/edited_table.png"  width="70%" height="70%" >
+</figure>
+
+# Joining the two tables in QGIS
+
+To join two tables, a common attribute is needed. While *their names* don't matter, their *data types* do!
+
+## Edited Municipalities table
+
+Cordoba municipalities table *after deleting several fields*
+
+<figure>
+    <img src="figures/cordoba_table.png"  width="70%" height="670%" >
+</figure>
+
+## Joins in QGIS [1]
+
+Go to *Municipalities* Layer Properties:
+
+<figure>
+    <img src="figures/layer properties.png"  width="80%" height="80%" >
+</figure>
+
+## Joins in QGIS [2]
+
+Execute this procedure: 
+
+<p align="center">
+<img src="figures/join_process.png" width="80%" height="80%" />
+</p>
+
+## Result
+
+Open the municipalities attribute table:
+
+<p align="center">
+<img src="figures/join_table.png" width="70%" height="70%" />
+</p>
+
+
+## Goal accomplished! 
+
+Visualization of 2020 population per municipality (and OSM background):
+
+<figure>
+    <img src="figures/Goal_2.png"  width="60%" height="60%" >
+</figure>
+
+
+# To do before next week
+
+## Look for socio-economic data
+
+Then, visualize them using QGIS (and start making your map)
