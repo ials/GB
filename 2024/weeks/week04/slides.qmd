@@ -38,7 +38,7 @@ To join a population table to a municipalities geopackage
 Proyecciones de población DANE
 
 <figure>
-    <img src="figures/continuous.png" width="70%" height="70%" >
+    <img src="figures/DANE_poblacion.png" width="70%" height="70%" >
 </figure>
 
 
@@ -49,15 +49,15 @@ Proyecciones de población DANE
 *DCD-area-proypoblacion-Mun-2020-2035-ActPostCOVID-19.xlsx*
 
  <figure>
-    <img src="figures/raw_table.png"  width="70%" height="70%" >
+    <img src="figures/raw_table.png"  width="75%" height="75%" >
 </figure>
 
 ## Edited table
 
-DANE table after going from *long* to *wide* format
+DANE table after going from *long* to *wide* format:
 
 <figure>
-    <img src="figures/edited_table.png"  width="70%" height="70%" >
+    <img src="figures/edited_table.png"  width="75%" height="75%" >
 </figure>
 
 # Joining the two tables in QGIS
@@ -69,7 +69,7 @@ To join two tables, a common attribute is needed. While *their names* don't matt
 Cordoba municipalities table *after deleting several fields*
 
 <figure>
-    <img src="figures/cordoba_table.png"  width="70%" height="670%" >
+    <img src="figures/cordoba_table.png"  width="75%" height="75%" >
 </figure>
 
 ## Joins in QGIS [1]
@@ -77,7 +77,7 @@ Cordoba municipalities table *after deleting several fields*
 Go to *Municipalities* Layer Properties:
 
 <figure>
-    <img src="figures/layer properties.png"  width="80%" height="80%" >
+    <img src="figures/layer_properties.png"  width="80%" height="80%" >
 </figure>
 
 ## Joins in QGIS [2]
@@ -85,7 +85,7 @@ Go to *Municipalities* Layer Properties:
 Execute this procedure: 
 
 <p align="center">
-<img src="figures/join_process.png" width="80%" height="80%" />
+<img src="figures/join_process.png" width="70%" height="70%" />
 </p>
 
 ## Result
@@ -93,7 +93,7 @@ Execute this procedure:
 Open the municipalities attribute table:
 
 <p align="center">
-<img src="figures/join_table.png" width="70%" height="70%" />
+<img src="figures/joined_table.png" width="70%" height="70%" />
 </p>
 
 
@@ -102,7 +102,7 @@ Open the municipalities attribute table:
 Visualization of 2020 population per municipality (and OSM background):
 
 <figure>
-    <img src="figures/Goal_2.png"  width="60%" height="60%" >
+    <img src="figures/Goal2.png"  width="60%" height="60%" >
 </figure>
 
 
