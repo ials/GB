@@ -1,5 +1,82 @@
 [
   {
+    "objectID": "2024/weeks/week05/slides.html#monetary-poverty",
+    "href": "2024/weeks/week05/slides.html#monetary-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Monetary poverty",
+    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
+  },
+  {
+    "objectID": "2024/weeks/week05/slides.html#multidimensional-poverty",
+    "href": "2024/weeks/week05/slides.html#multidimensional-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Multidimensional poverty",
+    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
+  },
+  {
+    "objectID": "2024/weeks/week05/slides.html#poverty-atlas---us2.15",
+    "href": "2024/weeks/week05/slides.html#poverty-atlas---us2.15",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$2.15",
+    "text": "Poverty Atlas - US$2.15"
+  },
+  {
+    "objectID": "2024/weeks/week05/slides.html#poverty-atlas---us3.65",
+    "href": "2024/weeks/week05/slides.html#poverty-atlas---us3.65",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$3.65",
+    "text": "Poverty Atlas - US$3.65"
+  },
+  {
+    "objectID": "2024/weeks/week05/slides.html#poverty-atlas---us6.85",
+    "href": "2024/weeks/week05/slides.html#poverty-atlas---us6.85",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$6.85",
+    "text": "Poverty Atlas - US$6.85"
+  },
+  {
+    "objectID": "2024/weeks/week05/slides.html#goal",
+    "href": "2024/weeks/week05/slides.html#goal",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Goal",
+    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
+  },
+  {
+    "objectID": "2024/weeks/week05/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "href": "2024/weeks/week05/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Indice de Pobreza Multidimensional (IPM)",
+    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
+  },
+  {
+    "objectID": "2024/weeks/week05/slides.html#download-compressed-file",
+    "href": "2024/weeks/week05/slides.html#download-compressed-file",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Download compressed file",
+    "text": "Download compressed file"
+  },
+  {
+    "objectID": "2024/weeks/week05/slides.html#extract-and-check-data-dictionary",
+    "href": "2024/weeks/week05/slides.html#extract-and-check-data-dictionary",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Extract and check data dictionary",
+    "text": "Extract and check data dictionary"
+  },
+  {
+    "objectID": "2024/weeks/week05/slides.html#mapping-multidimensional-poverty",
+    "href": "2024/weeks/week05/slides.html#mapping-multidimensional-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Mapping multidimensional poverty",
+    "text": "Mapping multidimensional poverty\nCreate a visualization similar to this one:"
+  },
+  {
+    "objectID": "2024/weeks/week05/slides.html#make-your-socioeconomic-maps",
+    "href": "2024/weeks/week05/slides.html#make-your-socioeconomic-maps",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Make your socioeconomic map(s)",
+    "text": "Make your socioeconomic map(s)\nCreate a PDF with such a map a bring it to the 4th December class\n\n\n\n\n2015896 – GEOMATICA BASICA"
+  },
+  {
     "objectID": "2024/weeks/week04/slides.html#goal",
     "href": "2024/weeks/week04/slides.html#goal",
     "title": "🗓️ Week 4Non spatial joins",
@@ -588,6 +665,61 @@
     "crumbs": [
       "🗓️ Weeks",
       "Week 04"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week05/page.html",
+    "href": "2024/weeks/week05/page.html",
+    "title": "🗓️ Week 5 - Map of multidimensional poverty",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nTheoretical topics:",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 05"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week05/page.html#lecture-slides",
+    "href": "2024/weeks/week05/page.html#lecture-slides",
+    "title": "🗓️ Week 5 - Map of multidimensional poverty",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 05"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week05/page.html#practical-exercises",
+    "href": "2024/weeks/week05/page.html#practical-exercises",
+    "title": "🗓️ Week 5 - Map of multidimensional poverty",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDownload and visualize a DANE’s Multidimensional Poverty Index\nCreate a socioeconomic map for your department\n\nMake sure you bring your second map, the socioeconomic one for your department, in PDF format, to the classroom on 4th December\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 05"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week05/page.html#recommended-reading",
+    "href": "2024/weeks/week05/page.html#recommended-reading",
+    "title": "🗓️ Week 5 - Map of multidimensional poverty",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nRead Boletín Técnico - Pobreza Multidimensional en Colombia Año 2018 and take notes of the dimensions considered by DANE to produce the Indice de Pobreza Multidimensional (IPM).",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 05"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week05/page.html#coursework",
+    "href": "2024/weeks/week05/page.html#coursework",
+    "title": "🗓️ Week 5 - Map of multidimensional poverty",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nIndice de Pobreza Multidimensional (IPM)\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the geographic region with highest IPM in 2018?\nWhat is the geographic region with lowest IPM in 2018?\nWhat are the dimensions considered to produce the IPM in 2018?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 05"
     ]
   }
 ]
