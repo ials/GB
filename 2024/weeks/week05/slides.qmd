@@ -1,0 +1,103 @@
+---
+subtitle: " 2015896-- GEOMATICA BASICA"
+title: "<font style='font-size:1em;'>🗓️ Week 5<br/>Multidimensional poverty</font>"
+author: Ivan Lizarazo
+institute: '[Universidad Nacional de Colombia](#)'
+date: 27 November 2024
+date-meta: 27 November 2024
+date-format: "DD MMM YYYY"
+toc: true
+toc-depth: 1
+toc-title: "What we will cover today:"
+center-title-slide: false
+from: markdown+emoji
+format:
+  revealjs: 
+    fig-responsive: true
+    theme: simple
+    slide-number: true
+    mouse-wheel: false
+    preview-links: auto
+    logo: /figures/icons/earth.jpeg
+    css: /css/styles_slides.css
+    footer: '2015896 -- GEOMATICA BASICA'
+---
+
+# Poverty Mapping
+
+## Monetary poverty
+
+Poverty is about not having enough money to meet basic needs including food, clothing and shelter.  However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation).
+
+## Multidimensional poverty
+
+Poverty is *hunger*. Poverty is *lack of shelter*. Poverty is *being sick and not being able to see a doctor*. Poverty is *not having access to school and not knowing how to read*. Poverty is *not having a job*, is *fear for the future*, *living one day at a time* (WB).
+
+## Poverty Atlas - US$2.15
+
+<figure>
+    <img src="figures/GSPA-1.png" width="75%" height="75%" >
+</figure>
+
+## Poverty Atlas - US$3.65
+
+<figure>
+    <img src="figures/GSPA-2.png" width="75%" height="75%" >
+</figure>
+
+## Poverty Atlas - US$6.85
+
+<figure>
+    <img src="figures/GSPA-3" width="75%" height="75%" >
+</figure>
+
+# Practical exercises 
+## Goal
+
+To obtain  a multidimensional poverty's shapefile and produce a meaningful & appealing map for our department
+
+<figure>
+    <img src="figures/MPM_colombia.png" width="35%" height="35%" >
+</figure>
+
+## Indice de Pobreza Multidimensional (IPM)
+
+Download shapefile of 2018 IPM from  [DANE](https://dane.maps.arcgis.com/apps/MapJournal/index.html?appid=54595086fdd74b6c9effd2fb8a9500dc)
+
+<figure>
+    <img src="figures/dane.maps.png" width="85%" height="85%" >
+</figure>
+
+
+##  Download compressed file
+
+<figure>
+    <img src="figures/MPM-shp.png" width="85%" height="85%" >
+</figure>
+
+## Extract and check data dictionary
+
+<figure>
+    <img src="figures/unzip.png" width="85%" height="85%" >
+</figure>
+
+# Reading & Visualizating the shapefile  
+
+<figure>
+    <img src="figures/simbologia.png" width="75%" height="75%" >
+</figure>
+
+
+## Mapping multidimensional poverty
+
+Create a visualization similar to this one:
+
+<p align="center">
+<img src="figures/socioeco-map.png" width="80%" height="80%" />
+</p>
+
+# To do before next week
+
+## Make your socioeconomic map(s)
+
+Create a PDF with such a map a bring it to the 4th December class 

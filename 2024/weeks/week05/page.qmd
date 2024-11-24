@@ -1,0 +1,45 @@
+---
+title: "🗓️ Week 5 - Map of multidimensional poverty"
+---
+
+In this week, we will cover the following topics:
+
+**Theoretical topics**:
+
+## 👨‍🏫 Lecture Slides 
+
+You can find the slides [here](slides.qmd)
+
+
+## **Practical exercises**:
+
+-  Download and visualize a DANE's Multidimensional Poverty Index
+
+-  Create a socioeconomic map for your department
+
+**Make sure you bring your second map, the socioeconomic one for your department, in PDF format,  to the classroom on 4th December**
+
+🎥 
+
+## 📚 Recommended Reading 
+
+Read [Boletín Técnico - Pobreza Multidimensional en Colombia
+Año 2018](https://www.dane.gov.co/files/investigaciones/condiciones_vida/pobreza/2018/bt_pobreza_multidimensional_18.pdf) and take notes of the dimensions considered by DANE to produce the  *Indice de Pobreza
+Multidimensional (IPM)*.
+
+## ✍️ Coursework
+
+🚧 In your  notebook,  answer the following questions 🚧
+
+### Indice de Pobreza Multidimensional (IPM)
+::: {.callout-important collapse=true}
+1. What is the geographic region with highest IPM in 2018?
+2. What is the geographic region with lowest IPM in 2018?
+3. What are the dimensions considered to produce the IPM in 2018?
+:::
+
+
+
+
+
+
