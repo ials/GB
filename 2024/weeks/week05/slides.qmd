@@ -57,7 +57,7 @@ Poverty is *hunger*. Poverty is *lack of shelter*. Poverty is *being sick and no
 To obtain  a multidimensional poverty's shapefile and produce a meaningful & appealing map for our department
 
 <figure>
-    <img src="figures/MPM_colombia.png" width="35%" height="35%" >
+    <img src="figures/MPM_colombia.png" width="30%" height="30%" >
 </figure>
 
 ## Indice de Pobreza Multidimensional (IPM)
