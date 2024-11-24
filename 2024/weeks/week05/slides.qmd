@@ -84,7 +84,7 @@ Download shapefile of 2018 IPM from  [DANE](https://dane.maps.arcgis.com/apps/Ma
 # Reading & Visualizating the shapefile  
 
 <figure>
-    <img src="figures/simbologia.png" width="65%" height="65%" >
+    <img src="figures/simbologia.png" width="50%" height="50%" >
 </figure>
 
 
@@ -93,7 +93,7 @@ Download shapefile of 2018 IPM from  [DANE](https://dane.maps.arcgis.com/apps/Ma
 Create a visualization similar to this one:
 
 <p align="center">
-<img src="figures/socioeco-map.png" width="70%" height="70%" />
+<img src="figures/socioeco-map.png" width="60%" height="60%" />
 </p>
 
 # To do before next week
