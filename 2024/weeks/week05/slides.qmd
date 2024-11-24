@@ -48,7 +48,7 @@ Poverty is *hunger*. Poverty is *lack of shelter*. Poverty is *being sick and no
 ## Poverty Atlas - US$6.85
 
 <figure>
-    <img src="figures/GSPA-3" width="75%" height="75%" >
+    <img src="figures/GSPA-3.png" width="75%" height="75%" >
 </figure>
 
 # Practical exercises 
@@ -65,7 +65,7 @@ To obtain  a multidimensional poverty's shapefile and produce a meaningful & app
 Download shapefile of 2018 IPM from  [DANE](https://dane.maps.arcgis.com/apps/MapJournal/index.html?appid=54595086fdd74b6c9effd2fb8a9500dc)
 
 <figure>
-    <img src="figures/dane.maps.png" width="85%" height="85%" >
+    <img src="figures/dane.maps.png" width="70%" height="70%" >
 </figure>
 
 
@@ -84,7 +84,7 @@ Download shapefile of 2018 IPM from  [DANE](https://dane.maps.arcgis.com/apps/Ma
 # Reading & Visualizating the shapefile  
 
 <figure>
-    <img src="figures/simbologia.png" width="75%" height="75%" >
+    <img src="figures/simbologia.png" width="65%" height="65%" >
 </figure>
 
 
@@ -93,7 +93,7 @@ Download shapefile of 2018 IPM from  [DANE](https://dane.maps.arcgis.com/apps/Ma
 Create a visualization similar to this one:
 
 <p align="center">
-<img src="figures/socioeco-map.png" width="80%" height="80%" />
+<img src="figures/socioeco-map.png" width="70%" height="70%" />
 </p>
 
 # To do before next week
