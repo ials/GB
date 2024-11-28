@@ -90,14 +90,51 @@ Download shapefile of 2018 IPM from  [DANE](https://dane.maps.arcgis.com/apps/Ma
 
 ## Mapping multidimensional poverty
 
-Create a visualization similar to this one:
+Create an IPM visualization similar to this one:
 
 <p align="center">
-<img src="figures/socioeco-map.png" width="50%" height="50%" />
+<img src="figures/symbology1.png" width="50%" height="50%" />
 </p>
 
-# To do before next week
+## Mapping cities' population
+
+Create a population visualization similar to this one:
+
+<p align="center">
+<img src="figures/symbology2.png" width="50%" height="50%" />
+</p>
+
 
 ## Make your socioeconomic map(s)
 
-Create a PDF with such a map a bring it to the 4th December class 
+Create a PDF with such your socioeconomic map a bring it to the 4th December class 
+
+# Evaluaciones agropecuarias (EVA)
+
+## What is EVA?
+
+EVA is  a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the *Unidad de Planificación Rural Agropecuaria (UPRA)*
+
+## EVA Agricola
+
+Click on the "Agricola" tab:
+
+<p align="center">
+<img src="figures/EVA2023.png" width="50%" height="50%" />
+</p>
+
+## EVA Agricola
+
+Go to the "Resultado EVA 2023" link:
+
+<p align="center">
+<img src="figures/EVA-links.png" width="50%" height="50%" />
+</p>
+
+## Our tasks today
+
+- Read the *Resultados 2023* document and write down **one-page summary** comparing your department with the country.
+
+<p align="center">
+<img src="figures/EVA-RESULTADOS.png" width="50%" height="50%" />
+</p>
