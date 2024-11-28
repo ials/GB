@@ -101,7 +101,7 @@ Create an IPM visualization similar to this one:
 Create a population visualization similar to this one:
 
 <p align="center">
-<img src="figures/symbology2.png" width="70%" height="70%" />
+<img src="figures/symbology2A.png" width="60%" height="60%" />
 </p>
 
 
