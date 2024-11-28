@@ -93,7 +93,7 @@ Download shapefile of 2018 IPM from  [DANE](https://dane.maps.arcgis.com/apps/Ma
 Create an IPM visualization similar to this one:
 
 <p align="center">
-<img src="figures/symbology1.png" width="50%" height="50%" />
+<img src="figures/symbology1.png" width="70%" height="70%" />
 </p>
 
 ## Mapping cities' population
@@ -101,7 +101,7 @@ Create an IPM visualization similar to this one:
 Create a population visualization similar to this one:
 
 <p align="center">
-<img src="figures/symbology2.png" width="50%" height="50%" />
+<img src="figures/symbology2.png" width="70%" height="70%" />
 </p>
 
 
@@ -120,7 +120,7 @@ EVA is  a dataset of cultivated areas per municipality. It contains the extent o
 Click on the "Agricola" tab:
 
 <p align="center">
-<img src="figures/EVA2023.png" width="50%" height="50%" />
+<img src="figures/EVA2023.png" width="70%" height="70%" />
 </p>
 
 ## EVA Agricola
@@ -128,7 +128,7 @@ Click on the "Agricola" tab:
 Go to the "Resultado EVA 2023" link:
 
 <p align="center">
-<img src="figures/EVA-links.png" width="50%" height="50%" />
+<img src="figures/EVA-links.png" width="80%" height="80%" />
 </p>
 
 ## Our tasks today
@@ -136,5 +136,5 @@ Go to the "Resultado EVA 2023" link:
 - Read the *Resultados 2023* document and write down **one-page summary** comparing your department with the country.
 
 <p align="center">
-<img src="figures/EVA-RESULTADOS.png" width="50%" height="50%" />
+<img src="figures/EVA-RESULTADOS.png" width="35%" height="35%" />
 </p>
