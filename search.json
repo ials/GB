@@ -1,5 +1,117 @@
 [
   {
+    "objectID": "2024/weeks/week06/slides.html#monetary-poverty",
+    "href": "2024/weeks/week06/slides.html#monetary-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Monetary poverty",
+    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#multidimensional-poverty",
+    "href": "2024/weeks/week06/slides.html#multidimensional-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Multidimensional poverty",
+    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#poverty-atlas---us2.15",
+    "href": "2024/weeks/week06/slides.html#poverty-atlas---us2.15",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$2.15",
+    "text": "Poverty Atlas - US$2.15"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#poverty-atlas---us3.65",
+    "href": "2024/weeks/week06/slides.html#poverty-atlas---us3.65",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$3.65",
+    "text": "Poverty Atlas - US$3.65"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#poverty-atlas---us6.85",
+    "href": "2024/weeks/week06/slides.html#poverty-atlas---us6.85",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$6.85",
+    "text": "Poverty Atlas - US$6.85"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#goal",
+    "href": "2024/weeks/week06/slides.html#goal",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Goal",
+    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "href": "2024/weeks/week06/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Indice de Pobreza Multidimensional (IPM)",
+    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#download-compressed-file",
+    "href": "2024/weeks/week06/slides.html#download-compressed-file",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Download compressed file",
+    "text": "Download compressed file"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#extract-and-check-data-dictionary",
+    "href": "2024/weeks/week06/slides.html#extract-and-check-data-dictionary",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Extract and check data dictionary",
+    "text": "Extract and check data dictionary"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#mapping-multidimensional-poverty",
+    "href": "2024/weeks/week06/slides.html#mapping-multidimensional-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Mapping multidimensional poverty",
+    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#mapping-cities-population",
+    "href": "2024/weeks/week06/slides.html#mapping-cities-population",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Mapping cities’ population",
+    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#make-your-socioeconomic-maps",
+    "href": "2024/weeks/week06/slides.html#make-your-socioeconomic-maps",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Make your socioeconomic map(s)",
+    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the 4th December class"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#what-is-eva",
+    "href": "2024/weeks/week06/slides.html#what-is-eva",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "What is EVA?",
+    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#eva-agricola",
+    "href": "2024/weeks/week06/slides.html#eva-agricola",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nClick on the “Agricola” tab:"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#eva-agricola-1",
+    "href": "2024/weeks/week06/slides.html#eva-agricola-1",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
+  },
+  {
+    "objectID": "2024/weeks/week06/slides.html#our-tasks-today",
+    "href": "2024/weeks/week06/slides.html#our-tasks-today",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Our tasks today",
+    "text": "Our tasks today\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
+  },
+  {
     "objectID": "2024/weeks/week05/slides.html#monetary-poverty",
     "href": "2024/weeks/week05/slides.html#monetary-poverty",
     "title": "🗓️ Week 5Multidimensional poverty",
@@ -755,6 +867,61 @@
     "crumbs": [
       "🗓️ Weeks",
       "Week 05"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week06/page.html",
+    "href": "2024/weeks/week06/page.html",
+    "title": "🗓️ Week 6- Map of agricultural production",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nPractical exercise:",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week06/page.html#lecture-slides",
+    "href": "2024/weeks/week06/page.html#lecture-slides",
+    "title": "🗓️ Week 6- Map of agricultural production",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week06/page.html#practical-exercises",
+    "href": "2024/weeks/week06/page.html#practical-exercises",
+    "title": "🗓️ Week 6- Map of agricultural production",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDownload UPRA 2023 Base Agrícola\nCreate an agricultural production map for your department\n\nMake sure you bring your third map, the agricultural production for your department, in PDF format, to the classroom on 11th December\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week06/page.html#recommended-reading",
+    "href": "2024/weeks/week06/page.html#recommended-reading",
+    "title": "🗓️ Week 6- Map of agricultural production",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nRead UPRA 2023 Resultados Evaluación agropecuaria",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week06/page.html#coursework",
+    "href": "2024/weeks/week06/page.html#coursework",
+    "title": "🗓️ Week 6- Map of agricultural production",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nEVA 2023 (UPRA)\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the most important crop in your department?\nWhat is the most productive crop in your department?\nWhat is the most important group of crops per municipality?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
     ]
   }
 ]
