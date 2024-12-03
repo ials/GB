@@ -1,0 +1,41 @@
+---
+title: "🗓️ Week 6- Map of agricultural production"
+---
+
+In this week, we will cover the following topics:
+
+**Practical  exercise**:
+
+## 👨‍🏫 Lecture Slides 
+
+You can find the slides [here](https://drive.google.com/file/d/1g0TeZ5mxM9MOpV8pjDzbTVUmvHwF5NDa/view?usp=sharing)
+
+
+## **Practical exercises**:
+
+-  Download UPRA 2023 *Base Agrícola*
+
+-  Create an agricultural production map for your department
+
+*Make sure you bring your third map, the agricultural production for your department, in PDF format,  to the classroom on 11th December*
+
+🎥 
+
+## 📚 Recommended Reading 
+
+Read UPRA 2023 *Resultados Evaluación agropecuaria*
+
+## ✍️ Coursework
+
+🚧 In your  notebook,  answer the following questions 🚧
+
+### EVA 2023 (UPRA)
+::: {.callout-important collapse=true}
+1. What is the most important crop in your department?
+2. What is the most productive crop in your department?
+3. What is the most important group of crops per municipality?
+:::
+
+
+
+
