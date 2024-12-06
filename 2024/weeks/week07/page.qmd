@@ -1,0 +1,27 @@
+---
+title: "🗓️ Week 7- Writing  R Notebooks"
+---
+
+In this week, we will cover the following topics:
+
+**R Notebooks**:
+
+## 👨‍🏫 Lecture Slides 
+
+You can find the slides [here](https://drive.google.com/file/d/1eqrXXR_0dAapvCg-arqCSd5R-0m5_l_x/view?usp=sharing)
+
+
+## **Practical exercises**:
+
+-  Create and publish your first R Notebook
+
+🎥 
+
+
+## ✍️ Coursework
+
+🚧 Make sure you have completed all homeworks before taking *Examen No. 1* 🚧
+
+
+
+

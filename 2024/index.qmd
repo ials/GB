@@ -16,9 +16,9 @@ format: html
 ::: {.callout-note collapse=false}
 ## 📢 Important
 
-(11/11/2024)
+(06/12/2024)
 
-- Recuerde realizar backup de sus datos
+- Recuerde estudiar para el primer examen
 
 :::
 
