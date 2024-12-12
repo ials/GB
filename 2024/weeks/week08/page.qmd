@@ -1,0 +1,25 @@
+---
+title: "🗓️ Week 8- Examen No. 1"
+---
+
+In this week, we will create & publish the R Notebook on agricultural dynamics in our department from 2019 to 2023.
+
+
+## Instructions
+
+Detailed instructions were provided in the class conducted on 12th December. 
+
+## Useful references:
+
+-  [Crop production dynamics in Santander](https://rpubs.com/ials2un/production_dyn_v1)
+-  [EVA 2023](https://upra.gov.co/es-co/Paginas/eva_2023.aspx)
+
+🎥 
+
+
+## ✍️Examen No. 1 deadline
+
+🚧 Make sure you send the link to your published notebook before 20th December at 11:59 pm 🚧
+
+
+

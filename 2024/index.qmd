@@ -16,10 +16,10 @@ format: html
 ::: {.callout-note collapse=false}
 ## 📢 Important
 
-(06/12/2024)
+(12/12/2024)
 
-- Recuerde estudiar para el primer examen
-
+- Publique el notebook *Examen 1* a más tardar el 20 de diciembre
+- Traiga impreso su Informe 1 a la primera clase de 2025
 :::
 
 
