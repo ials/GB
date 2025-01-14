@@ -1,10 +1,10 @@
 ---
 subtitle: " 2015896-- GEOMATICA BASICA"
-title: "<font style='font-size:1em;'>🗓️ Week 01<br/> Spatial data models</font>"
+title: "<font style='font-size:1em;'>🗓️ Week 9<br/>Digital elevation models</font>"
 author: Ivan Lizarazo(#)
 institute: '[Universidad Nacional de Colombia](#)'
-date: 16 August 2023
-date-meta: 16 August 2023
+date: 15 January 2025
+date-meta: 15 January 2025
 date-format: "DD MMM YYYY"
 toc: true
 toc-depth: 1
@@ -23,105 +23,89 @@ format:
     footer: '2015896 -- GEOMATICA BASICA'
 ---
 
-# Spatial data models
+# Digital elevation models (DEMs)
 
-## Discrete objects view
+## Definitions
 
-A discrete object has known and definable boundaries
+### What is a DEM?
+
+A digital elevation model (DEM) is a general term representing ground elevation above sea level. In a DEM, all surface features (trees, buildings, bridges, etc.) are stripped away, and only the *bare earth* is represented. 
+
+A DEM shows:
+- Topographic information (height asl)
+- Slopes
+- River beds
+- Hills, valleys, furrows and ridges
+
 
 <figure>
-    <img src="figures/discrete.png" width="500" height="500" >
+    <img src="figures/dem.png" width="400" height="400" >
 </figure>
 
-## Continuous surface view
+### What is a DTM?
 
-A continuous surface represents phenomena which may vary from place to place
+
+A digital terrain model (DTM) is a layer ‘on top’ of the DEM. It will show additional information that the *bare earth* DEM might not represent, including things like:
+
+- Breaklines are changes in the terrain on a surface 
+- Manmade and natural linear features of the bare earth terrain, such as roads, railway tracks, flood defences, pipelines, coastlines, or rivers.
 
 <figure>
-    <img src="figures/continuous.png" width="500" height="500" >
+    <img src="figures/dtm.png" width="400" height="400" >
 </figure>
 
+### What is a DSM?
 
-# Common spatial data models
+A digital surface model (DSM) is a type of terrain that includes **all features above the bare earth** - both natural and man-made. It will include ground features such as buildings, infrastructure, trees, and vegetation. The layer will represent the height of all these features above the ground on which they stand. 
 
- <figure>
-    <img src="figures/raster_vector.png"  width="600" height="400" >
-</figure>
+## Uses of topography data
 
-# Vector data model
+### Uses of DEMs & DTMs
 
-## Points and lines
+DEMs and DTMs help us understand the ‘natural’ shape of the earth’s surface - without the ‘distraction’ of buildings, trees, or other infrastructure. 
 
-<figure>
-    <img src="figures/points_lines.png"  width="800" height="600" >
-</figure>
+Both are especially useful for things like:
+- Hydrology
+- Terrain form
+- Slope stability
+- Simulations
 
-## Polygons
+### Uses of DSM
 
-<figure>
-    <img src="figures/polygons.png"  width="900" height="400" >
-</figure>
+DSMs show you both ground elevation and the height of everything above it. This allows you to understand how ground features interact with one another and the bare earth. 
 
-## Multiple representations
+DSMs are useful for things like:
+- Radio frequency planning
+- Private networks
+- Emergency planning
+- Line of sight planning
+- Smart city mapping
 
-<p align="center">
-<img src="figures/multiple_representations.png" width="50%" height="50%" />
-</p>
+## Data acquisition
 
-## Spaghetti
+### Tecniques
+Elevation data can be measured by:
+1. field surveying 
+2. photogrammetry 
+3. cartographic digitization
+4. airborne laser scanning
 
-<p align="center">
-<img src="figures/spaghetti_et_al.png" width="70%" height="70%" />
-</p>
+### Field surveys
 
-## Topology
+<div>
+    <div style="float: left; position: relative; top: 0px; padding: 30px;">
+    ![](figures/topo.png)
+    
+Some text, some text, some text, some text, some text, [...] some text, some text
+</div>
+    </div>
 
-<p align="center">
-<img src="figures/topology_tables.png" width="70%" height="70%" />
-</p>
+Some text, some text, some text, some text, some text, [...] some text, some text
+</div>
 
-# Raster data model 
+### Photogrammetry
 
-## Gridded structure
-
-<figure>
-    <img src="figures/raster_model.png"  width="600" height="500" >
-</figure>
-
-## Cell size
-
-<p align="center">
-<img src="figures/cell_size.png" width="85%" height="85%" />
-</p>
-
-## Cell asignment
-
-<p align="center">
-<img src="figures/cell_assignment.png" width="55%" height="55%" />
-</p>
-
-# Raster vs Vector
-
-<figure>
-    <img src="figures/raster_vector_comparison.png"  width="700" height="500" >
-</figure>
-
-#  Vector vs Raster
-
-How are roads portrayed in vector and raster?
-
-Give two examples when it would be best to use vector data.
-
-Give two examples when it would be best to use raster data.
-
-# A simple exercise
-
-Vector to  raster
-<p align="center">
-<img src="figures/raster2vector.png" width="80%" height="80%" />
-</p>
-
-Is it possible convert from raster to vector?
+### LiDAR
 
 # To do before next week
 
