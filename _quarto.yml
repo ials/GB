@@ -80,7 +80,7 @@ website:
            text: Week 09
            contents:
              - href: 2024/weeks/week09/page.qmd
-                   text: 👨‍🏫 Lecture Material
+               text: 👨‍🏫 Lecture Material
 
   navbar:
     background: primary
