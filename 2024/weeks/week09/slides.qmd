@@ -1,6 +1,6 @@
 ---
 subtitle: " 2015896-- GEOMATICA BASICA"
-title: "<font style='font-size:1em;'>🗓️ Week 9<br/>Digital elevation models</font>"
+title: "<font style='font-size:1em;'>🗓️ Week 09<br/>Digital elevation models</font>"
 author: Ivan Lizarazo
 institute: '[Universidad Nacional de Colombia](#)'
 date: 15 January 2025
