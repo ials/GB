@@ -11,8 +11,8 @@
   <meta name="generator" content="quarto-1.6.40">
 
   <meta name="author" content="Ivan Lizarazo">
-  <meta name="dcterms.date" content="27 November 2024">
-  <title>GEOMATICA BASICA 2024 – 🗓️ Week 5 Multidimensional poverty</title>
+  <meta name="dcterms.date" content="15 January 2025">
+  <title>GEOMATICA BASICA 2024 – 🗓️ Week 09 Digital elevation models</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -124,10 +124,10 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="🗓️ Week 5Multidimensional poverty – GEOMATICA BASICA 2024">
+<meta property="og:title" content="🗓️ Week 09Digital elevation models – GEOMATICA BASICA 2024">
 <meta property="og:description" content="2015896– GEOMATICA BASICA">
 <meta property="og:site_name" content="GEOMATICA BASICA 2024">
-<meta name="twitter:title" content="🗓️ Week 5Multidimensional poverty – GEOMATICA BASICA 2024">
+<meta name="twitter:title" content="🗓️ Week 09Digital elevation models – GEOMATICA BASICA 2024">
 <meta name="twitter:description" content="2015896– GEOMATICA BASICA">
 <meta name="twitter:creator" content="@<twitter-handle>">
 <meta name="twitter:site" content="\@<twitter-handle>">
@@ -138,7 +138,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block">
-  <h1 class="title"><font style="font-size:1em;">🗓️ Week 5<br>Multidimensional poverty</font></h1>
+  <h1 class="title"><font style="font-size:1em;">🗓️ Week 09<br>Digital elevation models</font></h1>
   <p class="subtitle">2015896– GEOMATICA BASICA</p>
 
 <div class="quarto-title-authors">
@@ -152,139 +152,167 @@ Ivan Lizarazo
     </div>
 </div>
 
-  <p class="date">27 Nov 2024</p>
+  <p class="date">15 Jan 2025</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
 <h2 id="toc-title">What we will cover today:</h2>
 <ul>
-<li><a href="#/poverty-mapping" id="/toc-poverty-mapping">Poverty Mapping</a></li>
-<li><a href="#/practical-exercises" id="/toc-practical-exercises">Practical exercises</a></li>
-<li><a href="#/reading-visualizating-the-shapefile" id="/toc-reading-visualizating-the-shapefile">Reading &amp; Visualizating the shapefile</a></li>
-<li><a href="#/evaluaciones-agropecuarias-eva" id="/toc-evaluaciones-agropecuarias-eva">Evaluaciones agropecuarias (EVA)</a></li>
+<li><a href="#/definitions" id="/toc-definitions">Definitions</a></li>
+<li><a href="#/uses-of-topographic-data" id="/toc-uses-of-topographic-data">Uses of topographic data</a></li>
+<li><a href="#/data-acquisition" id="/toc-data-acquisition">Data acquisition</a></li>
+<li><a href="#/vertical-accuracy" id="/toc-vertical-accuracy">Vertical accuracy</a></li>
+<li><a href="#/raster-data-in-r" id="/toc-raster-data-in-r">Raster data in R</a></li>
 </ul>
 </nav>
 </section>
 <section>
-<section id="poverty-mapping" class="title-slide slide level1">
-<h1>Poverty Mapping</h1>
+<section id="definitions" class="title-slide slide level1">
+<h1>Definitions</h1>
 
-</section>
-<section id="monetary-poverty" class="slide level2">
-<h2>Monetary poverty</h2>
-<p>Poverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation).</p>
-</section>
-<section id="multidimensional-poverty" class="slide level2">
-<h2>Multidimensional poverty</h2>
-<p>Poverty is <em>hunger</em>. Poverty is <em>lack of shelter</em>. Poverty is <em>being sick and not being able to see a doctor</em>. Poverty is <em>not having access to school and not knowing how to read</em>. Poverty is <em>not having a job</em>, is <em>fear for the future</em>, <em>living one day at a time</em> (WB).</p>
-</section>
-<section id="poverty-atlas---us2.15" class="slide level2">
-<h2>Poverty Atlas - US$2.15</h2>
-<figure>
-<img src="figures/GSPA-1.png" width="75%" height="75%">
-</figure>
-</section>
-<section id="poverty-atlas---us3.65" class="slide level2">
-<h2>Poverty Atlas - US$3.65</h2>
-<figure>
-<img src="figures/GSPA-2.png" width="75%" height="75%">
-</figure>
-</section>
-<section id="poverty-atlas---us6.85" class="slide level2">
-<h2>Poverty Atlas - US$6.85</h2>
-<figure>
-<img src="figures/GSPA-3.png" width="75%" height="75%">
-</figure>
-</section></section>
-<section>
-<section id="practical-exercises" class="title-slide slide level1">
-<h1>Practical exercises</h1>
-
-</section>
-<section id="goal" class="slide level2">
-<h2>Goal</h2>
-<p>To obtain a multidimensional poverty’s shapefile and produce a meaningful &amp; appealing map for our department</p>
-<figure>
-<img src="figures/MPM_colombia.png" width="30%" height="30%">
-</figure>
-</section>
-<section id="indice-de-pobreza-multidimensional-ipm" class="slide level2">
-<h2>Indice de Pobreza Multidimensional (IPM)</h2>
-<p>Download shapefile of 2018 IPM from <a href="https://dane.maps.arcgis.com/apps/MapJournal/index.html?appid=54595086fdd74b6c9effd2fb8a9500dc">DANE</a></p>
-<figure>
-<img src="figures/dane.maps.png" width="70%" height="70%">
-</figure>
-</section>
-<section id="download-compressed-file" class="slide level2">
-<h2>Download compressed file</h2>
-<figure>
-<img src="figures/MPM-shp.png" width="85%" height="85%">
-</figure>
-</section>
-<section id="extract-and-check-data-dictionary" class="slide level2">
-<h2>Extract and check data dictionary</h2>
-<figure>
-<img src="figures/unzip.png" width="85%" height="85%">
-</figure>
-</section></section>
-<section>
-<section id="reading-visualizating-the-shapefile" class="title-slide slide level1">
-<h1>Reading &amp; Visualizating the shapefile</h1>
-<figure>
-<img src="figures/simbologia.png" width="40%" height="40%">
-</figure>
-</section>
-<section id="mapping-multidimensional-poverty" class="slide level2">
-<h2>Mapping multidimensional poverty</h2>
-<p>Create an IPM visualization similar to this one:</p>
-<p align="center">
-<img src="figures/symbology1.png" width="70%" height="70%">
-</p>
-</section>
-<section id="mapping-cities-population" class="slide level2">
-<h2>Mapping cities’ population</h2>
-<p>Create a population visualization similar to this one:</p>
-<p align="center">
-<img src="figures/symbology2A.png" width="60%" height="60%">
-</p>
-</section>
-<section id="make-your-socioeconomic-maps" class="slide level2">
-<h2>Make your socioeconomic map(s)</h2>
-<p>Create a PDF with such your socioeconomic map a bring it to the 4th December class</p>
-</section></section>
-<section>
-<section id="evaluaciones-agropecuarias-eva" class="title-slide slide level1">
-<h1>Evaluaciones agropecuarias (EVA)</h1>
-
-</section>
-<section id="what-is-eva" class="slide level2">
-<h2>What is EVA?</h2>
-<p>EVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the <em>Unidad de Planificación Rural Agropecuaria (UPRA)</em></p>
-</section>
-<section id="eva-agricola" class="slide level2">
-<h2>EVA Agricola</h2>
-<p>Click on the “Agricola” tab:</p>
-<p align="center">
-<img src="figures/EVA2023.png" width="70%" height="70%">
-</p>
-</section>
-<section id="eva-agricola-1" class="slide level2">
-<h2>EVA Agricola</h2>
-<p>Go to the “Resultado EVA 2023” link:</p>
-<p align="center">
-<img src="figures/EVA-links.png" width="80%" height="80%">
-</p>
-</section>
-<section id="our-tasks-today" class="slide level2">
-<h2>Our tasks today</h2>
+<img data-src="figures/oruro.png" class="img-fluid r-stretch"></section>
+<section id="what-is-a-dem" class="slide level2">
+<h2>What is a DEM?</h2>
+<p>A digital elevation model (DEM) is a general term representing ground elevation above sea level. In a DEM, all surface features (trees, buildings, bridges, etc.) are stripped away, and only the <em>bare earth</em> is represented.</p>
+<p>A DEM shows:</p>
 <ul>
-<li>Read the <em>Resultados 2023</em> document and write down <strong>one-page summary</strong> comparing your department with the country.</li>
+<li><p>Heights above sea level</p></li>
+<li><p>Slopes</p></li>
+<li><p>River beds</p></li>
+<li><p>Landforms</p></li>
 </ul>
-<p align="center">
-<img src="figures/EVA-RESULTADOS.png" width="35%" height="35%">
-</p>
+</section>
+<section id="dem-representation" class="slide level2">
+<h2>DEM representation</h2>
+<p><img data-src="figures/representation.png" class="img-fluid"></p>
+<p><img data-src="figures/raster_tin.png" class="img-fluid"></p>
+</section>
+<section id="grid-vs-tin" class="slide level2">
+<h2>GRID vs TIN</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="figures/raster.png" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="figures/tin.png" class="img-fluid"></p>
+</div></div>
+</section>
+<section id="what-is-a-dtm" class="slide level2">
+<h2>What is a DTM?</h2>
+<p>A digital terrain model (DTM) is a layer ‘on top’ of the DEM. It will show additional information that the <em>bare earth</em> DEM might not represent, including things like:</p>
+<ul>
+<li><p>Breaklines are changes in the terrain on a surface</p></li>
+<li><p>Manmade and natural linear features of the bare earth terrain, such as roads, railway tracks, flood defences, pipelines, coastlines, or rivers.</p></li>
+</ul>
+</section>
+<section id="what-is-a-dsm" class="slide level2">
+<h2>What is a DSM?</h2>
+<p>A digital surface model (DSM) is a type of terrain that includes <strong>all features above the bare earth</strong> - both natural and man-made.</p>
+<p>It includes ground features such as buildings, infrastructure, trees, and vegetation. The layer will represent the height of all these features above the ground on which they stand.</p>
+</section>
+<section id="dtm-vs-dtm-1" class="slide level2">
+<h2>DTM vs DTM (1)</h2>
 
-
+<img data-src="figures/DSM_DTM.png" class="img-fluid r-stretch"></section>
+<section id="chm" class="slide level2">
+<h2>CHM</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img data-src="figures/CHM2.png" class="img-fluid"></p>
+</div><div class="column" style="width:70%;">
+<p><img data-src="figures/CHM1.png" class="img-fluid"></p>
+</div></div>
 </section></section>
+<section>
+<section id="uses-of-topographic-data" class="title-slide slide level1">
+<h1>Uses of topographic data</h1>
+
+</section>
+<section id="uses-of-dems-dtms" class="slide level2">
+<h2>Uses of DEMs &amp; DTMs</h2>
+<p>DEMs and DTMs help us understand the ‘natural’ shape of the earth’s surface - without the ‘distraction’ of buildings, trees, or other infrastructure.</p>
+<p>Both are especially useful for things like:</p>
+<ul>
+<li><p>Hydrology</p></li>
+<li><p>Terrain form</p></li>
+<li><p>Slope stability</p></li>
+<li><p>Simulations</p></li>
+</ul>
+</section>
+<section id="uses-of-dsm" class="slide level2">
+<h2>Uses of DSM</h2>
+<p>DSMs show you both ground elevation and the height of everything above it. This allows you to understand how ground features interact with one another and the bare earth.</p>
+<p>DSMs are useful for things like:</p>
+<ul>
+<li><p>Radio frequency planning</p></li>
+<li><p>Emergency planning</p></li>
+<li><p>Line of sight planning</p></li>
+<li><p>Smart city mapping</p></li>
+</ul>
+</section>
+<section id="dsm-vs-dtm-2" class="slide level2">
+<h2>DSM vs DTM (2)</h2>
+
+<img data-src="figures/differences.png" class="img-fluid r-stretch"></section></section>
+<section>
+<section id="data-acquisition" class="title-slide slide level1">
+<h1>Data acquisition</h1>
+
+</section>
+<section id="dem-projects" class="slide level2">
+<h2>DEM projects</h2>
+
+<img data-src="figures/howDEMworks.png" class="img-fluid r-stretch" style="width:100.0%"></section>
+<section id="spatial-resolution" class="slide level2">
+<h2>Spatial resolution</h2>
+
+<img data-src="figures/resolution.png" class="img-fluid r-stretch"></section>
+<section id="tecniques" class="slide level2">
+<h2>Tecniques</h2>
+<p>Elevation data can be measured by:</p>
+<ul>
+<li><p>field surveying</p></li>
+<li><p>photogrammetry</p></li>
+<li><p>cartographic digitization</p></li>
+<li><p>airborne laser scanning</p></li>
+</ul>
+</section>
+<section id="field-surveys" class="slide level2">
+<h2>Field surveys</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="figures/topo1.png" class="img-fluid"></p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="figures/topo2.png" class="img-fluid"></p>
+</div></div>
+</section>
+<section id="photogrammetry" class="slide level2">
+<h2>Photogrammetry</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="figures/photo1.png" class="img-fluid"></p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="figures/photo2.png" class="img-fluid"></p>
+</div></div>
+</section>
+<section id="lidar" class="slide level2">
+<h2>LiDAR</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="figures/lidar1.png" class="img-fluid"></p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="figures/lidar2.png" class="img-fluid"></p>
+</div></div>
+</section></section>
+<section id="vertical-accuracy" class="title-slide slide level1">
+<h1>Vertical accuracy</h1>
+
+<img data-src="figures/vertical_accuracy.png" class="img-fluid r-stretch" style="width:100.0%"></section>
+
+<section id="raster-data-in-r" class="title-slide slide level1">
+<h1>Raster data in R</h1>
+<p>Let’s practice. Create an R notebook using <a href="https://pages.cms.hu-berlin.de/EOL/gcg_quantitative-methods/Lab10_RasterData.html">this document</a>.</p>
+
+
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../../figures/icons/earth.jpeg" class="slide-logo"></p>

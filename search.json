@@ -1,5 +1,117 @@
 [
   {
+    "objectID": "2024/weeks/week09/slides.html#what-is-a-dem",
+    "href": "2024/weeks/week09/slides.html#what-is-a-dem",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "What is a DEM?",
+    "text": "What is a DEM?\nA digital elevation model (DEM) is a general term representing ground elevation above sea level. In a DEM, all surface features (trees, buildings, bridges, etc.) are stripped away, and only the bare earth is represented.\nA DEM shows:\n\nHeights above sea level\nSlopes\nRiver beds\nLandforms"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#dem-representation",
+    "href": "2024/weeks/week09/slides.html#dem-representation",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "DEM representation",
+    "text": "DEM representation"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#grid-vs-tin",
+    "href": "2024/weeks/week09/slides.html#grid-vs-tin",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "GRID vs TIN",
+    "text": "GRID vs TIN"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#what-is-a-dtm",
+    "href": "2024/weeks/week09/slides.html#what-is-a-dtm",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "What is a DTM?",
+    "text": "What is a DTM?\nA digital terrain model (DTM) is a layer ‘on top’ of the DEM. It will show additional information that the bare earth DEM might not represent, including things like:\n\nBreaklines are changes in the terrain on a surface\nManmade and natural linear features of the bare earth terrain, such as roads, railway tracks, flood defences, pipelines, coastlines, or rivers."
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#what-is-a-dsm",
+    "href": "2024/weeks/week09/slides.html#what-is-a-dsm",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "What is a DSM?",
+    "text": "What is a DSM?\nA digital surface model (DSM) is a type of terrain that includes all features above the bare earth - both natural and man-made.\nIt includes ground features such as buildings, infrastructure, trees, and vegetation. The layer will represent the height of all these features above the ground on which they stand."
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#dtm-vs-dtm-1",
+    "href": "2024/weeks/week09/slides.html#dtm-vs-dtm-1",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "DTM vs DTM (1)",
+    "text": "DTM vs DTM (1)"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#chm",
+    "href": "2024/weeks/week09/slides.html#chm",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "CHM",
+    "text": "CHM"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#uses-of-dems-dtms",
+    "href": "2024/weeks/week09/slides.html#uses-of-dems-dtms",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Uses of DEMs & DTMs",
+    "text": "Uses of DEMs & DTMs\nDEMs and DTMs help us understand the ‘natural’ shape of the earth’s surface - without the ‘distraction’ of buildings, trees, or other infrastructure.\nBoth are especially useful for things like:\n\nHydrology\nTerrain form\nSlope stability\nSimulations"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#uses-of-dsm",
+    "href": "2024/weeks/week09/slides.html#uses-of-dsm",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Uses of DSM",
+    "text": "Uses of DSM\nDSMs show you both ground elevation and the height of everything above it. This allows you to understand how ground features interact with one another and the bare earth.\nDSMs are useful for things like:\n\nRadio frequency planning\nEmergency planning\nLine of sight planning\nSmart city mapping"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#dsm-vs-dtm-2",
+    "href": "2024/weeks/week09/slides.html#dsm-vs-dtm-2",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "DSM vs DTM (2)",
+    "text": "DSM vs DTM (2)"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#dem-projects",
+    "href": "2024/weeks/week09/slides.html#dem-projects",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "DEM projects",
+    "text": "DEM projects"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#spatial-resolution",
+    "href": "2024/weeks/week09/slides.html#spatial-resolution",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Spatial resolution",
+    "text": "Spatial resolution"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#tecniques",
+    "href": "2024/weeks/week09/slides.html#tecniques",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Tecniques",
+    "text": "Tecniques\nElevation data can be measured by:\n\nfield surveying\nphotogrammetry\ncartographic digitization\nairborne laser scanning"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#field-surveys",
+    "href": "2024/weeks/week09/slides.html#field-surveys",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Field surveys",
+    "text": "Field surveys"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#photogrammetry",
+    "href": "2024/weeks/week09/slides.html#photogrammetry",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Photogrammetry",
+    "text": "Photogrammetry"
+  },
+  {
+    "objectID": "2024/weeks/week09/slides.html#lidar",
+    "href": "2024/weeks/week09/slides.html#lidar",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "LiDAR",
+    "text": "LiDAR"
+  },
+  {
     "objectID": "2024/weeks/week08/slides.html#monetary-poverty",
     "href": "2024/weeks/week08/slides.html#monetary-poverty",
     "title": "🗓️ Week 5Multidimensional poverty",
@@ -1234,6 +1346,50 @@
     "crumbs": [
       "🗓️ Weeks",
       "Week 08"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week09/page.html",
+    "href": "2024/weeks/week09/page.html",
+    "title": "🗓️ Week 9 - Digital Elevation Models",
+    "section": "",
+    "text": "In this week, we will learn basic concepts on digital elevation models. In addition, we will practice raster functionalities in R.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 09"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week09/page.html#lecture-slides",
+    "href": "2024/weeks/week09/page.html#lecture-slides",
+    "title": "🗓️ Week 9 - Digital Elevation Models",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nEither click on the slide area below or click here to view it in fullscreen. Use your keypad to navigate the slides.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 09"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week09/page.html#r-practical",
+    "href": "2024/weeks/week09/page.html#r-practical",
+    "title": "🗓️ Week 9 - Digital Elevation Models",
+    "section": "R Practical",
+    "text": "R Practical\nDetailed instructions are provided on 15th January in the classroom.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 09"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week09/page.html#useful-references",
+    "href": "2024/weeks/week09/page.html#useful-references",
+    "title": "🗓️ Week 9 - Digital Elevation Models",
+    "section": "Useful references:",
+    "text": "Useful references:\nTo be provided\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 09"
     ]
   }
 ]
