@@ -53,14 +53,35 @@
     "href": "2024/weeks/week10/slides.html#slope-1",
     "title": "🗓️ Week 10 Geomorphometry",
     "section": "Slope …",
-    "text": "Slope …\n ## Slope …\n ## Slope …"
+    "text": "Slope …"
+  },
+  {
+    "objectID": "2024/weeks/week10/slides.html#slope-2",
+    "href": "2024/weeks/week10/slides.html#slope-2",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Slope …",
+    "text": "Slope …"
+  },
+  {
+    "objectID": "2024/weeks/week10/slides.html#slope-3",
+    "href": "2024/weeks/week10/slides.html#slope-3",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Slope …",
+    "text": "Slope …"
   },
   {
     "objectID": "2024/weeks/week10/slides.html#aspect",
     "href": "2024/weeks/week10/slides.html#aspect",
     "title": "🗓️ Week 10 Geomorphometry",
     "section": "Aspect",
-    "text": "Aspect\nThe Aspect is the direction the downhill slope faces. The values of each cell in the output raster indicate the compass direction the surface faces at that location.\n\nLet’s practice. Create an R notebook using this document."
+    "text": "Aspect\nThe Aspect is the direction the downhill slope faces. The values of each cell in the output raster indicate the compass direction the surface faces at that location."
+  },
+  {
+    "objectID": "2024/weeks/week10/slides.html#practical",
+    "href": "2024/weeks/week10/slides.html#practical",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Practical",
+    "text": "Practical\nCreate an R notebook using this document."
   },
   {
     "objectID": "2024/weeks/week09/slides.html#what-is-a-dem",
