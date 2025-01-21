@@ -1,0 +1,102 @@
+---
+subtitle: " 2015896-- GEOMATICA BASICA"
+title: "<font style='font-size:1em;'>🗓️ Week 10 <br/>Geomorphometry</font>"
+author: Ivan Lizarazo
+institute: '[Universidad Nacional de Colombia](#)'
+date: 22 January 2025
+date-meta: 22 January 2025
+date-format: "DD MMM YYYY"
+toc: true
+toc-depth: 1
+toc-title: "What we will cover today:"
+center-title-slide: false
+from: markdown+emoji
+format:
+  revealjs: 
+    fig-responsive: true
+    theme: simple
+    slide-number: true
+    mouse-wheel: false
+    preview-links: auto
+    logo: /figures/icons/earth.jpeg
+    css: /css/styles_slides.css
+    footer: '2015896 -- GEOMATICA BASICA'
+---
+
+# What is geomorphometry
+
+
+## Definition
+
+Geomorphometry is the science of *quantitative* land-surface analysis. It is an analytical-cartographic approach to representing bare-earth topography by the computer manipulation of terrain height.
+
+![](figures/remark1.png)
+
+## Applications
+
+![](figures/apps.png)
+## Input data
+
+![](figures/remark2.png)
+
+## Parameters vs Objects
+
+A land surface *parameter* is an attribute of surface form (e.g. slope, aspect, wetness index); it is a raster. A land surface *object* is a discrete spatial feature (e.g. watershed line, cirque, alluvial fan, drainage network): it is a vector.
+
+# Basic principles
+
+## Workflow
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](figures/workflow1.png)
+:::
+
+::: {.column width="50%"}
+![](figures/workflow2.png)
+:::
+
+::::
+
+## Landforms
+
+A landform is a discrete morphologic feature — such as a watershed —
+that is  formed by a specific geomorphological. Each landform may be composed
+of several landform elements.
+
+![](figures/remark3.png)
+
+# Algorithms
+
+## Gradient
+
+![](figures/uno.png)
+## Slope
+
+The Slope is the steepness at each cell of a raster surface. The lower the slope value, the flatter the terrain; the higher the slope value, the steeper the terrain.
+
+![](figures/slope.png)
+
+## Slope ...
+
+![](figures/dos.png)
+
+## Slope ...
+
+![](figures/tres.png)
+## Slope ...
+
+![](figures/cuatro.png)
+## Slope ...
+
+![](figures/cinco.png)
+
+## Aspect
+
+
+The Aspect is the direction the downhill slope faces. The values of each cell in the output raster indicate the compass direction the surface faces at that location. 
+
+![](figures/aspect.png)
+
+Let's practice. Create an R notebook using [this document](https://rpubs.com/ials2un/geomorphometric).
