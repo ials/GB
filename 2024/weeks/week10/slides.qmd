@@ -34,7 +34,7 @@ Geomorphometry is the science of *quantitative* land-surface analysis. It is an 
 
 ## Applications
 
-![](figures/apps.png)
+![](figures/apps.png){width=50%}
 ## Input data
 
 ![](figures/remark2.png)
@@ -71,12 +71,13 @@ of several landform elements.
 
 ## Gradient
 
-![](figures/uno.png)
+![](figures/uno.png){width=50%}
 ## Slope
 
 The Slope is the steepness at each cell of a raster surface. The lower the slope value, the flatter the terrain; the higher the slope value, the steeper the terrain.
 
 ![](figures/slope.png)
+
 
 ## Slope ...
 
@@ -85,12 +86,15 @@ The Slope is the steepness at each cell of a raster surface. The lower the slope
 ## Slope ...
 
 ![](figures/tres.png)
+
 ## Slope ...
 
 ![](figures/cuatro.png)
+
 ## Slope ...
 
 ![](figures/cinco.png)
+
 
 ## Aspect
 
@@ -99,4 +103,6 @@ The Aspect is the direction the downhill slope faces. The values of each cell in
 
 ![](figures/aspect.png)
 
-Let's practice. Create an R notebook using [this document](https://rpubs.com/ials2un/geomorphometric).
+## Practical 
+
+Create an R notebook using [this document](https://rpubs.com/ials2un/geomorphometric).
