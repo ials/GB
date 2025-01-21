@@ -1,5 +1,68 @@
 [
   {
+    "objectID": "2024/weeks/week10/slides.html#definition",
+    "href": "2024/weeks/week10/slides.html#definition",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Definition",
+    "text": "Definition\nGeomorphometry is the science of quantitative land-surface analysis. It is an analytical-cartographic approach to representing bare-earth topography by the computer manipulation of terrain height."
+  },
+  {
+    "objectID": "2024/weeks/week10/slides.html#applications",
+    "href": "2024/weeks/week10/slides.html#applications",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Applications",
+    "text": "Applications\n ## Input data"
+  },
+  {
+    "objectID": "2024/weeks/week10/slides.html#parameters-vs-objects",
+    "href": "2024/weeks/week10/slides.html#parameters-vs-objects",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Parameters vs Objects",
+    "text": "Parameters vs Objects\nA land surface parameter is an attribute of surface form (e.g. slope, aspect, wetness index); it is a raster. A land surface object is a discrete spatial feature (e.g. watershed line, cirque, alluvial fan, drainage network): it is a vector."
+  },
+  {
+    "objectID": "2024/weeks/week10/slides.html#workflow",
+    "href": "2024/weeks/week10/slides.html#workflow",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Workflow",
+    "text": "Workflow"
+  },
+  {
+    "objectID": "2024/weeks/week10/slides.html#landforms",
+    "href": "2024/weeks/week10/slides.html#landforms",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Landforms",
+    "text": "Landforms\nA landform is a discrete morphologic feature — such as a watershed — that is formed by a specific geomorphological. Each landform may be composed of several landform elements."
+  },
+  {
+    "objectID": "2024/weeks/week10/slides.html#gradient",
+    "href": "2024/weeks/week10/slides.html#gradient",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Gradient",
+    "text": "Gradient\n ## Slope\nThe Slope is the steepness at each cell of a raster surface. The lower the slope value, the flatter the terrain; the higher the slope value, the steeper the terrain."
+  },
+  {
+    "objectID": "2024/weeks/week10/slides.html#slope",
+    "href": "2024/weeks/week10/slides.html#slope",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Slope …",
+    "text": "Slope …"
+  },
+  {
+    "objectID": "2024/weeks/week10/slides.html#slope-1",
+    "href": "2024/weeks/week10/slides.html#slope-1",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Slope …",
+    "text": "Slope …\n ## Slope …\n ## Slope …"
+  },
+  {
+    "objectID": "2024/weeks/week10/slides.html#aspect",
+    "href": "2024/weeks/week10/slides.html#aspect",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Aspect",
+    "text": "Aspect\nThe Aspect is the direction the downhill slope faces. The values of each cell in the output raster indicate the compass direction the surface faces at that location.\n\nLet’s practice. Create an R notebook using this document."
+  },
+  {
     "objectID": "2024/weeks/week09/slides.html#what-is-a-dem",
     "href": "2024/weeks/week09/slides.html#what-is-a-dem",
     "title": "🗓️ Week 09Digital elevation models",
@@ -1390,6 +1453,50 @@
     "crumbs": [
       "🗓️ Weeks",
       "Week 09"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week10/page.html",
+    "href": "2024/weeks/week10/page.html",
+    "title": "🗓️ Week 10 - Geomorphometry",
+    "section": "",
+    "text": "In this week, we will learn basic concepts about terrain characterization. In addition, we will obtain geomorphometric attributes in R.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week10/page.html#lecture-slides",
+    "href": "2024/weeks/week10/page.html#lecture-slides",
+    "title": "🗓️ Week 10 - Geomorphometry",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nEither click on the slide area below or click here to view it in fullscreen. Use your keypad to navigate the slides.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week10/page.html#r-practical",
+    "href": "2024/weeks/week10/page.html#r-practical",
+    "title": "🗓️ Week 10 - Geomorphometry",
+    "section": "R Practical",
+    "text": "R Practical\nDetailed instructions are provided on 22th January in the classroom.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week10/page.html#useful-references",
+    "href": "2024/weeks/week10/page.html#useful-references",
+    "title": "🗓️ Week 10 - Geomorphometry",
+    "section": "Useful references:",
+    "text": "Useful references:\nGeomorphometry: a brief guide\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 10"
     ]
   }
 ]
