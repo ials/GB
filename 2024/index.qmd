@@ -16,10 +16,11 @@ format: html
 ::: {.callout-note collapse=false}
 ## 📢 Important
 
-(12/12/2024)
+(27/01/2024)
 
-- Publique el notebook *Examen 1* a más tardar el 20 de diciembre
-- Traiga impreso su Informe 1 a la primera clase de 2025
+- Publique el notebook *Examen 2* a más tardar el 1 de febrero a las 11:59 pm
+- Envíe el enlace correspondiente via e-mail con el asunto: *GB Examen2*
+
 :::
 
 
