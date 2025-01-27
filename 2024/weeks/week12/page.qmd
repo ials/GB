@@ -1,0 +1,30 @@
+---
+title: "🗓️ Week 10 - Geomorphometry"
+---
+
+In this week, we will learn basic concepts about terrain characterization. In addition, we will obtain geomorphometric attributes in R.
+
+## 👨‍🏫 Lecture Slides 
+
+Either click on the slide area below or click [here](slides.qmd) to view it in fullscreen.
+Use your keypad to navigate the slides.
+
+<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
+<iframe src="slides.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
+</div>
+
+
+## R Practical
+
+Detailed instructions are provided on 22th January in the classroom. 
+
+## Useful references:
+
+[Geomorphometry: a brief guide](https://drive.google.com/file/d/1Rm0C7q8I0hQvknaYLRlmvSOeBJvzKHc9/view?usp=drive_link)
+
+🎥 
+
+
+
+
+
