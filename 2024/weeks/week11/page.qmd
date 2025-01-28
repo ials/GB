@@ -4,10 +4,12 @@ title: "🗓️ Week 11 - Examen No. 2"
 
 In this week, you will work on writing your *Examen No. 2* following instructions given in the classroom on 22th and 23th January.
 
+## 👨‍🏫 Notas Examen No.1 (25% nota final)
+
+![](figures/Notas_Examen1.png)
 ## 👨‍🏫 Notas Informe No.1 (25% nota final)
 
 ![](figures/Notas_Informe1.png)
-
 
 ## Useful references:
 
