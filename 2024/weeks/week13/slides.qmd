@@ -74,27 +74,33 @@ Stochastic interpolation methods: ordinary kriging and universal kriging.
 The nearest neighbor method assigns the value from the nearest observation to a certain grid node. It is mostly applied in meteorology  and can give good results when using a dense station networks. 
 
 ![](figures/NN.png)
+
+
 ## Inverse distance weighting (IDW)
 
 ![](figures/IDW_1.png)
+
 ## IDW ...
 
 ![](figures/IDW_2.png)
 
-### IDW ...
+
+## IDW ...
 
 The choice of  β values affects the estimation quality. Higher values emphasize the influence of nearest points nearest to the grid node. Smaller values give more influence to distant points.
 
 ![](figures/IDW_3.png)
 
-### IDW ....
+
+## IDW ....
 
 The choice of the decorrelation distance 
 affect the smoothness of the interpolated surface. A higher value of $d_0$ results in a more smoothed interpolated surface.
 
 ![](figures/IDW_4.png)
 
-### IDW illustration
+
+## IDW illustration
 
 :::: {.columns}
 
@@ -107,6 +113,7 @@ affect the smoothness of the interpolated surface. A higher value of $d_0$ resul
 :::
 
 ::::
+
 
 
 ## Kriging
@@ -133,6 +140,14 @@ where $\hat{y_i}$ corresponds to the model prediction and $y_i$ to the observed 
 
 ![](figures/kriging1.png)
 
+
+## Estimation of the mean function
+
+![](figures/kriging2.png)
+
+## Estimation of the spatial correlation
+
+![](figures/kriging3.png)
 
 ## R Practical
 
