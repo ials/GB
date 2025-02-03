@@ -1,5 +1,124 @@
 [
   {
+    "objectID": "2024/weeks/week12/slides.html#definition",
+    "href": "2024/weeks/week12/slides.html#definition",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Definition",
+    "text": "Definition\nSpatial interpolation is the estimation of values of spatially continuous variables (fields) for spatial locations where they have not been observed, based on known (observed) values."
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#geostatistics",
+    "href": "2024/weeks/week12/slides.html#geostatistics",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Geostatistics",
+    "text": "Geostatistics\nDiscipline concerned with modelling, estimation, and simulation of spatially continuous phenomena.\nThe typical problem is a missing value problem: from a limited number of observations of phenomenon Z(s) at samples \\(s_i\\), we are interested in estimating values for unobserved locations."
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#general-equation",
+    "href": "2024/weeks/week12/slides.html#general-equation",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "General equation",
+    "text": "General equation\n\\(Z_t\\) is the estimated value at point t, \\(Z_i\\) is the value observed in the i-th point and \\(N\\) is the number of neighboring points that are used."
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#interpolation-types",
+    "href": "2024/weeks/week12/slides.html#interpolation-types",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Interpolation types",
+    "text": "Interpolation types\nA global interpolation uses all available known points to estimate the unknown values. It produces smoother surfaces.\nLocal interpolation uses a sample of known points to estimate the unknown values. It captures the short-range variation."
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#deterministic-vs-stochastic",
+    "href": "2024/weeks/week12/slides.html#deterministic-vs-stochastic",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Deterministic vs stochastic",
+    "text": "Deterministic vs stochastic\nDeterministic method are based on exactly predetermined functions that supposedly captures spatial similarity patterns.\nStochastic interpolation methods use random functions that quantifies the spatial autocorrelation among observations and account for the spatial configuration."
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#deterministic-vs-stochastic-1",
+    "href": "2024/weeks/week12/slides.html#deterministic-vs-stochastic-1",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Deterministic vs stochastic …",
+    "text": "Deterministic vs stochastic …\nDeterministic interpolation methods provide no assessment of errors with predicted values, while stochastic interpolation method offer assessment of predictions errors with estimated variances.\nDeterministic interpolation methods include inverse distance weighted (IDW), modified Shepard, Spheremap and nearest neighbor.\nStochastic interpolation methods: ordinary kriging and universal kriging."
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#nearest-neighbor-nn",
+    "href": "2024/weeks/week12/slides.html#nearest-neighbor-nn",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Nearest Neighbor (NN)",
+    "text": "Nearest Neighbor (NN)\nThe nearest neighbor method assigns the value from the nearest observation to a certain grid node. It is mostly applied in meteorology and can give good results when using a dense station networks.\n ## Inverse distance weighting (IDW)\n ## IDW …\n\nIDW …\nThe choice of β values affects the estimation quality. Higher values emphasize the influence of nearest points nearest to the grid node. Smaller values give more influence to distant points.\n\nIDW\nThe choice of the decorrelation distance affect the smoothness of the interpolated surface. A higher value of \\(d_0\\) results in a more smoothed interpolated surface."
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#xxx",
+    "href": "2024/weeks/week12/slides.html#xxx",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "XXX",
+    "text": "XXX"
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#landforms",
+    "href": "2024/weeks/week12/slides.html#landforms",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Landforms",
+    "text": "Landforms\nA landform is a discrete morphologic feature — such as a watershed — that is formed by a specific geomorphological. Each landform may be composed of several landform elements."
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#gradient",
+    "href": "2024/weeks/week12/slides.html#gradient",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Gradient",
+    "text": "Gradient"
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#slope",
+    "href": "2024/weeks/week12/slides.html#slope",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Slope",
+    "text": "Slope\nThe Slope is the steepness at each cell of a raster surface. The lower the slope value, the flatter the terrain; the higher the slope value, the steeper the terrain."
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#slope-1",
+    "href": "2024/weeks/week12/slides.html#slope-1",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Slope …",
+    "text": "Slope …"
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#slope-2",
+    "href": "2024/weeks/week12/slides.html#slope-2",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Slope …",
+    "text": "Slope …"
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#slope-3",
+    "href": "2024/weeks/week12/slides.html#slope-3",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Slope …",
+    "text": "Slope …"
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#slope-4",
+    "href": "2024/weeks/week12/slides.html#slope-4",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Slope …",
+    "text": "Slope …"
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#aspect",
+    "href": "2024/weeks/week12/slides.html#aspect",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Aspect",
+    "text": "Aspect\nThe Aspect is the direction the downhill slope faces. The values of each cell in the output raster indicate the compass direction the surface faces at that location."
+  },
+  {
+    "objectID": "2024/weeks/week12/slides.html#practical",
+    "href": "2024/weeks/week12/slides.html#practical",
+    "title": "🗓️ Week 12 Spatial interpolation",
+    "section": "Practical",
+    "text": "Practical\nCreate an R notebook using this document."
+  },
+  {
     "objectID": "2024/weeks/week11/page.html",
     "href": "2024/weeks/week11/page.html",
     "title": "🗓️ Week 11 - Examen No. 2",
@@ -1577,5 +1696,49 @@
     "title": "🗓️ Week 10 Geomorphometry",
     "section": "Practical",
     "text": "Practical\nCreate an R notebook using this document."
+  },
+  {
+    "objectID": "2024/weeks/week12/page.html",
+    "href": "2024/weeks/week12/page.html",
+    "title": "🗓️ Week 12 -Getting soil data properties",
+    "section": "",
+    "text": "In this week, we will learn about SoilGrids, a global dataset of soil properties obtained using soil data and machine learning techniques. In addition, we will learn how to download such data for a particular area of interest.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week12/page.html#soilgrids-web-portal",
+    "href": "2024/weeks/week12/page.html#soilgrids-web-portal",
+    "title": "🗓️ Week 12 -Getting soil data properties",
+    "section": "👨‍🏫 SoilGrids web portal",
+    "text": "👨‍🏫 SoilGrids web portal\nSoilGrids250m 2.0 - A system for digital soil mapping based on global compilation of soil profile data and environmental layers.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week12/page.html#r-practical",
+    "href": "2024/weeks/week12/page.html#r-practical",
+    "title": "🗓️ Week 12 -Getting soil data properties",
+    "section": "R Practical",
+    "text": "R Practical\nDetailed instructions are provided on 5th February in the classroom.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week12/page.html#useful-references",
+    "href": "2024/weeks/week12/page.html#useful-references",
+    "title": "🗓️ Week 12 -Getting soil data properties",
+    "section": "Useful references:",
+    "text": "Useful references:\nSoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
   }
 ]
