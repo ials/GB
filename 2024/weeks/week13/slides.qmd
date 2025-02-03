@@ -123,7 +123,7 @@ affect the smoothness of the interpolated surface. A higher value of $d_0$ resul
 
 A common interpolation assessment metric is the RMSE:
 
-![](figures/rmse.png){width=20%}
+![](figures/rmse.png)
 
 where $\hat{y_i}$ corresponds to the model prediction and $y_i$ to the observed value.
 
