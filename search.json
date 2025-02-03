@@ -88,7 +88,7 @@
     "href": "2024/weeks/week13/slides.html#root-mean-square-error-rmse",
     "title": "🗓️ Week 13 Spatial interpolation",
     "section": "root-mean-square error (RMSE)",
-    "text": "root-mean-square error (RMSE)\nA common interpolation assessment metric is the RMSE:\n\nwhere \\(\\hat{y_i}\\) corresponds to the model prediction and \\(y_i\\) to the observed value."
+    "text": "root-mean-square error (RMSE)\nA common interpolation assessment metric is the RMSE:"
   },
   {
     "objectID": "2024/weeks/week13/slides.html#kriging",
