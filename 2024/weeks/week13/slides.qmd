@@ -1,0 +1,139 @@
+---
+subtitle: " 2015896-- GEOMATICA BASICA"
+title: "<font style='font-size:1em;'>🗓️ Week 13  <br/>Spatial interpolation</font>"
+author: Ivan Lizarazo
+institute: '[Universidad Nacional de Colombia](#)'
+date: 12 February 2025
+date-meta: 12 February 2025
+date-format: "DD MMM YYYY"
+toc: true
+toc-depth: 1
+toc-title: "What we will cover today:"
+center-title-slide: false
+from: markdown+emoji
+format:
+  revealjs: 
+    fig-responsive: true
+    theme: simple
+    slide-number: true
+    mouse-wheel: false
+    preview-links: auto
+    logo: /figures/icons/earth.jpeg
+    css: /css/styles_slides.css
+    footer: '2015896 -- GEOMATICA BASICA'
+---
+
+# What is spatial interpolation
+
+
+## Definition
+
+Spatial interpolation is the estimation of values of spatially continuous variables (fields) for spatial locations where they have not been observed, based on known (observed) values.
+
+![](figures/inter1.png)
+
+## Geostatistics
+
+Discipline concerned with modelling, estimation, and simulation of spatially continuous phenomena.
+
+The typical problem is a missing value problem: from a limited number of observations of phenomenon Z(s) at samples $s_i$, we are interested in estimating values for unobserved locations.
+
+## General equation
+
+$Z_t$ is the estimated value at point t, $Z_i$ is the value observed in the i-th point and $N$ is the number of neighboring points that are used.
+
+![](figures/equation.png)
+
+
+## Interpolation types
+
+A *global* interpolation uses all available known points to estimate the unknown values. It produces smoother surfaces.
+
+*Local* interpolation uses a sample of known points to estimate the unknown values. It captures the short-range variation.
+
+![](figures/inter2.png)
+
+# Methods
+
+## Deterministic vs stochastic
+
+Deterministic method are based on exactly *predetermined* functions that supposedly captures spatial similarity patterns.
+
+Stochastic interpolation methods use *random* functions that quantifies the spatial autocorrelation among observations and account for the spatial configuration.
+
+## Deterministic vs stochastic ...
+
+Deterministic interpolation methods provide no assessment of errors with predicted values, while stochastic interpolation method offer assessment of predictions errors with estimated variances.
+
+Deterministic interpolation methods include inverse distance weighted (IDW), modified Shepard, Spheremap and nearest neighbor.
+
+Stochastic interpolation methods: ordinary kriging and universal kriging.
+
+## Nearest Neighbor (NN)
+
+The nearest neighbor method assigns the value from the nearest observation to a certain grid node. It is mostly applied in meteorology  and can give good results when using a dense station networks. 
+
+![](figures/NN.png)
+## Inverse distance weighting (IDW)
+
+![](figures/IDW_1.png)
+## IDW ...
+
+![](figures/IDW_2.png)
+
+### IDW ...
+
+The choice of  β values affects the estimation quality. Higher values emphasize the influence of nearest points nearest to the grid node. Smaller values give more influence to distant points.
+
+![](figures/IDW_3.png)
+
+### IDW ....
+
+The choice of the decorrelation distance 
+affect the smoothness of the interpolated surface. A higher value of $d_0$ results in a more smoothed interpolated surface.
+
+![](figures/IDW_4.png)
+
+### IDW illustration
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](figures/idw-toy1.png)
+:::
+
+::: {.column width="30%"}
+![](figures/idw-toy2.png)
+:::
+
+::::
+
+
+## Kriging
+
+A landform is a discrete morphologic feature — such as a watershed —
+that is  formed by a specific geomorphological. Each landform may be composed
+of several landform elements.
+
+![](figures/remark3.png)
+
+
+# Uncertainty
+
+## root-mean-square error (RMSE)
+
+A common interpolation assessment metric is the RMSE:
+
+![](figures/rmse.png){width=50%}
+
+where $\hat{y_i}$ corresponds to the model prediction and $y_i$ to the observed value.
+
+## Kriging
+
+
+![](figures/kriging1.png)
+
+
+## R Practical
+
+R notebook for [Soil Organic Carbon Interpolation](https://rpubs.com/ials2un/soc_interp).

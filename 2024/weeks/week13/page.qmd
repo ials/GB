@@ -1,0 +1,24 @@
+---
+title: "🗓️ Week 13 - Spatial Interpolation"
+---
+
+In this week, we will learn about *spatial interpolation*, a geostatistical technique for estimating values of continuous surfaces from point values sampled in the field.
+
+## 👨‍🏫 Slides
+
+[Slides]()
+
+## R Practical
+
+Detailed instructions are provided on 12th February in the classroom. 
+
+## Useful references:
+
+[Spatial interpolation]()
+
+🎥 
+
+
+
+
+
