@@ -125,7 +125,6 @@ A common interpolation assessment metric is the RMSE:
 
 ![](figures/rmse2.png)
 
-where $\hat{y_i}$ corresponds to the model prediction and $y_i$ to the observed value.
 
 ## Kriging
 
