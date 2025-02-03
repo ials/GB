@@ -104,25 +104,17 @@ affect the smoothness of the interpolated surface. A higher value of $d_0$ resul
 
 :::: {.columns}
 
-::: {.column width="70%"}
+::: {.column width="50%"}
 ![](figures/idw-toy1.png)
 :::
 
-::: {.column width="30%"}
+::: {.column width="50%"}
 ![](figures/idw-toy2.png)
 :::
 
 ::::
 
 
-
-## Kriging
-
-A landform is a discrete morphologic feature — such as a watershed —
-that is  formed by a specific geomorphological. Each landform may be composed
-of several landform elements.
-
-![](figures/remark3.png)
 
 
 # Uncertainty
@@ -131,7 +123,7 @@ of several landform elements.
 
 A common interpolation assessment metric is the RMSE:
 
-![](figures/rmse.png){width=50%}
+![](figures/rmse.png){width=25%}
 
 where $\hat{y_i}$ corresponds to the model prediction and $y_i$ to the observed value.
 
@@ -148,6 +140,65 @@ where $\hat{y_i}$ corresponds to the model prediction and $y_i$ to the observed 
 ## Estimation of the spatial correlation
 
 ![](figures/kriging3.png)
+
+
+## Modelling the semivariogram
+
+![](figures/kriging4.png)
+
+
+## Spherical model
+
+![](figures/spherical.png)
+
+## Exponential model
+
+
+![](figures/exponential.png)
+
+
+## Gaussian model
+
+![](figures/gaussian.png)
+
+## Power model
+
+![](figures/power.png)
+
+## Ordinary kriging (OK)
+
+![](figures/ok.png)
+
+## Universal kriging (UK)
+
+- UK, also known as *Regression Kriging*, is a more general model. 
+
+- In OK, the trend is a constant value.
+
+- In UK, the trend is a linear function of one or more covariates.
+
+
+# Software
+
+## Spatial interpolation in QGIS
+
+- [Interpolation Basics](https://docs.qgis.org/3.34/en/docs/gentle_gis_introduction/spatial_analysis_interpolation.html)
+
+- [Interpolation tutorial](https://www.qgistutorials.com/en/docs/3/interpolating_point_data.html)
+
+## Kriging interpolation in R
+
+The general procedure is outlined below:
+
+- Data preparation
+
+- Sample variogram
+
+- Variogram modelling
+
+- Model evaluation using RMSE
+
+- Spatial prediction using *gstat*
 
 ## R Practical
 
