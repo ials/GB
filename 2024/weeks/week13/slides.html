@@ -160,6 +160,7 @@ Ivan Lizarazo
 <li><a href="#/what-is-spatial-interpolation" id="/toc-what-is-spatial-interpolation">What is spatial interpolation</a></li>
 <li><a href="#/methods" id="/toc-methods">Methods</a></li>
 <li><a href="#/uncertainty" id="/toc-uncertainty">Uncertainty</a></li>
+<li><a href="#/software" id="/toc-software">Software</a></li>
 </ul>
 </nav>
 </section>
@@ -231,17 +232,12 @@ Ivan Lizarazo
 <section id="idw-illustration" class="slide level2">
 <h2>IDW illustration</h2>
 <div class="columns">
-<div class="column" style="width:70%;">
+<div class="column" style="width:50%;">
 <p><img data-src="figures/idw-toy1.png" class="img-fluid"></p>
-</div><div class="column" style="width:30%;">
+</div><div class="column" style="width:50%;">
 <p><img data-src="figures/idw-toy2.png" class="img-fluid"></p>
 </div></div>
-</section>
-<section id="kriging" class="slide level2">
-<h2>Kriging</h2>
-<p>A landform is a discrete morphologic feature — such as a watershed — that is formed by a specific geomorphological. Each landform may be composed of several landform elements.</p>
-
-<img data-src="figures/remark3.png" class="img-fluid r-stretch"></section></section>
+</section></section>
 <section>
 <section id="uncertainty" class="title-slide slide level1">
 <h1>Uncertainty</h1>
@@ -251,9 +247,9 @@ Ivan Lizarazo
 <h2>root-mean-square error (RMSE)</h2>
 <p>A common interpolation assessment metric is the RMSE:</p>
 
-<img data-src="figures/rmse.png" class="img-fluid r-stretch" style="width:50.0%"><p>where <span class="math inline">\(\hat{y_i}\)</span> corresponds to the model prediction and <span class="math inline">\(y_i\)</span> to the observed value.</p>
+<img data-src="figures/rmse.png" class="img-fluid r-stretch" style="width:25.0%"><p>where <span class="math inline">\(\hat{y_i}\)</span> corresponds to the model prediction and <span class="math inline">\(y_i\)</span> to the observed value.</p>
 </section>
-<section id="kriging-1" class="slide level2">
+<section id="kriging" class="slide level2">
 <h2>Kriging</h2>
 
 <img data-src="figures/kriging1.png" class="img-fluid r-stretch"></section>
@@ -265,6 +261,61 @@ Ivan Lizarazo
 <h2>Estimation of the spatial correlation</h2>
 
 <img data-src="figures/kriging3.png" class="img-fluid r-stretch"></section>
+<section id="modelling-the-semivariogram" class="slide level2">
+<h2>Modelling the semivariogram</h2>
+
+<img data-src="figures/kriging4.png" class="img-fluid r-stretch"></section>
+<section id="spherical-model" class="slide level2">
+<h2>Spherical model</h2>
+
+<img data-src="figures/spherical.png" class="img-fluid r-stretch"></section>
+<section id="exponential-model" class="slide level2">
+<h2>Exponential model</h2>
+
+<img data-src="figures/exponential.png" class="img-fluid r-stretch"></section>
+<section id="gaussian-model" class="slide level2">
+<h2>Gaussian model</h2>
+
+<img data-src="figures/gaussian.png" class="img-fluid r-stretch"></section>
+<section id="power-model" class="slide level2">
+<h2>Power model</h2>
+
+<img data-src="figures/power.png" class="img-fluid r-stretch"></section>
+<section id="ordinary-kriging-ok" class="slide level2">
+<h2>Ordinary kriging (OK)</h2>
+
+<img data-src="figures/ok.png" class="img-fluid r-stretch"></section>
+<section id="universal-kriging-uk" class="slide level2">
+<h2>Universal kriging (UK)</h2>
+<ul>
+<li><p>UK, also known as <em>Regression Kriging</em>, is a more general model.</p></li>
+<li><p>In OK, the trend is a constant value.</p></li>
+<li><p>In UK, the trend is a linear function of one or more covariates.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="software" class="title-slide slide level1">
+<h1>Software</h1>
+
+</section>
+<section id="spatial-interpolation-in-qgis" class="slide level2">
+<h2>Spatial interpolation in QGIS</h2>
+<ul>
+<li><p><a href="https://docs.qgis.org/3.34/en/docs/gentle_gis_introduction/spatial_analysis_interpolation.html">Interpolation Basics</a></p></li>
+<li><p><a href="https://www.qgistutorials.com/en/docs/3/interpolating_point_data.html">Interpolation tutorial</a></p></li>
+</ul>
+</section>
+<section id="kriging-interpolation-in-r" class="slide level2">
+<h2>Kriging interpolation in R</h2>
+<p>The general procedure is outlined below:</p>
+<ul>
+<li><p>Data preparation</p></li>
+<li><p>Sample variogram</p></li>
+<li><p>Variogram modelling</p></li>
+<li><p>Model evaluation using RMSE</p></li>
+<li><p>Spatial prediction using <em>gstat</em></p></li>
+</ul>
+</section>
 <section id="r-practical" class="slide level2">
 <h2>R Practical</h2>
 <p>R notebook for <a href="https://rpubs.com/ials2un/soc_interp">Soil Organic Carbon Interpolation</a>.</p>

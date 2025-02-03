@@ -84,13 +84,6 @@
     "text": "IDW illustration"
   },
   {
-    "objectID": "2024/weeks/week13/slides.html#kriging",
-    "href": "2024/weeks/week13/slides.html#kriging",
-    "title": "🗓️ Week 13 Spatial interpolation",
-    "section": "Kriging",
-    "text": "Kriging\nA landform is a discrete morphologic feature — such as a watershed — that is formed by a specific geomorphological. Each landform may be composed of several landform elements."
-  },
-  {
     "objectID": "2024/weeks/week13/slides.html#root-mean-square-error-rmse",
     "href": "2024/weeks/week13/slides.html#root-mean-square-error-rmse",
     "title": "🗓️ Week 13 Spatial interpolation",
@@ -98,8 +91,8 @@
     "text": "root-mean-square error (RMSE)\nA common interpolation assessment metric is the RMSE:\n\nwhere \\(\\hat{y_i}\\) corresponds to the model prediction and \\(y_i\\) to the observed value."
   },
   {
-    "objectID": "2024/weeks/week13/slides.html#kriging-1",
-    "href": "2024/weeks/week13/slides.html#kriging-1",
+    "objectID": "2024/weeks/week13/slides.html#kriging",
+    "href": "2024/weeks/week13/slides.html#kriging",
     "title": "🗓️ Week 13 Spatial interpolation",
     "section": "Kriging",
     "text": "Kriging"
@@ -117,6 +110,69 @@
     "title": "🗓️ Week 13 Spatial interpolation",
     "section": "Estimation of the spatial correlation",
     "text": "Estimation of the spatial correlation"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#modelling-the-semivariogram",
+    "href": "2024/weeks/week13/slides.html#modelling-the-semivariogram",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Modelling the semivariogram",
+    "text": "Modelling the semivariogram"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#spherical-model",
+    "href": "2024/weeks/week13/slides.html#spherical-model",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Spherical model",
+    "text": "Spherical model"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#exponential-model",
+    "href": "2024/weeks/week13/slides.html#exponential-model",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Exponential model",
+    "text": "Exponential model"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#gaussian-model",
+    "href": "2024/weeks/week13/slides.html#gaussian-model",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Gaussian model",
+    "text": "Gaussian model"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#power-model",
+    "href": "2024/weeks/week13/slides.html#power-model",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Power model",
+    "text": "Power model"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#ordinary-kriging-ok",
+    "href": "2024/weeks/week13/slides.html#ordinary-kriging-ok",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Ordinary kriging (OK)",
+    "text": "Ordinary kriging (OK)"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#universal-kriging-uk",
+    "href": "2024/weeks/week13/slides.html#universal-kriging-uk",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Universal kriging (UK)",
+    "text": "Universal kriging (UK)\n\nUK, also known as Regression Kriging, is a more general model.\nIn OK, the trend is a constant value.\nIn UK, the trend is a linear function of one or more covariates."
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#spatial-interpolation-in-qgis",
+    "href": "2024/weeks/week13/slides.html#spatial-interpolation-in-qgis",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Spatial interpolation in QGIS",
+    "text": "Spatial interpolation in QGIS\n\nInterpolation Basics\nInterpolation tutorial"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#kriging-interpolation-in-r",
+    "href": "2024/weeks/week13/slides.html#kriging-interpolation-in-r",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Kriging interpolation in R",
+    "text": "Kriging interpolation in R\nThe general procedure is outlined below:\n\nData preparation\nSample variogram\nVariogram modelling\nModel evaluation using RMSE\nSpatial prediction using gstat"
   },
   {
     "objectID": "2024/weeks/week13/slides.html#r-practical",
