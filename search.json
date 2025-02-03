@@ -46,7 +46,42 @@
     "href": "2024/weeks/week13/slides.html#nearest-neighbor-nn",
     "title": "🗓️ Week 13 Spatial interpolation",
     "section": "Nearest Neighbor (NN)",
-    "text": "Nearest Neighbor (NN)\nThe nearest neighbor method assigns the value from the nearest observation to a certain grid node. It is mostly applied in meteorology and can give good results when using a dense station networks.\n ## Inverse distance weighting (IDW)\n ## IDW …\n\nIDW …\nThe choice of β values affects the estimation quality. Higher values emphasize the influence of nearest points nearest to the grid node. Smaller values give more influence to distant points.\n\nIDW ….\nThe choice of the decorrelation distance affect the smoothness of the interpolated surface. A higher value of \\(d_0\\) results in a more smoothed interpolated surface.\n\nIDW illustration"
+    "text": "Nearest Neighbor (NN)\nThe nearest neighbor method assigns the value from the nearest observation to a certain grid node. It is mostly applied in meteorology and can give good results when using a dense station networks."
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#inverse-distance-weighting-idw",
+    "href": "2024/weeks/week13/slides.html#inverse-distance-weighting-idw",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Inverse distance weighting (IDW)",
+    "text": "Inverse distance weighting (IDW)"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#idw",
+    "href": "2024/weeks/week13/slides.html#idw",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "IDW …",
+    "text": "IDW …"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#idw-1",
+    "href": "2024/weeks/week13/slides.html#idw-1",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "IDW …",
+    "text": "IDW …\nThe choice of β values affects the estimation quality. Higher values emphasize the influence of nearest points nearest to the grid node. Smaller values give more influence to distant points."
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#idw-.",
+    "href": "2024/weeks/week13/slides.html#idw-.",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "IDW ….",
+    "text": "IDW ….\nThe choice of the decorrelation distance affect the smoothness of the interpolated surface. A higher value of \\(d_0\\) results in a more smoothed interpolated surface."
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#idw-illustration",
+    "href": "2024/weeks/week13/slides.html#idw-illustration",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "IDW illustration",
+    "text": "IDW illustration"
   },
   {
     "objectID": "2024/weeks/week13/slides.html#kriging",
@@ -68,6 +103,20 @@
     "title": "🗓️ Week 13 Spatial interpolation",
     "section": "Kriging",
     "text": "Kriging"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#estimation-of-the-mean-function",
+    "href": "2024/weeks/week13/slides.html#estimation-of-the-mean-function",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Estimation of the mean function",
+    "text": "Estimation of the mean function"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#estimation-of-the-spatial-correlation",
+    "href": "2024/weeks/week13/slides.html#estimation-of-the-spatial-correlation",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Estimation of the spatial correlation",
+    "text": "Estimation of the spatial correlation"
   },
   {
     "objectID": "2024/weeks/week13/slides.html#r-practical",
