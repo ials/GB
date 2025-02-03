@@ -1,5 +1,82 @@
 [
   {
+    "objectID": "2024/weeks/week13/slides.html#definition",
+    "href": "2024/weeks/week13/slides.html#definition",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Definition",
+    "text": "Definition\nSpatial interpolation is the estimation of values of spatially continuous variables (fields) for spatial locations where they have not been observed, based on known (observed) values."
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#geostatistics",
+    "href": "2024/weeks/week13/slides.html#geostatistics",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Geostatistics",
+    "text": "Geostatistics\nDiscipline concerned with modelling, estimation, and simulation of spatially continuous phenomena.\nThe typical problem is a missing value problem: from a limited number of observations of phenomenon Z(s) at samples \\(s_i\\), we are interested in estimating values for unobserved locations."
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#general-equation",
+    "href": "2024/weeks/week13/slides.html#general-equation",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "General equation",
+    "text": "General equation\n\\(Z_t\\) is the estimated value at point t, \\(Z_i\\) is the value observed in the i-th point and \\(N\\) is the number of neighboring points that are used."
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#interpolation-types",
+    "href": "2024/weeks/week13/slides.html#interpolation-types",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Interpolation types",
+    "text": "Interpolation types\nA global interpolation uses all available known points to estimate the unknown values. It produces smoother surfaces.\nLocal interpolation uses a sample of known points to estimate the unknown values. It captures the short-range variation."
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#deterministic-vs-stochastic",
+    "href": "2024/weeks/week13/slides.html#deterministic-vs-stochastic",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Deterministic vs stochastic",
+    "text": "Deterministic vs stochastic\nDeterministic method are based on exactly predetermined functions that supposedly captures spatial similarity patterns.\nStochastic interpolation methods use random functions that quantifies the spatial autocorrelation among observations and account for the spatial configuration."
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#deterministic-vs-stochastic-1",
+    "href": "2024/weeks/week13/slides.html#deterministic-vs-stochastic-1",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Deterministic vs stochastic …",
+    "text": "Deterministic vs stochastic …\nDeterministic interpolation methods provide no assessment of errors with predicted values, while stochastic interpolation method offer assessment of predictions errors with estimated variances.\nDeterministic interpolation methods include inverse distance weighted (IDW), modified Shepard, Spheremap and nearest neighbor.\nStochastic interpolation methods: ordinary kriging and universal kriging."
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#nearest-neighbor-nn",
+    "href": "2024/weeks/week13/slides.html#nearest-neighbor-nn",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Nearest Neighbor (NN)",
+    "text": "Nearest Neighbor (NN)\nThe nearest neighbor method assigns the value from the nearest observation to a certain grid node. It is mostly applied in meteorology and can give good results when using a dense station networks.\n ## Inverse distance weighting (IDW)\n ## IDW …\n\nIDW …\nThe choice of β values affects the estimation quality. Higher values emphasize the influence of nearest points nearest to the grid node. Smaller values give more influence to distant points.\n\nIDW ….\nThe choice of the decorrelation distance affect the smoothness of the interpolated surface. A higher value of \\(d_0\\) results in a more smoothed interpolated surface.\n\nIDW illustration"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#kriging",
+    "href": "2024/weeks/week13/slides.html#kriging",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Kriging",
+    "text": "Kriging\nA landform is a discrete morphologic feature — such as a watershed — that is formed by a specific geomorphological. Each landform may be composed of several landform elements."
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#root-mean-square-error-rmse",
+    "href": "2024/weeks/week13/slides.html#root-mean-square-error-rmse",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "root-mean-square error (RMSE)",
+    "text": "root-mean-square error (RMSE)\nA common interpolation assessment metric is the RMSE:\n\nwhere \\(\\hat{y_i}\\) corresponds to the model prediction and \\(y_i\\) to the observed value."
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#kriging-1",
+    "href": "2024/weeks/week13/slides.html#kriging-1",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Kriging",
+    "text": "Kriging"
+  },
+  {
+    "objectID": "2024/weeks/week13/slides.html#r-practical",
+    "href": "2024/weeks/week13/slides.html#r-practical",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "R Practical",
+    "text": "R Practical\nR notebook for Soil Organic Carbon Interpolation."
+  },
+  {
     "objectID": "2024/weeks/week12/slides.html#definition",
     "href": "2024/weeks/week12/slides.html#definition",
     "title": "🗓️ Week 12 Spatial interpolation",
@@ -1739,6 +1816,50 @@
     "crumbs": [
       "🗓️ Weeks",
       "Week 12"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week13/page.html",
+    "href": "2024/weeks/week13/page.html",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "section": "",
+    "text": "In this week, we will learn about spatial interpolation, a geostatistical technique for estimating values of continuous surfaces from point values sampled in the field.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week13/page.html#slides",
+    "href": "2024/weeks/week13/page.html#slides",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "section": "👨‍🏫 Slides",
+    "text": "👨‍🏫 Slides\nSlides",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week13/page.html#r-practical",
+    "href": "2024/weeks/week13/page.html#r-practical",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "section": "R Practical",
+    "text": "R Practical\nDetailed instructions are provided on 12th February in the classroom.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "2024/weeks/week13/page.html#useful-references",
+    "href": "2024/weeks/week13/page.html#useful-references",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "section": "Useful references:",
+    "text": "Useful references:\nSpatial interpolation\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 13"
     ]
   }
 ]
