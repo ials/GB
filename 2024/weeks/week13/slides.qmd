@@ -201,4 +201,4 @@ The general procedure is outlined below:
 
 ## R Practical
 
-R notebook for [Soil Organic Carbon Interpolation](https://rpubs.com/ials2un/soc_interp).
+R notebook for [Soil Organic Carbon Interpolation](https://rpubs.com/ials2un/Spatial_Interpolation).
