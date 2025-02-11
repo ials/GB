@@ -6,15 +6,23 @@ In this week, we will learn about *spatial interpolation*, a geostatistical tech
 
 ## 👨‍🏫 Slides
 
-[Slides]()
+You can find the slides [here](slides.qmd)
 
 ## R Practical
 
 Detailed instructions are provided on 12th February in the classroom. 
 
+## ✍️Examen No.2 deadline
+
+🚧 Make sure you send the link to your *interpolation notebook* before 27th December at 11:59 pm 🚧
+
 ## Useful references:
 
-[Spatial interpolation]()
+[Kriging Interpolation](https://www.publichealth.columbia.edu/research/population-health-methods/kriging-interpolation)
+
+[Spatial interpolation](https://rpubs.com/ials2un/Spatial_Interpolation)
+
+[Carto tutorial](https://carto.com/blog/spatial-interpolation-techniques-tutorial)
 
 🎥 
 
