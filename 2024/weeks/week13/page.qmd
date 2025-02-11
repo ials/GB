@@ -12,7 +12,7 @@ You can find the slides [here](slides.qmd)
 
 Detailed instructions are provided on 12th February in the classroom. 
 
-## ✍️Examen No.2 deadline
+## ✍️ Informe No.2 deadline
 
 🚧 Make sure you send the link to your *interpolation notebook* before 27th December at 11:59 pm 🚧
 
