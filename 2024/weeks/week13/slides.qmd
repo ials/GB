@@ -185,6 +185,8 @@ A common interpolation assessment metric is the RMSE:
 
 - [Interpolation tutorial](https://www.qgistutorials.com/en/docs/3/interpolating_point_data.html)
 
+- [GB Interpolación de datos de precipitación](https://drive.google.com/file/d/1wxta4vU-V2yxHgIpjegYGPYr9gxXLfMM/view?usp=sharing)
+
 ## Kriging interpolation in R
 
 The general procedure is outlined below:
