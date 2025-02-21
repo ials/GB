@@ -4,6 +4,10 @@ title: "🗓️ Week 43 - Remote Sensing"
 
 In this week, we will learn about *remote sensing*, i.e. the obtention of thematic information from aerial and satellite images.
 
+## 👨‍🏫 Notas Examen No. 2 (25% nota final)
+
+![](figures/Examen2.png)
+
 ## 👨‍🏫 Slides
 
 You can find the slides [here](https://appliedsciences.nasa.gov/sites/default/files/2023-02/Fundamentals_of_RS.pdf)
