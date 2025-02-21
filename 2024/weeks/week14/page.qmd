@@ -1,5 +1,5 @@
 ---
-title: "🗓️ Week 43 - Remote Sensing"
+title: "🗓️ Week 14 - Remote Sensing"
 ---
 
 In this week, we will learn about *remote sensing*, i.e. the obtention of thematic information from aerial and satellite images.
