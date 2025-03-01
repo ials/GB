@@ -6,7 +6,7 @@ title: "🗓️ Week 15 - Final grades"
 ## 👨‍🏫 Notas Consolidadas (100%)
 
 ![](figures/N1.png)
-![](figures/nfinales2.png)
+![](figures/N2.png)
 
 ## Useful links:
 
