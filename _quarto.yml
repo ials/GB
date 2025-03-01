@@ -19,6 +19,7 @@ project:
     - "2024/weeks/week12/*.qmd"
     - "2024/weeks/week13/*.qmd"
     - "2024/weeks/week14/*.qmd"
+    - "2024/weeks/week15/*.qmd"
 
 website:
   title: "GEOMATICA BASICA 2024"
@@ -110,6 +111,11 @@ website:
            text: Week 14
            contents:
              - href: 2024/weeks/week14/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2024/weeks/week15/page.qmd
+           text: Week 15
+           contents:
+             - href: 2024/weeks/week15/page.qmd
                text: 👨‍🏫 Lecture Material
 
   navbar:

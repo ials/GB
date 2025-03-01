@@ -16,10 +16,10 @@ format: html
 ::: {.callout-note collapse=false}
 ## 📢 Important
 
-(12/02/2025)
+(01/03/2025)
 
-- Publique el notebook *Informe 2* a más tardar el 27 de febrero a las 11:59 pm
-- Envíe el enlace correspondiente via e-mail con el asunto: *GB Informe 2*
+- Las notas consolidadas están publicadas en "Week 15"
+
 
 :::
 

@@ -1,0 +1,22 @@
+---
+title: "🗓️ Week 15 - Final grades"
+---
+
+
+## 👨‍🏫 Notas Consolidadas (100%)
+
+![](figures/N1.png)
+![](figures/nfinales2.png)
+
+## Useful links:
+
+[Landsat Explorer](https://livingatlas2.arcgis.com/landsatexplorer/)
+
+[Sentinel Explorer](https://sentinel2explorer.esri.com/)
+
+🎥 
+
+
+
+
+
