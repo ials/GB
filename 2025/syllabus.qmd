@@ -76,7 +76,7 @@ Semana 16 - Agricultura digital
 ::: {.callout-important collapse=false}
 
 -	Presentación de dos exámenes teóricos (50%)
-    - Examen 1 - 14.05.2024
+    - Examen 1 - 14.05.2025
     - Examen 2 - 16.07.2025
 -	Entrega de dos informes técnicos  (50%)
     - Informe 1 - 21.05.2025
