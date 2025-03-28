@@ -14,8 +14,8 @@ format:
 
 # 🎯 Learning Objectives
 
-- Appraise the usefulness of geospatial data for supporting agronomy.
-- Understand basic concepts about geodesy, cartography, GIS, remote sensing, and geostatistics. 
+- Understand the usefulness of geospatial data for supporting agronomy.
+- Internalize basic concepts about geodesy, cartography, GIS, remote sensing, and geostatistics. 
 - Be able to apply geospatial techniques for data collection, processing, visualization and analysis.
 - Develop  critical spatial thinking.
 
@@ -25,7 +25,7 @@ format:
 
 **Select Academic Year/Term:**
 
-<a href="2024/index.qmd">
-    <button class="button-61">2024</button>
+<a href="2025/index.qmd">
+    <button class="button-61">2025</button>
 </a>
 
