@@ -1,6 +1,6 @@
 ---
 title: "2015896 - GEOMATICA BASICA"
-subtitle: "Academic Year: 2024"
+subtitle: "Academic Year: 2025"
 format: html
 ---
 
@@ -28,11 +28,11 @@ format: html
 ### METODOLOGIA:
 -	Lectura antes de la clase a cargo del estudiante
 -   Presentación de conceptos, métodos y técnicas a cargo del profesor
--	Realización de ejercicios prácticos y elaboración de reportes técnicos a cargo  del estudiante
+-	Realización de lecturas, ejercicios prácticos y elaboración de informes a cargo  del estudiante
 
 ### SOFTWARE:
 -	QGIS
--   R & RStudio
+- R & RStudio
 
 :::
 
@@ -75,12 +75,12 @@ Semana 16 - Agricultura digital
 
 ::: {.callout-important collapse=false}
 
--	Presentación de dos exámenes escritos sobre aspectos teóricos (50%)
-    - Examen 1 - 18.12.2024
-    - Examen 2 - 20.02.2025
+-	Presentación de dos exámenes teóricos (50%)
+    - Examen 1 - 14.05.2024
+    - Examen 2 - 16.07.2025
 -	Entrega de dos informes técnicos  (50%)
-    - Informe 1 - 16.01.2025
-    - Informe 2 - 27.02.2025
+    - Informe 1 - 21.05.2025
+    - Informe 2 - 23.07.2025
 
 :::
 

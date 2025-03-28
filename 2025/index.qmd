@@ -1,15 +1,15 @@
 ---
 title: "2015896 - GEOMATICA BASICA"
-subtitle: "Academic Year: 2024"
+subtitle: "Academic Year: 2025"
 format: html
 ---
 
 ::: {.callout-important collapse=false}
 ## 📢 Syllabus
 
-(09/08/2023)
+(01/04/2025)
 
-- [🗓️ Know the syllabus here](/2024/syllabus.qmd)
+- [🗓️ Know the syllabus here](/2025/syllabus.qmd)
 
 :::
 
@@ -18,7 +18,7 @@ format: html
 
 (01/03/2025)
 
-- Las notas consolidadas están publicadas en "Week 15"
+- Las clases empiezan el 2 de abril a las 9:00 am
 
 
 :::
