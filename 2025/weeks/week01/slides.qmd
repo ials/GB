@@ -114,7 +114,7 @@ A flipped classroom is structured around the idea that lecture or direct instruc
 
 ## To do before tomorrow
 
-Install [QGIS 3.34.11 'Prizren'](https://qgis.org/download/) in your computer.
+Install [QGIS 3.40.5 'Bratislava'](https://qgis.org/download/) in your computer.
 
 <p align="center">
 <img src="figures/QGIS.png" width="65%" height="65%" />
