@@ -30,10 +30,13 @@ T4 - What is cartography?
 T5 - What is computer science?
 
 
+## 📟 Independent practicals
+
+- [Complete this track at your own pace](/figures/icons/datacamp.png)
+
+- *Note that the track is due on 20.05.2025*
+
+
 ## 📚 Recommended Reading (and watching)
 
 - Check the end of slides for the list of references cited in the lecture.
-
-## 📟 Communication
-
-- Get to know your peers in the course and organize a study group 
