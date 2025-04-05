@@ -16,7 +16,7 @@ What are the most commonly used data structures and formats?
 
 **Practical exercises**:
 
-Download and visualize geographic data
+[Prepare geographic data of your department](https://drive.google.com/file/d/1OAm1k0DlqodO28lv_8GoxHzWO-tB9Cvz/view?usp=sharing)
 
 Review of geographic metadata
 

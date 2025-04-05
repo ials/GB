@@ -16,9 +16,9 @@ format: html
 ::: {.callout-note collapse=false}
 ## 📢 Important
 
-(01/03/2025)
+(04/04/2025)
 
-- Las clases empiezan el 2 de abril a las 9:00 am
+- Complete el curso [Introduction to R](/figures/icons/Intro_R.png) antes del 8 de abril
 
 
 :::
