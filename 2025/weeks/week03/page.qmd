@@ -10,11 +10,15 @@ In this week, we will cover the following topics:
 - Coordinates reference systems (CRS)
 - Map projections
 
-**Practical exercises**:
+**Practical exercise**:
 
--  Join your department's municipalities to a DANE's population table
+-  Download [DANE population data per municipalities](Serie municipal de población por área, para el periodo 2020-2035)
 
--  Review socio-economic data for your department (and summarize it)
+-  Create a table with 2024 population  
+
+-  Join your department's municipalities to the population table
+
+-  Review [socio-economic data for your department](https://www.dane.gov.co/index.php/actualidad-dane/5607-informacion-economica-y-sociodemografica-desagregada-a-nivel-municipal?highlight=WyJwb2JsYWNpXHUwMGYzbiIsInBvYmxhY2lvbiIsInBvYmxhY2lvbmVzIiwicG9yIiwicG9yb3NhcyIsIm11bmljaXBpb3MiLCJtdW5pY2lwaW8iXQ==) and summarize it for your report
 
 ## 👨‍🏫 Lecture Slides 
 
