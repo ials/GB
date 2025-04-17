@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ials.github.io/GB/2025/weeks/week02/slides.html</loc>
-    <lastmod>2025-04-09T13:49:39.883Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ials.github.io/GB/2025/weeks/week01/slides2.html</loc>
-    <lastmod>2025-04-09T13:49:39.869Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ials.github.io/GB/2025/weeks/week01/page.html</loc>
-    <lastmod>2025-04-09T13:49:39.869Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ials.github.io/GB/2025/index.html</loc>
-    <lastmod>2025-04-09T13:49:39.864Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ials.github.io/GB/index.html</loc>
-    <lastmod>2025-04-09T13:49:40.089Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ials.github.io/GB/2025/syllabus.html</loc>
-    <lastmod>2025-04-09T13:49:39.864Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ials.github.io/GB/2025/weeks/week01/slides.html</loc>
-    <lastmod>2025-04-09T13:49:39.869Z</lastmod>
+    <loc>https://ials.github.io/GB/2025/weeks/week03/page.html</loc>
+    <lastmod>2025-04-17T21:13:16.894Z</lastmod>
   </url>
   <url>
     <loc>https://ials.github.io/GB/2025/weeks/week02/page.html</loc>
-    <lastmod>2025-04-09T13:49:39.883Z</lastmod>
+    <lastmod>2025-04-17T21:13:16.881Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ials.github.io/GB/2025/weeks/week01/slides.html</loc>
+    <lastmod>2025-04-17T21:13:16.867Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ials.github.io/GB/2025/syllabus.html</loc>
+    <lastmod>2025-04-17T21:13:16.862Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ials.github.io/GB/index.html</loc>
+    <lastmod>2025-04-17T21:13:17.090Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ials.github.io/GB/2025/index.html</loc>
+    <lastmod>2025-04-17T21:13:16.862Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ials.github.io/GB/2025/weeks/week01/page.html</loc>
+    <lastmod>2025-04-17T21:13:16.867Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ials.github.io/GB/2025/weeks/week01/slides2.html</loc>
+    <lastmod>2025-04-17T21:13:16.867Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ials.github.io/GB/2025/weeks/week02/slides.html</loc>
+    <lastmod>2025-04-17T21:13:16.881Z</lastmod>
   </url>
 </urlset>
