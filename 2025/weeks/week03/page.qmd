@@ -29,7 +29,9 @@ You can find the slides [here](https://docs.google.com/presentation/d/1teYd09bo9
 ## 📚 Recommended Reading 
 
 Read:
+
 - [Proyección Cartográfica Colombia](https://origen.igac.gov.co/docs/ABC_Nueva_Proyeccion_Cartografica_Colombia.pdf) and take notes
+
 - [What are ellipsoid and geoid heights?](https://help.propelleraero.com/hc/en-us/articles/19383617598743-What-Are-Ellipsoid-and-Geoid-Heights#h_01HT5Q4VEN0WF0AW4MXH9P459C)
 
 ## ✍️ Coursework
