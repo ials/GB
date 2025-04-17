@@ -12,7 +12,7 @@ In this week, we will cover the following topics:
 
 **Practical exercise**:
 
--  Download [DANE population data per municipalities](Serie municipal de población por área, para el periodo 2020-2035)
+-  Download [DANE population data per municipalities](https://www.dane.gov.co/files/censo2018/proyecciones-de-poblacion/Municipal/DCD-area-proypoblacion-Mun-2020-2035-ActPostCOVID-19.xlsx)
 
 -  Create a table with 2024 population  
 
