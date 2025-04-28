@@ -30,7 +30,7 @@ format:
 To join a population table to a municipalities geopackage
 
 <figure>
-    <img src="figures/Goal.png" width="70%" height="70%" >
+    <img src="figures/Goal.png" width="60%" height="60%" >
 </figure>
 
 ## DANE population table
@@ -102,12 +102,20 @@ Open the municipalities attribute table:
 Visualization of 2020 population per municipality (and OSM background):
 
 <figure>
-    <img src="figures/Goal2.png"  width="65%" height="65%" >
+    <img src="figures/Goal2.png"  width="60%" height="60%" >
 </figure>
 
 
 # To do before next week
 
-## Look for socio-economic data
+## [*Indice de Pobreza Multidimensional*](https://bit.ly/2USdDVr)
 
-Then, visualize them using QGIS (and start making your map)
+- Download the IPM shapefile 
+
+- Visualize them using QGIS 
+
+- Make your IPM map
+
+- Print your map 
+
+- Bring the printed map on 7th May
