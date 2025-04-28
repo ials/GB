@@ -18,7 +18,11 @@ format: html
 
 (14/04/2025)
 
-- Complete el curso [Introduction to the Tidyverse R](https://www.datacamp.com) antes del 22 de abril
+- Complete el curso [Introduction to the Tidyverse R](https://www.datacamp.com) a más tardar el 23 de abril
+
+(28/04/2025)
+
+- Vea las notas parciales del [Examen No. 1](https://drive.google.com/file/d/1aRwq5334m4QLxKsEU2dqiSx81dVYItQa/view?usp=sharing)
 
 
 :::
