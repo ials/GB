@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "2025/weeks/week04/slides.html#goal",
+    "href": "2025/weeks/week04/slides.html#goal",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Goal",
+    "text": "Goal\nTo join a population table to a municipalities geopackage"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#dane-population-table",
+    "href": "2025/weeks/week04/slides.html#dane-population-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "DANE population table",
+    "text": "DANE population table\nDownload Proyecciones de población DANE"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#original-table",
+    "href": "2025/weeks/week04/slides.html#original-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Original table",
+    "text": "Original table\nDCD-area-proypoblacion-Mun-2020-2035-ActPostCOVID-19.xlsx"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#edited-table",
+    "href": "2025/weeks/week04/slides.html#edited-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Edited table",
+    "text": "Edited table\nDANE table after going from long to wide format:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#edited-municipalities-table",
+    "href": "2025/weeks/week04/slides.html#edited-municipalities-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Edited Municipalities table",
+    "text": "Edited Municipalities table\nCordoba municipalities table after deleting several fields"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#joins-in-qgis-1",
+    "href": "2025/weeks/week04/slides.html#joins-in-qgis-1",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Joins in QGIS [1]",
+    "text": "Joins in QGIS [1]\nGo to Municipalities Layer Properties:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#joins-in-qgis-2",
+    "href": "2025/weeks/week04/slides.html#joins-in-qgis-2",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Joins in QGIS [2]",
+    "text": "Joins in QGIS [2]\nExecute this procedure:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#result",
+    "href": "2025/weeks/week04/slides.html#result",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Result",
+    "text": "Result\nOpen the municipalities attribute table:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#goal-accomplished",
+    "href": "2025/weeks/week04/slides.html#goal-accomplished",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Goal accomplished!",
+    "text": "Goal accomplished!\nVisualization of 2020 population per municipality (and OSM background):"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#look-for-socio-economic-data",
+    "href": "2025/weeks/week04/slides.html#look-for-socio-economic-data",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Look for socio-economic data",
+    "text": "Look for socio-economic data\nThen, visualize them using QGIS (and start making your map)"
+  },
+  {
     "objectID": "2025/weeks/week03/page.html",
     "href": "2025/weeks/week03/page.html",
     "title": "🗓️ Week 03 - Coordinate systems and map projections",
@@ -237,7 +307,7 @@
     "href": "2025/index.html",
     "title": "2015896 - GEOMATICA BASICA",
     "section": "",
-    "text": "📢 Syllabus\n\n\n\n\n\n(01/04/2025)\n\n🗓️ Know the syllabus here\n\n\n\n\n\n\n\n\n\n\n📢 Important\n\n\n\n\n\n(14/04/2025)\n\nComplete el curso Introduction to the Tidyverse R antes del 22 de abril\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Tuesdays 10:15 am - 11:45 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
+    "text": "📢 Syllabus\n\n\n\n\n\n(01/04/2025)\n\n🗓️ Know the syllabus here\n\n\n\n\n\n\n\n\n\n\n📢 Important\n\n\n\n\n\n(14/04/2025)\n\nComplete el curso Introduction to the Tidyverse R a más tardar el 23 de abril\n\n(28/04/2025)\n\nVea las notas parciales del Examen No. 1\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Tuesdays 10:15 am - 11:45 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
     "crumbs": [
       "🏠 Home"
     ]
@@ -464,5 +534,60 @@
     "title": "🗓️ Week 01 Spatial data models",
     "section": "Read this document",
     "text": "Read this document\nIt deals with planar and spherical coordinate systems (Bolstad, 2019)\nThen, answer this week questions"
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html",
+    "href": "2025/weeks/week04/page.html",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nTheoretical topics:",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#lecture-slides",
+    "href": "2025/weeks/week04/page.html#lecture-slides",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#practical-exercises",
+    "href": "2025/weeks/week04/page.html#practical-exercises",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nJoin your department’s municipalities to a DANE’s population table\nReview socio-economic data for your department (and summarize it)\n\nMake sure you bring your second map, the Indice de Probreza Multidimensional, in PDF format, to the classroom on 7th May\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#recommended-reading",
+    "href": "2025/weeks/week04/page.html#recommended-reading",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nRead Cartography: an Introduction and take notes",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#coursework",
+    "href": "2025/weeks/week04/page.html#coursework",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nCartography\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the geographic area covered by one IGAC map sheet at 1:100000 scale?\nAt 1:25000 scale map, how many cm2 represent 100 ha?\nAt 1:5000 scale map, 10 cm2 equals how many hectares?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
   }
 ]
