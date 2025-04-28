@@ -63,11 +63,11 @@
     "text": "Goal accomplished!\nVisualization of 2020 population per municipality (and OSM background):"
   },
   {
-    "objectID": "2025/weeks/week04/slides.html#look-for-socio-economic-data",
-    "href": "2025/weeks/week04/slides.html#look-for-socio-economic-data",
+    "objectID": "2025/weeks/week04/slides.html#indice-de-pobreza-multidimensional",
+    "href": "2025/weeks/week04/slides.html#indice-de-pobreza-multidimensional",
     "title": "🗓️ Week 4Non spatial joins",
-    "section": "Look for socio-economic data",
-    "text": "Look for socio-economic data\nThen, visualize them using QGIS (and start making your map)"
+    "section": "Indice de Pobreza Multidimensional",
+    "text": "Indice de Pobreza Multidimensional\n\nDownload the IPM shapefile\nVisualize them using QGIS\nMake your IPM map\nPrint your map\nBring the printed map on 7th May"
   },
   {
     "objectID": "2025/weeks/week03/page.html",
