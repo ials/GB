@@ -158,9 +158,9 @@ Ivan Lizarazo
 <h2 id="toc-title">What we will cover today:</h2>
 <ul>
 <li><a href="#/non-spatial-joins" id="/toc-non-spatial-joins">Non spatial joins</a></li>
-<li><a href="#/raw-table-reading-pre-processing-in-excel" id="/toc-raw-table-reading-pre-processing-in-excel">Raw table reading &amp; pre-processing in Excel</a></li>
-<li><a href="#/joining-the-two-tables-in-qgis" id="/toc-joining-the-two-tables-in-qgis">Joining the two tables in QGIS</a></li>
-<li><a href="#/to-do-before-next-week" id="/toc-to-do-before-next-week">To do before next week</a></li>
+<li><a href="#/joining-two-tables-in-qgis" id="/toc-joining-two-tables-in-qgis">Joining two tables in QGIS</a></li>
+<li><a href="#/poverty-mapping" id="/toc-poverty-mapping">Poverty Mapping</a></li>
+<li><a href="#/ipm-practical-exercise" id="/toc-ipm-practical-exercise">IPM practical exercise</a></li>
 </ul>
 </nav>
 </section>
@@ -182,11 +182,6 @@ Ivan Lizarazo
 <figure>
 <img src="figures/DANE_poblacion.png" width="85%" height="85%">
 </figure>
-</section></section>
-<section>
-<section id="raw-table-reading-pre-processing-in-excel" class="title-slide slide level1">
-<h1>Raw table reading &amp; pre-processing in Excel</h1>
-
 </section>
 <section id="original-table" class="slide level2">
 <h2>Original table</h2>
@@ -203,8 +198,8 @@ Ivan Lizarazo
 </figure>
 </section></section>
 <section>
-<section id="joining-the-two-tables-in-qgis" class="title-slide slide level1">
-<h1>Joining the two tables in QGIS</h1>
+<section id="joining-two-tables-in-qgis" class="title-slide slide level1">
+<h1>Joining two tables in QGIS</h1>
 <p>To join two tables, a common attribute is needed. While <em>their names</em> don’t matter, their <em>data types</em> do!</p>
 </section>
 <section id="edited-municipalities-table" class="slide level2">
@@ -243,19 +238,90 @@ Ivan Lizarazo
 </figure>
 </section></section>
 <section>
-<section id="to-do-before-next-week" class="title-slide slide level1">
-<h1>To do before next week</h1>
+<section id="poverty-mapping" class="title-slide slide level1">
+<h1>Poverty Mapping</h1>
 
 </section>
-<section id="indice-de-pobreza-multidimensional" class="slide level2">
-<h2><a href="https://bit.ly/2USdDVr"><em>Indice de Pobreza Multidimensional</em></a></h2>
-<ul>
-<li><p>Download the IPM shapefile</p></li>
-<li><p>Visualize them using QGIS</p></li>
-<li><p>Make your IPM map</p></li>
-<li><p>Print your map</p></li>
-<li><p>Bring the printed map on 7th May</p></li>
-</ul>
+<section id="monetary-poverty" class="slide level2">
+<h2>Monetary poverty</h2>
+<p>Poverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation).</p>
+</section>
+<section id="multidimensional-poverty" class="slide level2">
+<h2>Multidimensional poverty</h2>
+<p>Poverty is <em>hunger</em>. Poverty is <em>lack of shelter</em>. Poverty is <em>being sick and not being able to see a doctor</em>. Poverty is <em>not having access to school and not knowing how to read</em>. Poverty is <em>not having a job</em>, is <em>fear for the future</em>, <em>living one day at a time</em> (WB).</p>
+</section>
+<section id="poverty-atlas---us2.15" class="slide level2">
+<h2>Poverty Atlas - US$2.15</h2>
+<figure>
+<img src="figures/GSPA-1.png" width="75%" height="75%">
+</figure>
+</section>
+<section id="poverty-atlas---us3.65" class="slide level2">
+<h2>Poverty Atlas - US$3.65</h2>
+<figure>
+<img src="figures/GSPA-2.png" width="75%" height="75%">
+</figure>
+</section>
+<section id="poverty-atlas---us6.85" class="slide level2">
+<h2>Poverty Atlas - US$6.85</h2>
+<figure>
+<img src="figures/GSPA-3.png" width="75%" height="75%">
+</figure>
+</section></section>
+<section>
+<section id="ipm-practical-exercise" class="title-slide slide level1">
+<h1>IPM practical exercise</h1>
+
+</section>
+<section id="goal-1" class="slide level2">
+<h2>Goal</h2>
+<p>To obtain a multidimensional poverty’s shapefile and produce a meaningful &amp; appealing map for our department</p>
+<figure>
+<img src="figures/MPM_colombia.png" width="30%" height="30%">
+</figure>
+</section>
+<section id="indice-de-pobreza-multidimensional-ipm" class="slide level2">
+<h2>Indice de Pobreza Multidimensional (IPM)</h2>
+<p>Download shapefile of 2018 IPM from <a href="https://dane.maps.arcgis.com/apps/MapJournal/index.html?appid=54595086fdd74b6c9effd2fb8a9500dc">DANE</a></p>
+<figure>
+<img src="figures/dane.maps.png" width="70%" height="70%">
+</figure>
+</section>
+<section id="download-compressed-file" class="slide level2">
+<h2>Download compressed file</h2>
+<figure>
+<img src="figures/MPM-shp.png" width="85%" height="85%">
+</figure>
+</section>
+<section id="extract-and-check-data-dictionary" class="slide level2">
+<h2>Extract and check data dictionary</h2>
+<figure>
+<img src="figures/unzip.png" width="85%" height="85%">
+</figure>
+</section>
+<section id="reading-visualizating-the-shapefile" class="slide level2">
+<h2>Reading &amp; Visualizating the shapefile</h2>
+<figure>
+<img src="figures/simbologia.png" width="40%" height="40%">
+</figure>
+</section>
+<section id="mapping-multidimensional-poverty" class="slide level2">
+<h2>Mapping multidimensional poverty</h2>
+<p>Create an IPM visualization similar to this one:</p>
+<p align="center">
+<img src="figures/symbology1.png" width="70%" height="70%">
+</p>
+</section>
+<section id="mapping-cities-population" class="slide level2">
+<h2>Mapping cities’ population</h2>
+<p>Create a population visualization similar to this one:</p>
+<p align="center">
+<img src="figures/symbology2A.png" width="60%" height="60%">
+</p>
+</section>
+<section id="make-your-socioeconomic-maps" class="slide level2">
+<h2>Make your socioeconomic map(s)</h2>
+<p>Create a PDF with such your socioeconomic map a bring it to the 7th May class</p>
 
 
 </section></section>

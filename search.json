@@ -63,11 +63,95 @@
     "text": "Goal accomplished!\nVisualization of 2020 population per municipality (and OSM background):"
   },
   {
-    "objectID": "2025/weeks/week04/slides.html#indice-de-pobreza-multidimensional",
-    "href": "2025/weeks/week04/slides.html#indice-de-pobreza-multidimensional",
+    "objectID": "2025/weeks/week04/slides.html#monetary-poverty",
+    "href": "2025/weeks/week04/slides.html#monetary-poverty",
     "title": "🗓️ Week 4Non spatial joins",
-    "section": "Indice de Pobreza Multidimensional",
-    "text": "Indice de Pobreza Multidimensional\n\nDownload the IPM shapefile\nVisualize them using QGIS\nMake your IPM map\nPrint your map\nBring the printed map on 7th May"
+    "section": "Monetary poverty",
+    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#multidimensional-poverty",
+    "href": "2025/weeks/week04/slides.html#multidimensional-poverty",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Multidimensional poverty",
+    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#poverty-atlas---us2.15",
+    "href": "2025/weeks/week04/slides.html#poverty-atlas---us2.15",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Poverty Atlas - US$2.15",
+    "text": "Poverty Atlas - US$2.15"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#poverty-atlas---us3.65",
+    "href": "2025/weeks/week04/slides.html#poverty-atlas---us3.65",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Poverty Atlas - US$3.65",
+    "text": "Poverty Atlas - US$3.65"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#poverty-atlas---us6.85",
+    "href": "2025/weeks/week04/slides.html#poverty-atlas---us6.85",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Poverty Atlas - US$6.85",
+    "text": "Poverty Atlas - US$6.85"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#goal-1",
+    "href": "2025/weeks/week04/slides.html#goal-1",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Goal",
+    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "href": "2025/weeks/week04/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Indice de Pobreza Multidimensional (IPM)",
+    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#download-compressed-file",
+    "href": "2025/weeks/week04/slides.html#download-compressed-file",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Download compressed file",
+    "text": "Download compressed file"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#extract-and-check-data-dictionary",
+    "href": "2025/weeks/week04/slides.html#extract-and-check-data-dictionary",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Extract and check data dictionary",
+    "text": "Extract and check data dictionary"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#reading-visualizating-the-shapefile",
+    "href": "2025/weeks/week04/slides.html#reading-visualizating-the-shapefile",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Reading & Visualizating the shapefile",
+    "text": "Reading & Visualizating the shapefile"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#mapping-multidimensional-poverty",
+    "href": "2025/weeks/week04/slides.html#mapping-multidimensional-poverty",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Mapping multidimensional poverty",
+    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#mapping-cities-population",
+    "href": "2025/weeks/week04/slides.html#mapping-cities-population",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Mapping cities’ population",
+    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#make-your-socioeconomic-maps",
+    "href": "2025/weeks/week04/slides.html#make-your-socioeconomic-maps",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Make your socioeconomic map(s)",
+    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the 7th May class"
   },
   {
     "objectID": "2025/weeks/week03/page.html",
