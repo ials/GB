@@ -25,9 +25,9 @@ You can find the slides [here](slides.qmd)
 
 Complete the two remaining courses on due time:
 
-- [](figures/curso3.png)
+- Data Manipulation with dplyr
 
-- [](figures/curso5.png)
+- Joining Data with dplyr
 
 ## 📚 Recommended Reading 
 
