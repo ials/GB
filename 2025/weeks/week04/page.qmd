@@ -13,11 +13,17 @@ You can find the slides [here](slides.qmd)
 
 ## **Practical exercises**:
 
--  Join your department's municipalities to a DANE's population table
+-  Download the Indice de Probreza Multidimensional (IPM) shapefile
 
--  Review socio-economic data for your department (and summarize it)
+-  Preprocess the shapefile to cover only your department
 
-**Make sure you bring your second map, the Indice de Probreza Multidimensional, in PDF format,  to the classroom on 7th May**
+-  Add municipalities, population, roads, cities, and IPM layers to a new QGIS project
+
+-  Define symbology for each layer (add labels as needed)
+
+-  Make a map of IPM and colour print it 
+
+**Make sure you bring the printed IPM map to the classroom on 7th May**
 
 🎥 
 
