@@ -1,5 +1,5 @@
 ---
-title: "🗓️ Week 5 - Map of multidimensional poverty"
+title: "🗓️ Week 5 -Spatial predicates "
 ---
 
 In this week, we will cover the following topics:
@@ -8,16 +8,13 @@ In this week, we will cover the following topics:
 
 ## 👨‍🏫 Lecture Slides 
 
-You can find the slides [here](slides.qmd)
-
+You can find the slides [here](https://drive.google.com/file/d/1aNTZQyOpfkRgBDVFWyEOalGDYYHwiQ6i/view?usp=drive_link)
 
 ## **Practical exercises**:
 
--  Download and visualize a DANE's Multidimensional Poverty Index
+-  Polish the socioeconomic map for your department
 
--  Create a socioeconomic map for your department
-
-*Make sure you bring your second map, the socioeconomic one for your department, in PDF format,  to the classroom on 4th December*
+*Make sure you bring printed your second map to the classroom on 6th May*
 
 🎥 
 
