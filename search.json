@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "2025/weeks/week06/slides.html#what-is-eva",
+    "href": "2025/weeks/week06/slides.html#what-is-eva",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "What is EVA?",
+    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
+  },
+  {
+    "objectID": "2025/weeks/week06/slides.html#eva-2023",
+    "href": "2025/weeks/week06/slides.html#eva-2023",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA 2023",
+    "text": "EVA 2023\nGo to UPRA 2023 webpage\nClick on the “Agricola” tab:"
+  },
+  {
+    "objectID": "2025/weeks/week06/slides.html#eva-agricola",
+    "href": "2025/weeks/week06/slides.html#eva-agricola",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nClick on the “Agricultural Database 2023”"
+  },
+  {
+    "objectID": "2025/weeks/week06/slides.html#eva-agricola-1",
+    "href": "2025/weeks/week06/slides.html#eva-agricola-1",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
+  },
+  {
+    "objectID": "2025/weeks/week06/slides.html#resultados-2023",
+    "href": "2025/weeks/week06/slides.html#resultados-2023",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Resultados 2023",
+    "text": "Resultados 2023\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
+  },
+  {
+    "objectID": "2025/weeks/week06/slides.html#agricultural-database-2023",
+    "href": "2025/weeks/week06/slides.html#agricultural-database-2023",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Agricultural Database 2023",
+    "text": "Agricultural Database 2023\n\nDownload the Base agrícola 2019 - 2023.xlsx file\nRead the file in Excel\nEdit the file and save it as a csv file"
+  },
+  {
     "objectID": "2025/weeks/week05/slides.html#monetary-poverty",
     "href": "2025/weeks/week05/slides.html#monetary-poverty",
     "title": "🗓️ Week 5Multidimensional poverty",
@@ -850,6 +892,61 @@
     "crumbs": [
       "🗓️ Weeks",
       "Week 05"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week06/page.html",
+    "href": "2025/weeks/week06/page.html",
+    "title": "🗓️ Week 6- Map of agricultural production",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nPractical exercise:",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week06/page.html#lecture-slides",
+    "href": "2025/weeks/week06/page.html#lecture-slides",
+    "title": "🗓️ Week 6- Map of agricultural production",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week06/page.html#practical-exercises",
+    "href": "2025/weeks/week06/page.html#practical-exercises",
+    "title": "🗓️ Week 6- Map of agricultural production",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDownload UPRA 2023 Base Agrícola\nCreate an agricultural production map for your department\n\nMake sure you bring your third map, the agricultural production for your department, in PDF format, to the classroom on 28th May\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week06/page.html#recommended-reading",
+    "href": "2025/weeks/week06/page.html#recommended-reading",
+    "title": "🗓️ Week 6- Map of agricultural production",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nRead UPRA 2023 Resultados Evaluación agropecuaria",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week06/page.html#coursework",
+    "href": "2025/weeks/week06/page.html#coursework",
+    "title": "🗓️ Week 6- Map of agricultural production",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nEVA 2023 (UPRA)\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the most important crop in your department?\nWhat is the most productive crop in your department?\nWhat is the most important group of crops per municipality?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
     ]
   }
 ]
