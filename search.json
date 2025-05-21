@@ -1,5 +1,117 @@
 [
   {
+    "objectID": "2025/weeks/week07/slides.html#monetary-poverty",
+    "href": "2025/weeks/week07/slides.html#monetary-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Monetary poverty",
+    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#multidimensional-poverty",
+    "href": "2025/weeks/week07/slides.html#multidimensional-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Multidimensional poverty",
+    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#poverty-atlas---us2.15",
+    "href": "2025/weeks/week07/slides.html#poverty-atlas---us2.15",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$2.15",
+    "text": "Poverty Atlas - US$2.15"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#poverty-atlas---us3.65",
+    "href": "2025/weeks/week07/slides.html#poverty-atlas---us3.65",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$3.65",
+    "text": "Poverty Atlas - US$3.65"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#poverty-atlas---us6.85",
+    "href": "2025/weeks/week07/slides.html#poverty-atlas---us6.85",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$6.85",
+    "text": "Poverty Atlas - US$6.85"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#goal",
+    "href": "2025/weeks/week07/slides.html#goal",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Goal",
+    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "href": "2025/weeks/week07/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Indice de Pobreza Multidimensional (IPM)",
+    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#download-compressed-file",
+    "href": "2025/weeks/week07/slides.html#download-compressed-file",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Download compressed file",
+    "text": "Download compressed file"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#extract-and-check-data-dictionary",
+    "href": "2025/weeks/week07/slides.html#extract-and-check-data-dictionary",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Extract and check data dictionary",
+    "text": "Extract and check data dictionary"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#mapping-multidimensional-poverty",
+    "href": "2025/weeks/week07/slides.html#mapping-multidimensional-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Mapping multidimensional poverty",
+    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#mapping-cities-population",
+    "href": "2025/weeks/week07/slides.html#mapping-cities-population",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Mapping cities’ population",
+    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#make-your-socioeconomic-maps",
+    "href": "2025/weeks/week07/slides.html#make-your-socioeconomic-maps",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Make your socioeconomic map(s)",
+    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the 4th December class"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#what-is-eva",
+    "href": "2025/weeks/week07/slides.html#what-is-eva",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "What is EVA?",
+    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#eva-agricola",
+    "href": "2025/weeks/week07/slides.html#eva-agricola",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nClick on the “Agricola” tab:"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#eva-agricola-1",
+    "href": "2025/weeks/week07/slides.html#eva-agricola-1",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#our-tasks-today",
+    "href": "2025/weeks/week07/slides.html#our-tasks-today",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Our tasks today",
+    "text": "Our tasks today\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
+  },
+  {
     "objectID": "2025/weeks/week06/slides.html#what-is-eva",
     "href": "2025/weeks/week06/slides.html#what-is-eva",
     "title": "🗓️ Week 5Multidimensional poverty",
@@ -545,7 +657,7 @@
     "href": "2025/index.html",
     "title": "2015896 - GEOMATICA BASICA",
     "section": "",
-    "text": "📢 Syllabus\n\n\n\n\n\n(01/04/2025)\n\n🗓️ Know the syllabus here\n\n\n\n\n\n\n\n\n\n\n📢 Important\n\n\n\n\n\n(15/04/2025)\n\nNotas del Examen 1\n\n(28/04/2025)\n\nNotas parciales del Examen No. 1\n\n\n\n\n\n\n\n\n\n\n📢 Important\n\n\n\n\n\n(05/05/2025)\n\nComplete the courses for the [Examen No. 1] not later than 14.05.2025\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Tuesdays 10:15 am - 11:45 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
+    "text": "📢 Syllabus\n\n\n\n\n\n(01/04/2025)\n\n🗓️ Know the syllabus here\n\n\n\n\n\n\n\n\n\n\n📢 Notas\n\n\n\n\n\n(15/04/2025)\n\nNotas del Examen 1\n\n(28/04/2025)\n\nNotas parciales del Examen No. 1\n\n\n\n\n\n\n\n\n\n\n📢 Important\n\n\n\n\n\n(20/05/2025)\n\nBring printed the Informe No. 1 to the classroom on 21.05.2025 at 8:59 am.\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Tuesdays 10:15 am - 11:45 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
     "crumbs": [
       "🏠 Home"
     ]
@@ -947,6 +1059,50 @@
     "crumbs": [
       "🗓️ Weeks",
       "Week 06"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week07/page.html",
+    "href": "2025/weeks/week07/page.html",
+    "title": "🗓️ Week 7- Writing R Notebooks",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nR Notebooks:",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 07"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week07/page.html#lecture-slides",
+    "href": "2025/weeks/week07/page.html#lecture-slides",
+    "title": "🗓️ Week 7- Writing R Notebooks",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 07"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week07/page.html#practical-exercises",
+    "href": "2025/weeks/week07/page.html#practical-exercises",
+    "title": "🗓️ Week 7- Writing R Notebooks",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nCreate and publish the simple features notebook\n\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 07"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week07/page.html#coursework",
+    "href": "2025/weeks/week07/page.html#coursework",
+    "title": "🗓️ Week 7- Writing R Notebooks",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 Make sure you create and publish this week notebook 🚧",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 07"
     ]
   }
 ]
