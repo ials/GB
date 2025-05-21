@@ -11,8 +11,8 @@ project:
     - "2025/weeks/week04/*.qmd"
     - "2025/weeks/week05/*.qmd"
     - "2025/weeks/week06/*.qmd"
+    - "2025/weeks/week07/*.qmd"
     
-
 
 website:
   title: "GEOMATICA BASICA 2025"
@@ -64,6 +64,11 @@ website:
            text: Week 06
            contents:
              - href: 2025/weeks/week06/page.qmd
+               text: 👨‍🏫 Lecture Material
+         - href: 2025/weeks/week07/page.qmd
+           text: Week 07
+           contents:
+             - href: 2025/weeks/week07/page.qmd
                text: 👨‍🏫 Lecture Material
          
 

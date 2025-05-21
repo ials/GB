@@ -13,14 +13,14 @@ You can find the slides [here](https://drive.google.com/file/d/1eqrXXR_0dAapvCg-
 
 ## **Practical exercises**:
 
--  Create and publish your first R Notebook
+-  Create and publish the [*simple features notebook*](https://rpubs.com/ials2un/GB_simple_features)
 
 🎥 
 
 
 ## ✍️ Coursework
 
-🚧 Make sure you have completed all homeworks before taking *Examen No. 1* 🚧
+🚧 Make sure you create and publish this week notebook  🚧
 
 
 
