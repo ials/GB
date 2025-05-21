@@ -13,8 +13,8 @@ format: html
 
 :::
 
-::: {.callout-note collapse=false}
-## 📢 Important
+::: {.callout-note collapse=true}
+## 📢 Notas
 
 (15/04/2025)
 
