@@ -16,7 +16,11 @@ format: html
 ::: {.callout-note collapse=true}
 ## 📢 Notas
 
-(15/04/2025)
+(27/05/2025)
+
+- Notas del [Informe 1](https://drive.google.com/file/d/17K9OwZoaG1qOXnXjZ0JghOomU5Wjb99F/view?usp=sharing)
+
+(15/05/2025)
 
 - Notas del [Examen 1](https://drive.google.com/file/d/14HAu2C3Jeks7et75OxwE-uVuW_kTsUbW/view?usp=sharing)
 
