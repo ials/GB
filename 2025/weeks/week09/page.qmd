@@ -16,11 +16,11 @@ Use your keypad to navigate the slides.
 
 ## R Practical
 
-Detailed instructions are provided on 15th January in the classroom. 
+[How to get digital elevation models (DEMs) from R](https://rpubs.com/ials2un/otro_dem)
 
 ## Useful references:
 
-To be provided
+[Terrain Analysis in R](https://zia207.quarto.pub/digital-terrain-analysis.html)
 
 🎥 
 
