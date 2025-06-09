@@ -1,15 +1,15 @@
 ---
-title: "🗓️ Week 10 - Digital elevation data"
+title: "🗓️ Week 10 - Geomorphometry"
 ---
 
-In this week, we will learn  about digital elevation models (DEMs). 
+In this week, we will learn how to obtain geomorphometric variables from digital elevation models (DEMs). 
 
 
 ## 👨‍🏫 Lecture Slides 
 
 We'll learn:
 
-- [What is a DEM](https://equatorstudios.com/what-is-a-digital-elevation-model-dem/)?
+- [What is geomorphometry](https://www.geomorphometry.org/uploads/pdf/Pike_2008_Geomorphometry_ch1.pdf)
 
 - What variables can be derived from a DEM?
 
@@ -21,18 +21,19 @@ We'll learn:
 
 #### DEM processing and analysis
 ::: {.callout-important collapse="true"}
-[DEM notebook](https://rpubs.com/ials2un/dem_analysis)
+[Geomorphometric terrain attributes](https://rpubs.com/ials2un/geomorphometric)
 :::
 
 
 ## Homework
-Replicate and publish the DEM notebook
+Replicate and publish the *Geomorphometric* notebook within this week.
 🎥 
 
 ## 📚 Recommended Reading 
 
-Study [how slope works](https://pro.arcgis.com/en/pro-app/3.0/tool-reference/spatial-analyst/how-slope-works.htm).
+- Study [how slope works](https://pro.arcgis.com/en/pro-app/3.0/tool-reference/spatial-analyst/how-slope-works.htm).
 
+- Study [how aspect works](https://pro.arcgis.com/en/pro-app/3.3/tool-reference/spatial-analyst/how-aspect-works.htm).
 
 
 
