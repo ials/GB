@@ -6,21 +6,20 @@ In this week, we will learn basic concepts about terrain characterization. In ad
 
 ## 👨‍🏫 Lecture Slides 
 
-Either click on the slide area below or click [here](slides.qmd) to view it in fullscreen.
-Use your keypad to navigate the slides.
-
-<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
-<iframe src="slides.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
-</div>
+Click [here](https://drive.google.com/file/d/16yuiERg4dpc0HVfHOjqQ29S6xyG_sGat/view?usp=sharing) to view it in fullscreen.
 
 
 ## R Practical
 
-Detailed instructions are provided on 22th January in the classroom. 
+Replicate and publish [this notebook](https://rpubs.com/ials2un/geomorphometric) within this week.  
 
 ## Useful references:
 
-[Geomorphometry: a brief guide](https://drive.google.com/file/d/1Rm0C7q8I0hQvknaYLRlmvSOeBJvzKHc9/view?usp=drive_link)
+- [Geomorphometry: a brief guide](https://drive.google.com/file/d/1Rm0C7q8I0hQvknaYLRlmvSOeBJvzKHc9/view?usp=drive_link)
+
+- [How slope works](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-slope-works.htm)
+
+- [How aspect works](https://pro.arcgis.com/en/pro-app/3.3/tool-reference/spatial-analyst/how-aspect-works.htm)
 
 🎥 
 
