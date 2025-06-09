@@ -11,7 +11,7 @@ We'll learn:
 
 - [What is geomorphometry](https://www.geomorphometry.org/uploads/pdf/Pike_2008_Geomorphometry_ch1.pdf)
 
-- What variables can be derived from a DEM?
+- [What variables can be derived from a DEM?](https://drive.google.com/file/d/15cJRUeEQw2nMi8VK9Lk8v1frv_DC3JsY/view?usp=sharing)
 
 - How to calculate slope from a DEM?
 
