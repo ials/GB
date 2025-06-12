@@ -1,5 +1,5 @@
 ---
-title: "🗓️ Week 12 -Getting soil data properties"
+title: "🗓️ Week 11 -Getting soil data properties"
 ---
 
 In this week, we will learn about *SoilGrids*, a global dataset of soil properties obtained using soil data and machine learning techniques. In addition, we will learn how to download such data for a particular area of interest.
