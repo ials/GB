@@ -1,0 +1,33 @@
+---
+title: "🗓️ Week 11 - Vocación de Uso  de Tierras"
+---
+
+
+
+## 👨‍🏫 Slides
+
+
+
+
+## 👨‍🏫 Exercises
+
+- Download IGAC's [Vocación de Uso - 1:100.000](https://igacoffice365.sharepoint.com/:u:/g/Edjub-J3oeRGjZaTUErji3cBHyE5q__4KKUTK0DX7b1Mqg) to your work directory
+
+- Unzip the ag_100k_vocacion_uso_2017.zip file
+
+- Add the shapefile to a new QGIS project
+
+- Clip the shapefile to match your department boundaries
+
+- Interpret & analyze the *vocacion de uso del suelo* in your departmen
+
+## Useful references:
+
+[Clasificación de las tierras por su capacidad de uso](https://www.igac.gov.co/sites/default/files/listadomaestro/in-gag-pc05-02_clasificacion_de_las_tierras_por_su_capacidad_de_uso.pdf)
+
+🎥 
+
+
+
+
+

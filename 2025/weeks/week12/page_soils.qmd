@@ -10,7 +10,7 @@ In this week, we will learn about *SoilGrids*, a global dataset of soil properti
 
 ## R Practical
 
-Detailed instructions are provided on 18th June in the classroom. 
+Detailed instructions are provided on 5th February in the classroom. 
 
 ## Useful references:
 

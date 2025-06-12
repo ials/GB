@@ -1,0 +1,32 @@
+---
+title: "🗓️ Week 13 - Spatial Interpolation"
+---
+
+In this week, we will learn about *spatial interpolation*, a geostatistical technique for estimating values of continuous surfaces from point values sampled in the field.
+
+## 👨‍🏫 Slides
+
+You can find the slides [here](slides.qmd)
+
+## R Practical
+
+Detailed instructions are provided on 12th February in the classroom. 
+
+## ✍️ Informe No.2 deadline
+
+🚧 Make sure you send the link to your department's *interpolation notebook* before 27th February at 11:59 pm 🚧
+
+## Useful references:
+
+[Kriging Interpolation](https://www.publichealth.columbia.edu/research/population-health-methods/kriging-interpolation)
+
+[Spatial interpolation](https://rpubs.com/ials2un/Spatial_Interpolation)
+
+[Carto tutorial](https://carto.com/blog/spatial-interpolation-techniques-tutorial)
+
+🎥 
+
+
+
+
+
