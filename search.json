@@ -184,7 +184,7 @@
   {
     "objectID": "2025/weeks/week12/page.html",
     "href": "2025/weeks/week12/page.html",
-    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "title": "🗓️ Week 12 - Spatial Interpolation",
     "section": "",
     "text": "In this week, we will learn about spatial interpolation, a geostatistical technique for estimating values of continuous surfaces from point values sampled in the field.",
     "crumbs": [
@@ -195,7 +195,7 @@
   {
     "objectID": "2025/weeks/week12/page.html#slides",
     "href": "2025/weeks/week12/page.html#slides",
-    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "title": "🗓️ Week 12 - Spatial Interpolation",
     "section": "👨‍🏫 Slides",
     "text": "👨‍🏫 Slides\nYou can find the slides here",
     "crumbs": [
@@ -206,7 +206,7 @@
   {
     "objectID": "2025/weeks/week12/page.html#r-practical",
     "href": "2025/weeks/week12/page.html#r-practical",
-    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "title": "🗓️ Week 12 - Spatial Interpolation",
     "section": "R Practical",
     "text": "R Practical\nDetailed instructions are provided on 12th February in the classroom.",
     "crumbs": [
@@ -217,7 +217,7 @@
   {
     "objectID": "2025/weeks/week12/page.html#informe-no.2",
     "href": "2025/weeks/week12/page.html#informe-no.2",
-    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "title": "🗓️ Week 12 - Spatial Interpolation",
     "section": "✍️ Informe No.2",
     "text": "✍️ Informe No.2\n🚧 It should include two notebooks: Geomorphometric terrain attributes and Soil property interpolation 🚧",
     "crumbs": [
@@ -228,7 +228,7 @@
   {
     "objectID": "2025/weeks/week12/page.html#useful-references",
     "href": "2025/weeks/week12/page.html#useful-references",
-    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "title": "🗓️ Week 12 - Spatial Interpolation",
     "section": "Useful references:",
     "text": "Useful references:\nKriging Interpolation\nSpatial interpolation\nCarto tutorial\n🎥",
     "crumbs": [
