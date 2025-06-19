@@ -4,13 +4,21 @@ subtitle: "Academic Year: 2025"
 format: html
 ---
 
-::: {.callout-important collapse=false}
+::: {.callout-important collapse=true}
 ## 📢 Syllabus
 
 (01/04/2025)
 
 - [🗓️ Know the syllabus here](/2025/syllabus.qmd)
 
+:::
+
+::: {.callout-important collapse=true}
+## 📢 Diligencie esta encuesta
+
+(19/06/2025)
+
+- [Experiencia como estudiante](https://forms.gle/XBdaoSCu8JbHqMhf8)
 :::
 
 ::: {.callout-note collapse=true}
