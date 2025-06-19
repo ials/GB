@@ -10,7 +10,7 @@ You can find the slides [here](slides.qmd)
 
 ## R Practical
 
-Detailed instructions are provided on 12th February in the classroom. 
+Detailed instructions are provided in the classroom. 
 
 ## ✍️ Informe No.2 
 
