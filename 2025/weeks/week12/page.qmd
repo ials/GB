@@ -12,9 +12,9 @@ You can find the slides [here](slides.qmd)
 
 Detailed instructions are provided on 12th February in the classroom. 
 
-## ✍️ Informe No.2 deadline
+## ✍️ Informe No.2 
 
-🚧 Make sure you send the link to your department's *interpolation notebook* before 27th February at 11:59 pm 🚧
+🚧 It should include two notebooks: *Geomorphometric terrain attributes* and   *Soil property interpolation*  🚧
 
 ## Useful references:
 
