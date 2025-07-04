@@ -4,6 +4,17 @@ subtitle: "Academic Year: 2025"
 format: html
 ---
 
+
+
+::: {.callout-important collapse=false}
+## 📢 Entrega Informe No. 2
+
+(02/07/2025)
+
+Diligencie [este formato](https://drive.google.com/file/d/1Qncp1qpuJ7R_gd03I3RTswpxVOxMeWjU/view?usp=drive_link) y súbalo a [este drive](https://drive.google.com/drive/folders/1L0Gj86Qem-LrVQC3e0GDnd13DqdVf3hF?usp=sharing) antes del 23 de Julio a las 11:59 pm. 
+
+:::
+
 ::: {.callout-important collapse=true}
 ## 📢 Syllabus
 
@@ -12,6 +23,7 @@ format: html
 - [🗓️ Know the syllabus here](/2025/syllabus.qmd)
 
 :::
+
 
 ::: {.callout-important collapse=true}
 ## 📢 Diligencie esta encuesta
@@ -37,12 +49,12 @@ format: html
 - Notas parciales del [Examen No. 1](https://drive.google.com/file/d/1aRwq5334m4QLxKsEU2dqiSx81dVYItQa/view?usp=sharing)
 :::
 
-::: {.callout-note collapse=false}
+::: {.callout-note collapse=true}
 ## 📢 Important
 
-(20/05/2025)
+(25/06/2025)
 
-- Bring printed the *Mapa de produccion agrícola municipal*  to the classroom on *28.05.2025*.
+- Your *Geomorphometry* and *Spatial Interpolation* notebooks will be reviewed in the classroom on *03.07.2025*.
 :::
 
 

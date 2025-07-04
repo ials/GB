@@ -2,11 +2,7 @@
 title: "🗓️ Week 14 - Remote Sensing"
 ---
 
-In this week, we will learn about *remote sensing*, i.e. the obtention of thematic information from aerial and satellite images.
-
-## 👨‍🏫 Notas Examen No. 2 (25% nota final)
-
-![](figures/Examen2.png)
+In this week, we will learn about *remote sensing*, i.e. the tecnique allowing production of thematic information from aerial and satellite images.
 
 ## 👨‍🏫 Slides
 
@@ -14,13 +10,7 @@ You can find the slides [here](https://appliedsciences.nasa.gov/sites/default/fi
 
 ## R Practical
 
-Detailed instructions are provided on 19th February in the classroom. 
-
-## ✍️ Informe No.2 deadline
-
-🚧 Make sure you send via e-mail the RPubs' link to your department's *interpolation notebook* before 27th February at 11:59 pm 🚧
-
-🚧 Do not send .Rmd nor .html files 🚧
+Detailed instructions are provided on 9th and 10th  July in the classroom. 
 
 ## Useful links:
 
