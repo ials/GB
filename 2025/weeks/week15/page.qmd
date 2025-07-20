@@ -5,12 +5,15 @@ title: "🗓️ Week 15 - Examen No. 2"
 
 ## 👨‍🏫 Notas Examen No. 2 (25%)
 
+::: {.callout-important collapse=true}
 ![](figures/GB_EXAMEN2.png)
+:::
 
-## 👨‍🏫 Notas Parciales  (75%)
+## 👨‍🏫 Notas Parciales 18.07.2025 (75%)
 
-![](figures/GB-Notas-18.07.2025.png.png)
-
+::: {.callout-important collapse=true}
+![](figures/GB-Notas-18.07.2025.png)
+:::
 
 ## Your Task:
 
