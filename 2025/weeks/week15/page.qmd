@@ -1,18 +1,16 @@
 ---
-title: "🗓️ Week 15 - Final grades"
+title: "🗓️ Week 15 - Examen No. 2"
 ---
 
 
-## 👨‍🏫 Notas Consolidadas (100%)
+## 👨‍🏫 Notas Examen No. 2 (25%)
 
-![](figures/N1.png)
-![](figures/N2.png)
+![](figures/GB_EXAMEN2.png)
 
-## Useful links:
 
-[Landsat Explorer](https://livingatlas2.arcgis.com/landsatexplorer/)
+## Your Task:
 
-[Sentinel Explorer](https://sentinel2explorer.esri.com/)
+Keep writing your Informe No. 2.
 
 🎥 
 
