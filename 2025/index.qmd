@@ -4,59 +4,14 @@ subtitle: "Academic Year: 2025"
 format: html
 ---
 
-
-
 ::: {.callout-important collapse=false}
-## 📢 Entrega Informe No. 2
-
-(02/07/2025)
-
-Diligencie [este formato](https://drive.google.com/file/d/1Qncp1qpuJ7R_gd03I3RTswpxVOxMeWjU/view?usp=drive_link) y súbalo a [este drive](https://drive.google.com/drive/folders/1L0Gj86Qem-LrVQC3e0GDnd13DqdVf3hF?usp=sharing) antes del 23 de Julio a las 11:59 pm. 
-
-:::
-
-::: {.callout-important collapse=true}
 ## 📢 Syllabus
 
-(01/04/2025)
+(27/08/2025)
 
 - [🗓️ Know the syllabus here](/2025/syllabus.qmd)
 
 :::
-
-
-::: {.callout-important collapse=true}
-## 📢 Diligencie esta encuesta
-
-(19/06/2025)
-
-- [Experiencia como estudiante](https://forms.gle/XBdaoSCu8JbHqMhf8)
-:::
-
-::: {.callout-note collapse=true}
-## 📢 Notas
-
-(27/05/2025)
-
-- Notas del [Informe 1](https://drive.google.com/file/d/17K9OwZoaG1qOXnXjZ0JghOomU5Wjb99F/view?usp=sharing)
-
-(15/05/2025)
-
-- Notas del [Examen 1](https://drive.google.com/file/d/14HAu2C3Jeks7et75OxwE-uVuW_kTsUbW/view?usp=sharing)
-
-(28/04/2025)
-
-- Notas parciales del [Examen No. 1](https://drive.google.com/file/d/1aRwq5334m4QLxKsEU2dqiSx81dVYItQa/view?usp=sharing)
-:::
-
-::: {.callout-note collapse=true}
-## 📢 Important
-
-(25/06/2025)
-
-- Your *Geomorphometry* and *Spatial Interpolation* notebooks will be reviewed in the classroom on *03.07.2025*.
-:::
-
 
 # 🧑🏻‍🏫 Our Team
 
@@ -72,7 +27,7 @@ _ASSOCIATE PROFESSOR_ <br/>
 
 Office Hours: 
 
-- When: Tuesdays 10:15 am - 11:45 am
+- When: Tuesdays 10:30 am - 11:30 am
 - Where: Oficina 333
 - How to book: via e-mail
 
