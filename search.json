@@ -1,5 +1,82 @@
 [
   {
+    "objectID": "2025/weeks/week02/slides.html#discrete-objects-view",
+    "href": "2025/weeks/week02/slides.html#discrete-objects-view",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Discrete objects view",
+    "text": "Discrete objects view\nA discrete object has known and definable boundaries"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#continuous-surface-view",
+    "href": "2025/weeks/week02/slides.html#continuous-surface-view",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Continuous surface view",
+    "text": "Continuous surface view\nA continuous surface represents phenomena which may vary from place to place"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#points-and-lines",
+    "href": "2025/weeks/week02/slides.html#points-and-lines",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Points and lines",
+    "text": "Points and lines"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#polygons",
+    "href": "2025/weeks/week02/slides.html#polygons",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Polygons",
+    "text": "Polygons"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#multiple-representations",
+    "href": "2025/weeks/week02/slides.html#multiple-representations",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Multiple representations",
+    "text": "Multiple representations"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#spaghetti",
+    "href": "2025/weeks/week02/slides.html#spaghetti",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Spaghetti",
+    "text": "Spaghetti"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#topology",
+    "href": "2025/weeks/week02/slides.html#topology",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Topology",
+    "text": "Topology"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#gridded-structure",
+    "href": "2025/weeks/week02/slides.html#gridded-structure",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Gridded structure",
+    "text": "Gridded structure"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#cell-size",
+    "href": "2025/weeks/week02/slides.html#cell-size",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Cell size",
+    "text": "Cell size"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#cell-asignment",
+    "href": "2025/weeks/week02/slides.html#cell-asignment",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Cell asignment",
+    "text": "Cell asignment"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#read-this-document",
+    "href": "2025/weeks/week02/slides.html#read-this-document",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Read this document",
+    "text": "Read this document\nIt deals with planar and spherical coordinate systems (Bolstad, 2019)\nThen, answer this week questions"
+  },
+  {
     "objectID": "2025/weeks/week01/slides2.html#your-lecturer",
     "href": "2025/weeks/week01/slides2.html#your-lecturer",
     "title": "🗓️ Week 01 Introduction",
@@ -124,11 +201,11 @@
     ]
   },
   {
-    "objectID": "2025/weeks/week01/page.html#recommended-reading-and-watching",
-    "href": "2025/weeks/week01/page.html#recommended-reading-and-watching",
+    "objectID": "2025/weeks/week01/page.html#practical-work",
+    "href": "2025/weeks/week01/page.html#practical-work",
     "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
-    "section": "📚 Recommended Reading (and watching)",
-    "text": "📚 Recommended Reading (and watching)\n\nCheck the end of slides for the list of references cited in the lecture.",
+    "section": "📚 Practical work",
+    "text": "📚 Practical work\n\nDownload QGIS 3.40 lTR and install it on your computer\nDownload Colombia’s datasets from Diva GIS and bring them to the class",
     "crumbs": [
       "🗓️ Weeks",
       "Week 01"
@@ -288,5 +365,49 @@
     "title": "🗓️ Week 01 Introduction",
     "section": "Supplementary lecture",
     "text": "Supplementary lecture\nYou can find a good introduction to geomatics in this document\nChapter 1 from Gomarasca, M. Basics of Geomatics. Springer, 2009."
+  },
+  {
+    "objectID": "2025/weeks/week02/page.html",
+    "href": "2025/weeks/week02/page.html",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nTheoretical topics:\nWhat are the most important characteristics of geographic data?\nHow are geographic data transformed into information?\nWhat conceptual models are used to represent geographic objects and phenomena\nWhat are the most commonly used data structures and formats?\nPractical exercises:\nMake a topographic map of your department\nReview of geographic metadata",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 02"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week02/page.html#lecture-slides",
+    "href": "2025/weeks/week02/page.html#lecture-slides",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 02"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week02/page.html#recommended-reading",
+    "href": "2025/weeks/week02/page.html#recommended-reading",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nRead this document and take notes",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 02"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week02/page.html#coursework",
+    "href": "2025/weeks/week02/page.html#coursework",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nQuestion 1\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuestion 2\n\n\n\n\n\n\nImportant",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 02"
+    ]
   }
 ]

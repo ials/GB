@@ -10,9 +10,9 @@
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.34">
 
-  <meta name="author" content="Ivan Lizarazo(#)">
-  <meta name="dcterms.date" content="9 August 2023">
-  <title>GEOMATICA BASICA 2025 – 🗓️ Week 01  Introduction</title>
+  <meta name="author" content="Ivan Lizarazo">
+  <meta name="dcterms.date" content="3 September 2025">
+  <title>GEOMATICA BASICA 2025 – 🗓️ Week 01  Spatial data models</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -124,10 +124,10 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="🗓️ Week 01 Introduction – GEOMATICA BASICA 2025">
+<meta property="og:title" content="🗓️ Week 01 Spatial data models – GEOMATICA BASICA 2025">
 <meta property="og:description" content="2015896– GEOMATICA BASICA">
 <meta property="og:site_name" content="GEOMATICA BASICA 2025">
-<meta name="twitter:title" content="🗓️ Week 01 Introduction – GEOMATICA BASICA 2025">
+<meta name="twitter:title" content="🗓️ Week 01 Spatial data models – GEOMATICA BASICA 2025">
 <meta name="twitter:description" content="2015896– GEOMATICA BASICA">
 <meta name="twitter:creator" content="@<twitter-handle>">
 <meta name="twitter:site" content="\@<twitter-handle>">
@@ -138,13 +138,13 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block">
-  <h1 class="title"><font style="font-size:1em;">🗓️ Week 01<br> Introduction</font></h1>
+  <h1 class="title"><font style="font-size:1em;">🗓️ Week 01<br> Spatial data models</font></h1>
   <p class="subtitle">2015896– GEOMATICA BASICA</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Ivan Lizarazo(#) 
+Ivan Lizarazo 
 </div>
         <p class="quarto-title-affiliation">
             <a href="#/">Universidad Nacional de Colombia</a>
@@ -152,144 +152,141 @@ Ivan Lizarazo(#)
     </div>
 </div>
 
-  <p class="date">09 Aug 2023</p>
+  <p class="date">03 Sep 2025</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
 <h2 id="toc-title">What we will cover today:</h2>
 <ul>
-<li><a href="#/who-are-we" id="/toc-who-are-we">Who are we</a></li>
-<li><a href="#/what-is-geomatics" id="/toc-what-is-geomatics">What is geomatics?</a></li>
-<li><a href="#/what-is-a-gis" id="/toc-what-is-a-gis">What is a GIS?</a></li>
-<li><a href="#/what-we-know-about-our-planet-and-territory" id="/toc-what-we-know-about-our-planet-and-territory">What we know about our planet and territory</a></li>
-<li><a href="#/what-we-know-about-informatics" id="/toc-what-we-know-about-informatics">What we know about informatics</a></li>
-<li><a href="#/flipped-classroom" id="/toc-flipped-classroom">Flipped classroom</a></li>
-<li><a href="#/to-do-before-next-week" id="/toc-to-do-before-next-week">To do before next week</a></li>
+<li><a href="#/spatial-data-models" id="/toc-spatial-data-models">Spatial data models</a></li>
+<li><a href="#/common-spatial-data-models" id="/toc-common-spatial-data-models">Common spatial data models</a></li>
+<li><a href="#/vector-data-model" id="/toc-vector-data-model">Vector data model</a></li>
+<li><a href="#/raster-data-model" id="/toc-raster-data-model">Raster data model</a></li>
+<li><a href="#/raster-vs-vector" id="/toc-raster-vs-vector">Raster vs Vector</a></li>
+<li><a href="#/vector-vs-raster" id="/toc-vector-vs-raster">Vector vs Raster</a></li>
 <li><a href="#/a-simple-exercise" id="/toc-a-simple-exercise">A simple exercise</a></li>
+<li><a href="#/to-do-before-next-week" id="/toc-to-do-before-next-week">To do before next week</a></li>
 </ul>
 </nav>
 </section>
 <section>
-<section id="who-are-we" class="title-slide slide level1">
-<h1>Who are we</h1>
+<section id="spatial-data-models" class="title-slide slide level1">
+<h1>Spatial data models</h1>
 
 </section>
-<section id="your-lecturer" class="slide level2 smaller">
-<h2>Your lecturer</h2>
-<div class="columns">
-<div class="column" style="display:inline-block;width:40%;height:60%;border-radius:1em;margin:1%;padding:1.5%;background-color:#f5f5f5">
+<section id="discrete-objects-view" class="slide level2">
+<h2>Discrete objects view</h2>
+<p>A discrete object has known and definable boundaries</p>
 <figure>
-<img src="../../../figures/people/ials.png" alt="Photo of Professor Ivan Lizarazo" role="presentation" style="object-fit: cover;width:5em;height:5em;border-radius: 50%;font-size:1em;" class="img-responsive atto_image_button_text-bottom">
-<figcaption>
-<strong>Prof.&nbsp;<span><a href="#" target="_blank" class="external">Lizarazo</a></span></strong> <br>Profesor Universidad Nacional de Colombia <br>Investigador senior Minciencias <br>Investigador principal SDGnexus Network
-</figcaption>
+<img src="figures/discrete.png" width="500" height="500">
 </figure>
-</div><div class="column" style="width:50%;font-size:0.85em;margin-left:3%;">
-<ul>
-<li><strong>PhD in Geography</strong></li>
-<li><strong>MSc in GIScience</strong></li>
-<li><strong>Background</strong>: Civil Engineer</li>
-</ul>
-<p><span class="tag" style="background-color:var(--quarto-hl-st-color)">Machine and Deep learning</span> <br> <span class="tag" style="background-color:var(--quarto-hl-fu-color)">GIS &amp; Earth Observation</span> <br> <span class="tag" style="background-color:var(--quarto-hl-dv-color)">Territorial sustainability</span></p>
-</div></div>
 </section>
-<section id="students" class="slide level2 smaller">
-<h2>Students</h2>
-<h3 id="please-introduce-yourselves">Please introduce yourselves</h3>
-<p>:::</p>
+<section id="continuous-surface-view" class="slide level2">
+<h2>Continuous surface view</h2>
+<p>A continuous surface represents phenomena which may vary from place to place</p>
+<figure>
+<img src="figures/continuous.png" width="500" height="500">
+</figure>
 </section></section>
-<section id="what-is-geomatics" class="title-slide slide level1">
-<h1>What is geomatics?</h1>
-<p>Geomatics is the discipline concerned with the collection, distribution, storage, analysis, processing, presentation of geographic data or geographic information (ISO 19122:2004)</p>
-</section>
-
-<section id="what-is-a-gis" class="title-slide slide level1">
-<h1>What is a GIS?</h1>
-<p>Burrough (1997), defined a GIS as a system for collecting, storing, retrieving at will, transforming and displaying spatial data from the real world for a particular set of purposes.</p>
-<p>A working GIS integrates five key components: hardware, software, data, people, and methods</p>
+<section id="common-spatial-data-models" class="title-slide slide level1">
+<h1>Common spatial data models</h1>
+<figure>
+<img src="figures/raster_vector.png" width="600" height="400">
+</figure>
 </section>
 
 <section>
-<section id="what-we-know-about-our-planet-and-territory" class="title-slide slide level1">
-<h1>What we know about our planet and territory</h1>
-<p>Please open your notebook and answer the next questions</p>
-</section>
-<section id="question-1" class="slide level2">
-<h2>Question 1</h2>
-<p>The radius of Earth is … km</p>
-</section>
-<section id="question-2" class="slide level2">
-<h2>Question 2</h2>
-<p>The area of Colombia is … km2</p>
-</section>
-<section id="question-3" class="slide level2">
-<h2>Question 3</h2>
-<p>The area of Bogota municipality is … km2</p>
-</section>
-<section id="question-4" class="slide level2">
-<h2>Question 4</h2>
-<p>The UNAL Bogota campus is about … hectares</p>
-</section>
-<section id="question-5" class="slide level2">
-<h2>Question 5</h2>
-<p>How many hectares is 1 km by 1 km</p>
-</section>
-<section id="question-6" class="slide level2">
-<h2>Question 6</h2>
-<p>The distance between Sun and Earth is … km</p>
-</section></section>
-<section>
-<section id="what-we-know-about-informatics" class="title-slide slide level1">
-<h1>What we know about informatics</h1>
+<section id="vector-data-model" class="title-slide slide level1">
+<h1>Vector data model</h1>
 
 </section>
-<section id="basic-questions" class="slide level2">
-<h2>Basic questions</h2>
-<h3 id="tell-us-about-your-computational-experience-skills">Tell us about your computational experience &amp; skills</h3>
+<section id="points-and-lines" class="slide level2">
+<h2>Points and lines</h2>
+<figure>
+<img src="figures/points_lines.png" width="800" height="600">
+</figure>
+</section>
+<section id="polygons" class="slide level2">
+<h2>Polygons</h2>
+<figure>
+<img src="figures/polygons.png" width="900" height="400">
+</figure>
+</section>
+<section id="multiple-representations" class="slide level2">
+<h2>Multiple representations</h2>
+<p align="center">
+<img src="figures/multiple_representations.png" width="50%" height="50%">
+</p>
+</section>
+<section id="spaghetti" class="slide level2">
+<h2>Spaghetti</h2>
+<p align="center">
+<img src="figures/spaghetti_et_al.png" width="70%" height="70%">
+</p>
+</section>
+<section id="topology" class="slide level2">
+<h2>Topology</h2>
+<p align="center">
+<img src="figures/topology_tables.png" width="70%" height="70%">
+</p>
 </section></section>
 <section>
-<section id="flipped-classroom" class="title-slide slide level1">
-<h1>Flipped classroom</h1>
+<section id="raster-data-model" class="title-slide slide level1">
+<h1>Raster data model</h1>
 
 </section>
-<section id="reading-doing-and-writing" class="slide level2">
-<h2>Reading, doing and writing</h2>
-<p>A flipped classroom is structured around the idea that lecture or direct instruction is not the best use of class time. Instead students encounter information before class, freeing class time for activities that involve higher order thinking</p>
+<section id="gridded-structure" class="slide level2">
+<h2>Gridded structure</h2>
+<figure>
+<img src="figures/raster_model.png" width="600" height="500">
+</figure>
+</section>
+<section id="cell-size" class="slide level2">
+<h2>Cell size</h2>
+<p align="center">
+<img src="figures/cell_size.png" width="85%" height="85%">
+</p>
+</section>
+<section id="cell-asignment" class="slide level2">
+<h2>Cell asignment</h2>
+<p align="center">
+<img src="figures/cell_assignment.png" width="55%" height="55%">
+</p>
 </section></section>
+<section id="raster-vs-vector" class="title-slide slide level1">
+<h1>Raster vs Vector</h1>
+<figure>
+<img src="figures/raster_vector_comparison.png" width="700" height="500">
+</figure>
+</section>
+
+<section id="vector-vs-raster" class="title-slide slide level1">
+<h1>Vector vs Raster</h1>
+<p>How are roads portrayed in vector and raster?</p>
+<p>Give two examples when it would be best to use vector data.</p>
+<p>Give two examples when it would be best to use raster data.</p>
+</section>
+
+<section id="a-simple-exercise" class="title-slide slide level1">
+<h1>A simple exercise</h1>
+Vector to raster
+<p align="center">
+<img src="figures/raster2vector.png" width="80%" height="80%">
+</p>
+<p>Is it possible convert from raster to vector?</p>
+</section>
+
 <section>
 <section id="to-do-before-next-week" class="title-slide slide level1">
 <h1>To do before next week</h1>
 
 </section>
-<section id="read-this-document-and-take-notes" class="slide level2">
-<h2>Read <a href="https://drive.google.com/file/d/1C2lJOKFKODd9KatWsp7Q-L5pJQEPO6mo/view?usp=sharing">this document</a> and take notes</h2>
-<ul>
-<li>Spatial data models (Bolstad, 2019)</li>
-</ul>
-</section>
-<section id="watch-this-video-and-take-notes" class="slide level2">
-<h2>Watch <a href="https://www.youtube.com/watch?v=dDSAz7ZkEqI">this video</a> and take notes</h2>
-<ul>
-<li><p>What is geomatics?</p></li>
-<li><p>Which are its disciplines?</p></li>
-</ul>
-<p>Length: 12:34</p>
-<p>Speaker: Amol Deshmukh</p>
-</section>
-<section id="supplementary-lecture" class="slide level2">
-<h2>Supplementary lecture</h2>
-<p>You can find a good introduction to geomatics <a href="https://drive.google.com/file/d/1soU2Tqkom76N2xmT_tNbO8dk3fP3mLj8/view?usp=sharing">in this document</a></p>
-<p>Chapter 1 from Gomarasca, M. <em>Basics of Geomatics</em>. Springer, 2009.</p>
+<section id="read-this-document" class="slide level2">
+<h2>Read <a href="https://drive.google.com/file/d/14xeh1vla7unSIxlh7DCbBzc7QlujyDh0/view?usp=drive_link">this document</a></h2>
+<p>It deals with planar and spherical coordinate systems (Bolstad, 2019)</p>
+<p>Then, answer this week questions</p>
+
+
 </section></section>
-<section id="a-simple-exercise" class="title-slide slide level1">
-<h1>A simple exercise</h1>
-Describe this map made by Diego Gutierrez (1562):
-<p align="center">
-<img src="figures/SA_1562.png" width="65%" height="65%">
-</p>
-<p>#<img data-src="figures/SA_1562.png" class="img-fluid"></p>
-
-
-</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../../figures/icons/earth.jpeg" class="slide-logo"></p>
