@@ -30,6 +30,8 @@ T4 - What is cartography?
 T5 - What is computer science?
 
 
-## 📚 Recommended Reading (and watching)
+## 📚 Practical work
 
-- Check the end of slides for the list of references cited in the lecture.
+- Download [QGIS 3.40 lTR](https://qgis.org/downloads/QGIS-OSGeo4W-3.40.10-1.msi) and install it on your computer
+
+- Download Colombia's datasets from [Diva GIS](https://diva-gis.org/data.html) and *bring them to the class*
