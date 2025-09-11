@@ -1,0 +1,73 @@
+---
+subtitle: " 2015896-- GEOMATICA BASICA"
+title: "<font style='font-size:1em;'>🗓️ Week 5<br/>Multidimensional poverty</font>"
+author: Ivan Lizarazo
+institute: '[Universidad Nacional de Colombia](#)'
+date: 20 September 2025
+date-meta: 20 September 2025
+date-format: "DD MMM YYYY"
+toc: true
+toc-depth: 1
+toc-title: "What we will cover today:"
+center-title-slide: false
+from: markdown+emoji
+format:
+  revealjs: 
+    fig-responsive: true
+    theme: simple
+    slide-number: true
+    mouse-wheel: false
+    preview-links: auto
+    logo: /figures/icons/earth.jpeg
+    css: /css/styles_slides.css
+    footer: '2015896 -- GEOMATICA BASICA'
+---
+
+# Evaluaciones agropecuarias (EVA)
+
+## What is EVA?
+
+EVA is  a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the *Unidad de Planificación Rural Agropecuaria (UPRA)*
+
+## EVA 2023
+
+[Go to UPRA 2023 webpage](https://upra.gov.co/en/Pages/eva_2023.aspx)
+
+Click on the "Agricola" tab:
+
+<p align="center">
+<img src="figures/EVA2023.png" width="70%" height="70%" />
+</p>
+
+## EVA Agricola
+
+Click on the "Agricultural Database 2023" 
+
+<p align="center">
+<img src="figures/EnterEVA2023.png" width="70%" height="70%" />
+</p>
+
+
+## EVA Agricola
+
+Go to the "Resultado EVA 2023" link:
+
+<p align="center">
+<img src="figures/EVA-links.png" width="80%" height="80%" />
+</p>
+
+## Resultados 2023
+
+- Read the *Resultados 2023* document and write down **one-page summary** comparing your department with the country.
+
+<p align="center">
+<img src="figures/EVA-RESULTADOS.png" width="35%" height="35%" />
+</p>
+
+## Agricultural Database 2023
+
+- Download the *Base agrícola 2019 - 2023.xlsx* file
+- Read the file in Excel
+- Edit the file and save it as a *csv* file
+
+
