@@ -27,13 +27,6 @@ You can find the slides [here](slides.qmd)
 
 🎥 
 
-## Examen No. 1
-
-Complete the two remaining courses on due time:
-
-- Data Manipulation with dplyr
-
-- Joining Data with dplyr
 
 ## 📚 Recommended Reading 
 
