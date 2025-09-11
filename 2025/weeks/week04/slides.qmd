@@ -2,9 +2,9 @@
 subtitle: " 2015896-- GEOMATICA BASICA"
 title: "<font style='font-size:1em;'>🗓️ Week 4<br/>Non spatial joins</font>"
 author: Ivan Lizarazo
-institute: '[Universidad Nacional de Colombia](#)'
-date: 30 April 2025
-date-meta: 30  April 2025
+institute: 'Universidad Nacional de Colombia'
+date: 17 September 2025
+date-meta: 17  September 2025
 date-format: "DD MMM YYYY"
 toc: true
 toc-depth: 1
@@ -189,5 +189,5 @@ Create a population visualization similar to this one:
 
 ## Make your socioeconomic map(s)
 
-Create a PDF with such your socioeconomic map a bring it to the 7th May class 
+Create a PDF with such your socioeconomic map a bring it to the classroom on 24th September.
 

@@ -13,7 +13,7 @@ You can find the slides [here](slides.qmd)
 
 ## **Practical exercises**:
 
--  Download the Indice de Probreza Multidimensional (IPM) shapefile
+-  Download the shapefile of [Indice de Probreza Multidimensional (IPM)](https://dane.maps.arcgis.com/apps/MapJournal/index.html?appid=54595086fdd74b6c9effd2fb8a9500dc) by DANE(2020)
 
 -  Preprocess the shapefile to cover only your department
 
