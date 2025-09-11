@@ -635,7 +635,7 @@
     "href": "2025/weeks/week04/page.html#practical-exercises",
     "title": "🗓️ Week 04 -Table Joins",
     "section": "Practical exercises:",
-    "text": "Practical exercises:\n\nDownload the shapefile of Indice de Probreza Multidimensional (IPM) by DANE(2020)\nPreprocess the shapefile to cover only your department\nAdd municipalities, population, roads, cities, and IPM layers to a new QGIS project\nDefine symbology for each layer (add labels as needed)\nMake a map of IPM and colour print it\n\nMake sure you bring the printed IPM map to the classroom on 7th May\n🎥",
+    "text": "Practical exercises:\n\nDownload the shapefile of Indice de Probreza Multidimensional (IPM) by DANE(2020)\nPreprocess the shapefile to cover only your department\nAdd municipalities, population, roads, cities, and IPM layers to a new QGIS project\nDefine symbology for each layer (add labels as needed)\nMake a map of IPM and colour print it\n\nMake sure you upload the IPM map to the drive on 17th September\n🎥",
     "crumbs": [
       "🗓️ Weeks",
       "Week 04"
