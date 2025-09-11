@@ -1,5 +1,159 @@
 [
   {
+    "objectID": "2025/weeks/week04/slides.html#goal",
+    "href": "2025/weeks/week04/slides.html#goal",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Goal",
+    "text": "Goal\nTo join a population table to a municipalities geopackage"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#dane-population-table",
+    "href": "2025/weeks/week04/slides.html#dane-population-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "DANE population table",
+    "text": "DANE population table\nDownload Proyecciones de población DANE"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#original-table",
+    "href": "2025/weeks/week04/slides.html#original-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Original table",
+    "text": "Original table\nDCD-area-proypoblacion-Mun-2020-2035-ActPostCOVID-19.xlsx"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#edited-table",
+    "href": "2025/weeks/week04/slides.html#edited-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Edited table",
+    "text": "Edited table\nDANE table after going from long to wide format:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#edited-municipalities-table",
+    "href": "2025/weeks/week04/slides.html#edited-municipalities-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Edited Municipalities table",
+    "text": "Edited Municipalities table\nCordoba municipalities table after deleting several fields"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#joins-in-qgis-1",
+    "href": "2025/weeks/week04/slides.html#joins-in-qgis-1",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Joins in QGIS [1]",
+    "text": "Joins in QGIS [1]\nGo to Municipalities Layer Properties:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#joins-in-qgis-2",
+    "href": "2025/weeks/week04/slides.html#joins-in-qgis-2",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Joins in QGIS [2]",
+    "text": "Joins in QGIS [2]\nExecute this procedure:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#result",
+    "href": "2025/weeks/week04/slides.html#result",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Result",
+    "text": "Result\nOpen the municipalities attribute table:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#goal-accomplished",
+    "href": "2025/weeks/week04/slides.html#goal-accomplished",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Goal accomplished!",
+    "text": "Goal accomplished!\nVisualization of 2020 population per municipality (and OSM background):"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#monetary-poverty",
+    "href": "2025/weeks/week04/slides.html#monetary-poverty",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Monetary poverty",
+    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#multidimensional-poverty",
+    "href": "2025/weeks/week04/slides.html#multidimensional-poverty",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Multidimensional poverty",
+    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#poverty-atlas---us2.15",
+    "href": "2025/weeks/week04/slides.html#poverty-atlas---us2.15",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Poverty Atlas - US$2.15",
+    "text": "Poverty Atlas - US$2.15"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#poverty-atlas---us3.65",
+    "href": "2025/weeks/week04/slides.html#poverty-atlas---us3.65",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Poverty Atlas - US$3.65",
+    "text": "Poverty Atlas - US$3.65"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#poverty-atlas---us6.85",
+    "href": "2025/weeks/week04/slides.html#poverty-atlas---us6.85",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Poverty Atlas - US$6.85",
+    "text": "Poverty Atlas - US$6.85"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#goal-1",
+    "href": "2025/weeks/week04/slides.html#goal-1",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Goal",
+    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "href": "2025/weeks/week04/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Indice de Pobreza Multidimensional (IPM)",
+    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#download-compressed-file",
+    "href": "2025/weeks/week04/slides.html#download-compressed-file",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Download compressed file",
+    "text": "Download compressed file"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#extract-and-check-data-dictionary",
+    "href": "2025/weeks/week04/slides.html#extract-and-check-data-dictionary",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Extract and check data dictionary",
+    "text": "Extract and check data dictionary"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#reading-visualizating-the-shapefile",
+    "href": "2025/weeks/week04/slides.html#reading-visualizating-the-shapefile",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Reading & Visualizating the shapefile",
+    "text": "Reading & Visualizating the shapefile"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#mapping-multidimensional-poverty",
+    "href": "2025/weeks/week04/slides.html#mapping-multidimensional-poverty",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Mapping multidimensional poverty",
+    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#mapping-cities-population",
+    "href": "2025/weeks/week04/slides.html#mapping-cities-population",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Mapping cities’ population",
+    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#make-your-socioeconomic-maps",
+    "href": "2025/weeks/week04/slides.html#make-your-socioeconomic-maps",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Make your socioeconomic map(s)",
+    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the classroom on 24th September."
+  },
+  {
     "objectID": "2025/weeks/week03/page.html",
     "href": "2025/weeks/week03/page.html",
     "title": "🗓️ Week 03 - Coordinate systems and map projections",
@@ -453,5 +607,71 @@
     "title": "🗓️ Week 01 Spatial data models",
     "section": "Read this document",
     "text": "Read this document\nIt deals with planar and spherical coordinate systems (Bolstad, 2019)\nThen, answer this week questions"
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html",
+    "href": "2025/weeks/week04/page.html",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nTheoretical topics:",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#lecture-slides",
+    "href": "2025/weeks/week04/page.html#lecture-slides",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#practical-exercises",
+    "href": "2025/weeks/week04/page.html#practical-exercises",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDownload the shapefile of Indice de Probreza Multidimensional (IPM) by DANE(2020)\nPreprocess the shapefile to cover only your department\nAdd municipalities, population, roads, cities, and IPM layers to a new QGIS project\nDefine symbology for each layer (add labels as needed)\nMake a map of IPM and colour print it\n\nMake sure you bring the printed IPM map to the classroom on 7th May\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#examen-no.-1",
+    "href": "2025/weeks/week04/page.html#examen-no.-1",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "Examen No. 1",
+    "text": "Examen No. 1\nComplete the two remaining courses on due time:\n\nData Manipulation with dplyr\nJoining Data with dplyr",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#recommended-reading",
+    "href": "2025/weeks/week04/page.html#recommended-reading",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nRead Cartography: an Introduction and take notes",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#coursework",
+    "href": "2025/weeks/week04/page.html#coursework",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nCartography\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the geographic area covered by one IGAC map sheet at 1:100000 scale?\nAt 1:25000 scale map, how many cm2 represent 100 ha?\nAt 1:5000 scale map, 10 cm2 equals how many hectares?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
   }
 ]
