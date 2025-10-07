@@ -1,27 +1,26 @@
 ---
-title: "🗓️ Week 7- Writing  R Notebooks"
+title: "🗓️ Week 7- Getting to know  R"
 ---
 
-In this week, we will cover the following topics:
+In this week, we will learn basics concepts about *R*, a free, open-source programming language and software environment for statistical computing and data visualization.
 
-**R Notebooks**:
 
 ## 👨‍🏫 Lecture Slides 
 
-You can find the slides [here](https://drive.google.com/file/d/1eqrXXR_0dAapvCg-arqCSd5R-0m5_l_x/view?usp=sharing)
+You can find the slides [here](https://stats.oarc.ucla.edu/wp-content/uploads/2023/08/R_Programming.html#)
 
 
 ## **Practical exercises**:
 
--  Create and publish the [*simple features notebook*](https://rpubs.com/ials2un/GB_simple_features)
+-  Do the exercises explained on the slides. 
 
 🎥 
 
 
 ## ✍️ Coursework
 
-🚧 Make sure you create and publish this week notebook  🚧
+🚧 Print the Informe No. 1 in color and deliver it  on 8th October at 9:00 am 🚧
 
-
+🚧 Install R & RStudio on your computer 🚧
 
 
