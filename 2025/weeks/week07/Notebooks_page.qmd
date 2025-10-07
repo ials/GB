@@ -1,0 +1,26 @@
+---
+title: "🗓️ Week 7- Getting to know  R"
+---
+
+In this week, we will learn basics concepts about *R*, a free, open-source programming language and software environment for statistical computing and data visualization.
+
+
+## 👨‍🏫 Lecture Slides 
+
+You can find the slides [here](https://stats.oarc.ucla.edu/wp-content/uploads/2023/08/R_Programming.html#)
+
+
+## **Practical exercises**:
+
+-  Do the exercises explained on the slides. 
+
+🎥 
+
+
+## ✍️ Coursework
+
+🚧 Print the Informe No. 1 in color and deliver it  on 8th October at 9:00 am 🚧
+
+🚧 Install R & RStudio on your computer 🚧
+
+

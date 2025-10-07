@@ -1,39 +1,29 @@
 ---
-title: "🗓️ Week 5 - Map of agricultural production"
+title: "🗓️ Week 6 -Again,  Map of agricultural production"
 ---
 
-In this week, we will cover the following topics:
+In this week, we  refreshed the following topics:
 
-**Practical  exercise**:
+-  Downloading UPRA 2023 [*Base Agrícola*](https://upra.gov.co/en/Evas_Documentos/Base%20agri%CC%81cola%202019%20-%202023.xlsx)
 
-## 👨‍🏫 Lecture Slides 
+- Editing the UPRA .xlsx file, creating a pivot table to summarize agricultural production and exporting the results to a .csv file
 
-You can find the slides [here](https://drive.google.com/file/d/1g0TeZ5mxM9MOpV8pjDzbTVUmvHwF5NDa/view?usp=sharing)
+- Reading the csv in QGIS and joining the table to a municipalities layer
+
+-  Creating an agricultural production map for your department
 
 
-## **Practical exercises**:
-
--  Download UPRA 2023 [*Base Agrícola*](https://upra.gov.co/en/Evas_Documentos/Base%20agri%CC%81cola%202019%20-%202023.xlsx)
-
--  Create an agricultural production map for your department
-
-*Make sure you upload your third map, the agricultural production for your department, in PDF format, before   29th September*
 
 🎥 
 
-## 📚 Recommended Reading 
+## 📚 Recommended watching 
 
-Read UPRA 2023 [*Resultados Evaluación agropecuaria*](https://upra.gov.co/en/Evas_Documentos/Resultados%20Evaluaciones%20Agropecuarias%202023.pdf)
+The recording for the 1st October lecture can be watched [here](https://drive.google.com/file/d/14UJj0bhfJTjEN-qQKHOYjcbJ4MYh_Zlb/view)
 
 ## ✍️ Coursework
 
-🚧 In your  notebook,  answer the following questions 🚧
+🚧 Complete your *Informe No. 1* as explained in class 🚧
 
-### EVA 2023 (UPRA)
-::: {.callout-important collapse=true}
-1. What is the most important crop in your department?
-2. What is the most productive crop in your department?
-3. What is the most important group of crops per municipality?
 :::
 
 
