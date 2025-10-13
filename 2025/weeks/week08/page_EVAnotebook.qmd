@@ -1,0 +1,24 @@
+---
+title: "🗓️ Week 8- Agricultural dynamics"
+---
+
+In this week, we will create & publish the R Notebook on agricultural dynamics in our department from 2019 to 2023.
+
+
+## Instructions
+
+-  Create a notebook similar to the following one:
+
+-  [Crop production dynamics in Santander](https://rpubs.com/ials2un/production_dyn_v1)
+
+- Publish your notebook in the course of this week
+
+## References
+
+-  [EVA dataset for 2023](https://upra.gov.co/es-co/Paginas/eva_2023.aspx)
+
+🎥 
+
+
+
+
