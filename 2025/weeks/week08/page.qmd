@@ -11,6 +11,10 @@ Go to [this page](https://learnr.numbat.space/) and complete Chapter 1 and Chapt
 
 ![](figures/R_chapter_1_2.png)
 
+## ✍️ Coursework
+
+🚧 Install R & RStudio on your computer and reproduce chapter 2's code 🚧
+
 🎥 
 
 
