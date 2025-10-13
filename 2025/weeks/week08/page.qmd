@@ -9,7 +9,7 @@ In this week, we will learn the basics of using R for data analysis. This should
 
 Go to [this page](https://learnr.numbat.space/) and complete Chapter 1 and Chapter 2 within this week.  
 
-![](figures/R_chapter_1_2.png)
+![](figures/R_chapter1_2.png)
 
 ## ✍️ Coursework
 
