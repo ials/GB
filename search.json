@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "2025/weeks/week11/page_vocacion_uso.html#exercises",
+    "href": "2025/weeks/week11/page_vocacion_uso.html#exercises",
+    "title": "🗓️ Week 11 - Vocación de Uso de Tierras",
+    "section": "👨‍🏫 Exercises",
+    "text": "👨‍🏫 Exercises\n\nDownload IGAC’s Vocación de Uso - 1:100.000 to your work directory\nUnzip the ag_100k_vocacion_uso_2017.zip file\nAdd the shapefile to a new QGIS project\nClip the shapefile to match your department boundaries\nInterpret & analyze the vocacion de uso del suelo in your departmen"
+  },
+  {
+    "objectID": "2025/weeks/week11/page_vocacion_uso.html#useful-references",
+    "href": "2025/weeks/week11/page_vocacion_uso.html#useful-references",
+    "title": "🗓️ Week 11 - Vocación de Uso de Tierras",
+    "section": "Useful references:",
+    "text": "Useful references:\nClasificación de las tierras por su capacidad de uso\n🎥"
+  },
+  {
     "objectID": "2025/weeks/week10/slides.html#definition",
     "href": "2025/weeks/week10/slides.html#definition",
     "title": "🗓️ Week 10 Geomorphometry",
@@ -1768,6 +1782,50 @@
     "crumbs": [
       "🗓️ Weeks",
       "Week 10"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week11/page.html",
+    "href": "2025/weeks/week11/page.html",
+    "title": "🗓️ Week 11 -Getting soil data properties",
+    "section": "",
+    "text": "In this week, we will learn about SoilGrids, a global dataset of soil properties obtained using soil data and machine learning techniques. In addition, we will learn how to download such data for a particular area of interest.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week11/page.html#soilgrids-web-portal",
+    "href": "2025/weeks/week11/page.html#soilgrids-web-portal",
+    "title": "🗓️ Week 11 -Getting soil data properties",
+    "section": "👨‍🏫 SoilGrids web portal",
+    "text": "👨‍🏫 SoilGrids web portal\nSoilGrids250m 2.0 - A system for digital soil mapping based on global compilation of soil profile data and environmental layers.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week11/page.html#r-practical",
+    "href": "2025/weeks/week11/page.html#r-practical",
+    "title": "🗓️ Week 11 -Getting soil data properties",
+    "section": "R Practical",
+    "text": "R Practical\nReplicate the SoilGrids notebook for your department. Publish the notebook not later than 11th November.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week11/page.html#useful-references",
+    "href": "2025/weeks/week11/page.html#useful-references",
+    "title": "🗓️ Week 11 -Getting soil data properties",
+    "section": "Useful references:",
+    "text": "Useful references:\nSoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
     ]
   }
 ]
