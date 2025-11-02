@@ -10,7 +10,7 @@ In this week, we will learn about *SoilGrids*, a global dataset of soil properti
 
 ## R Practical
 
-Replicate the [SoilGrids notebook](https://rpubs.com/ials2un/downloadSoilGrids) for your department.  Bring the downloaded data to the classroom on 25th June.
+Replicate the [SoilGrids notebook](https://rpubs.com/ials2un/downloadSoilGrids) for your department.  Publish the notebook not later than 11th November.
 
 ## Useful references:
 
