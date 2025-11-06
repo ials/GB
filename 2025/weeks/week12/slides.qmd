@@ -1,6 +1,6 @@
 ---
 subtitle: " 2015896-- GEOMATICA BASICA"
-title: "<font style='font-size:1em;'>🗓️ Week 13  <br/>Spatial interpolation</font>"
+title: "<font style='font-size:1em;'>🗓️ Week 12  <br/>Spatial interpolation</font>"
 author: Ivan Lizarazo
 institute: '[Universidad Nacional de Colombia](#)'
 date: 12 November 2025
