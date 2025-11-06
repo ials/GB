@@ -10,11 +10,11 @@ You can find the slides [here](slides.qmd)
 
 ## R Practical
 
-Detailed instructions are provided in the classroom. 
+R notebook for [Soil Organic Carbon Interpolation](https://rpubs.com/ials2un/Spatial_Interpolation).
 
 ## ✍️ Informe No.2 
 
-🚧 It should include two notebooks: *Geomorphometric terrain attributes* and   *Soil property interpolation*  🚧
+🚧 You have to publish the notebook   *Soil property interpolation* for your department not lat later than 28th November at 11:59 pm 🚧
 
 ## Useful references:
 
