@@ -5,6 +5,14 @@ format: html
 ---
 
 ::: {.callout-important collapse=true}
+## 📢 Notas Examen 2 (12/11/2025)
+
+- ![](GB-Examen2.png)
+
+:::
+
+
+::: {.callout-important collapse=true}
 ## 📢 Notas Examen 1 (14/10/2025)
 
 - ![](GB-Examen-1.png)
