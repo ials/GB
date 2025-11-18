@@ -1,5 +1,5 @@
 ---
-title: "🗓️ Week 14 - Remote Sensing"
+title: "🗓️ Week 13 - Remote Sensing"
 ---
 
 In this week, we will learn about *remote sensing*, i.e. the tecnique allowing production of thematic information from aerial and satellite images.
@@ -10,7 +10,7 @@ You can find the slides [here](https://appliedsciences.nasa.gov/sites/default/fi
 
 ## R Practical
 
-Detailed instructions are provided on 9th and 10th  July in the classroom. 
+Detailed instructions are provided  in the classroom. 
 
 ## Useful links:
 
