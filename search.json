@@ -1,5 +1,2143 @@
 [
   {
+    "objectID": "2025/weeks/week13/slides.html#definition",
+    "href": "2025/weeks/week13/slides.html#definition",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Definition",
+    "text": "Definition\nSpatial interpolation is the estimation of values of spatially continuous variables (fields) for spatial locations where they have not been observed, based on known (observed) values."
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#geostatistics",
+    "href": "2025/weeks/week13/slides.html#geostatistics",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Geostatistics",
+    "text": "Geostatistics\nDiscipline concerned with modelling, estimation, and simulation of spatially continuous phenomena.\nThe typical problem is a missing value problem: from a limited number of observations of phenomenon Z(s) at samples \\(s_i\\), we are interested in estimating values for unobserved locations."
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#general-equation",
+    "href": "2025/weeks/week13/slides.html#general-equation",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "General equation",
+    "text": "General equation\n\\(Z_t\\) is the estimated value at point t, \\(Z_i\\) is the value observed in the i-th point and \\(N\\) is the number of neighboring points that are used."
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#interpolation-types",
+    "href": "2025/weeks/week13/slides.html#interpolation-types",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Interpolation types",
+    "text": "Interpolation types\nA global interpolation uses all available known points to estimate the unknown values. It produces smoother surfaces.\nLocal interpolation uses a sample of known points to estimate the unknown values. It captures the short-range variation."
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#deterministic-vs-stochastic",
+    "href": "2025/weeks/week13/slides.html#deterministic-vs-stochastic",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Deterministic vs stochastic",
+    "text": "Deterministic vs stochastic\nDeterministic method are based on exactly predetermined functions that supposedly captures spatial similarity patterns.\nStochastic interpolation methods use random functions that quantifies the spatial autocorrelation among observations and account for the spatial configuration."
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#deterministic-vs-stochastic-1",
+    "href": "2025/weeks/week13/slides.html#deterministic-vs-stochastic-1",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Deterministic vs stochastic …",
+    "text": "Deterministic vs stochastic …\nDeterministic interpolation methods provide no assessment of errors with predicted values, while stochastic interpolation method offer assessment of predictions errors with estimated variances.\nDeterministic interpolation methods include inverse distance weighted (IDW), modified Shepard, Spheremap and nearest neighbor.\nStochastic interpolation methods: ordinary kriging and universal kriging."
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#nearest-neighbor-nn",
+    "href": "2025/weeks/week13/slides.html#nearest-neighbor-nn",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Nearest Neighbor (NN)",
+    "text": "Nearest Neighbor (NN)\nThe nearest neighbor method assigns the value from the nearest observation to a certain grid node. It is mostly applied in meteorology and can give good results when using a dense station networks."
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#inverse-distance-weighting-idw",
+    "href": "2025/weeks/week13/slides.html#inverse-distance-weighting-idw",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Inverse distance weighting (IDW)",
+    "text": "Inverse distance weighting (IDW)"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#idw",
+    "href": "2025/weeks/week13/slides.html#idw",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "IDW …",
+    "text": "IDW …"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#idw-1",
+    "href": "2025/weeks/week13/slides.html#idw-1",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "IDW …",
+    "text": "IDW …\nThe choice of β values affects the estimation quality. Higher values emphasize the influence of nearest points nearest to the grid node. Smaller values give more influence to distant points."
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#idw-.",
+    "href": "2025/weeks/week13/slides.html#idw-.",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "IDW ….",
+    "text": "IDW ….\nThe choice of the decorrelation distance affect the smoothness of the interpolated surface. A higher value of \\(d_0\\) results in a more smoothed interpolated surface."
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#idw-illustration",
+    "href": "2025/weeks/week13/slides.html#idw-illustration",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "IDW illustration",
+    "text": "IDW illustration"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#root-mean-square-error-rmse",
+    "href": "2025/weeks/week13/slides.html#root-mean-square-error-rmse",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "root-mean-square error (RMSE)",
+    "text": "root-mean-square error (RMSE)\nA common interpolation assessment metric is the RMSE:"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#kriging",
+    "href": "2025/weeks/week13/slides.html#kriging",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Kriging",
+    "text": "Kriging"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#estimation-of-the-mean-function",
+    "href": "2025/weeks/week13/slides.html#estimation-of-the-mean-function",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Estimation of the mean function",
+    "text": "Estimation of the mean function"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#estimation-of-the-spatial-correlation",
+    "href": "2025/weeks/week13/slides.html#estimation-of-the-spatial-correlation",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Estimation of the spatial correlation",
+    "text": "Estimation of the spatial correlation"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#modelling-the-semivariogram",
+    "href": "2025/weeks/week13/slides.html#modelling-the-semivariogram",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Modelling the semivariogram",
+    "text": "Modelling the semivariogram"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#spherical-model",
+    "href": "2025/weeks/week13/slides.html#spherical-model",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Spherical model",
+    "text": "Spherical model"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#exponential-model",
+    "href": "2025/weeks/week13/slides.html#exponential-model",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Exponential model",
+    "text": "Exponential model"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#gaussian-model",
+    "href": "2025/weeks/week13/slides.html#gaussian-model",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Gaussian model",
+    "text": "Gaussian model"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#power-model",
+    "href": "2025/weeks/week13/slides.html#power-model",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Power model",
+    "text": "Power model"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#ordinary-kriging-ok",
+    "href": "2025/weeks/week13/slides.html#ordinary-kriging-ok",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Ordinary kriging (OK)",
+    "text": "Ordinary kriging (OK)"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#universal-kriging-uk",
+    "href": "2025/weeks/week13/slides.html#universal-kriging-uk",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Universal kriging (UK)",
+    "text": "Universal kriging (UK)\n\nUK, also known as Regression Kriging, is a more general model.\nIn OK, the trend is a constant value.\nIn UK, the trend is a linear function of one or more covariates."
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#spatial-interpolation-in-qgis",
+    "href": "2025/weeks/week13/slides.html#spatial-interpolation-in-qgis",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Spatial interpolation in QGIS",
+    "text": "Spatial interpolation in QGIS\n\nInterpolation Basics\nInterpolation tutorial\nGB Interpolación de datos de precipitación"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#kriging-interpolation-in-r",
+    "href": "2025/weeks/week13/slides.html#kriging-interpolation-in-r",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Kriging interpolation in R",
+    "text": "Kriging interpolation in R\nThe general procedure is outlined below:\n\nData preparation\nSample variogram\nVariogram modelling\nModel evaluation using RMSE\nSpatial prediction using gstat"
+  },
+  {
+    "objectID": "2025/weeks/week13/slides.html#r-practical",
+    "href": "2025/weeks/week13/slides.html#r-practical",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "R Practical",
+    "text": "R Practical\nR notebook for Soil Organic Carbon Interpolation."
+  },
+  {
+    "objectID": "2025/weeks/week13/page.html",
+    "href": "2025/weeks/week13/page.html",
+    "title": "🗓️ Week 13 - Remote Sensing",
+    "section": "",
+    "text": "In this week, we will learn about remote sensing, i.e. the tecnique allowing production of thematic information from aerial and satellite images.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week13/page.html#slides",
+    "href": "2025/weeks/week13/page.html#slides",
+    "title": "🗓️ Week 13 - Remote Sensing",
+    "section": "👨‍🏫 Slides",
+    "text": "👨‍🏫 Slides\nYou can find the slides here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week13/page.html#r-practical",
+    "href": "2025/weeks/week13/page.html#r-practical",
+    "title": "🗓️ Week 13 - Remote Sensing",
+    "section": "R Practical",
+    "text": "R Practical\nDetailed instructions are provided in the classroom.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week13/page.html#useful-links",
+    "href": "2025/weeks/week13/page.html#useful-links",
+    "title": "🗓️ Week 13 - Remote Sensing",
+    "section": "Useful links:",
+    "text": "Useful links:\nLandsat Explorer\nSentinel Explorer\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week12/page_soils.html",
+    "href": "2025/weeks/week12/page_soils.html",
+    "title": "🗓️ Week 12 -Getting soil data properties",
+    "section": "",
+    "text": "In this week, we will learn about SoilGrids, a global dataset of soil properties obtained using soil data and machine learning techniques. In addition, we will learn how to download such data for a particular area of interest."
+  },
+  {
+    "objectID": "2025/weeks/week12/page_soils.html#soilgrids-web-portal",
+    "href": "2025/weeks/week12/page_soils.html#soilgrids-web-portal",
+    "title": "🗓️ Week 12 -Getting soil data properties",
+    "section": "👨‍🏫 SoilGrids web portal",
+    "text": "👨‍🏫 SoilGrids web portal\nSoilGrids250m 2.0 - A system for digital soil mapping based on global compilation of soil profile data and environmental layers."
+  },
+  {
+    "objectID": "2025/weeks/week12/page_soils.html#r-practical",
+    "href": "2025/weeks/week12/page_soils.html#r-practical",
+    "title": "🗓️ Week 12 -Getting soil data properties",
+    "section": "R Practical",
+    "text": "R Practical\nDetailed instructions are provided on 5th February in the classroom."
+  },
+  {
+    "objectID": "2025/weeks/week12/page_soils.html#useful-references",
+    "href": "2025/weeks/week12/page_soils.html#useful-references",
+    "title": "🗓️ Week 12 -Getting soil data properties",
+    "section": "Useful references:",
+    "text": "Useful references:\nSoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty\n🎥"
+  },
+  {
+    "objectID": "2025/weeks/week11/page_vocacion_uso.html#exercises",
+    "href": "2025/weeks/week11/page_vocacion_uso.html#exercises",
+    "title": "🗓️ Week 11 - Vocación de Uso de Tierras",
+    "section": "👨‍🏫 Exercises",
+    "text": "👨‍🏫 Exercises\n\nDownload IGAC’s Vocación de Uso - 1:100.000 to your work directory\nUnzip the ag_100k_vocacion_uso_2017.zip file\nAdd the shapefile to a new QGIS project\nClip the shapefile to match your department boundaries\nInterpret & analyze the vocacion de uso del suelo in your departmen"
+  },
+  {
+    "objectID": "2025/weeks/week11/page_vocacion_uso.html#useful-references",
+    "href": "2025/weeks/week11/page_vocacion_uso.html#useful-references",
+    "title": "🗓️ Week 11 - Vocación de Uso de Tierras",
+    "section": "Useful references:",
+    "text": "Useful references:\nClasificación de las tierras por su capacidad de uso\n🎥"
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#definition",
+    "href": "2025/weeks/week10/slides.html#definition",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Definition",
+    "text": "Definition\nGeomorphometry is the science of quantitative land-surface analysis. It is an analytical-cartographic approach to representing bare-earth topography by the computer manipulation of terrain height."
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#applications",
+    "href": "2025/weeks/week10/slides.html#applications",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Applications",
+    "text": "Applications"
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#input-data",
+    "href": "2025/weeks/week10/slides.html#input-data",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Input data",
+    "text": "Input data"
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#parameters-vs-objects",
+    "href": "2025/weeks/week10/slides.html#parameters-vs-objects",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Parameters vs Objects",
+    "text": "Parameters vs Objects\nA land surface parameter is an attribute of surface form (e.g. slope, aspect, wetness index); it is a raster.\nA land surface object is a discrete spatial feature (e.g. watershed line, cirque, alluvial fan, drainage network): it is a vector."
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#workflow",
+    "href": "2025/weeks/week10/slides.html#workflow",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Workflow",
+    "text": "Workflow"
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#landforms",
+    "href": "2025/weeks/week10/slides.html#landforms",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Landforms",
+    "text": "Landforms\nA landform is a discrete morphologic feature — such as a watershed — that is formed by a specific geomorphological. Each landform may be composed of several landform elements."
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#gradient",
+    "href": "2025/weeks/week10/slides.html#gradient",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Gradient",
+    "text": "Gradient"
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#slope",
+    "href": "2025/weeks/week10/slides.html#slope",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Slope",
+    "text": "Slope\nThe Slope is the steepness at each cell of a raster surface. The lower the slope value, the flatter the terrain; the higher the slope value, the steeper the terrain."
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#slope-1",
+    "href": "2025/weeks/week10/slides.html#slope-1",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Slope …",
+    "text": "Slope …"
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#slope-2",
+    "href": "2025/weeks/week10/slides.html#slope-2",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Slope …",
+    "text": "Slope …"
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#slope-3",
+    "href": "2025/weeks/week10/slides.html#slope-3",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Slope …",
+    "text": "Slope …"
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#slope-4",
+    "href": "2025/weeks/week10/slides.html#slope-4",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Slope …",
+    "text": "Slope …"
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#aspect",
+    "href": "2025/weeks/week10/slides.html#aspect",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Aspect",
+    "text": "Aspect\nThe Aspect is the direction the downhill slope faces. The values of each cell in the output raster indicate the compass direction the surface faces at that location."
+  },
+  {
+    "objectID": "2025/weeks/week10/slides.html#practical",
+    "href": "2025/weeks/week10/slides.html#practical",
+    "title": "🗓️ Week 10 Geomorphometry",
+    "section": "Practical",
+    "text": "Practical\nCreate an R notebook using this document."
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#what-is-a-dem",
+    "href": "2025/weeks/week09/slides.html#what-is-a-dem",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "What is a DEM?",
+    "text": "What is a DEM?\nA digital elevation model (DEM) is a general term representing ground elevation above sea level. In a DEM, all surface features (trees, buildings, bridges, etc.) are stripped away, and only the bare earth is represented.\nA DEM shows:\n\nHeights above sea level\nSlopes\nRiver beds\nLandforms"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#dem-representation",
+    "href": "2025/weeks/week09/slides.html#dem-representation",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "DEM representation",
+    "text": "DEM representation"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#grid-vs-tin",
+    "href": "2025/weeks/week09/slides.html#grid-vs-tin",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "GRID vs TIN",
+    "text": "GRID vs TIN"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#what-is-a-dtm",
+    "href": "2025/weeks/week09/slides.html#what-is-a-dtm",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "What is a DTM?",
+    "text": "What is a DTM?\nA digital terrain model (DTM) is a layer ‘on top’ of the DEM. It will show additional information that the bare earth DEM might not represent, including things like:\n\nBreaklines are changes in the terrain on a surface\nManmade and natural linear features of the bare earth terrain, such as roads, railway tracks, flood defences, pipelines, coastlines, or rivers."
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#what-is-a-dsm",
+    "href": "2025/weeks/week09/slides.html#what-is-a-dsm",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "What is a DSM?",
+    "text": "What is a DSM?\nA digital surface model (DSM) is a type of terrain that includes all features above the bare earth - both natural and man-made.\nIt includes ground features such as buildings, infrastructure, trees, and vegetation. The layer will represent the height of all these features above the ground on which they stand."
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#dtm-vs-dtm-1",
+    "href": "2025/weeks/week09/slides.html#dtm-vs-dtm-1",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "DTM vs DTM (1)",
+    "text": "DTM vs DTM (1)"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#chm",
+    "href": "2025/weeks/week09/slides.html#chm",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "CHM",
+    "text": "CHM"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#uses-of-dems-dtms",
+    "href": "2025/weeks/week09/slides.html#uses-of-dems-dtms",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Uses of DEMs & DTMs",
+    "text": "Uses of DEMs & DTMs\nDEMs and DTMs help us understand the ‘natural’ shape of the earth’s surface - without the ‘distraction’ of buildings, trees, or other infrastructure.\nBoth are especially useful for things like:\n\nHydrology\nTerrain form\nSlope stability\nSimulations"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#uses-of-dsm",
+    "href": "2025/weeks/week09/slides.html#uses-of-dsm",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Uses of DSM",
+    "text": "Uses of DSM\nDSMs show you both ground elevation and the height of everything above it. This allows you to understand how ground features interact with one another and the bare earth.\nDSMs are useful for things like:\n\nRadio frequency planning\nEmergency planning\nLine of sight planning\nSmart city mapping"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#dsm-vs-dtm-2",
+    "href": "2025/weeks/week09/slides.html#dsm-vs-dtm-2",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "DSM vs DTM (2)",
+    "text": "DSM vs DTM (2)"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#dem-projects",
+    "href": "2025/weeks/week09/slides.html#dem-projects",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "DEM projects",
+    "text": "DEM projects"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#spatial-resolution",
+    "href": "2025/weeks/week09/slides.html#spatial-resolution",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Spatial resolution",
+    "text": "Spatial resolution"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#tecniques",
+    "href": "2025/weeks/week09/slides.html#tecniques",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Tecniques",
+    "text": "Tecniques\nElevation data can be measured by:\n\nfield surveying\nphotogrammetry\ncartographic digitization\nairborne laser scanning"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#field-surveys",
+    "href": "2025/weeks/week09/slides.html#field-surveys",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Field surveys",
+    "text": "Field surveys"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#photogrammetry",
+    "href": "2025/weeks/week09/slides.html#photogrammetry",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Photogrammetry",
+    "text": "Photogrammetry"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides.html#lidar",
+    "href": "2025/weeks/week09/slides.html#lidar",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "LiDAR",
+    "text": "LiDAR"
+  },
+  {
+    "objectID": "2025/weeks/week09/page.html",
+    "href": "2025/weeks/week09/page.html",
+    "title": "🗓️ Week 9 - Digital Elevation Models",
+    "section": "",
+    "text": "In this week, we will learn basic concepts on digital elevation models. In addition, we will practice raster functionalities in R.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 09"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week09/page.html#lecture-slides",
+    "href": "2025/weeks/week09/page.html#lecture-slides",
+    "title": "🗓️ Week 9 - Digital Elevation Models",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nEither click on the slide area below or click here to view it in fullscreen. Use your keypad to navigate the slides.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 09"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week09/page.html#r-practical",
+    "href": "2025/weeks/week09/page.html#r-practical",
+    "title": "🗓️ Week 9 - Digital Elevation Models",
+    "section": "R Practical",
+    "text": "R Practical\nHow to get digital elevation models (DEMs) from R",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 09"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week09/page.html#useful-references",
+    "href": "2025/weeks/week09/page.html#useful-references",
+    "title": "🗓️ Week 9 - Digital Elevation Models",
+    "section": "Useful references:",
+    "text": "Useful references:\nTerrain Analysis in R\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 09"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week08/page_EVAnotebook.html",
+    "href": "2025/weeks/week08/page_EVAnotebook.html",
+    "title": "🗓️ Week 8- Agricultural dynamics",
+    "section": "",
+    "text": "In this week, we will create & publish the R Notebook on agricultural dynamics in our department from 2019 to 2023."
+  },
+  {
+    "objectID": "2025/weeks/week08/page_EVAnotebook.html#instructions",
+    "href": "2025/weeks/week08/page_EVAnotebook.html#instructions",
+    "title": "🗓️ Week 8- Agricultural dynamics",
+    "section": "Instructions",
+    "text": "Instructions\n\nCreate a notebook similar to the following one:\nCrop production dynamics in Santander\nPublish your notebook in the course of this week"
+  },
+  {
+    "objectID": "2025/weeks/week08/page_EVAnotebook.html#references",
+    "href": "2025/weeks/week08/page_EVAnotebook.html#references",
+    "title": "🗓️ Week 8- Agricultural dynamics",
+    "section": "References",
+    "text": "References\n\nEVA dataset for 2023\n\n🎥"
+  },
+  {
+    "objectID": "2025/weeks/week07/w8_page.html",
+    "href": "2025/weeks/week07/w8_page.html",
+    "title": "🗓️ Week 7- Writing R Notebooks",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nR Notebooks:"
+  },
+  {
+    "objectID": "2025/weeks/week07/w8_page.html#lecture-slides",
+    "href": "2025/weeks/week07/w8_page.html#lecture-slides",
+    "title": "🗓️ Week 7- Writing R Notebooks",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here"
+  },
+  {
+    "objectID": "2025/weeks/week07/w8_page.html#practical-exercises",
+    "href": "2025/weeks/week07/w8_page.html#practical-exercises",
+    "title": "🗓️ Week 7- Writing R Notebooks",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nCreate and publish the simple features notebook\n\n🎥"
+  },
+  {
+    "objectID": "2025/weeks/week07/w8_page.html#coursework",
+    "href": "2025/weeks/week07/w8_page.html#coursework",
+    "title": "🗓️ Week 7- Writing R Notebooks",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 Make sure you create and publish this week notebook 🚧"
+  },
+  {
+    "objectID": "2025/weeks/week07/page.html",
+    "href": "2025/weeks/week07/page.html",
+    "title": "🗓️ Week 7- Getting to know R",
+    "section": "",
+    "text": "In this week, we will learn basics concepts about R, a free, open-source programming language and software environment for statistical computing and data visualization.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 07"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week07/page.html#lecture-slides",
+    "href": "2025/weeks/week07/page.html#lecture-slides",
+    "title": "🗓️ Week 7- Getting to know R",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 07"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week07/page.html#practical-exercises",
+    "href": "2025/weeks/week07/page.html#practical-exercises",
+    "title": "🗓️ Week 7- Getting to know R",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDo the exercises explained on the slides.\n\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 07"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week07/page.html#coursework",
+    "href": "2025/weeks/week07/page.html#coursework",
+    "title": "🗓️ Week 7- Getting to know R",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 Print the Informe No. 1 in color and deliver it on 8th October at 9:00 am 🚧\n🚧 Install R & RStudio on your computer 🚧",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 07"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week06/slides.html#what-is-eva",
+    "href": "2025/weeks/week06/slides.html#what-is-eva",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "What is EVA?",
+    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
+  },
+  {
+    "objectID": "2025/weeks/week06/slides.html#eva-2023",
+    "href": "2025/weeks/week06/slides.html#eva-2023",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA 2023",
+    "text": "EVA 2023\nGo to UPRA 2023 webpage\nClick on the “Agricola” tab:"
+  },
+  {
+    "objectID": "2025/weeks/week06/slides.html#eva-agricola",
+    "href": "2025/weeks/week06/slides.html#eva-agricola",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nClick on the “Agricultural Database 2023”"
+  },
+  {
+    "objectID": "2025/weeks/week06/slides.html#eva-agricola-1",
+    "href": "2025/weeks/week06/slides.html#eva-agricola-1",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
+  },
+  {
+    "objectID": "2025/weeks/week06/slides.html#resultados-2023",
+    "href": "2025/weeks/week06/slides.html#resultados-2023",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Resultados 2023",
+    "text": "Resultados 2023\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
+  },
+  {
+    "objectID": "2025/weeks/week06/slides.html#agricultural-database-2023",
+    "href": "2025/weeks/week06/slides.html#agricultural-database-2023",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Agricultural Database 2023",
+    "text": "Agricultural Database 2023\n\nDownload the Base agrícola 2019 - 2023.xlsx file\nRead the file in Excel\nEdit the file and save it as a csv file"
+  },
+  {
+    "objectID": "2025/weeks/week05/slides.html#what-is-eva",
+    "href": "2025/weeks/week05/slides.html#what-is-eva",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "What is EVA?",
+    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
+  },
+  {
+    "objectID": "2025/weeks/week05/slides.html#eva-2023",
+    "href": "2025/weeks/week05/slides.html#eva-2023",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA 2023",
+    "text": "EVA 2023\nGo to UPRA 2023 webpage\nClick on the “Agricola” tab:"
+  },
+  {
+    "objectID": "2025/weeks/week05/slides.html#eva-agricola",
+    "href": "2025/weeks/week05/slides.html#eva-agricola",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nClick on the “Agricultural Database 2023”"
+  },
+  {
+    "objectID": "2025/weeks/week05/slides.html#eva-agricola-1",
+    "href": "2025/weeks/week05/slides.html#eva-agricola-1",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
+  },
+  {
+    "objectID": "2025/weeks/week05/slides.html#resultados-2023",
+    "href": "2025/weeks/week05/slides.html#resultados-2023",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Resultados 2023",
+    "text": "Resultados 2023\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
+  },
+  {
+    "objectID": "2025/weeks/week05/slides.html#agricultural-database-2023",
+    "href": "2025/weeks/week05/slides.html#agricultural-database-2023",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Agricultural Database 2023",
+    "text": "Agricultural Database 2023\n\nDownload the Base agrícola 2019 - 2023.xlsx file\nRead the file in Excel\nEdit the file and save it as a csv file"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#monetary-poverty",
+    "href": "2025/weeks/week05/old_slides.html#monetary-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Monetary poverty",
+    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#multidimensional-poverty",
+    "href": "2025/weeks/week05/old_slides.html#multidimensional-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Multidimensional poverty",
+    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#poverty-atlas---us2.15",
+    "href": "2025/weeks/week05/old_slides.html#poverty-atlas---us2.15",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$2.15",
+    "text": "Poverty Atlas - US$2.15"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#poverty-atlas---us3.65",
+    "href": "2025/weeks/week05/old_slides.html#poverty-atlas---us3.65",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$3.65",
+    "text": "Poverty Atlas - US$3.65"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#poverty-atlas---us6.85",
+    "href": "2025/weeks/week05/old_slides.html#poverty-atlas---us6.85",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$6.85",
+    "text": "Poverty Atlas - US$6.85"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#goal",
+    "href": "2025/weeks/week05/old_slides.html#goal",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Goal",
+    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#indice-de-pobreza-multidimensional-ipm",
+    "href": "2025/weeks/week05/old_slides.html#indice-de-pobreza-multidimensional-ipm",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Indice de Pobreza Multidimensional (IPM)",
+    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#download-compressed-file",
+    "href": "2025/weeks/week05/old_slides.html#download-compressed-file",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Download compressed file",
+    "text": "Download compressed file"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#extract-and-check-data-dictionary",
+    "href": "2025/weeks/week05/old_slides.html#extract-and-check-data-dictionary",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Extract and check data dictionary",
+    "text": "Extract and check data dictionary"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#mapping-multidimensional-poverty",
+    "href": "2025/weeks/week05/old_slides.html#mapping-multidimensional-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Mapping multidimensional poverty",
+    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#mapping-cities-population",
+    "href": "2025/weeks/week05/old_slides.html#mapping-cities-population",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Mapping cities’ population",
+    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#make-your-socioeconomic-maps",
+    "href": "2025/weeks/week05/old_slides.html#make-your-socioeconomic-maps",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Make your socioeconomic map(s)",
+    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the 4th December class"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#what-is-eva",
+    "href": "2025/weeks/week05/old_slides.html#what-is-eva",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "What is EVA?",
+    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#eva-agricola",
+    "href": "2025/weeks/week05/old_slides.html#eva-agricola",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nClick on the “Agricola” tab:"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#eva-agricola-1",
+    "href": "2025/weeks/week05/old_slides.html#eva-agricola-1",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_slides.html#our-tasks-today",
+    "href": "2025/weeks/week05/old_slides.html#our-tasks-today",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Our tasks today",
+    "text": "Our tasks today\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#goal",
+    "href": "2025/weeks/week04/slides.html#goal",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Goal",
+    "text": "Goal\nTo join a population table to a municipalities geopackage"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#dane-population-table",
+    "href": "2025/weeks/week04/slides.html#dane-population-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "DANE population table",
+    "text": "DANE population table\nDownload Proyecciones de población DANE"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#original-table",
+    "href": "2025/weeks/week04/slides.html#original-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Original table",
+    "text": "Original table\nDCD-area-proypoblacion-Mun-2020-2035-ActPostCOVID-19.xlsx"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#edited-table",
+    "href": "2025/weeks/week04/slides.html#edited-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Edited table",
+    "text": "Edited table\nDANE table after going from long to wide format:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#edited-municipalities-table",
+    "href": "2025/weeks/week04/slides.html#edited-municipalities-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Edited Municipalities table",
+    "text": "Edited Municipalities table\nCordoba municipalities table after deleting several fields"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#joins-in-qgis-1",
+    "href": "2025/weeks/week04/slides.html#joins-in-qgis-1",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Joins in QGIS [1]",
+    "text": "Joins in QGIS [1]\nGo to Municipalities Layer Properties:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#joins-in-qgis-2",
+    "href": "2025/weeks/week04/slides.html#joins-in-qgis-2",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Joins in QGIS [2]",
+    "text": "Joins in QGIS [2]\nExecute this procedure:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#result",
+    "href": "2025/weeks/week04/slides.html#result",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Result",
+    "text": "Result\nOpen the municipalities attribute table:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#goal-accomplished",
+    "href": "2025/weeks/week04/slides.html#goal-accomplished",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Goal accomplished!",
+    "text": "Goal accomplished!\nVisualization of 2020 population per municipality (and OSM background):"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#monetary-poverty",
+    "href": "2025/weeks/week04/slides.html#monetary-poverty",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Monetary poverty",
+    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#multidimensional-poverty",
+    "href": "2025/weeks/week04/slides.html#multidimensional-poverty",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Multidimensional poverty",
+    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#poverty-atlas---us2.15",
+    "href": "2025/weeks/week04/slides.html#poverty-atlas---us2.15",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Poverty Atlas - US$2.15",
+    "text": "Poverty Atlas - US$2.15"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#poverty-atlas---us3.65",
+    "href": "2025/weeks/week04/slides.html#poverty-atlas---us3.65",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Poverty Atlas - US$3.65",
+    "text": "Poverty Atlas - US$3.65"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#poverty-atlas---us6.85",
+    "href": "2025/weeks/week04/slides.html#poverty-atlas---us6.85",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Poverty Atlas - US$6.85",
+    "text": "Poverty Atlas - US$6.85"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#goal-1",
+    "href": "2025/weeks/week04/slides.html#goal-1",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Goal",
+    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "href": "2025/weeks/week04/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Indice de Pobreza Multidimensional (IPM)",
+    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#download-compressed-file",
+    "href": "2025/weeks/week04/slides.html#download-compressed-file",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Download compressed file",
+    "text": "Download compressed file"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#extract-and-check-data-dictionary",
+    "href": "2025/weeks/week04/slides.html#extract-and-check-data-dictionary",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Extract and check data dictionary",
+    "text": "Extract and check data dictionary"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#reading-visualizating-the-shapefile",
+    "href": "2025/weeks/week04/slides.html#reading-visualizating-the-shapefile",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Reading & Visualizating the shapefile",
+    "text": "Reading & Visualizating the shapefile"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#mapping-multidimensional-poverty",
+    "href": "2025/weeks/week04/slides.html#mapping-multidimensional-poverty",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Mapping multidimensional poverty",
+    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#mapping-cities-population",
+    "href": "2025/weeks/week04/slides.html#mapping-cities-population",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Mapping cities’ population",
+    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week04/slides.html#make-your-socioeconomic-maps",
+    "href": "2025/weeks/week04/slides.html#make-your-socioeconomic-maps",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Make your socioeconomic map(s)",
+    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the classroom on 24th September."
+  },
+  {
+    "objectID": "2025/weeks/week03/page.html",
+    "href": "2025/weeks/week03/page.html",
+    "title": "🗓️ Week 03 - Coordinate systems and map projections",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nTheoretical topics:\nPractical exercise:",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 03"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week03/page.html#lecture-slides",
+    "href": "2025/weeks/week03/page.html#lecture-slides",
+    "title": "🗓️ Week 03 - Coordinate systems and map projections",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 03"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week03/page.html#recommended-reading",
+    "href": "2025/weeks/week03/page.html#recommended-reading",
+    "title": "🗓️ Week 03 - Coordinate systems and map projections",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nRead:\n\nProyección Cartográfica Colombia and take notes\nWhat are ellipsoid and geoid heights?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 03"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week03/page.html#coursework",
+    "href": "2025/weeks/week03/page.html#coursework",
+    "title": "🗓️ Week 03 - Coordinate systems and map projections",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nPart 1\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat are the geometric parameters associated to the ellipsoid GRS 80?\nWhat is the geoid?\nWhat are the most important characteristics of the geoid?\n\n\n\n\n\n\nPart 2\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is a datum?\nWhat is the datum MAGNA-SIRGAS?\nDescribe the Colombian map projection (EPSG:9377)",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 03"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week02/page.html",
+    "href": "2025/weeks/week02/page.html",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nTheoretical topics:\nWhat are the most important characteristics of geographic data?\nHow are geographic data transformed into information?\nWhat conceptual models are used to represent geographic objects and phenomena\nWhat are the most commonly used data structures and formats?\nPractical exercises:\nMake a topographic map of your department\nReview of geographic metadata",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 02"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week02/page.html#lecture-slides",
+    "href": "2025/weeks/week02/page.html#lecture-slides",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 02"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week02/page.html#recommended-reading",
+    "href": "2025/weeks/week02/page.html#recommended-reading",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nRead this document and take notes",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 02"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week02/page.html#coursework",
+    "href": "2025/weeks/week02/page.html#coursework",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nQuestion 1\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuestion 2\n\n\n\n\n\n\nImportant",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 02"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#your-lecturer",
+    "href": "2025/weeks/week01/slides.html#your-lecturer",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Your lecturer",
+    "text": "Your lecturer\n\n\n\n\n\nProf. Lizarazo Profesor Universidad Nacional de Colombia Investigador senior Minciencias Investigador principal SDGnexus Network\n\n\n\n\nPhD in Geography\nMSc in GIScience\nBackground: Civil Engineer\n\nMachine and Deep learning  GIS & Earth Observation  Territorial sustainability"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#students",
+    "href": "2025/weeks/week01/slides.html#students",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Students",
+    "text": "Students\nPlease introduce yourselves\n:::"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#question-1",
+    "href": "2025/weeks/week01/slides.html#question-1",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 1",
+    "text": "Question 1\nThe radius of Earth is … km"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#question-2",
+    "href": "2025/weeks/week01/slides.html#question-2",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 2",
+    "text": "Question 2\nThe area of Colombia is … km2"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#question-3",
+    "href": "2025/weeks/week01/slides.html#question-3",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 3",
+    "text": "Question 3\nThe area of Bogota municipality is … km2"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#question-4",
+    "href": "2025/weeks/week01/slides.html#question-4",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 4",
+    "text": "Question 4\nThe UNAL Bogota campus is about … hectares"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#question-5",
+    "href": "2025/weeks/week01/slides.html#question-5",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 5",
+    "text": "Question 5\nHow many hectares is 1 km by 1 km"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#question-6",
+    "href": "2025/weeks/week01/slides.html#question-6",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 6",
+    "text": "Question 6\nThe distance between Sun and Earth is … km"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#basic-questions",
+    "href": "2025/weeks/week01/slides.html#basic-questions",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Basic questions",
+    "text": "Basic questions\nTell us about your computational experience & skills"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#reading-doing-and-writing",
+    "href": "2025/weeks/week01/slides.html#reading-doing-and-writing",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Reading, doing and writing",
+    "text": "Reading, doing and writing\nA flipped classroom is structured around the idea that lecture or direct instruction is not the best use of class time. Instead students encounter information before class, freeing class time for activities that involve higher order thinking"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#to-do-before-tomorrow",
+    "href": "2025/weeks/week01/slides.html#to-do-before-tomorrow",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "To do before tomorrow",
+    "text": "To do before tomorrow\nInstall QGIS 3.40.5 ‘Bratislava’ in your computer."
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#read-this-document-and-take-notes",
+    "href": "2025/weeks/week01/slides.html#read-this-document-and-take-notes",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Read this document and take notes",
+    "text": "Read this document and take notes\n\nSpatial data models (Bolstad, 2019)"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#watch-this-video-and-take-notes",
+    "href": "2025/weeks/week01/slides.html#watch-this-video-and-take-notes",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Watch this video and take notes",
+    "text": "Watch this video and take notes\n\nWhat is geomatics?\nWhich are its disciplines?\n\nLength: 12:34\nSpeaker: Amol Deshmukh"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides.html#supplementary-lecture",
+    "href": "2025/weeks/week01/slides.html#supplementary-lecture",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Supplementary lecture",
+    "text": "Supplementary lecture\nYou can find a good introduction to geomatics in this document\nChapter 1 from Gomarasca, M. Basics of Geomatics. Springer, 2009."
+  },
+  {
+    "objectID": "2025/syllabus.html",
+    "href": "2025/syllabus.html",
+    "title": "2015896 - GEOMATICA BASICA",
+    "section": "",
+    "text": "ImportantDESCRIPCIÓN DE LA ASIGNATURA:\n\n\n\n\n\n\n\n\nEntender y aplicar conceptos, métodos y técnicas geoespaciales.\nDesarrollar destrezas prácticas para realizar procesos digitales útiles en las ciencias agronómicas.\nBrindar oportunidades para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa.\n\n\n\n\n\nCapacidad para usar las herramientas tecnológicas, de la información y de la comunicación\nCapacidad para organización y planificación\nCapacidad de comunicación\n\n\n\n\n\nCapacidad de abstracción, análisis y síntesis.\nCapacidad de integrar y aplicar los conocimientos en la práctica.\nCapacidad de lectura en inglés.\nCapacidad para organizar y planificar el tiempo.\nCapacidad para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa\n\n\n\n\n\nLectura antes de la clase a cargo del estudiante\nPresentación de conceptos, métodos y técnicas a cargo del profesor\nRealización de lecturas, ejercicios prácticos y elaboración de informes a cargo del estudiante\n\n\n\n\n\nQGIS\nR & RStudio",
+    "crumbs": [
+      "📓 Syllabus"
+    ]
+  },
+  {
+    "objectID": "2025/syllabus.html#contenido-detallado",
+    "href": "2025/syllabus.html#contenido-detallado",
+    "title": "2015896 - GEOMATICA BASICA",
+    "section": "CONTENIDO DETALLADO",
+    "text": "CONTENIDO DETALLADO\n\n\n\n\n\n\nImportant\n\n\n\n\n\nSemana 1 – Introducción, contexto y conceptos básicos\nSemana 2 – Datos geoespaciales e información geográfica\nSemana 3 - Sistemas de coordenadas y proyecciones cartográticas\nSemana 4 - Conceptos básicos de cartografía\nSemana 5 - Modelos digitales de elevación\nSemana 6 – Sistemas de información geográfica\nSemana 7 – Servicios web geográficos\nSemana 8 – Sistemas satelitales de navegación global\nSemana 9 – Calidad de datos geográficos\nSemana 10 – Principios físicos de percepción remota\nSemana 11 – Percepción remota de la vegetación\nSemana 12 - Métodos determinísticos de interpolación espacial\nSemanas 14 y 15 - Métodos geoestadísticos de interpolación espacial\nSemana 16 - Agricultura digital",
+    "crumbs": [
+      "📓 Syllabus"
+    ]
+  },
+  {
+    "objectID": "2025/syllabus.html#evaluación-del-curso",
+    "href": "2025/syllabus.html#evaluación-del-curso",
+    "title": "2015896 - GEOMATICA BASICA",
+    "section": "EVALUACIÓN DEL CURSO:",
+    "text": "EVALUACIÓN DEL CURSO:\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nPresentación de dos exámenes teóricos (50%)\n\nExamen 1 - 24 de Septiembre\nExamen 2 - 26 de Noviembre\n\nEntrega de dos informes técnicos (50%)\n\nInforme 1 - 1 de Octubre\nInforme 2 - 3 de Diciembre",
+    "crumbs": [
+      "📓 Syllabus"
+    ]
+  },
+  {
+    "objectID": "2025/syllabus.html#bibliografia",
+    "href": "2025/syllabus.html#bibliografia",
+    "title": "2015896 - GEOMATICA BASICA",
+    "section": "BIBLIOGRAFIA",
+    "text": "BIBLIOGRAFIA\n\n\n\n\n\n\nImportant\n\n\n\n\n\nBrunsdon, C. and Comber, L. An introduction to R for spatial analysis and mapping [2nd ed.], SAGE, 2019.\nDuncombe, R. Digital technologies for Agricultural and Rural Development in the Global South. CABI, 2018.\nGomarasca, M. Basics of Geomatics. Springer, 2009.\nLongley, P.A., Goodchild M.F., Maguire, D.J. and Rhind, D.W. Geographic Information Systems [4th edition], Wiley, 2015.\nLovelace, R., Nowosad, J., and Muenchow, J. Geocomputation with R [2nd ed.],CRC Press, 2023. Available at https://geocompr.robinlovelace.net/\nPebesma, E. & Bivand, R. Spatial data science with applications in R. CRC Press, 2023.\nPlant, R.E. Spatial Data Analysis in Ecology and Agriculture Using R [2nd ed.], CRC Press, 2019.\nWegman, M., Leutner, B., and Dech, S. Remote Sensing and GIS for Ecologists: using Open Source Software, Pelagic Publishing, 2016.",
+    "crumbs": [
+      "📓 Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "2015896 - GEOMATICA BASICA",
+    "section": "",
+    "text": "📑 Course Brief\nFocus: the focus of this course is introduce concepts, methods and tecniques used in geoinformation disciplines.\nHow: reading, learning by doing and writing\n\n\n🎯 Learning Objectives\n\nUnderstand the usefulness of geospatial data for supporting agronomy.\nInternalize basic concepts about geodesy, cartography, GIS, remote sensing, and geostatistics.\nBe able to apply geospatial techniques for data collection, processing, visualization and analysis.\nDevelop critical spatial thinking.\n\n\nSelect Academic Year/Term:\n 2025"
+  },
+  {
+    "objectID": "2025/index.html",
+    "href": "2025/index.html",
+    "title": "2015896 - GEOMATICA BASICA",
+    "section": "",
+    "text": "Important📢 Notas Examen 2 (12/11/2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant📢 Notas Examen 1 (14/10/2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant📢 Notas Informe 1 (14/10/2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant📢 Syllabus\n\n\n\n\n\n(27/08/2025)\n\n🗓️ Know the syllabus here\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Tuesdays 10:30 am - 11:30 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
+    "crumbs": [
+      "🏠 Home"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week01/page.html",
+    "href": "2025/weeks/week01/page.html",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "",
+    "text": "In this first week, we will cover what you can expect to learn from this course and the course logistics: all you need to know about the structure of the lectures, classes, assessments, and how we will interact throughout this course.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 01"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week01/page.html#lecture-slides",
+    "href": "2025/weeks/week01/page.html#lecture-slides",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nEither click on the slide area below or click here to view it in fullscreen. Use your keypad to navigate the slides.\n\n\n\n\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 01"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week01/page.html#coursework",
+    "href": "2025/weeks/week01/page.html#coursework",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\nT1 - What is geomatics?\nT2 - Which are the geomatics disciplines?\nT3 - What is geodesy?\nT4 - What is cartography?\nT5 - What is computer science?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 01"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week01/page.html#practical-work",
+    "href": "2025/weeks/week01/page.html#practical-work",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "📚 Practical work",
+    "text": "📚 Practical work\n\nDownload QGIS 3.40 lTR and install it on your computer\nDownload Colombia’s datasets from Diva GIS and bring them to the class",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 01"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#your-lecturer",
+    "href": "2025/weeks/week01/slides2.html#your-lecturer",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Your lecturer",
+    "text": "Your lecturer\n\n\n\n\n\nProf. Lizarazo Profesor Universidad Nacional de Colombia Investigador senior Minciencias Investigador principal SDGnexus Network\n\n\n\n\nPhD in Geography\nMSc in GIScience\nBackground: Civil Engineer\n\nMachine and Deep learning  GIS & Earth Observation  Territorial sustainability"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#students",
+    "href": "2025/weeks/week01/slides2.html#students",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Students",
+    "text": "Students\nPlease introduce yourselves\n:::"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#question-1",
+    "href": "2025/weeks/week01/slides2.html#question-1",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 1",
+    "text": "Question 1\nThe radius of Earth is … km"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#question-2",
+    "href": "2025/weeks/week01/slides2.html#question-2",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 2",
+    "text": "Question 2\nThe area of Colombia is … km2"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#question-3",
+    "href": "2025/weeks/week01/slides2.html#question-3",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 3",
+    "text": "Question 3\nThe area of Bogota municipality is … km2"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#question-4",
+    "href": "2025/weeks/week01/slides2.html#question-4",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 4",
+    "text": "Question 4\nThe UNAL Bogota campus is about … hectares"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#question-5",
+    "href": "2025/weeks/week01/slides2.html#question-5",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 5",
+    "text": "Question 5\nHow many hectares is 1 km by 1 km"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#question-6",
+    "href": "2025/weeks/week01/slides2.html#question-6",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 6",
+    "text": "Question 6\nThe distance between Sun and Earth is … km"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#basic-questions",
+    "href": "2025/weeks/week01/slides2.html#basic-questions",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Basic questions",
+    "text": "Basic questions\nTell us about your computational experience & skills"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#reading-doing-and-writing",
+    "href": "2025/weeks/week01/slides2.html#reading-doing-and-writing",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Reading, doing and writing",
+    "text": "Reading, doing and writing\nA flipped classroom is structured around the idea that lecture or direct instruction is not the best use of class time. Instead students encounter information before class, freeing class time for activities that involve higher order thinking"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#read-this-document-and-take-notes",
+    "href": "2025/weeks/week01/slides2.html#read-this-document-and-take-notes",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Read this document and take notes",
+    "text": "Read this document and take notes\n\nSpatial data models (Bolstad, 2019)"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#watch-this-video-and-take-notes",
+    "href": "2025/weeks/week01/slides2.html#watch-this-video-and-take-notes",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Watch this video and take notes",
+    "text": "Watch this video and take notes\n\nWhat is geomatics?\nWhich are its disciplines?\n\nLength: 12:34\nSpeaker: Amol Deshmukh"
+  },
+  {
+    "objectID": "2025/weeks/week01/slides2.html#supplementary-lecture",
+    "href": "2025/weeks/week01/slides2.html#supplementary-lecture",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Supplementary lecture",
+    "text": "Supplementary lecture\nYou can find a good introduction to geomatics in this document\nChapter 1 from Gomarasca, M. Basics of Geomatics. Springer, 2009."
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#discrete-objects-view",
+    "href": "2025/weeks/week02/slides.html#discrete-objects-view",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Discrete objects view",
+    "text": "Discrete objects view\nA discrete object has known and definable boundaries"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#continuous-surface-view",
+    "href": "2025/weeks/week02/slides.html#continuous-surface-view",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Continuous surface view",
+    "text": "Continuous surface view\nA continuous surface represents phenomena which may vary from place to place"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#points-and-lines",
+    "href": "2025/weeks/week02/slides.html#points-and-lines",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Points and lines",
+    "text": "Points and lines"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#polygons",
+    "href": "2025/weeks/week02/slides.html#polygons",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Polygons",
+    "text": "Polygons"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#multiple-representations",
+    "href": "2025/weeks/week02/slides.html#multiple-representations",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Multiple representations",
+    "text": "Multiple representations"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#spaghetti",
+    "href": "2025/weeks/week02/slides.html#spaghetti",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Spaghetti",
+    "text": "Spaghetti"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#topology",
+    "href": "2025/weeks/week02/slides.html#topology",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Topology",
+    "text": "Topology"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#gridded-structure",
+    "href": "2025/weeks/week02/slides.html#gridded-structure",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Gridded structure",
+    "text": "Gridded structure"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#cell-size",
+    "href": "2025/weeks/week02/slides.html#cell-size",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Cell size",
+    "text": "Cell size"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#cell-asignment",
+    "href": "2025/weeks/week02/slides.html#cell-asignment",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Cell asignment",
+    "text": "Cell asignment"
+  },
+  {
+    "objectID": "2025/weeks/week02/slides.html#read-this-document",
+    "href": "2025/weeks/week02/slides.html#read-this-document",
+    "title": "🗓️ Week 01 Spatial data models",
+    "section": "Read this document",
+    "text": "Read this document\nIt deals with planar and spherical coordinate systems (Bolstad, 2019)\nThen, answer this week questions"
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html",
+    "href": "2025/weeks/week04/page.html",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nTheoretical topics:",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#lecture-slides",
+    "href": "2025/weeks/week04/page.html#lecture-slides",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#practical-exercises",
+    "href": "2025/weeks/week04/page.html#practical-exercises",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDownload the shapefile of Indice de Probreza Multidimensional (IPM) by DANE(2020)\nPreprocess the shapefile to cover only your department\nAdd municipalities, population, roads, cities, and IPM layers to a new QGIS project\nDefine symbology for each layer (add labels as needed)\nMake a map of IPM and colour print it\n\nMake sure you upload the IPM map to the drive on 17th September\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#recommended-reading",
+    "href": "2025/weeks/week04/page.html#recommended-reading",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nRead Cartography: an Introduction and take notes",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week04/page.html#coursework",
+    "href": "2025/weeks/week04/page.html#coursework",
+    "title": "🗓️ Week 04 -Table Joins",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nCartography\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the geographic area covered by one IGAC map sheet at 1:100000 scale?\nAt 1:25000 scale map, how many cm2 represent 100 ha?\nAt 1:5000 scale map, 10 cm2 equals how many hectares?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week05/old_page.html",
+    "href": "2025/weeks/week05/old_page.html",
+    "title": "🗓️ Week 5 -Spatial predicates",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nTheoretical topics:"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_page.html#lecture-slides",
+    "href": "2025/weeks/week05/old_page.html#lecture-slides",
+    "title": "🗓️ Week 5 -Spatial predicates",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_page.html#practical-exercises",
+    "href": "2025/weeks/week05/old_page.html#practical-exercises",
+    "title": "🗓️ Week 5 -Spatial predicates",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nPolish the socioeconomic map for your department\n\nMake sure you bring printed your second map to the classroom on 6th May\n🎥"
+  },
+  {
+    "objectID": "2025/weeks/week05/old_page.html#recommended-reading",
+    "href": "2025/weeks/week05/old_page.html#recommended-reading",
+    "title": "🗓️ Week 5 -Spatial predicates",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nRead Boletín Técnico - Pobreza Multidimensional en Colombia Año 2018 and take notes of the dimensions considered by DANE to produce the Indice de Pobreza Multidimensional (IPM)."
+  },
+  {
+    "objectID": "2025/weeks/week05/old_page.html#coursework",
+    "href": "2025/weeks/week05/old_page.html#coursework",
+    "title": "🗓️ Week 5 -Spatial predicates",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nIndice de Pobreza Multidimensional (IPM)\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the geographic region with highest IPM in 2018?\nWhat is the geographic region with lowest IPM in 2018?\nWhat are the dimensions considered to produce the IPM in 2018?"
+  },
+  {
+    "objectID": "2025/weeks/week05/page.html",
+    "href": "2025/weeks/week05/page.html",
+    "title": "🗓️ Week 5 - Map of agricultural production",
+    "section": "",
+    "text": "In this week, we will cover the following topics:",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 05"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week05/page.html#lecture-slides",
+    "href": "2025/weeks/week05/page.html#lecture-slides",
+    "title": "🗓️ Week 5 - Map of agricultural production",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 05"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week05/page.html#practical-exercises",
+    "href": "2025/weeks/week05/page.html#practical-exercises",
+    "title": "🗓️ Week 5 - Map of agricultural production",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDownload UPRA 2023 Base Agrícola\nCreate an agricultural production map for your department\n\nMake sure you upload your third map, the agricultural production for your department, in PDF format, before 29th September\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 05"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week05/page.html#recommended-reading",
+    "href": "2025/weeks/week05/page.html#recommended-reading",
+    "title": "🗓️ Week 5 - Map of agricultural production",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nRead UPRA 2023 Resultados Evaluación agropecuaria",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 05"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week05/page.html#coursework",
+    "href": "2025/weeks/week05/page.html#coursework",
+    "title": "🗓️ Week 5 - Map of agricultural production",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nEVA 2023 (UPRA)\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the most important crop in your department?\nWhat is the most productive crop in your department?\nWhat is the most important group of crops per municipality?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 05"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week06/page.html",
+    "href": "2025/weeks/week06/page.html",
+    "title": "🗓️ Week 6 -Again, Map of agricultural production",
+    "section": "",
+    "text": "In this week, we refreshed the following topics:\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week06/page.html#recommended-watching",
+    "href": "2025/weeks/week06/page.html#recommended-watching",
+    "title": "🗓️ Week 6 -Again, Map of agricultural production",
+    "section": "📚 Recommended watching",
+    "text": "📚 Recommended watching\nThe recording for the 1st October lecture can be watched here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week06/page.html#coursework",
+    "href": "2025/weeks/week06/page.html#coursework",
+    "title": "🗓️ Week 6 -Again, Map of agricultural production",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 Complete your Informe No. 1 as explained in class 🚧\n:::",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week07/Notebooks_page.html",
+    "href": "2025/weeks/week07/Notebooks_page.html",
+    "title": "🗓️ Week 7- Writing R Notebooks",
+    "section": "",
+    "text": "In this week, we will cover the following topics:\nR Notebooks:"
+  },
+  {
+    "objectID": "2025/weeks/week07/Notebooks_page.html#lecture-slides",
+    "href": "2025/weeks/week07/Notebooks_page.html#lecture-slides",
+    "title": "🗓️ Week 7- Writing R Notebooks",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here"
+  },
+  {
+    "objectID": "2025/weeks/week07/Notebooks_page.html#practical-exercises",
+    "href": "2025/weeks/week07/Notebooks_page.html#practical-exercises",
+    "title": "🗓️ Week 7- Writing R Notebooks",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nCreate and publish the simple features notebook\n\n🎥"
+  },
+  {
+    "objectID": "2025/weeks/week07/Notebooks_page.html#coursework",
+    "href": "2025/weeks/week07/Notebooks_page.html#coursework",
+    "title": "🗓️ Week 7- Writing R Notebooks",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 Make sure you create and publish this week notebook 🚧"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#monetary-poverty",
+    "href": "2025/weeks/week07/slides.html#monetary-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Monetary poverty",
+    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#multidimensional-poverty",
+    "href": "2025/weeks/week07/slides.html#multidimensional-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Multidimensional poverty",
+    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#poverty-atlas---us2.15",
+    "href": "2025/weeks/week07/slides.html#poverty-atlas---us2.15",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$2.15",
+    "text": "Poverty Atlas - US$2.15"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#poverty-atlas---us3.65",
+    "href": "2025/weeks/week07/slides.html#poverty-atlas---us3.65",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$3.65",
+    "text": "Poverty Atlas - US$3.65"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#poverty-atlas---us6.85",
+    "href": "2025/weeks/week07/slides.html#poverty-atlas---us6.85",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$6.85",
+    "text": "Poverty Atlas - US$6.85"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#goal",
+    "href": "2025/weeks/week07/slides.html#goal",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Goal",
+    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "href": "2025/weeks/week07/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Indice de Pobreza Multidimensional (IPM)",
+    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#download-compressed-file",
+    "href": "2025/weeks/week07/slides.html#download-compressed-file",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Download compressed file",
+    "text": "Download compressed file"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#extract-and-check-data-dictionary",
+    "href": "2025/weeks/week07/slides.html#extract-and-check-data-dictionary",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Extract and check data dictionary",
+    "text": "Extract and check data dictionary"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#mapping-multidimensional-poverty",
+    "href": "2025/weeks/week07/slides.html#mapping-multidimensional-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Mapping multidimensional poverty",
+    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#mapping-cities-population",
+    "href": "2025/weeks/week07/slides.html#mapping-cities-population",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Mapping cities’ population",
+    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#make-your-socioeconomic-maps",
+    "href": "2025/weeks/week07/slides.html#make-your-socioeconomic-maps",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Make your socioeconomic map(s)",
+    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the 4th December class"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#what-is-eva",
+    "href": "2025/weeks/week07/slides.html#what-is-eva",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "What is EVA?",
+    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#eva-agricola",
+    "href": "2025/weeks/week07/slides.html#eva-agricola",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nClick on the “Agricola” tab:"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#eva-agricola-1",
+    "href": "2025/weeks/week07/slides.html#eva-agricola-1",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
+  },
+  {
+    "objectID": "2025/weeks/week07/slides.html#our-tasks-today",
+    "href": "2025/weeks/week07/slides.html#our-tasks-today",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Our tasks today",
+    "text": "Our tasks today\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
+  },
+  {
+    "objectID": "2025/weeks/week08/page.html",
+    "href": "2025/weeks/week08/page.html",
+    "title": "🗓️ Week 8 - The basics of R",
+    "section": "",
+    "text": "In this week, we will learn the basics of using R for data analysis. This should provide students with the necessary skills to use R when learning more advanced topics.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 08"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week08/page.html#instructions",
+    "href": "2025/weeks/week08/page.html#instructions",
+    "title": "🗓️ Week 8 - The basics of R",
+    "section": "Instructions",
+    "text": "Instructions\nGo to this page and complete Chapter 1 and Chapter 2 within this week.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 08"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week08/page.html#coursework",
+    "href": "2025/weeks/week08/page.html#coursework",
+    "title": "🗓️ Week 8 - The basics of R",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 Install R & RStudio on your computer and reproduce chapter 2’s code 🚧\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 08"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#monetary-poverty",
+    "href": "2025/weeks/week08/slides.html#monetary-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Monetary poverty",
+    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#multidimensional-poverty",
+    "href": "2025/weeks/week08/slides.html#multidimensional-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Multidimensional poverty",
+    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#poverty-atlas---us2.15",
+    "href": "2025/weeks/week08/slides.html#poverty-atlas---us2.15",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$2.15",
+    "text": "Poverty Atlas - US$2.15"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#poverty-atlas---us3.65",
+    "href": "2025/weeks/week08/slides.html#poverty-atlas---us3.65",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$3.65",
+    "text": "Poverty Atlas - US$3.65"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#poverty-atlas---us6.85",
+    "href": "2025/weeks/week08/slides.html#poverty-atlas---us6.85",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Poverty Atlas - US$6.85",
+    "text": "Poverty Atlas - US$6.85"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#goal",
+    "href": "2025/weeks/week08/slides.html#goal",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Goal",
+    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "href": "2025/weeks/week08/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Indice de Pobreza Multidimensional (IPM)",
+    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#download-compressed-file",
+    "href": "2025/weeks/week08/slides.html#download-compressed-file",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Download compressed file",
+    "text": "Download compressed file"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#extract-and-check-data-dictionary",
+    "href": "2025/weeks/week08/slides.html#extract-and-check-data-dictionary",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Extract and check data dictionary",
+    "text": "Extract and check data dictionary"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#mapping-multidimensional-poverty",
+    "href": "2025/weeks/week08/slides.html#mapping-multidimensional-poverty",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Mapping multidimensional poverty",
+    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#mapping-cities-population",
+    "href": "2025/weeks/week08/slides.html#mapping-cities-population",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Mapping cities’ population",
+    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#make-your-socioeconomic-maps",
+    "href": "2025/weeks/week08/slides.html#make-your-socioeconomic-maps",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Make your socioeconomic map(s)",
+    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the 4th December class"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#what-is-eva",
+    "href": "2025/weeks/week08/slides.html#what-is-eva",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "What is EVA?",
+    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#eva-agricola",
+    "href": "2025/weeks/week08/slides.html#eva-agricola",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nClick on the “Agricola” tab:"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#eva-agricola-1",
+    "href": "2025/weeks/week08/slides.html#eva-agricola-1",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "EVA Agricola",
+    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
+  },
+  {
+    "objectID": "2025/weeks/week08/slides.html#our-tasks-today",
+    "href": "2025/weeks/week08/slides.html#our-tasks-today",
+    "title": "🗓️ Week 5Multidimensional poverty",
+    "section": "Our tasks today",
+    "text": "Our tasks today\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#what-is-a-dem",
+    "href": "2025/weeks/week09/slides (1).html#what-is-a-dem",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "What is a DEM?",
+    "text": "What is a DEM?\nA digital elevation model (DEM) is a general term representing ground elevation above sea level. In a DEM, all surface features (trees, buildings, bridges, etc.) are stripped away, and only the bare earth is represented.\nA DEM shows:\n\nHeights above sea level\nSlopes\nRiver beds\nLandforms"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#dem-representation",
+    "href": "2025/weeks/week09/slides (1).html#dem-representation",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "DEM representation",
+    "text": "DEM representation"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#grid-vs-tin",
+    "href": "2025/weeks/week09/slides (1).html#grid-vs-tin",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "GRID vs TIN",
+    "text": "GRID vs TIN"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#what-is-a-dtm",
+    "href": "2025/weeks/week09/slides (1).html#what-is-a-dtm",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "What is a DTM?",
+    "text": "What is a DTM?\nA digital terrain model (DTM) is a layer ‘on top’ of the DEM. It will show additional information that the bare earth DEM might not represent, including things like:\n\nBreaklines are changes in the terrain on a surface\nManmade and natural linear features of the bare earth terrain, such as roads, railway tracks, flood defences, pipelines, coastlines, or rivers."
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#what-is-a-dsm",
+    "href": "2025/weeks/week09/slides (1).html#what-is-a-dsm",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "What is a DSM?",
+    "text": "What is a DSM?\nA digital surface model (DSM) is a type of terrain that includes all features above the bare earth - both natural and man-made.\nIt includes ground features such as buildings, infrastructure, trees, and vegetation. The layer will represent the height of all these features above the ground on which they stand."
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#dtm-vs-dtm-1",
+    "href": "2025/weeks/week09/slides (1).html#dtm-vs-dtm-1",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "DTM vs DTM (1)",
+    "text": "DTM vs DTM (1)"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#chm",
+    "href": "2025/weeks/week09/slides (1).html#chm",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "CHM",
+    "text": "CHM"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#uses-of-dems-dtms",
+    "href": "2025/weeks/week09/slides (1).html#uses-of-dems-dtms",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Uses of DEMs & DTMs",
+    "text": "Uses of DEMs & DTMs\nDEMs and DTMs help us understand the ‘natural’ shape of the earth’s surface - without the ‘distraction’ of buildings, trees, or other infrastructure.\nBoth are especially useful for things like:\n\nHydrology\nTerrain form\nSlope stability\nSimulations"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#uses-of-dsm",
+    "href": "2025/weeks/week09/slides (1).html#uses-of-dsm",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Uses of DSM",
+    "text": "Uses of DSM\nDSMs show you both ground elevation and the height of everything above it. This allows you to understand how ground features interact with one another and the bare earth.\nDSMs are useful for things like:\n\nRadio frequency planning\nEmergency planning\nLine of sight planning\nSmart city mapping"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#dsm-vs-dtm-2",
+    "href": "2025/weeks/week09/slides (1).html#dsm-vs-dtm-2",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "DSM vs DTM (2)",
+    "text": "DSM vs DTM (2)"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#dem-projects",
+    "href": "2025/weeks/week09/slides (1).html#dem-projects",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "DEM projects",
+    "text": "DEM projects"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#spatial-resolution",
+    "href": "2025/weeks/week09/slides (1).html#spatial-resolution",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Spatial resolution",
+    "text": "Spatial resolution"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#tecniques",
+    "href": "2025/weeks/week09/slides (1).html#tecniques",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Tecniques",
+    "text": "Tecniques\nElevation data can be measured by:\n\nfield surveying\nphotogrammetry\ncartographic digitization\nairborne laser scanning"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#field-surveys",
+    "href": "2025/weeks/week09/slides (1).html#field-surveys",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Field surveys",
+    "text": "Field surveys"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#photogrammetry",
+    "href": "2025/weeks/week09/slides (1).html#photogrammetry",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "Photogrammetry",
+    "text": "Photogrammetry"
+  },
+  {
+    "objectID": "2025/weeks/week09/slides (1).html#lidar",
+    "href": "2025/weeks/week09/slides (1).html#lidar",
+    "title": "🗓️ Week 09Digital elevation models",
+    "section": "LiDAR",
+    "text": "LiDAR"
+  },
+  {
+    "objectID": "2025/weeks/week10/page.html",
+    "href": "2025/weeks/week10/page.html",
+    "title": "🗓️ Week 10 - Geomorphometry",
+    "section": "",
+    "text": "In this week, we will learn basic concepts about terrain characterization. In addition, we will obtain geomorphometric attributes in R.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week10/page.html#lecture-slides",
+    "href": "2025/weeks/week10/page.html#lecture-slides",
+    "title": "🗓️ Week 10 - Geomorphometry",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nClick here to view it in fullscreen.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week10/page.html#r-practical",
+    "href": "2025/weeks/week10/page.html#r-practical",
+    "title": "🗓️ Week 10 - Geomorphometry",
+    "section": "R Practical",
+    "text": "R Practical\nReplicate and publish this notebook within this week.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week10/page.html#useful-references",
+    "href": "2025/weeks/week10/page.html#useful-references",
+    "title": "🗓️ Week 10 - Geomorphometry",
+    "section": "Useful references:",
+    "text": "Useful references:\n\nGeomorphometry: a brief guide\nHow slope works\nHow aspect works\n\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week11/page.html",
+    "href": "2025/weeks/week11/page.html",
+    "title": "🗓️ Week 11 -Getting soil data properties",
+    "section": "",
+    "text": "In this week, we will learn about SoilGrids, a global dataset of soil properties obtained using soil data and machine learning techniques. In addition, we will learn how to download such data for a particular area of interest.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week11/page.html#soilgrids-web-portal",
+    "href": "2025/weeks/week11/page.html#soilgrids-web-portal",
+    "title": "🗓️ Week 11 -Getting soil data properties",
+    "section": "👨‍🏫 SoilGrids web portal",
+    "text": "👨‍🏫 SoilGrids web portal\nSoilGrids250m 2.0 - A system for digital soil mapping based on global compilation of soil profile data and environmental layers.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week11/page.html#r-practical",
+    "href": "2025/weeks/week11/page.html#r-practical",
+    "title": "🗓️ Week 11 -Getting soil data properties",
+    "section": "R Practical",
+    "text": "R Practical\nReplicate the SoilGrids notebook for your department. Publish the notebook not later than 11th November.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week11/page.html#useful-references",
+    "href": "2025/weeks/week11/page.html#useful-references",
+    "title": "🗓️ Week 11 -Getting soil data properties",
+    "section": "Useful references:",
+    "text": "Useful references:\nSoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week12/page.html",
+    "href": "2025/weeks/week12/page.html",
+    "title": "🗓️ Week 12 - Spatial Interpolation",
+    "section": "",
+    "text": "In this week, we will learn about spatial interpolation, a geostatistical technique for estimating values of continuous surfaces from point values sampled in the field.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week12/page.html#slides",
+    "href": "2025/weeks/week12/page.html#slides",
+    "title": "🗓️ Week 12 - Spatial Interpolation",
+    "section": "👨‍🏫 Slides",
+    "text": "👨‍🏫 Slides\nYou can find the slides here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week12/page.html#r-practical",
+    "href": "2025/weeks/week12/page.html#r-practical",
+    "title": "🗓️ Week 12 - Spatial Interpolation",
+    "section": "R Practical",
+    "text": "R Practical\nR notebook for Soil Organic Carbon Interpolation.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week12/page.html#informe-no.2",
+    "href": "2025/weeks/week12/page.html#informe-no.2",
+    "title": "🗓️ Week 12 - Spatial Interpolation",
+    "section": "✍️ Informe No.2",
+    "text": "✍️ Informe No.2\n🚧 You have to publish the notebook Soil property interpolation for your department not lat later than 28th November at 11:59 pm 🚧",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "2025/weeks/week12/page.html#useful-references",
+    "href": "2025/weeks/week12/page.html#useful-references",
+    "title": "🗓️ Week 12 - Spatial Interpolation",
+    "section": "Useful references:",
+    "text": "Useful references:\nKriging Interpolation\nSpatial interpolation\nCarto tutorial\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
+  },
+  {
     "objectID": "2025/weeks/week12/slides.html#definition",
     "href": "2025/weeks/week12/slides.html#definition",
     "title": "🗓️ Week 12 Spatial interpolation",
@@ -182,1915 +2320,38 @@
     "text": "R Practical\nR notebook for Soil Organic Carbon Interpolation."
   },
   {
-    "objectID": "2025/weeks/week12/page.html",
-    "href": "2025/weeks/week12/page.html",
-    "title": "🗓️ Week 12 - Spatial Interpolation",
+    "objectID": "2025/weeks/week13/page_Interpolation.html",
+    "href": "2025/weeks/week13/page_Interpolation.html",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
     "section": "",
-    "text": "In this week, we will learn about spatial interpolation, a geostatistical technique for estimating values of continuous surfaces from point values sampled in the field.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 12"
-    ]
+    "text": "In this week, we will learn about spatial interpolation, a geostatistical technique for estimating values of continuous surfaces from point values sampled in the field."
   },
   {
-    "objectID": "2025/weeks/week12/page.html#slides",
-    "href": "2025/weeks/week12/page.html#slides",
-    "title": "🗓️ Week 12 - Spatial Interpolation",
+    "objectID": "2025/weeks/week13/page_Interpolation.html#slides",
+    "href": "2025/weeks/week13/page_Interpolation.html#slides",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
     "section": "👨‍🏫 Slides",
-    "text": "👨‍🏫 Slides\nYou can find the slides here",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 12"
-    ]
+    "text": "👨‍🏫 Slides\nYou can find the slides here"
   },
   {
-    "objectID": "2025/weeks/week12/page.html#r-practical",
-    "href": "2025/weeks/week12/page.html#r-practical",
-    "title": "🗓️ Week 12 - Spatial Interpolation",
+    "objectID": "2025/weeks/week13/page_Interpolation.html#r-practical",
+    "href": "2025/weeks/week13/page_Interpolation.html#r-practical",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
     "section": "R Practical",
-    "text": "R Practical\nR notebook for Soil Organic Carbon Interpolation.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 12"
-    ]
+    "text": "R Practical\nDetailed instructions are provided on 12th February in the classroom."
   },
   {
-    "objectID": "2025/weeks/week12/page.html#informe-no.2",
-    "href": "2025/weeks/week12/page.html#informe-no.2",
-    "title": "🗓️ Week 12 - Spatial Interpolation",
-    "section": "✍️ Informe No.2",
-    "text": "✍️ Informe No.2\n🚧 You have to publish the notebook Soil property interpolation for your department not lat later than 28th November at 11:59 pm 🚧",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 12"
-    ]
+    "objectID": "2025/weeks/week13/page_Interpolation.html#informe-no.2-deadline",
+    "href": "2025/weeks/week13/page_Interpolation.html#informe-no.2-deadline",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "section": "✍️ Informe No.2 deadline",
+    "text": "✍️ Informe No.2 deadline\n🚧 Make sure you send the link to your department’s interpolation notebook before 27th February at 11:59 pm 🚧"
   },
   {
-    "objectID": "2025/weeks/week12/page.html#useful-references",
-    "href": "2025/weeks/week12/page.html#useful-references",
-    "title": "🗓️ Week 12 - Spatial Interpolation",
+    "objectID": "2025/weeks/week13/page_Interpolation.html#useful-references",
+    "href": "2025/weeks/week13/page_Interpolation.html#useful-references",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
     "section": "Useful references:",
-    "text": "Useful references:\nKriging Interpolation\nSpatial interpolation\nCarto tutorial\n🎥",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 12"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week11/page.html",
-    "href": "2025/weeks/week11/page.html",
-    "title": "🗓️ Week 11 -Getting soil data properties",
-    "section": "",
-    "text": "In this week, we will learn about SoilGrids, a global dataset of soil properties obtained using soil data and machine learning techniques. In addition, we will learn how to download such data for a particular area of interest.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 11"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week11/page.html#soilgrids-web-portal",
-    "href": "2025/weeks/week11/page.html#soilgrids-web-portal",
-    "title": "🗓️ Week 11 -Getting soil data properties",
-    "section": "👨‍🏫 SoilGrids web portal",
-    "text": "👨‍🏫 SoilGrids web portal\nSoilGrids250m 2.0 - A system for digital soil mapping based on global compilation of soil profile data and environmental layers.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 11"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week11/page.html#r-practical",
-    "href": "2025/weeks/week11/page.html#r-practical",
-    "title": "🗓️ Week 11 -Getting soil data properties",
-    "section": "R Practical",
-    "text": "R Practical\nReplicate the SoilGrids notebook for your department. Publish the notebook not later than 11th November.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 11"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week11/page.html#useful-references",
-    "href": "2025/weeks/week11/page.html#useful-references",
-    "title": "🗓️ Week 11 -Getting soil data properties",
-    "section": "Useful references:",
-    "text": "Useful references:\nSoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty\n🎥",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 11"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week10/page.html",
-    "href": "2025/weeks/week10/page.html",
-    "title": "🗓️ Week 10 - Geomorphometry",
-    "section": "",
-    "text": "In this week, we will learn basic concepts about terrain characterization. In addition, we will obtain geomorphometric attributes in R.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 10"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week10/page.html#lecture-slides",
-    "href": "2025/weeks/week10/page.html#lecture-slides",
-    "title": "🗓️ Week 10 - Geomorphometry",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nClick here to view it in fullscreen.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 10"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week10/page.html#r-practical",
-    "href": "2025/weeks/week10/page.html#r-practical",
-    "title": "🗓️ Week 10 - Geomorphometry",
-    "section": "R Practical",
-    "text": "R Practical\nReplicate and publish this notebook within this week.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 10"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week10/page.html#useful-references",
-    "href": "2025/weeks/week10/page.html#useful-references",
-    "title": "🗓️ Week 10 - Geomorphometry",
-    "section": "Useful references:",
-    "text": "Useful references:\n\nGeomorphometry: a brief guide\nHow slope works\nHow aspect works\n\n🎥",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 10"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#what-is-a-dem",
-    "href": "2025/weeks/week09/slides (1).html#what-is-a-dem",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "What is a DEM?",
-    "text": "What is a DEM?\nA digital elevation model (DEM) is a general term representing ground elevation above sea level. In a DEM, all surface features (trees, buildings, bridges, etc.) are stripped away, and only the bare earth is represented.\nA DEM shows:\n\nHeights above sea level\nSlopes\nRiver beds\nLandforms"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#dem-representation",
-    "href": "2025/weeks/week09/slides (1).html#dem-representation",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "DEM representation",
-    "text": "DEM representation"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#grid-vs-tin",
-    "href": "2025/weeks/week09/slides (1).html#grid-vs-tin",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "GRID vs TIN",
-    "text": "GRID vs TIN"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#what-is-a-dtm",
-    "href": "2025/weeks/week09/slides (1).html#what-is-a-dtm",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "What is a DTM?",
-    "text": "What is a DTM?\nA digital terrain model (DTM) is a layer ‘on top’ of the DEM. It will show additional information that the bare earth DEM might not represent, including things like:\n\nBreaklines are changes in the terrain on a surface\nManmade and natural linear features of the bare earth terrain, such as roads, railway tracks, flood defences, pipelines, coastlines, or rivers."
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#what-is-a-dsm",
-    "href": "2025/weeks/week09/slides (1).html#what-is-a-dsm",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "What is a DSM?",
-    "text": "What is a DSM?\nA digital surface model (DSM) is a type of terrain that includes all features above the bare earth - both natural and man-made.\nIt includes ground features such as buildings, infrastructure, trees, and vegetation. The layer will represent the height of all these features above the ground on which they stand."
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#dtm-vs-dtm-1",
-    "href": "2025/weeks/week09/slides (1).html#dtm-vs-dtm-1",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "DTM vs DTM (1)",
-    "text": "DTM vs DTM (1)"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#chm",
-    "href": "2025/weeks/week09/slides (1).html#chm",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "CHM",
-    "text": "CHM"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#uses-of-dems-dtms",
-    "href": "2025/weeks/week09/slides (1).html#uses-of-dems-dtms",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "Uses of DEMs & DTMs",
-    "text": "Uses of DEMs & DTMs\nDEMs and DTMs help us understand the ‘natural’ shape of the earth’s surface - without the ‘distraction’ of buildings, trees, or other infrastructure.\nBoth are especially useful for things like:\n\nHydrology\nTerrain form\nSlope stability\nSimulations"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#uses-of-dsm",
-    "href": "2025/weeks/week09/slides (1).html#uses-of-dsm",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "Uses of DSM",
-    "text": "Uses of DSM\nDSMs show you both ground elevation and the height of everything above it. This allows you to understand how ground features interact with one another and the bare earth.\nDSMs are useful for things like:\n\nRadio frequency planning\nEmergency planning\nLine of sight planning\nSmart city mapping"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#dsm-vs-dtm-2",
-    "href": "2025/weeks/week09/slides (1).html#dsm-vs-dtm-2",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "DSM vs DTM (2)",
-    "text": "DSM vs DTM (2)"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#dem-projects",
-    "href": "2025/weeks/week09/slides (1).html#dem-projects",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "DEM projects",
-    "text": "DEM projects"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#spatial-resolution",
-    "href": "2025/weeks/week09/slides (1).html#spatial-resolution",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "Spatial resolution",
-    "text": "Spatial resolution"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#tecniques",
-    "href": "2025/weeks/week09/slides (1).html#tecniques",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "Tecniques",
-    "text": "Tecniques\nElevation data can be measured by:\n\nfield surveying\nphotogrammetry\ncartographic digitization\nairborne laser scanning"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#field-surveys",
-    "href": "2025/weeks/week09/slides (1).html#field-surveys",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "Field surveys",
-    "text": "Field surveys"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#photogrammetry",
-    "href": "2025/weeks/week09/slides (1).html#photogrammetry",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "Photogrammetry",
-    "text": "Photogrammetry"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides (1).html#lidar",
-    "href": "2025/weeks/week09/slides (1).html#lidar",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "LiDAR",
-    "text": "LiDAR"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#monetary-poverty",
-    "href": "2025/weeks/week08/slides.html#monetary-poverty",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Monetary poverty",
-    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#multidimensional-poverty",
-    "href": "2025/weeks/week08/slides.html#multidimensional-poverty",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Multidimensional poverty",
-    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#poverty-atlas---us2.15",
-    "href": "2025/weeks/week08/slides.html#poverty-atlas---us2.15",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Poverty Atlas - US$2.15",
-    "text": "Poverty Atlas - US$2.15"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#poverty-atlas---us3.65",
-    "href": "2025/weeks/week08/slides.html#poverty-atlas---us3.65",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Poverty Atlas - US$3.65",
-    "text": "Poverty Atlas - US$3.65"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#poverty-atlas---us6.85",
-    "href": "2025/weeks/week08/slides.html#poverty-atlas---us6.85",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Poverty Atlas - US$6.85",
-    "text": "Poverty Atlas - US$6.85"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#goal",
-    "href": "2025/weeks/week08/slides.html#goal",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Goal",
-    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#indice-de-pobreza-multidimensional-ipm",
-    "href": "2025/weeks/week08/slides.html#indice-de-pobreza-multidimensional-ipm",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Indice de Pobreza Multidimensional (IPM)",
-    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#download-compressed-file",
-    "href": "2025/weeks/week08/slides.html#download-compressed-file",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Download compressed file",
-    "text": "Download compressed file"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#extract-and-check-data-dictionary",
-    "href": "2025/weeks/week08/slides.html#extract-and-check-data-dictionary",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Extract and check data dictionary",
-    "text": "Extract and check data dictionary"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#mapping-multidimensional-poverty",
-    "href": "2025/weeks/week08/slides.html#mapping-multidimensional-poverty",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Mapping multidimensional poverty",
-    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#mapping-cities-population",
-    "href": "2025/weeks/week08/slides.html#mapping-cities-population",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Mapping cities’ population",
-    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#make-your-socioeconomic-maps",
-    "href": "2025/weeks/week08/slides.html#make-your-socioeconomic-maps",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Make your socioeconomic map(s)",
-    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the 4th December class"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#what-is-eva",
-    "href": "2025/weeks/week08/slides.html#what-is-eva",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "What is EVA?",
-    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#eva-agricola",
-    "href": "2025/weeks/week08/slides.html#eva-agricola",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "EVA Agricola",
-    "text": "EVA Agricola\nClick on the “Agricola” tab:"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#eva-agricola-1",
-    "href": "2025/weeks/week08/slides.html#eva-agricola-1",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "EVA Agricola",
-    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
-  },
-  {
-    "objectID": "2025/weeks/week08/slides.html#our-tasks-today",
-    "href": "2025/weeks/week08/slides.html#our-tasks-today",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Our tasks today",
-    "text": "Our tasks today\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
-  },
-  {
-    "objectID": "2025/weeks/week08/page.html",
-    "href": "2025/weeks/week08/page.html",
-    "title": "🗓️ Week 8 - The basics of R",
-    "section": "",
-    "text": "In this week, we will learn the basics of using R for data analysis. This should provide students with the necessary skills to use R when learning more advanced topics.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 08"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week08/page.html#instructions",
-    "href": "2025/weeks/week08/page.html#instructions",
-    "title": "🗓️ Week 8 - The basics of R",
-    "section": "Instructions",
-    "text": "Instructions\nGo to this page and complete Chapter 1 and Chapter 2 within this week.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 08"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week08/page.html#coursework",
-    "href": "2025/weeks/week08/page.html#coursework",
-    "title": "🗓️ Week 8 - The basics of R",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 Install R & RStudio on your computer and reproduce chapter 2’s code 🚧\n🎥",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 08"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#monetary-poverty",
-    "href": "2025/weeks/week07/slides.html#monetary-poverty",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Monetary poverty",
-    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#multidimensional-poverty",
-    "href": "2025/weeks/week07/slides.html#multidimensional-poverty",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Multidimensional poverty",
-    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#poverty-atlas---us2.15",
-    "href": "2025/weeks/week07/slides.html#poverty-atlas---us2.15",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Poverty Atlas - US$2.15",
-    "text": "Poverty Atlas - US$2.15"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#poverty-atlas---us3.65",
-    "href": "2025/weeks/week07/slides.html#poverty-atlas---us3.65",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Poverty Atlas - US$3.65",
-    "text": "Poverty Atlas - US$3.65"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#poverty-atlas---us6.85",
-    "href": "2025/weeks/week07/slides.html#poverty-atlas---us6.85",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Poverty Atlas - US$6.85",
-    "text": "Poverty Atlas - US$6.85"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#goal",
-    "href": "2025/weeks/week07/slides.html#goal",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Goal",
-    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#indice-de-pobreza-multidimensional-ipm",
-    "href": "2025/weeks/week07/slides.html#indice-de-pobreza-multidimensional-ipm",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Indice de Pobreza Multidimensional (IPM)",
-    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#download-compressed-file",
-    "href": "2025/weeks/week07/slides.html#download-compressed-file",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Download compressed file",
-    "text": "Download compressed file"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#extract-and-check-data-dictionary",
-    "href": "2025/weeks/week07/slides.html#extract-and-check-data-dictionary",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Extract and check data dictionary",
-    "text": "Extract and check data dictionary"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#mapping-multidimensional-poverty",
-    "href": "2025/weeks/week07/slides.html#mapping-multidimensional-poverty",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Mapping multidimensional poverty",
-    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#mapping-cities-population",
-    "href": "2025/weeks/week07/slides.html#mapping-cities-population",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Mapping cities’ population",
-    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#make-your-socioeconomic-maps",
-    "href": "2025/weeks/week07/slides.html#make-your-socioeconomic-maps",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Make your socioeconomic map(s)",
-    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the 4th December class"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#what-is-eva",
-    "href": "2025/weeks/week07/slides.html#what-is-eva",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "What is EVA?",
-    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#eva-agricola",
-    "href": "2025/weeks/week07/slides.html#eva-agricola",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "EVA Agricola",
-    "text": "EVA Agricola\nClick on the “Agricola” tab:"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#eva-agricola-1",
-    "href": "2025/weeks/week07/slides.html#eva-agricola-1",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "EVA Agricola",
-    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
-  },
-  {
-    "objectID": "2025/weeks/week07/slides.html#our-tasks-today",
-    "href": "2025/weeks/week07/slides.html#our-tasks-today",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Our tasks today",
-    "text": "Our tasks today\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
-  },
-  {
-    "objectID": "2025/weeks/week07/Notebooks_page.html",
-    "href": "2025/weeks/week07/Notebooks_page.html",
-    "title": "🗓️ Week 7- Writing R Notebooks",
-    "section": "",
-    "text": "In this week, we will cover the following topics:\nR Notebooks:"
-  },
-  {
-    "objectID": "2025/weeks/week07/Notebooks_page.html#lecture-slides",
-    "href": "2025/weeks/week07/Notebooks_page.html#lecture-slides",
-    "title": "🗓️ Week 7- Writing R Notebooks",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here"
-  },
-  {
-    "objectID": "2025/weeks/week07/Notebooks_page.html#practical-exercises",
-    "href": "2025/weeks/week07/Notebooks_page.html#practical-exercises",
-    "title": "🗓️ Week 7- Writing R Notebooks",
-    "section": "Practical exercises:",
-    "text": "Practical exercises:\n\nCreate and publish the simple features notebook\n\n🎥"
-  },
-  {
-    "objectID": "2025/weeks/week07/Notebooks_page.html#coursework",
-    "href": "2025/weeks/week07/Notebooks_page.html#coursework",
-    "title": "🗓️ Week 7- Writing R Notebooks",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 Make sure you create and publish this week notebook 🚧"
-  },
-  {
-    "objectID": "2025/weeks/week06/page.html",
-    "href": "2025/weeks/week06/page.html",
-    "title": "🗓️ Week 6 -Again, Map of agricultural production",
-    "section": "",
-    "text": "In this week, we refreshed the following topics:\n🎥",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 06"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week06/page.html#recommended-watching",
-    "href": "2025/weeks/week06/page.html#recommended-watching",
-    "title": "🗓️ Week 6 -Again, Map of agricultural production",
-    "section": "📚 Recommended watching",
-    "text": "📚 Recommended watching\nThe recording for the 1st October lecture can be watched here",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 06"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week06/page.html#coursework",
-    "href": "2025/weeks/week06/page.html#coursework",
-    "title": "🗓️ Week 6 -Again, Map of agricultural production",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 Complete your Informe No. 1 as explained in class 🚧\n:::",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 06"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week05/page.html",
-    "href": "2025/weeks/week05/page.html",
-    "title": "🗓️ Week 5 - Map of agricultural production",
-    "section": "",
-    "text": "In this week, we will cover the following topics:",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 05"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week05/page.html#lecture-slides",
-    "href": "2025/weeks/week05/page.html#lecture-slides",
-    "title": "🗓️ Week 5 - Map of agricultural production",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 05"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week05/page.html#practical-exercises",
-    "href": "2025/weeks/week05/page.html#practical-exercises",
-    "title": "🗓️ Week 5 - Map of agricultural production",
-    "section": "Practical exercises:",
-    "text": "Practical exercises:\n\nDownload UPRA 2023 Base Agrícola\nCreate an agricultural production map for your department\n\nMake sure you upload your third map, the agricultural production for your department, in PDF format, before 29th September\n🎥",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 05"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week05/page.html#recommended-reading",
-    "href": "2025/weeks/week05/page.html#recommended-reading",
-    "title": "🗓️ Week 5 - Map of agricultural production",
-    "section": "📚 Recommended Reading",
-    "text": "📚 Recommended Reading\nRead UPRA 2023 Resultados Evaluación agropecuaria",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 05"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week05/page.html#coursework",
-    "href": "2025/weeks/week05/page.html#coursework",
-    "title": "🗓️ Week 5 - Map of agricultural production",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nEVA 2023 (UPRA)\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the most important crop in your department?\nWhat is the most productive crop in your department?\nWhat is the most important group of crops per municipality?",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 05"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week05/old_page.html",
-    "href": "2025/weeks/week05/old_page.html",
-    "title": "🗓️ Week 5 -Spatial predicates",
-    "section": "",
-    "text": "In this week, we will cover the following topics:\nTheoretical topics:"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_page.html#lecture-slides",
-    "href": "2025/weeks/week05/old_page.html#lecture-slides",
-    "title": "🗓️ Week 5 -Spatial predicates",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_page.html#practical-exercises",
-    "href": "2025/weeks/week05/old_page.html#practical-exercises",
-    "title": "🗓️ Week 5 -Spatial predicates",
-    "section": "Practical exercises:",
-    "text": "Practical exercises:\n\nPolish the socioeconomic map for your department\n\nMake sure you bring printed your second map to the classroom on 6th May\n🎥"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_page.html#recommended-reading",
-    "href": "2025/weeks/week05/old_page.html#recommended-reading",
-    "title": "🗓️ Week 5 -Spatial predicates",
-    "section": "📚 Recommended Reading",
-    "text": "📚 Recommended Reading\nRead Boletín Técnico - Pobreza Multidimensional en Colombia Año 2018 and take notes of the dimensions considered by DANE to produce the Indice de Pobreza Multidimensional (IPM)."
-  },
-  {
-    "objectID": "2025/weeks/week05/old_page.html#coursework",
-    "href": "2025/weeks/week05/old_page.html#coursework",
-    "title": "🗓️ Week 5 -Spatial predicates",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nIndice de Pobreza Multidimensional (IPM)\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the geographic region with highest IPM in 2018?\nWhat is the geographic region with lowest IPM in 2018?\nWhat are the dimensions considered to produce the IPM in 2018?"
-  },
-  {
-    "objectID": "2025/weeks/week04/page.html",
-    "href": "2025/weeks/week04/page.html",
-    "title": "🗓️ Week 04 -Table Joins",
-    "section": "",
-    "text": "In this week, we will cover the following topics:\nTheoretical topics:",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 04"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week04/page.html#lecture-slides",
-    "href": "2025/weeks/week04/page.html#lecture-slides",
-    "title": "🗓️ Week 04 -Table Joins",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 04"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week04/page.html#practical-exercises",
-    "href": "2025/weeks/week04/page.html#practical-exercises",
-    "title": "🗓️ Week 04 -Table Joins",
-    "section": "Practical exercises:",
-    "text": "Practical exercises:\n\nDownload the shapefile of Indice de Probreza Multidimensional (IPM) by DANE(2020)\nPreprocess the shapefile to cover only your department\nAdd municipalities, population, roads, cities, and IPM layers to a new QGIS project\nDefine symbology for each layer (add labels as needed)\nMake a map of IPM and colour print it\n\nMake sure you upload the IPM map to the drive on 17th September\n🎥",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 04"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week04/page.html#recommended-reading",
-    "href": "2025/weeks/week04/page.html#recommended-reading",
-    "title": "🗓️ Week 04 -Table Joins",
-    "section": "📚 Recommended Reading",
-    "text": "📚 Recommended Reading\nRead Cartography: an Introduction and take notes",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 04"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week04/page.html#coursework",
-    "href": "2025/weeks/week04/page.html#coursework",
-    "title": "🗓️ Week 04 -Table Joins",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nCartography\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the geographic area covered by one IGAC map sheet at 1:100000 scale?\nAt 1:25000 scale map, how many cm2 represent 100 ha?\nAt 1:5000 scale map, 10 cm2 equals how many hectares?",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 04"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week02/slides.html#discrete-objects-view",
-    "href": "2025/weeks/week02/slides.html#discrete-objects-view",
-    "title": "🗓️ Week 01 Spatial data models",
-    "section": "Discrete objects view",
-    "text": "Discrete objects view\nA discrete object has known and definable boundaries"
-  },
-  {
-    "objectID": "2025/weeks/week02/slides.html#continuous-surface-view",
-    "href": "2025/weeks/week02/slides.html#continuous-surface-view",
-    "title": "🗓️ Week 01 Spatial data models",
-    "section": "Continuous surface view",
-    "text": "Continuous surface view\nA continuous surface represents phenomena which may vary from place to place"
-  },
-  {
-    "objectID": "2025/weeks/week02/slides.html#points-and-lines",
-    "href": "2025/weeks/week02/slides.html#points-and-lines",
-    "title": "🗓️ Week 01 Spatial data models",
-    "section": "Points and lines",
-    "text": "Points and lines"
-  },
-  {
-    "objectID": "2025/weeks/week02/slides.html#polygons",
-    "href": "2025/weeks/week02/slides.html#polygons",
-    "title": "🗓️ Week 01 Spatial data models",
-    "section": "Polygons",
-    "text": "Polygons"
-  },
-  {
-    "objectID": "2025/weeks/week02/slides.html#multiple-representations",
-    "href": "2025/weeks/week02/slides.html#multiple-representations",
-    "title": "🗓️ Week 01 Spatial data models",
-    "section": "Multiple representations",
-    "text": "Multiple representations"
-  },
-  {
-    "objectID": "2025/weeks/week02/slides.html#spaghetti",
-    "href": "2025/weeks/week02/slides.html#spaghetti",
-    "title": "🗓️ Week 01 Spatial data models",
-    "section": "Spaghetti",
-    "text": "Spaghetti"
-  },
-  {
-    "objectID": "2025/weeks/week02/slides.html#topology",
-    "href": "2025/weeks/week02/slides.html#topology",
-    "title": "🗓️ Week 01 Spatial data models",
-    "section": "Topology",
-    "text": "Topology"
-  },
-  {
-    "objectID": "2025/weeks/week02/slides.html#gridded-structure",
-    "href": "2025/weeks/week02/slides.html#gridded-structure",
-    "title": "🗓️ Week 01 Spatial data models",
-    "section": "Gridded structure",
-    "text": "Gridded structure"
-  },
-  {
-    "objectID": "2025/weeks/week02/slides.html#cell-size",
-    "href": "2025/weeks/week02/slides.html#cell-size",
-    "title": "🗓️ Week 01 Spatial data models",
-    "section": "Cell size",
-    "text": "Cell size"
-  },
-  {
-    "objectID": "2025/weeks/week02/slides.html#cell-asignment",
-    "href": "2025/weeks/week02/slides.html#cell-asignment",
-    "title": "🗓️ Week 01 Spatial data models",
-    "section": "Cell asignment",
-    "text": "Cell asignment"
-  },
-  {
-    "objectID": "2025/weeks/week02/slides.html#read-this-document",
-    "href": "2025/weeks/week02/slides.html#read-this-document",
-    "title": "🗓️ Week 01 Spatial data models",
-    "section": "Read this document",
-    "text": "Read this document\nIt deals with planar and spherical coordinate systems (Bolstad, 2019)\nThen, answer this week questions"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#your-lecturer",
-    "href": "2025/weeks/week01/slides2.html#your-lecturer",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Your lecturer",
-    "text": "Your lecturer\n\n\n\n\n\nProf. Lizarazo Profesor Universidad Nacional de Colombia Investigador senior Minciencias Investigador principal SDGnexus Network\n\n\n\n\nPhD in Geography\nMSc in GIScience\nBackground: Civil Engineer\n\nMachine and Deep learning  GIS & Earth Observation  Territorial sustainability"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#students",
-    "href": "2025/weeks/week01/slides2.html#students",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Students",
-    "text": "Students\nPlease introduce yourselves\n:::"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#question-1",
-    "href": "2025/weeks/week01/slides2.html#question-1",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 1",
-    "text": "Question 1\nThe radius of Earth is … km"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#question-2",
-    "href": "2025/weeks/week01/slides2.html#question-2",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 2",
-    "text": "Question 2\nThe area of Colombia is … km2"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#question-3",
-    "href": "2025/weeks/week01/slides2.html#question-3",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 3",
-    "text": "Question 3\nThe area of Bogota municipality is … km2"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#question-4",
-    "href": "2025/weeks/week01/slides2.html#question-4",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 4",
-    "text": "Question 4\nThe UNAL Bogota campus is about … hectares"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#question-5",
-    "href": "2025/weeks/week01/slides2.html#question-5",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 5",
-    "text": "Question 5\nHow many hectares is 1 km by 1 km"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#question-6",
-    "href": "2025/weeks/week01/slides2.html#question-6",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 6",
-    "text": "Question 6\nThe distance between Sun and Earth is … km"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#basic-questions",
-    "href": "2025/weeks/week01/slides2.html#basic-questions",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Basic questions",
-    "text": "Basic questions\nTell us about your computational experience & skills"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#reading-doing-and-writing",
-    "href": "2025/weeks/week01/slides2.html#reading-doing-and-writing",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Reading, doing and writing",
-    "text": "Reading, doing and writing\nA flipped classroom is structured around the idea that lecture or direct instruction is not the best use of class time. Instead students encounter information before class, freeing class time for activities that involve higher order thinking"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#read-this-document-and-take-notes",
-    "href": "2025/weeks/week01/slides2.html#read-this-document-and-take-notes",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Read this document and take notes",
-    "text": "Read this document and take notes\n\nSpatial data models (Bolstad, 2019)"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#watch-this-video-and-take-notes",
-    "href": "2025/weeks/week01/slides2.html#watch-this-video-and-take-notes",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Watch this video and take notes",
-    "text": "Watch this video and take notes\n\nWhat is geomatics?\nWhich are its disciplines?\n\nLength: 12:34\nSpeaker: Amol Deshmukh"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides2.html#supplementary-lecture",
-    "href": "2025/weeks/week01/slides2.html#supplementary-lecture",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Supplementary lecture",
-    "text": "Supplementary lecture\nYou can find a good introduction to geomatics in this document\nChapter 1 from Gomarasca, M. Basics of Geomatics. Springer, 2009."
-  },
-  {
-    "objectID": "2025/weeks/week01/page.html",
-    "href": "2025/weeks/week01/page.html",
-    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
-    "section": "",
-    "text": "In this first week, we will cover what you can expect to learn from this course and the course logistics: all you need to know about the structure of the lectures, classes, assessments, and how we will interact throughout this course.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 01"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week01/page.html#lecture-slides",
-    "href": "2025/weeks/week01/page.html#lecture-slides",
-    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nEither click on the slide area below or click here to view it in fullscreen. Use your keypad to navigate the slides.\n\n\n\n\n🎥",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 01"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week01/page.html#coursework",
-    "href": "2025/weeks/week01/page.html#coursework",
-    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\nT1 - What is geomatics?\nT2 - Which are the geomatics disciplines?\nT3 - What is geodesy?\nT4 - What is cartography?\nT5 - What is computer science?",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 01"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week01/page.html#practical-work",
-    "href": "2025/weeks/week01/page.html#practical-work",
-    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
-    "section": "📚 Practical work",
-    "text": "📚 Practical work\n\nDownload QGIS 3.40 lTR and install it on your computer\nDownload Colombia’s datasets from Diva GIS and bring them to the class",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 01"
-    ]
-  },
-  {
-    "objectID": "2025/index.html",
-    "href": "2025/index.html",
-    "title": "2015896 - GEOMATICA BASICA",
-    "section": "",
-    "text": "Important📢 Notas Examen 2 (12/11/2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant📢 Notas Examen 1 (14/10/2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant📢 Notas Informe 1 (14/10/2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant📢 Syllabus\n\n\n\n\n\n(27/08/2025)\n\n🗓️ Know the syllabus here\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Tuesdays 10:30 am - 11:30 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
-    "crumbs": [
-      "🏠 Home"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "2015896 - GEOMATICA BASICA",
-    "section": "",
-    "text": "📑 Course Brief\nFocus: the focus of this course is introduce concepts, methods and tecniques used in geoinformation disciplines.\nHow: reading, learning by doing and writing\n\n\n🎯 Learning Objectives\n\nUnderstand the usefulness of geospatial data for supporting agronomy.\nInternalize basic concepts about geodesy, cartography, GIS, remote sensing, and geostatistics.\nBe able to apply geospatial techniques for data collection, processing, visualization and analysis.\nDevelop critical spatial thinking.\n\n\nSelect Academic Year/Term:\n 2025"
-  },
-  {
-    "objectID": "2025/syllabus.html",
-    "href": "2025/syllabus.html",
-    "title": "2015896 - GEOMATICA BASICA",
-    "section": "",
-    "text": "ImportantDESCRIPCIÓN DE LA ASIGNATURA:\n\n\n\n\n\n\n\n\nEntender y aplicar conceptos, métodos y técnicas geoespaciales.\nDesarrollar destrezas prácticas para realizar procesos digitales útiles en las ciencias agronómicas.\nBrindar oportunidades para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa.\n\n\n\n\n\nCapacidad para usar las herramientas tecnológicas, de la información y de la comunicación\nCapacidad para organización y planificación\nCapacidad de comunicación\n\n\n\n\n\nCapacidad de abstracción, análisis y síntesis.\nCapacidad de integrar y aplicar los conocimientos en la práctica.\nCapacidad de lectura en inglés.\nCapacidad para organizar y planificar el tiempo.\nCapacidad para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa\n\n\n\n\n\nLectura antes de la clase a cargo del estudiante\nPresentación de conceptos, métodos y técnicas a cargo del profesor\nRealización de lecturas, ejercicios prácticos y elaboración de informes a cargo del estudiante\n\n\n\n\n\nQGIS\nR & RStudio",
-    "crumbs": [
-      "📓 Syllabus"
-    ]
-  },
-  {
-    "objectID": "2025/syllabus.html#contenido-detallado",
-    "href": "2025/syllabus.html#contenido-detallado",
-    "title": "2015896 - GEOMATICA BASICA",
-    "section": "CONTENIDO DETALLADO",
-    "text": "CONTENIDO DETALLADO\n\n\n\n\n\n\nImportant\n\n\n\n\n\nSemana 1 – Introducción, contexto y conceptos básicos\nSemana 2 – Datos geoespaciales e información geográfica\nSemana 3 - Sistemas de coordenadas y proyecciones cartográticas\nSemana 4 - Conceptos básicos de cartografía\nSemana 5 - Modelos digitales de elevación\nSemana 6 – Sistemas de información geográfica\nSemana 7 – Servicios web geográficos\nSemana 8 – Sistemas satelitales de navegación global\nSemana 9 – Calidad de datos geográficos\nSemana 10 – Principios físicos de percepción remota\nSemana 11 – Percepción remota de la vegetación\nSemana 12 - Métodos determinísticos de interpolación espacial\nSemanas 14 y 15 - Métodos geoestadísticos de interpolación espacial\nSemana 16 - Agricultura digital",
-    "crumbs": [
-      "📓 Syllabus"
-    ]
-  },
-  {
-    "objectID": "2025/syllabus.html#evaluación-del-curso",
-    "href": "2025/syllabus.html#evaluación-del-curso",
-    "title": "2015896 - GEOMATICA BASICA",
-    "section": "EVALUACIÓN DEL CURSO:",
-    "text": "EVALUACIÓN DEL CURSO:\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nPresentación de dos exámenes teóricos (50%)\n\nExamen 1 - 24 de Septiembre\nExamen 2 - 26 de Noviembre\n\nEntrega de dos informes técnicos (50%)\n\nInforme 1 - 1 de Octubre\nInforme 2 - 3 de Diciembre",
-    "crumbs": [
-      "📓 Syllabus"
-    ]
-  },
-  {
-    "objectID": "2025/syllabus.html#bibliografia",
-    "href": "2025/syllabus.html#bibliografia",
-    "title": "2015896 - GEOMATICA BASICA",
-    "section": "BIBLIOGRAFIA",
-    "text": "BIBLIOGRAFIA\n\n\n\n\n\n\nImportant\n\n\n\n\n\nBrunsdon, C. and Comber, L. An introduction to R for spatial analysis and mapping [2nd ed.], SAGE, 2019.\nDuncombe, R. Digital technologies for Agricultural and Rural Development in the Global South. CABI, 2018.\nGomarasca, M. Basics of Geomatics. Springer, 2009.\nLongley, P.A., Goodchild M.F., Maguire, D.J. and Rhind, D.W. Geographic Information Systems [4th edition], Wiley, 2015.\nLovelace, R., Nowosad, J., and Muenchow, J. Geocomputation with R [2nd ed.],CRC Press, 2023. Available at https://geocompr.robinlovelace.net/\nPebesma, E. & Bivand, R. Spatial data science with applications in R. CRC Press, 2023.\nPlant, R.E. Spatial Data Analysis in Ecology and Agriculture Using R [2nd ed.], CRC Press, 2019.\nWegman, M., Leutner, B., and Dech, S. Remote Sensing and GIS for Ecologists: using Open Source Software, Pelagic Publishing, 2016.",
-    "crumbs": [
-      "📓 Syllabus"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#your-lecturer",
-    "href": "2025/weeks/week01/slides.html#your-lecturer",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Your lecturer",
-    "text": "Your lecturer\n\n\n\n\n\nProf. Lizarazo Profesor Universidad Nacional de Colombia Investigador senior Minciencias Investigador principal SDGnexus Network\n\n\n\n\nPhD in Geography\nMSc in GIScience\nBackground: Civil Engineer\n\nMachine and Deep learning  GIS & Earth Observation  Territorial sustainability"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#students",
-    "href": "2025/weeks/week01/slides.html#students",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Students",
-    "text": "Students\nPlease introduce yourselves\n:::"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#question-1",
-    "href": "2025/weeks/week01/slides.html#question-1",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 1",
-    "text": "Question 1\nThe radius of Earth is … km"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#question-2",
-    "href": "2025/weeks/week01/slides.html#question-2",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 2",
-    "text": "Question 2\nThe area of Colombia is … km2"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#question-3",
-    "href": "2025/weeks/week01/slides.html#question-3",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 3",
-    "text": "Question 3\nThe area of Bogota municipality is … km2"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#question-4",
-    "href": "2025/weeks/week01/slides.html#question-4",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 4",
-    "text": "Question 4\nThe UNAL Bogota campus is about … hectares"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#question-5",
-    "href": "2025/weeks/week01/slides.html#question-5",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 5",
-    "text": "Question 5\nHow many hectares is 1 km by 1 km"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#question-6",
-    "href": "2025/weeks/week01/slides.html#question-6",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 6",
-    "text": "Question 6\nThe distance between Sun and Earth is … km"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#basic-questions",
-    "href": "2025/weeks/week01/slides.html#basic-questions",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Basic questions",
-    "text": "Basic questions\nTell us about your computational experience & skills"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#reading-doing-and-writing",
-    "href": "2025/weeks/week01/slides.html#reading-doing-and-writing",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Reading, doing and writing",
-    "text": "Reading, doing and writing\nA flipped classroom is structured around the idea that lecture or direct instruction is not the best use of class time. Instead students encounter information before class, freeing class time for activities that involve higher order thinking"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#to-do-before-tomorrow",
-    "href": "2025/weeks/week01/slides.html#to-do-before-tomorrow",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "To do before tomorrow",
-    "text": "To do before tomorrow\nInstall QGIS 3.40.5 ‘Bratislava’ in your computer."
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#read-this-document-and-take-notes",
-    "href": "2025/weeks/week01/slides.html#read-this-document-and-take-notes",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Read this document and take notes",
-    "text": "Read this document and take notes\n\nSpatial data models (Bolstad, 2019)"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#watch-this-video-and-take-notes",
-    "href": "2025/weeks/week01/slides.html#watch-this-video-and-take-notes",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Watch this video and take notes",
-    "text": "Watch this video and take notes\n\nWhat is geomatics?\nWhich are its disciplines?\n\nLength: 12:34\nSpeaker: Amol Deshmukh"
-  },
-  {
-    "objectID": "2025/weeks/week01/slides.html#supplementary-lecture",
-    "href": "2025/weeks/week01/slides.html#supplementary-lecture",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Supplementary lecture",
-    "text": "Supplementary lecture\nYou can find a good introduction to geomatics in this document\nChapter 1 from Gomarasca, M. Basics of Geomatics. Springer, 2009."
-  },
-  {
-    "objectID": "2025/weeks/week02/page.html",
-    "href": "2025/weeks/week02/page.html",
-    "title": "🗓️ Week 02 - Geospatial data and geographical information",
-    "section": "",
-    "text": "In this week, we will cover the following topics:\nTheoretical topics:\nWhat are the most important characteristics of geographic data?\nHow are geographic data transformed into information?\nWhat conceptual models are used to represent geographic objects and phenomena\nWhat are the most commonly used data structures and formats?\nPractical exercises:\nMake a topographic map of your department\nReview of geographic metadata",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 02"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week02/page.html#lecture-slides",
-    "href": "2025/weeks/week02/page.html#lecture-slides",
-    "title": "🗓️ Week 02 - Geospatial data and geographical information",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here\n🎥",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 02"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week02/page.html#recommended-reading",
-    "href": "2025/weeks/week02/page.html#recommended-reading",
-    "title": "🗓️ Week 02 - Geospatial data and geographical information",
-    "section": "📚 Recommended Reading",
-    "text": "📚 Recommended Reading\nRead this document and take notes",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 02"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week02/page.html#coursework",
-    "href": "2025/weeks/week02/page.html#coursework",
-    "title": "🗓️ Week 02 - Geospatial data and geographical information",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nQuestion 1\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuestion 2\n\n\n\n\n\n\nImportant",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 02"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week03/page.html",
-    "href": "2025/weeks/week03/page.html",
-    "title": "🗓️ Week 03 - Coordinate systems and map projections",
-    "section": "",
-    "text": "In this week, we will cover the following topics:\nTheoretical topics:\nPractical exercise:",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 03"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week03/page.html#lecture-slides",
-    "href": "2025/weeks/week03/page.html#lecture-slides",
-    "title": "🗓️ Week 03 - Coordinate systems and map projections",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here\n🎥",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 03"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week03/page.html#recommended-reading",
-    "href": "2025/weeks/week03/page.html#recommended-reading",
-    "title": "🗓️ Week 03 - Coordinate systems and map projections",
-    "section": "📚 Recommended Reading",
-    "text": "📚 Recommended Reading\nRead:\n\nProyección Cartográfica Colombia and take notes\nWhat are ellipsoid and geoid heights?",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 03"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week03/page.html#coursework",
-    "href": "2025/weeks/week03/page.html#coursework",
-    "title": "🗓️ Week 03 - Coordinate systems and map projections",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nPart 1\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat are the geometric parameters associated to the ellipsoid GRS 80?\nWhat is the geoid?\nWhat are the most important characteristics of the geoid?\n\n\n\n\n\n\nPart 2\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is a datum?\nWhat is the datum MAGNA-SIRGAS?\nDescribe the Colombian map projection (EPSG:9377)",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 03"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#goal",
-    "href": "2025/weeks/week04/slides.html#goal",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Goal",
-    "text": "Goal\nTo join a population table to a municipalities geopackage"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#dane-population-table",
-    "href": "2025/weeks/week04/slides.html#dane-population-table",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "DANE population table",
-    "text": "DANE population table\nDownload Proyecciones de población DANE"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#original-table",
-    "href": "2025/weeks/week04/slides.html#original-table",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Original table",
-    "text": "Original table\nDCD-area-proypoblacion-Mun-2020-2035-ActPostCOVID-19.xlsx"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#edited-table",
-    "href": "2025/weeks/week04/slides.html#edited-table",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Edited table",
-    "text": "Edited table\nDANE table after going from long to wide format:"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#edited-municipalities-table",
-    "href": "2025/weeks/week04/slides.html#edited-municipalities-table",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Edited Municipalities table",
-    "text": "Edited Municipalities table\nCordoba municipalities table after deleting several fields"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#joins-in-qgis-1",
-    "href": "2025/weeks/week04/slides.html#joins-in-qgis-1",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Joins in QGIS [1]",
-    "text": "Joins in QGIS [1]\nGo to Municipalities Layer Properties:"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#joins-in-qgis-2",
-    "href": "2025/weeks/week04/slides.html#joins-in-qgis-2",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Joins in QGIS [2]",
-    "text": "Joins in QGIS [2]\nExecute this procedure:"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#result",
-    "href": "2025/weeks/week04/slides.html#result",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Result",
-    "text": "Result\nOpen the municipalities attribute table:"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#goal-accomplished",
-    "href": "2025/weeks/week04/slides.html#goal-accomplished",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Goal accomplished!",
-    "text": "Goal accomplished!\nVisualization of 2020 population per municipality (and OSM background):"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#monetary-poverty",
-    "href": "2025/weeks/week04/slides.html#monetary-poverty",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Monetary poverty",
-    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#multidimensional-poverty",
-    "href": "2025/weeks/week04/slides.html#multidimensional-poverty",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Multidimensional poverty",
-    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#poverty-atlas---us2.15",
-    "href": "2025/weeks/week04/slides.html#poverty-atlas---us2.15",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Poverty Atlas - US$2.15",
-    "text": "Poverty Atlas - US$2.15"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#poverty-atlas---us3.65",
-    "href": "2025/weeks/week04/slides.html#poverty-atlas---us3.65",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Poverty Atlas - US$3.65",
-    "text": "Poverty Atlas - US$3.65"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#poverty-atlas---us6.85",
-    "href": "2025/weeks/week04/slides.html#poverty-atlas---us6.85",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Poverty Atlas - US$6.85",
-    "text": "Poverty Atlas - US$6.85"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#goal-1",
-    "href": "2025/weeks/week04/slides.html#goal-1",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Goal",
-    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#indice-de-pobreza-multidimensional-ipm",
-    "href": "2025/weeks/week04/slides.html#indice-de-pobreza-multidimensional-ipm",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Indice de Pobreza Multidimensional (IPM)",
-    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#download-compressed-file",
-    "href": "2025/weeks/week04/slides.html#download-compressed-file",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Download compressed file",
-    "text": "Download compressed file"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#extract-and-check-data-dictionary",
-    "href": "2025/weeks/week04/slides.html#extract-and-check-data-dictionary",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Extract and check data dictionary",
-    "text": "Extract and check data dictionary"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#reading-visualizating-the-shapefile",
-    "href": "2025/weeks/week04/slides.html#reading-visualizating-the-shapefile",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Reading & Visualizating the shapefile",
-    "text": "Reading & Visualizating the shapefile"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#mapping-multidimensional-poverty",
-    "href": "2025/weeks/week04/slides.html#mapping-multidimensional-poverty",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Mapping multidimensional poverty",
-    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#mapping-cities-population",
-    "href": "2025/weeks/week04/slides.html#mapping-cities-population",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Mapping cities’ population",
-    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
-  },
-  {
-    "objectID": "2025/weeks/week04/slides.html#make-your-socioeconomic-maps",
-    "href": "2025/weeks/week04/slides.html#make-your-socioeconomic-maps",
-    "title": "🗓️ Week 4Non spatial joins",
-    "section": "Make your socioeconomic map(s)",
-    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the classroom on 24th September."
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#monetary-poverty",
-    "href": "2025/weeks/week05/old_slides.html#monetary-poverty",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Monetary poverty",
-    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#multidimensional-poverty",
-    "href": "2025/weeks/week05/old_slides.html#multidimensional-poverty",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Multidimensional poverty",
-    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#poverty-atlas---us2.15",
-    "href": "2025/weeks/week05/old_slides.html#poverty-atlas---us2.15",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Poverty Atlas - US$2.15",
-    "text": "Poverty Atlas - US$2.15"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#poverty-atlas---us3.65",
-    "href": "2025/weeks/week05/old_slides.html#poverty-atlas---us3.65",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Poverty Atlas - US$3.65",
-    "text": "Poverty Atlas - US$3.65"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#poverty-atlas---us6.85",
-    "href": "2025/weeks/week05/old_slides.html#poverty-atlas---us6.85",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Poverty Atlas - US$6.85",
-    "text": "Poverty Atlas - US$6.85"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#goal",
-    "href": "2025/weeks/week05/old_slides.html#goal",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Goal",
-    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#indice-de-pobreza-multidimensional-ipm",
-    "href": "2025/weeks/week05/old_slides.html#indice-de-pobreza-multidimensional-ipm",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Indice de Pobreza Multidimensional (IPM)",
-    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#download-compressed-file",
-    "href": "2025/weeks/week05/old_slides.html#download-compressed-file",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Download compressed file",
-    "text": "Download compressed file"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#extract-and-check-data-dictionary",
-    "href": "2025/weeks/week05/old_slides.html#extract-and-check-data-dictionary",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Extract and check data dictionary",
-    "text": "Extract and check data dictionary"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#mapping-multidimensional-poverty",
-    "href": "2025/weeks/week05/old_slides.html#mapping-multidimensional-poverty",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Mapping multidimensional poverty",
-    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#mapping-cities-population",
-    "href": "2025/weeks/week05/old_slides.html#mapping-cities-population",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Mapping cities’ population",
-    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#make-your-socioeconomic-maps",
-    "href": "2025/weeks/week05/old_slides.html#make-your-socioeconomic-maps",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Make your socioeconomic map(s)",
-    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the 4th December class"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#what-is-eva",
-    "href": "2025/weeks/week05/old_slides.html#what-is-eva",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "What is EVA?",
-    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#eva-agricola",
-    "href": "2025/weeks/week05/old_slides.html#eva-agricola",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "EVA Agricola",
-    "text": "EVA Agricola\nClick on the “Agricola” tab:"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#eva-agricola-1",
-    "href": "2025/weeks/week05/old_slides.html#eva-agricola-1",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "EVA Agricola",
-    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
-  },
-  {
-    "objectID": "2025/weeks/week05/old_slides.html#our-tasks-today",
-    "href": "2025/weeks/week05/old_slides.html#our-tasks-today",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Our tasks today",
-    "text": "Our tasks today\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
-  },
-  {
-    "objectID": "2025/weeks/week05/slides.html#what-is-eva",
-    "href": "2025/weeks/week05/slides.html#what-is-eva",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "What is EVA?",
-    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
-  },
-  {
-    "objectID": "2025/weeks/week05/slides.html#eva-2023",
-    "href": "2025/weeks/week05/slides.html#eva-2023",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "EVA 2023",
-    "text": "EVA 2023\nGo to UPRA 2023 webpage\nClick on the “Agricola” tab:"
-  },
-  {
-    "objectID": "2025/weeks/week05/slides.html#eva-agricola",
-    "href": "2025/weeks/week05/slides.html#eva-agricola",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "EVA Agricola",
-    "text": "EVA Agricola\nClick on the “Agricultural Database 2023”"
-  },
-  {
-    "objectID": "2025/weeks/week05/slides.html#eva-agricola-1",
-    "href": "2025/weeks/week05/slides.html#eva-agricola-1",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "EVA Agricola",
-    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
-  },
-  {
-    "objectID": "2025/weeks/week05/slides.html#resultados-2023",
-    "href": "2025/weeks/week05/slides.html#resultados-2023",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Resultados 2023",
-    "text": "Resultados 2023\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
-  },
-  {
-    "objectID": "2025/weeks/week05/slides.html#agricultural-database-2023",
-    "href": "2025/weeks/week05/slides.html#agricultural-database-2023",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Agricultural Database 2023",
-    "text": "Agricultural Database 2023\n\nDownload the Base agrícola 2019 - 2023.xlsx file\nRead the file in Excel\nEdit the file and save it as a csv file"
-  },
-  {
-    "objectID": "2025/weeks/week06/slides.html#what-is-eva",
-    "href": "2025/weeks/week06/slides.html#what-is-eva",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "What is EVA?",
-    "text": "What is EVA?\nEVA is a dataset of cultivated areas per municipality. It contains the extent of different crops as well as their productivity per year. It is collected by the Unidad de Planificación Rural Agropecuaria (UPRA)"
-  },
-  {
-    "objectID": "2025/weeks/week06/slides.html#eva-2023",
-    "href": "2025/weeks/week06/slides.html#eva-2023",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "EVA 2023",
-    "text": "EVA 2023\nGo to UPRA 2023 webpage\nClick on the “Agricola” tab:"
-  },
-  {
-    "objectID": "2025/weeks/week06/slides.html#eva-agricola",
-    "href": "2025/weeks/week06/slides.html#eva-agricola",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "EVA Agricola",
-    "text": "EVA Agricola\nClick on the “Agricultural Database 2023”"
-  },
-  {
-    "objectID": "2025/weeks/week06/slides.html#eva-agricola-1",
-    "href": "2025/weeks/week06/slides.html#eva-agricola-1",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "EVA Agricola",
-    "text": "EVA Agricola\nGo to the “Resultado EVA 2023” link:"
-  },
-  {
-    "objectID": "2025/weeks/week06/slides.html#resultados-2023",
-    "href": "2025/weeks/week06/slides.html#resultados-2023",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Resultados 2023",
-    "text": "Resultados 2023\n\nRead the Resultados 2023 document and write down one-page summary comparing your department with the country."
-  },
-  {
-    "objectID": "2025/weeks/week06/slides.html#agricultural-database-2023",
-    "href": "2025/weeks/week06/slides.html#agricultural-database-2023",
-    "title": "🗓️ Week 5Multidimensional poverty",
-    "section": "Agricultural Database 2023",
-    "text": "Agricultural Database 2023\n\nDownload the Base agrícola 2019 - 2023.xlsx file\nRead the file in Excel\nEdit the file and save it as a csv file"
-  },
-  {
-    "objectID": "2025/weeks/week07/page.html",
-    "href": "2025/weeks/week07/page.html",
-    "title": "🗓️ Week 7- Getting to know R",
-    "section": "",
-    "text": "In this week, we will learn basics concepts about R, a free, open-source programming language and software environment for statistical computing and data visualization.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 07"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week07/page.html#lecture-slides",
-    "href": "2025/weeks/week07/page.html#lecture-slides",
-    "title": "🗓️ Week 7- Getting to know R",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 07"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week07/page.html#practical-exercises",
-    "href": "2025/weeks/week07/page.html#practical-exercises",
-    "title": "🗓️ Week 7- Getting to know R",
-    "section": "Practical exercises:",
-    "text": "Practical exercises:\n\nDo the exercises explained on the slides.\n\n🎥",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 07"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week07/page.html#coursework",
-    "href": "2025/weeks/week07/page.html#coursework",
-    "title": "🗓️ Week 7- Getting to know R",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 Print the Informe No. 1 in color and deliver it on 8th October at 9:00 am 🚧\n🚧 Install R & RStudio on your computer 🚧",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 07"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week07/w8_page.html",
-    "href": "2025/weeks/week07/w8_page.html",
-    "title": "🗓️ Week 7- Writing R Notebooks",
-    "section": "",
-    "text": "In this week, we will cover the following topics:\nR Notebooks:"
-  },
-  {
-    "objectID": "2025/weeks/week07/w8_page.html#lecture-slides",
-    "href": "2025/weeks/week07/w8_page.html#lecture-slides",
-    "title": "🗓️ Week 7- Writing R Notebooks",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here"
-  },
-  {
-    "objectID": "2025/weeks/week07/w8_page.html#practical-exercises",
-    "href": "2025/weeks/week07/w8_page.html#practical-exercises",
-    "title": "🗓️ Week 7- Writing R Notebooks",
-    "section": "Practical exercises:",
-    "text": "Practical exercises:\n\nCreate and publish the simple features notebook\n\n🎥"
-  },
-  {
-    "objectID": "2025/weeks/week07/w8_page.html#coursework",
-    "href": "2025/weeks/week07/w8_page.html#coursework",
-    "title": "🗓️ Week 7- Writing R Notebooks",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 Make sure you create and publish this week notebook 🚧"
-  },
-  {
-    "objectID": "2025/weeks/week08/page_EVAnotebook.html",
-    "href": "2025/weeks/week08/page_EVAnotebook.html",
-    "title": "🗓️ Week 8- Agricultural dynamics",
-    "section": "",
-    "text": "In this week, we will create & publish the R Notebook on agricultural dynamics in our department from 2019 to 2023."
-  },
-  {
-    "objectID": "2025/weeks/week08/page_EVAnotebook.html#instructions",
-    "href": "2025/weeks/week08/page_EVAnotebook.html#instructions",
-    "title": "🗓️ Week 8- Agricultural dynamics",
-    "section": "Instructions",
-    "text": "Instructions\n\nCreate a notebook similar to the following one:\nCrop production dynamics in Santander\nPublish your notebook in the course of this week"
-  },
-  {
-    "objectID": "2025/weeks/week08/page_EVAnotebook.html#references",
-    "href": "2025/weeks/week08/page_EVAnotebook.html#references",
-    "title": "🗓️ Week 8- Agricultural dynamics",
-    "section": "References",
-    "text": "References\n\nEVA dataset for 2023\n\n🎥"
-  },
-  {
-    "objectID": "2025/weeks/week09/page.html",
-    "href": "2025/weeks/week09/page.html",
-    "title": "🗓️ Week 9 - Digital Elevation Models",
-    "section": "",
-    "text": "In this week, we will learn basic concepts on digital elevation models. In addition, we will practice raster functionalities in R.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 09"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week09/page.html#lecture-slides",
-    "href": "2025/weeks/week09/page.html#lecture-slides",
-    "title": "🗓️ Week 9 - Digital Elevation Models",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nEither click on the slide area below or click here to view it in fullscreen. Use your keypad to navigate the slides.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 09"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week09/page.html#r-practical",
-    "href": "2025/weeks/week09/page.html#r-practical",
-    "title": "🗓️ Week 9 - Digital Elevation Models",
-    "section": "R Practical",
-    "text": "R Practical\nHow to get digital elevation models (DEMs) from R",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 09"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week09/page.html#useful-references",
-    "href": "2025/weeks/week09/page.html#useful-references",
-    "title": "🗓️ Week 9 - Digital Elevation Models",
-    "section": "Useful references:",
-    "text": "Useful references:\nTerrain Analysis in R\n🎥",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 09"
-    ]
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#what-is-a-dem",
-    "href": "2025/weeks/week09/slides.html#what-is-a-dem",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "What is a DEM?",
-    "text": "What is a DEM?\nA digital elevation model (DEM) is a general term representing ground elevation above sea level. In a DEM, all surface features (trees, buildings, bridges, etc.) are stripped away, and only the bare earth is represented.\nA DEM shows:\n\nHeights above sea level\nSlopes\nRiver beds\nLandforms"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#dem-representation",
-    "href": "2025/weeks/week09/slides.html#dem-representation",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "DEM representation",
-    "text": "DEM representation"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#grid-vs-tin",
-    "href": "2025/weeks/week09/slides.html#grid-vs-tin",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "GRID vs TIN",
-    "text": "GRID vs TIN"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#what-is-a-dtm",
-    "href": "2025/weeks/week09/slides.html#what-is-a-dtm",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "What is a DTM?",
-    "text": "What is a DTM?\nA digital terrain model (DTM) is a layer ‘on top’ of the DEM. It will show additional information that the bare earth DEM might not represent, including things like:\n\nBreaklines are changes in the terrain on a surface\nManmade and natural linear features of the bare earth terrain, such as roads, railway tracks, flood defences, pipelines, coastlines, or rivers."
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#what-is-a-dsm",
-    "href": "2025/weeks/week09/slides.html#what-is-a-dsm",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "What is a DSM?",
-    "text": "What is a DSM?\nA digital surface model (DSM) is a type of terrain that includes all features above the bare earth - both natural and man-made.\nIt includes ground features such as buildings, infrastructure, trees, and vegetation. The layer will represent the height of all these features above the ground on which they stand."
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#dtm-vs-dtm-1",
-    "href": "2025/weeks/week09/slides.html#dtm-vs-dtm-1",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "DTM vs DTM (1)",
-    "text": "DTM vs DTM (1)"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#chm",
-    "href": "2025/weeks/week09/slides.html#chm",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "CHM",
-    "text": "CHM"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#uses-of-dems-dtms",
-    "href": "2025/weeks/week09/slides.html#uses-of-dems-dtms",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "Uses of DEMs & DTMs",
-    "text": "Uses of DEMs & DTMs\nDEMs and DTMs help us understand the ‘natural’ shape of the earth’s surface - without the ‘distraction’ of buildings, trees, or other infrastructure.\nBoth are especially useful for things like:\n\nHydrology\nTerrain form\nSlope stability\nSimulations"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#uses-of-dsm",
-    "href": "2025/weeks/week09/slides.html#uses-of-dsm",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "Uses of DSM",
-    "text": "Uses of DSM\nDSMs show you both ground elevation and the height of everything above it. This allows you to understand how ground features interact with one another and the bare earth.\nDSMs are useful for things like:\n\nRadio frequency planning\nEmergency planning\nLine of sight planning\nSmart city mapping"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#dsm-vs-dtm-2",
-    "href": "2025/weeks/week09/slides.html#dsm-vs-dtm-2",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "DSM vs DTM (2)",
-    "text": "DSM vs DTM (2)"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#dem-projects",
-    "href": "2025/weeks/week09/slides.html#dem-projects",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "DEM projects",
-    "text": "DEM projects"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#spatial-resolution",
-    "href": "2025/weeks/week09/slides.html#spatial-resolution",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "Spatial resolution",
-    "text": "Spatial resolution"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#tecniques",
-    "href": "2025/weeks/week09/slides.html#tecniques",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "Tecniques",
-    "text": "Tecniques\nElevation data can be measured by:\n\nfield surveying\nphotogrammetry\ncartographic digitization\nairborne laser scanning"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#field-surveys",
-    "href": "2025/weeks/week09/slides.html#field-surveys",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "Field surveys",
-    "text": "Field surveys"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#photogrammetry",
-    "href": "2025/weeks/week09/slides.html#photogrammetry",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "Photogrammetry",
-    "text": "Photogrammetry"
-  },
-  {
-    "objectID": "2025/weeks/week09/slides.html#lidar",
-    "href": "2025/weeks/week09/slides.html#lidar",
-    "title": "🗓️ Week 09Digital elevation models",
-    "section": "LiDAR",
-    "text": "LiDAR"
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#definition",
-    "href": "2025/weeks/week10/slides.html#definition",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Definition",
-    "text": "Definition\nGeomorphometry is the science of quantitative land-surface analysis. It is an analytical-cartographic approach to representing bare-earth topography by the computer manipulation of terrain height."
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#applications",
-    "href": "2025/weeks/week10/slides.html#applications",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Applications",
-    "text": "Applications"
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#input-data",
-    "href": "2025/weeks/week10/slides.html#input-data",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Input data",
-    "text": "Input data"
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#parameters-vs-objects",
-    "href": "2025/weeks/week10/slides.html#parameters-vs-objects",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Parameters vs Objects",
-    "text": "Parameters vs Objects\nA land surface parameter is an attribute of surface form (e.g. slope, aspect, wetness index); it is a raster.\nA land surface object is a discrete spatial feature (e.g. watershed line, cirque, alluvial fan, drainage network): it is a vector."
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#workflow",
-    "href": "2025/weeks/week10/slides.html#workflow",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Workflow",
-    "text": "Workflow"
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#landforms",
-    "href": "2025/weeks/week10/slides.html#landforms",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Landforms",
-    "text": "Landforms\nA landform is a discrete morphologic feature — such as a watershed — that is formed by a specific geomorphological. Each landform may be composed of several landform elements."
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#gradient",
-    "href": "2025/weeks/week10/slides.html#gradient",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Gradient",
-    "text": "Gradient"
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#slope",
-    "href": "2025/weeks/week10/slides.html#slope",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Slope",
-    "text": "Slope\nThe Slope is the steepness at each cell of a raster surface. The lower the slope value, the flatter the terrain; the higher the slope value, the steeper the terrain."
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#slope-1",
-    "href": "2025/weeks/week10/slides.html#slope-1",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Slope …",
-    "text": "Slope …"
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#slope-2",
-    "href": "2025/weeks/week10/slides.html#slope-2",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Slope …",
-    "text": "Slope …"
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#slope-3",
-    "href": "2025/weeks/week10/slides.html#slope-3",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Slope …",
-    "text": "Slope …"
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#slope-4",
-    "href": "2025/weeks/week10/slides.html#slope-4",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Slope …",
-    "text": "Slope …"
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#aspect",
-    "href": "2025/weeks/week10/slides.html#aspect",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Aspect",
-    "text": "Aspect\nThe Aspect is the direction the downhill slope faces. The values of each cell in the output raster indicate the compass direction the surface faces at that location."
-  },
-  {
-    "objectID": "2025/weeks/week10/slides.html#practical",
-    "href": "2025/weeks/week10/slides.html#practical",
-    "title": "🗓️ Week 10 Geomorphometry",
-    "section": "Practical",
-    "text": "Practical\nCreate an R notebook using this document."
-  },
-  {
-    "objectID": "2025/weeks/week11/page_vocacion_uso.html#exercises",
-    "href": "2025/weeks/week11/page_vocacion_uso.html#exercises",
-    "title": "🗓️ Week 11 - Vocación de Uso de Tierras",
-    "section": "👨‍🏫 Exercises",
-    "text": "👨‍🏫 Exercises\n\nDownload IGAC’s Vocación de Uso - 1:100.000 to your work directory\nUnzip the ag_100k_vocacion_uso_2017.zip file\nAdd the shapefile to a new QGIS project\nClip the shapefile to match your department boundaries\nInterpret & analyze the vocacion de uso del suelo in your departmen"
-  },
-  {
-    "objectID": "2025/weeks/week11/page_vocacion_uso.html#useful-references",
-    "href": "2025/weeks/week11/page_vocacion_uso.html#useful-references",
-    "title": "🗓️ Week 11 - Vocación de Uso de Tierras",
-    "section": "Useful references:",
-    "text": "Useful references:\nClasificación de las tierras por su capacidad de uso\n🎥"
-  },
-  {
-    "objectID": "2025/weeks/week12/page_soils.html",
-    "href": "2025/weeks/week12/page_soils.html",
-    "title": "🗓️ Week 12 -Getting soil data properties",
-    "section": "",
-    "text": "In this week, we will learn about SoilGrids, a global dataset of soil properties obtained using soil data and machine learning techniques. In addition, we will learn how to download such data for a particular area of interest."
-  },
-  {
-    "objectID": "2025/weeks/week12/page_soils.html#soilgrids-web-portal",
-    "href": "2025/weeks/week12/page_soils.html#soilgrids-web-portal",
-    "title": "🗓️ Week 12 -Getting soil data properties",
-    "section": "👨‍🏫 SoilGrids web portal",
-    "text": "👨‍🏫 SoilGrids web portal\nSoilGrids250m 2.0 - A system for digital soil mapping based on global compilation of soil profile data and environmental layers."
-  },
-  {
-    "objectID": "2025/weeks/week12/page_soils.html#r-practical",
-    "href": "2025/weeks/week12/page_soils.html#r-practical",
-    "title": "🗓️ Week 12 -Getting soil data properties",
-    "section": "R Practical",
-    "text": "R Practical\nDetailed instructions are provided on 5th February in the classroom."
-  },
-  {
-    "objectID": "2025/weeks/week12/page_soils.html#useful-references",
-    "href": "2025/weeks/week12/page_soils.html#useful-references",
-    "title": "🗓️ Week 12 -Getting soil data properties",
-    "section": "Useful references:",
-    "text": "Useful references:\nSoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty\n🎥"
+    "text": "Useful references:\nKriging Interpolation\nSpatial interpolation\nCarto tutorial\n🎥"
   }
 ]
