@@ -1,0 +1,34 @@
+---
+title: "🗓️ Week 14 - Open geospatial data"
+---
+
+In this week, we will learn what are spatial web services and know a couple of Colombian examples. 
+
+
+## 👨‍🏫 Lecture Slides 
+
+
+- [Spatial web services](https://gis4schools.readthedocs.io/en/latest/part2/2_1.html)
+
+- [Datos abiertos de Colombia](https://datos.gov.co/)
+
+
+## **Practical exercises**:
+
+
+- [Sistema para la planificacion rural agropecuaria](https://sipra.upra.gov.co/nacional)
+
+- [Ortoimagen Bogota](https://datosabiertos.bogota.gov.co/dataset/7dfc3d91-96db-46ef-b331-5586d78d6a2a?_external=True)
+
+
+## 📚 Informe No. 2 (25%) 
+
+#### [Interpolation of SOC data for your department](https://rpubs.com/ials2un/soc_interp)
+
+Due on 28.11.2025 at 11:59 pm.
+
+
+
+
+
+
