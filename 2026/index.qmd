@@ -13,10 +13,10 @@ format: html
 
 :::
 
-:
 # 🧑🏻‍🏫 Our Team
 
 ::: {.panel-tabset}
+
 ## Course Convenor
 
 

@@ -36,9 +36,6 @@ format: html
 
 :::
 
-
-
-
 ::: {.callout-important collapse=true}
 
 ## CONTENIDO DETALLADO 
