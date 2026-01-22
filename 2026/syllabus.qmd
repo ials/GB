@@ -1,6 +1,6 @@
 ---
 title: "2015896 - GEOMATICA BASICA"
-subtitle: "Academic Year: 2023"
+subtitle: "Academic Year: 2026"
 format: html
 ---
 
@@ -32,14 +32,16 @@ format: html
 
 ### SOFTWARE:
 -	QGIS
--   R & RStudio
+- R & RStudio
 
 :::
 
 
-## CONTENIDO DETALLADO 
+
 
 ::: {.callout-important collapse=true}
+
+## CONTENIDO DETALLADO 
 
 Semana 1 –  Introducción, contexto y conceptos básicos
 
@@ -76,11 +78,11 @@ Semana 16 - Agricultura digital
 ::: {.callout-important collapse=false}
 
 -	Presentación de dos exámenes escritos sobre aspectos teóricos (50%)
-    - Examen 1 - 20 de Septiembre
-    - Examen 2 - 22 de Noviembre
+    - Examen 1 - 18 de Marzo
+    - Examen 2 - 19 de Mayo
 -	Entrega de dos informes técnicos  (50%)
-    - Informe 1 - 27 de Septiembre
-    - Informe 2 - 29 de Noviembre
+    - Informe 1 - 25 de Marzo
+    - Informe 2 - 26 de Mayo
 
 :::
 
