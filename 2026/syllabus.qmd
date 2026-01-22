@@ -59,7 +59,7 @@ Semana 7 –  Servicios web geográficos
 
 Semana 8 –  Sistemas satelitales de navegación global
 
-Semana 9 – Calidad de datos geográficos
+Semana 9 – Fotogrametría digital
 
 Semana 10 – Principios físicos de percepción remota
 
