@@ -134,9 +134,10 @@ You can find a good introduction to geomatics [in this document](https://drive.g
 
 Chapter 1 from Gomarasca, M. *Basics of Geomatics*. Springer, 2009.
 
-# A simple exercise
+# Homework
 
-Describe this map made by Diego Gutierrez (1562):
-<p align="center">
-<img src="figures/SA_1562.png" width="65%" height="65%" />
-</p>
+Follow [these instructions](./Practical_1.pptx) to:
+
+- Installing *QGIS* in your computer
+- Download geospatial data from *DivaGIS*
+- Add vector and raster to QGIS
