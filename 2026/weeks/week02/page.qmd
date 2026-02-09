@@ -21,7 +21,7 @@ You can find the slides [here](slides.qmd)
 
 ## **Practical exercises**
 
-Follow [these instructions](Practical_2.pdf) to extract features and change their symbology. 
+Follow [these instructions](Practical_2.pptx) to extract features and change their symbology. 
 
 ## 📚 Recommended Reading 
 
