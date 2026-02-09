@@ -32,7 +32,7 @@
     "href": "2026/weeks/week02/page.html",
     "title": "🗓️ Week 02 - Geospatial data and geographical information",
     "section": "",
-    "text": "In this week, we will cover the following topics:\nTheoretical topics:\nWhat are the most important characteristics of geographic data?\nHow are geographic data transformed into information?\nWhat conceptual models are used to represent geographic objects and phenomena\nWhat are the most commonly used data structures and formats?\nPractical exercises:\nDownload and visualize geographic data\nReview of geographic metadata",
+    "text": "In this week, we will cover the following topics:\nTheoretical topics:\nWhat are the most important characteristics of geographic data?\nHow are geographic data transformed into information?\nWhat conceptual models are used to represent geographic objects and phenomena\nWhat are the most commonly used data structures and formats?\nPractical exercises:\nFollow these instructions to extract features and change their symbology.",
     "crumbs": [
       "🗓️ Weeks",
       "Week 02"
