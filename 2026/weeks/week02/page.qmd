@@ -14,15 +14,14 @@ What conceptual models are used to represent geographic objects and phenomena
 
 What are the most commonly used data structures and formats?
 
-**Practical exercises**:
-
-Follow [these instructions](Practical_2.pdf) to extract features and change their symbology.
 
 ## 👨‍🏫 Lecture Slides 
 
 You can find the slides [here](slides.qmd)
 
-🎥 
+## **Practical exercises**
+
+Follow [these instructions](Practical_2.pdf) to extract features and change their symbology. 
 
 ## 📚 Recommended Reading 
 
