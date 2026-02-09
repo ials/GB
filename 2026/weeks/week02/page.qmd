@@ -16,9 +16,7 @@ What are the most commonly used data structures and formats?
 
 **Practical exercises**:
 
-Download and visualize geographic data
-
-Review of geographic metadata
+Follow [these instructions](Practical_2.pdf) to extract features and change their symbology.
 
 ## 👨‍🏫 Lecture Slides 
 
