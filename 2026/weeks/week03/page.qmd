@@ -25,7 +25,7 @@ You can find the slides [here](https://docs.google.com/presentation/d/1teYd09bo9
 
 🎥 
 
-## ‍🏫 Practical
+## ‍🏫 QGIS Exercise
 
 - Download  a csv file with [world cities](https://github.com/datasets/world-cities/blob/main/data/world-cities.csv)
 
@@ -56,6 +56,11 @@ Read [this document](https://revistas.uptc.edu.co/index.php/perspectiva/article/
 5. What is the datum MAGNA-SIRGAS?
 6. Describe  the [Colombian map projection with Origen Nacional](https://rodolfofrancoweb.com/sig/proyecciones_y_sistemas_de_coordenadas/magna-sirgas-origen-nacional/) 
 
+:::
+
+### Part 3
+::: {.callout-important collapse=true}
+7. Explore [these tools](https://hanshack.com/geotools/)
 :::
 
 
