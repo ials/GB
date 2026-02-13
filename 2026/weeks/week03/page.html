@@ -8,7 +8,7 @@
 
 <meta name="author" content="Ivan Lizarazo">
 
-<title>2015896 - GEOMATICA BASICA – GEOMATICA BASICA 2026</title>
+<title>🗓️ Week 03 - Coordinate systems and map projections – GEOMATICA BASICA 2026</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,26 +24,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../2026/syllabus.html" rel="next">
-<link href="../figures/icons/mapamundi.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-04a936c88b301e69b488cabea835d9e3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../2026/weeks/week02/page.html" rel="prev">
+<link href="../../../figures/icons/mapamundi.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-04a936c88b301e69b488cabea835d9e3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,24 +72,16 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../css/custom_style.css">
-<link rel="stylesheet" href="../css/syllabus.css">
-<meta property="og:title" content="2015896 - GEOMATICA BASICA – GEOMATICA BASICA 2026">
-<meta property="og:description" content="Academic Year: 2026">
-<meta property="og:image" content="https://ials.github.io/GB/figures/people/ials.png">
+<link rel="stylesheet" href="../../../css/custom_style.css">
+<link rel="stylesheet" href="../../../css/syllabus.css">
+<meta property="og:title" content="🗓️ Week 03 - Coordinate systems and map projections – GEOMATICA BASICA 2026">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="GEOMATICA BASICA 2026">
-<meta property="og:image:alt" content="Photo of IVAN LIZARAZO">
-<meta property="og:image:height" content="490">
-<meta property="og:image:width" content="492">
-<meta name="twitter:title" content="2015896 - GEOMATICA BASICA – GEOMATICA BASICA 2026">
-<meta name="twitter:description" content="Academic Year: 2026">
-<meta name="twitter:image" content="https://ials.github.io/GB/figures/people/ials.png">
+<meta name="twitter:title" content="🗓️ Week 03 - Coordinate systems and map projections – GEOMATICA BASICA 2026">
+<meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@<twitter-handle>">
 <meta name="twitter:site" content="\@<twitter-handle>">
-<meta name="twitter:image:alt" content="Photo of IVAN LIZARAZO">
-<meta name="twitter:image-height" content="490">
-<meta name="twitter:image-width" content="492">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -99,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">GEOMATICA BASICA 2026</span>
     </a>
   </div>
@@ -118,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../2026/index.html">🏠 Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../2026/weeks/week01/page.html">🗓️ Weeks</a></li><li class="breadcrumb-item"><a href="../../../2026/weeks/week03/page.html">Week 03</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -132,13 +124,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../2026/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../2026/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">🏠 Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../2026/syllabus.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../2026/syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">📓 Syllabus</span></a>
   </div>
 </li>
@@ -153,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../2026/weeks/week01/page.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../2026/weeks/week01/page.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 01</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -162,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../2026/weeks/week01/page.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../2026/weeks/week01/page.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">👨‍🏫 Lecture Material</span></a>
   </div>
 </li>
@@ -170,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../2026/weeks/week02/page.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../2026/weeks/week02/page.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 02</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -179,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../2026/weeks/week02/page.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../2026/weeks/week02/page.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">👨‍🏫 Lecture Material</span></a>
   </div>
 </li>
@@ -187,16 +179,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../2026/weeks/week03/page.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../2026/weeks/week03/page.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Week 03</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../2026/weeks/week03/page.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../2026/weeks/week03/page.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">👨‍🏫 Lecture Material</span></a>
   </div>
 </li>
@@ -214,18 +206,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#our-team" id="toc-our-team" class="nav-link active" data-scroll-target="#our-team">🧑🏻‍🏫 Our Team</a></li>
-  <li><a href="#dates---location" id="toc-dates---location" class="nav-link" data-scroll-target="#dates---location">📍 Dates - Location</a></li>
+  <li><a href="#lecture-slides" id="toc-lecture-slides" class="nav-link active" data-scroll-target="#lecture-slides">👨‍ Lecture Slides</a></li>
+  <li><a href="#practical" id="toc-practical" class="nav-link" data-scroll-target="#practical">‍🏫 Practical</a></li>
+  <li><a href="#recommended-reading" id="toc-recommended-reading" class="nav-link" data-scroll-target="#recommended-reading">📚 Recommended Reading</a></li>
+  <li><a href="#coursework" id="toc-coursework" class="nav-link" data-scroll-target="#coursework">✍️ Coursework</a>
+  <ul class="collapse">
+  <li><a href="#part-1" id="toc-part-1" class="nav-link" data-scroll-target="#part-1">Part 1</a></li>
+  <li><a href="#part-2" id="toc-part-2" class="nav-link" data-scroll-target="#part-2">Part 2</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../2026/weeks/week01/page.html">🗓️ Weeks</a></li><li class="breadcrumb-item"><a href="../../../2026/weeks/week03/page.html">Week 03</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">2015896 - GEOMATICA BASICA</h1>
-<p class="subtitle lead">Academic Year: 2026</p>
+<h1 class="title">🗓️ Week 03 - Coordinate systems and map projections</h1>
 </div>
 
 
@@ -248,75 +245,88 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>In this week, we will cover the following topics:</p>
+<p><strong>Theoretical topics</strong>:</p>
+<ul>
+<li>the role of geodesy as a basis for earth datums</li>
+<li>how to calculate distances on a spherical earth</li>
+<li>the basic types of map projection</li>
+<li>the properties of common map projections</li>
+<li>the terminology of common coordinate systems</li>
+<li>how to use a GIS to convert between coordinate systems</li>
+</ul>
+<p><strong>Practical exercises</strong>:</p>
+<p>Review coordinate systems’s metadata</p>
+<p>Reproject vector and raster data</p>
+<section id="lecture-slides" class="level2">
+<h2 class="anchored" data-anchor-id="lecture-slides">👨‍ Lecture Slides</h2>
+<p>You can find the slides <a href="https://docs.google.com/presentation/d/1teYd09bo9BH2CK0b3G9Z77jnxcDjmTJ-/edit?usp=sharing&amp;ouid=101294548671143516389&amp;rtpof=true&amp;sd=true">here</a></p>
+<p>🎥</p>
+</section>
+<section id="practical" class="level2">
+<h2 class="anchored" data-anchor-id="practical">‍🏫 Practical</h2>
+<ul>
+<li><p>Download a csv file with <a href="https://github.com/datasets/world-cities/blob/main/data/world-cities.csv">world cities</a></p></li>
+<li><p>Add the above file as “Delimited Text Layer”</p></li>
+<li><p>Extract the cities corresponding to your study area</p></li>
+<li><p>Change Symbology for the new layer</p></li>
+</ul>
+</section>
+<section id="recommended-reading" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-reading">📚 Recommended Reading</h2>
+<p>Read <a href="https://revistas.uptc.edu.co/index.php/perspectiva/article/view/1718">this document</a> and take notes</p>
+</section>
+<section id="coursework" class="level2">
+<h2 class="anchored" data-anchor-id="coursework">✍️ Coursework</h2>
+<p>🚧 In your notebook, answer the following questions 🚧</p>
+<section id="part-1" class="level3">
+<h3 class="anchored" data-anchor-id="part-1">Part 1</h3>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>📢 Homework
+Important
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>(12/02/2026)</p>
-<ul>
-<li>Bring your GB2 folder to the classroom</li>
-</ul>
+<ol type="1">
+<li>What are the geometric parameters associated to the ellipsoid GRS 80?</li>
+<li>What is the geoid?</li>
+<li>What are the most important characteristics of the geoid?</li>
+</ol>
 </div>
 </div>
 </div>
+</section>
+<section id="part-2" class="level3">
+<h3 class="anchored" data-anchor-id="part-2">Part 2</h3>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>📢 Syllabus
+Important
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>(02/02/2026)</p>
-<ul>
-<li><a href="../2026/syllabus.html">🗓️ Know the syllabus here!</a></li>
-</ul>
+<ol start="4" type="1">
+<li>What is a datum?</li>
+<li>What is the datum MAGNA-SIRGAS?</li>
+<li>Describe the <a href="https://rodolfofrancoweb.com/sig/proyecciones_y_sistemas_de_coordenadas/magna-sirgas-origen-nacional/">Colombian map projection with Origen Nacional</a></li>
+</ol>
 </div>
 </div>
 </div>
-<section id="our-team" class="level1">
-<h1>🧑🏻‍🏫 Our Team</h1>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Course Convenor</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Teaching Staff</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p><img src="../figures/people/ials.png" class="img-fluid quarto-figure quarto-figure-left" style="object-fit: cover;width:6em;height:6em;border-radius: 50%;" alt="Photo of IVAN LIZARAZO"><br>
-<strong>IVAN LIZARAZO</strong> <br> <em>ASSOCIATE PROFESSOR</em> <br> <a href="#">UNAL</a><br> 📧 <script type="text/javascript">
-<!--
-h='';a='&#64;';n='';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x69;&#x61;&#108;&#x69;&#122;&#x61;&#114;&#x61;&#122;&#x6f;&#x73;&#64;&#x75;&#110;&#x61;&#108;&#46;&#x65;&#100;&#x75;&#46;&#x63;&#x6f;'+'<\/'+'a'+'>');
-// -->
-</script><noscript>ializarazos@unal.edu.co ( at )</noscript></p>
-<p>Office Hours:</p>
-<ul>
-<li>When: Thursdays 11:00 am</li>
-<li>Where: Oficina 333</li>
-<li>How to book: via e-mail</li>
-</ul>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p><strong>IALS</strong></p>
-</div>
-</div>
-</div>
+
+
 </section>
-<section id="dates---location" class="level1">
-<h1>📍 Dates - Location</h1>
-<p>Wednesdays 9am-11am at SALON 103</p>
-
-
 </section>
 
 </main> <!-- /main -->
@@ -729,11 +739,11 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x6
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../../../2026/weeks/week02/page.html" class="pagination-link" aria-label="Week 02">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Week 02</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../2026/syllabus.html" class="pagination-link" aria-label="📓 Syllabus">
-        <span class="nav-page-text">📓 Syllabus</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
