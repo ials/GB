@@ -19,11 +19,21 @@ Review coordinate systems's metadata
 
 Reproject vector and raster data
 
-## 👨‍🏫 Lecture Slides 
+## 👨‍ Lecture Slides 
 
 You can find the slides [here](https://docs.google.com/presentation/d/1teYd09bo9BH2CK0b3G9Z77jnxcDjmTJ-/edit?usp=sharing&ouid=101294548671143516389&rtpof=true&sd=true)
 
 🎥 
+
+## ‍🏫 Practical
+
+- Download  a csv file with [world cities](https://github.com/datasets/world-cities/blob/main/data/world-cities.csv)
+
+- Add the above file as "Delimited Text Layer"
+
+- Extract the cities corresponding to your study area
+
+- Change Symbology for the new layer
 
 ## 📚 Recommended Reading 
 
@@ -44,7 +54,7 @@ Read [this document](https://revistas.uptc.edu.co/index.php/perspectiva/article/
 ::: {.callout-important collapse=true}
 4. What is a datum?
 5. What is the datum MAGNA-SIRGAS?
-6. Describe  the Colombian map projection for  1:25.000 maps
+6. Describe  the [Colombian map projection with Origen Nacional](https://rodolfofrancoweb.com/sig/proyecciones_y_sistemas_de_coordenadas/magna-sirgas-origen-nacional/) 
 
 :::
 

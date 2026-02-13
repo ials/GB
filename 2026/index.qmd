@@ -4,7 +4,16 @@ subtitle: "Academic Year: 2026"
 format: html
 ---
 
-::: {.callout-important collapse=false}
+::: {.callout-important collapse=true}
+## 📢 Homework
+
+(12/02/2026)
+
+- Bring your GB2 folder to the classroom
+
+:::
+
+::: {.callout-important collapse=true}
 ## 📢 Syllabus
 
 (02/02/2026)
