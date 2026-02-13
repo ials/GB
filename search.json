@@ -22,11 +22,11 @@
     ]
   },
   {
-    "objectID": "2026/weeks/week03/page.html#practical",
-    "href": "2026/weeks/week03/page.html#practical",
+    "objectID": "2026/weeks/week03/page.html#qgis-exercise",
+    "href": "2026/weeks/week03/page.html#qgis-exercise",
     "title": "🗓️ Week 03 - Coordinate systems and map projections",
-    "section": "‍🏫 Practical",
-    "text": "‍🏫 Practical\n\nDownload a csv file with world cities\nAdd the above file as “Delimited Text Layer”\nExtract the cities corresponding to your study area\nChange Symbology for the new layer",
+    "section": "‍🏫 QGIS Exercise",
+    "text": "‍🏫 QGIS Exercise\n\nDownload a csv file with world cities\nAdd the above file as “Delimited Text Layer”\nExtract the cities corresponding to your study area\nChange Symbology for the new layer",
     "crumbs": [
       "🗓️ Weeks",
       "Week 03"
@@ -48,7 +48,7 @@
     "href": "2026/weeks/week03/page.html#coursework",
     "title": "🗓️ Week 03 - Coordinate systems and map projections",
     "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nPart 1\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat are the geometric parameters associated to the ellipsoid GRS 80?\nWhat is the geoid?\nWhat are the most important characteristics of the geoid?\n\n\n\n\n\n\nPart 2\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is a datum?\nWhat is the datum MAGNA-SIRGAS?\nDescribe the Colombian map projection with Origen Nacional",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nPart 1\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat are the geometric parameters associated to the ellipsoid GRS 80?\nWhat is the geoid?\nWhat are the most important characteristics of the geoid?\n\n\n\n\n\n\nPart 2\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is a datum?\nWhat is the datum MAGNA-SIRGAS?\nDescribe the Colombian map projection with Origen Nacional\n\n\n\n\n\n\nPart 3\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nExplore these tools",
     "crumbs": [
       "🗓️ Weeks",
       "Week 03"
