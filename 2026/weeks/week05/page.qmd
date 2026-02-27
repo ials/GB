@@ -24,7 +24,7 @@ You can find the slides [here](https://drive.google.com/file/d/1THssVqZ7iD0k7nJz
 :::
 
 ## Homework
-### ** Deliver the two color maps of your department on 6th September (12.5%)**
+### ** Print the two color maps of your department and bring them to the classroom **
 
 🎥 
 
@@ -42,7 +42,10 @@ Study [R for Non-Programmers](https://bookdown.org/daniel_dauber_io/r4np_book/) 
 2. Escriba una función que calcule la longitud de un arco terrestre si se indica su ángulo  y la latitud correspondiente
 :::
 
-
+### Ejercicios en GeoJSON Studio
+::: {.callout-important collapse=true}
+Vaya a [GeoJSON Studio](https://geojsonstudio.com/), haga zoom en el campus UNAL y dibuje objetos de interés. Exporte los datos en formato GeoJSON y agreguelos a un nuevo proyecto en QGIS. 
+:::
 
 
 
