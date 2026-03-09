@@ -26,7 +26,7 @@
     "href": "2026/weeks/week06/page.html#lecture-slides",
     "title": "🗓️ Week 06 - Data Wrangling with R",
     "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nIn this week, we’ll learn how to use the dplyr R library to conduct data wrangling. You can find info about dplyr here",
+    "text": "👨‍🏫 Lecture Slides\nIn this week, we’ll learn how to use the dplyr R library to conduct data wrangling. You can find info about dplyr here\nIn addition, we we’ll learn how to create an R Notebook",
     "crumbs": [
       "🗓️ Weeks",
       "Week 06"
