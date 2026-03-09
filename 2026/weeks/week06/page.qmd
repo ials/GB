@@ -1,5 +1,5 @@
 ---
-title: "🗓️ Week 06 - Data Wrangling **R**"
+title: "🗓️ Week 06 - Data Wrangling with  **R**"
 ---
 
 In this week, we will practice **Data Wrangling** 
@@ -28,7 +28,7 @@ Students complete and publish two notebooks this week:
 :::
 
 ## Homework
-### ** Publish the notebook on agricultural statistics for  your crop & department before 20th September 2023 (12.5%)**
+### ** Publish the notebook on agricultural statistics for  your crop & department **
 
 🎥 
 
