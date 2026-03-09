@@ -26,7 +26,7 @@ Students complete and publish two notebooks this week:
 [First steps with dplyr](https://rpubs.com/ials2un/try_dplyr)
 :::
 ::: {.callout-note collapse="true"}
-[R notebook on agricultural statistics](https://rpubs.com/ials2un/production_dyn_v1)
+[R notebook on agricultural statistics](https://rpubs.com/ials2un/okra_vez_eva)
 :::
 
 ## Homework
