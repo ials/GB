@@ -1,0 +1,35 @@
+---
+title: "🗓️ Week 08 - Handling geospatial data with **R**"
+---
+
+In this week, we will handle **geospatial data** using R. 
+
+
+## 👨‍🏫 Lecture Slides 
+
+We'll learn how to use  R libraries to read, query and visualize geospatial data. In particular, we will focus on [*simple features for R*](https://r-spatial.github.io/sf/articles/sf1.html)
+
+
+## **Practical exercises**:
+
+Students complete one geospatial notebook using 2022 agricultural data:
+
+#### Read and subset excel data
+::: {.callout-important collapse="true"}
+[Link to the guide](https://rpubs.com/ials2un/okra_vez_eva)
+:::
+
+
+## Homework
+### ** Publish your notebook on 5th October 2023**
+
+🎥 
+
+## 📚 Recommended Reading 
+
+Study [Tutorial de Leaflet en R](https://rpubs.com/Juve_Campos/LeafletTutorial).
+
+
+
+
+
