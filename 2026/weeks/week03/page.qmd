@@ -27,7 +27,7 @@ You can find the slides [here](https://docs.google.com/presentation/d/1teYd09bo9
 
 ## ‍🏫 QGIS Exercise
 
-- Download  a csv file with [world cities](https://github.com/datasets/world-cities/blob/main/data/world-cities.csv)
+- Download  a csv file with [world cities](https://simplemaps.com/data/world-cities)
 
 - Add the above file as "Delimited Text Layer"
 
