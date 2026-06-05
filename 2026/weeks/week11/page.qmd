@@ -1,39 +1,29 @@
 ---
-title: "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)"
+title: "🗓️ Week 11 - Vegetation Indices"
 ---
 
-In this week, we will learn about GNSS. 
+In this week, we will learn about *vegetation indices*
 
 
 ## 👨‍🏫 Lecture Slides 
 
 We'll learn:
 
-- [What is GNSS?](https://tinyurl.com/49w9wb7k)?
-
-- How to use handheld GNSS devices?
-
-- How to download GNSS data to a computer?
-
-- What is the positional accuracy of GNSS data?
+- [What is a Vegetation Index?](https://eo4geocourses.github.io/IGIK_Sentinel2-Data-and-Vegetation-Indices/#/)?
 
 
 ## **Practical exercises**:
 
 
-#### Working with GNSS data 
-::: {.callout-important collapse="true"}
-[Importing GNSS data to QGIS3.x](https://www.youtube.com/watch?v=ik00P5_LNks)
+#### Compute a vegetation index from Sentinel-2 imagery
+::: {.callout-important collapse="false"}
+[Replicate and publish this notebook](https://rpubs.com/ials2un/sentinel2_ts). It is part of Informe 2.
 :::
 
 
-## Homework
-Students prepare 8 targets for the campus practice
-🎥 
+## 📚 Homework
 
-## 📚 Recommended Reading 
-
-Study [How GNSS works](https://www.geospatialworld.net/blogs/how-gnss-works/).
+Study [this article](https://www.mdpi.com/1424-8220/25/12/3817). Take note of the formulas for the vegetation indices described in Section 2.2. You will need them for Examen 2.
 
 
 

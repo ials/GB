@@ -4,12 +4,12 @@ subtitle: "Academic Year: 2026"
 format: html
 ---
 
-::: {.callout-important collapse=true}
+::: {.callout-important collapse=false}
 ## 📢 Homework
 
-(12/02/2026)
+(05/06/2026)
 
-- Bring your GB2 folder to the classroom
+- Write and publish [this notebook](https://rpubs.com/ials2un/sentinel2_ts)
 
 :::
 
