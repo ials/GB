@@ -25,6 +25,13 @@ We'll learn:
 
 Study [this article](https://www.mdpi.com/1424-8220/25/12/3817). Take note of the formulas for the vegetation indices described in Section 2.2. You will need them for Examen 2.
 
+## Grades
+
+- [Notas Examen 1](figures/GB_EXAMEN1_26.png)
+
+- [Notas Informe 1](figures/GB_INFORME1_26.png)
+
+
 
 
 
