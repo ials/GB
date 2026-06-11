@@ -1,8 +1,8 @@
 ---
-title: "🗓️ Week 13 - Photogrammetry"
+title: "🗓️ Week 12 - Photogrammetry"
 ---
 
-In this week, we will learn what is structure from motion. 
+In this week, we will learn what is *structure from motion* and *multiview stereo*. 
 
 
 ## 👨‍🏫 Lecture Slides 
@@ -13,8 +13,9 @@ In this week, we will learn what is structure from motion.
 
 ## **Practical exercises**:
 
-#### Attend the *salida de campus* and collect GNSS data
+#### [Map Anything](https://map-anything.github.io/)
 
+#### [WebODM](https://docs.webodm.org/)
 
 ## 📚 Recommended Reading 
 
