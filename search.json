@@ -2,9 +2,9 @@
   {
     "objectID": "2026/weeks/week12/page.html",
     "href": "2026/weeks/week12/page.html",
-    "title": "🗓️ Week 13 - Photogrammetry",
+    "title": "🗓️ Week 12 - Photogrammetry",
     "section": "",
-    "text": "In this week, we will learn what is structure from motion.",
+    "text": "In this week, we will learn what is structure from motion and multiview stereo.",
     "crumbs": [
       "🗓️ Weeks",
       "Week 12"
@@ -13,7 +13,7 @@
   {
     "objectID": "2026/weeks/week12/page.html#lecture-slides",
     "href": "2026/weeks/week12/page.html#lecture-slides",
-    "title": "🗓️ Week 13 - Photogrammetry",
+    "title": "🗓️ Week 12 - Photogrammetry",
     "section": "👨‍🏫 Lecture Slides",
     "text": "👨‍🏫 Lecture Slides\n\nWhat is structure from motion?",
     "crumbs": [
@@ -24,9 +24,9 @@
   {
     "objectID": "2026/weeks/week12/page.html#practical-exercises",
     "href": "2026/weeks/week12/page.html#practical-exercises",
-    "title": "🗓️ Week 13 - Photogrammetry",
+    "title": "🗓️ Week 12 - Photogrammetry",
     "section": "Practical exercises:",
-    "text": "Practical exercises:\n\nAttend the salida de campus and collect GNSS data",
+    "text": "Practical exercises:\n\nMap Anything\n\n\nWebODM",
     "crumbs": [
       "🗓️ Weeks",
       "Week 12"
@@ -35,7 +35,7 @@
   {
     "objectID": "2026/weeks/week12/page.html#recommended-reading",
     "href": "2026/weeks/week12/page.html#recommended-reading",
-    "title": "🗓️ Week 13 - Photogrammetry",
+    "title": "🗓️ Week 12 - Photogrammetry",
     "section": "📚 Recommended Reading",
     "text": "📚 Recommended Reading\nStudy Photogrammetry and structure from motion.",
     "crumbs": [
