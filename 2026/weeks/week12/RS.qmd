@@ -1,0 +1,31 @@
+---
+title: "🗓️ Week 12 - Remote sensing basics"
+---
+
+In this week, we will learn what is remote sensing and how can it help agriculture. 
+
+
+## 👨‍🏫 Lecture Slides 
+
+We'll learn:
+
+- [What are spectral indices?](https://drive.google.com/file/d/13M8D7NzfEUinfzSjDBI2gk61zCBW3Wmc/view?usp=sharing)?
+
+
+## **Practical exercises**:
+
+
+#### Understanding spectral signatures and profiles
+::: {.callout-important collapse="true"}
+[Spectral characteristics viewer](https://landsat.usgs.gov/spectral-characteristics-viewer)
+:::
+
+
+## 📚 Recommended Reading 
+
+Study [Agricultural remote sensing basics](https://drive.google.com/file/d/1MqzBJ0ZFYVAT-f3e8VzBmF1OsEszRlMl/view?usp=sharing).
+
+
+
+
+
