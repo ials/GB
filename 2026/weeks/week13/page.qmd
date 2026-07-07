@@ -1,24 +1,30 @@
 ---
-title: "🗓️ Week 13 - Photogrammetry"
+title: "🗓️ Week 13 - Spatial Interpolation"
 ---
 
-In this week, we will learn what is structure from motion. 
+In this week, we will learn about *spatial interpolation*, a geostatistical technique for estimating values of continuous surfaces from point values sampled in the field.
 
+## 👨‍🏫 Slides
 
-## 👨‍🏫 Lecture Slides 
+You can find the slides [here](slides.qmd)
 
+## R Practical
 
-- [What is structure from motion?](https://cloud.sdsc.edu/v1/AUTH_opentopography/www/shortcourses/16UNAVCO/nissen-OpenTopo-ASU-APR-2016-structure-from-motion.pdf)
+Detailed instructions are provided on  July 8-9 in the classroom. 
 
+## ✍️ Informe No.2 deadline
 
-## **Practical exercises**:
+🚧 Make sure you complete the *notebooks* before 23th July at 11:59 pm 🚧
 
-#### Attend the *salida de campus* and collect GNSS data
+## Useful references:
 
+[Kriging Interpolation](https://www.publichealth.columbia.edu/research/population-health-methods/kriging-interpolation)
 
-## 📚 Recommended Reading 
+[Spatial interpolation](https://rpubs.com/ials2un/Spatial_Interpolation)
 
-Study [Photogrammetry and structure from motion](https://ecampusontario.pressbooks.pub/remotesensing/chapter/chapter-10-photogrammetry-and-structure-from-motion/).
+[Carto tutorial](https://carto.com/blog/spatial-interpolation-techniques-tutorial)
+
+🎥 
 
 
 
