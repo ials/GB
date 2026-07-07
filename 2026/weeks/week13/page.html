@@ -8,7 +8,7 @@
 
 <meta name="author" content="Ivan Lizarazo">
 
-<title>🗓️ Week 11 - Global Navegation Satellite Systems (GNSS) – GEOMATICA BASICA 2026</title>
+<title>🗓️ Week 13 - Spatial Interpolation – GEOMATICA BASICA 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -34,6 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
+<link href="../../../2026/weeks/week12/page.html" rel="prev">
 <link href="../../../figures/icons/mapamundi.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -75,10 +76,10 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../../css/custom_style.css">
 <link rel="stylesheet" href="../../../css/syllabus.css">
-<meta property="og:title" content="🗓️ Week 11 - Global Navegation Satellite Systems (GNSS) – GEOMATICA BASICA 2026">
+<meta property="og:title" content="🗓️ Week 13 - Spatial Interpolation – GEOMATICA BASICA 2026">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="GEOMATICA BASICA 2026">
-<meta name="twitter:title" content="🗓️ Week 11 - Global Navegation Satellite Systems (GNSS) – GEOMATICA BASICA 2026">
+<meta name="twitter:title" content="🗓️ Week 13 - Spatial Interpolation – GEOMATICA BASICA 2026">
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@<twitter-handle>">
 <meta name="twitter:site" content="\@<twitter-handle>">
@@ -111,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../2026/weeks/week01/page.html">🗓️ Weeks</a></li><li class="breadcrumb-item"><a href="../../../2026/weeks/week13/page.html">Week 13</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -350,16 +351,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../2026/weeks/week13/page.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../2026/weeks/week13/page.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Week 13</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../2026/weeks/week13/page.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../2026/weeks/week13/page.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">👨‍🏫 Lecture Material</span></a>
   </div>
 </li>
@@ -377,19 +378,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lecture-slides" id="toc-lecture-slides" class="nav-link active" data-scroll-target="#lecture-slides">👨‍🏫 Lecture Slides</a></li>
-  <li><a href="#practical-exercises" id="toc-practical-exercises" class="nav-link" data-scroll-target="#practical-exercises"><strong>Practical exercises</strong>:</a></li>
-  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
-  <li><a href="#recommended-reading" id="toc-recommended-reading" class="nav-link" data-scroll-target="#recommended-reading">📚 Recommended Reading</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">👨‍🏫 Slides</a></li>
+  <li><a href="#r-practical" id="toc-r-practical" class="nav-link" data-scroll-target="#r-practical">R Practical</a></li>
+  <li><a href="#informe-no.2-deadline" id="toc-informe-no.2-deadline" class="nav-link" data-scroll-target="#informe-no.2-deadline">✍️ Informe No.2 deadline</a></li>
+  <li><a href="#useful-references" id="toc-useful-references" class="nav-link" data-scroll-target="#useful-references">Useful references:</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../2026/weeks/week01/page.html">🗓️ Weeks</a></li><li class="breadcrumb-item"><a href="../../../2026/weeks/week13/page.html">Week 13</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)</h1>
+<h1 class="title">🗓️ Week 13 - Spatial Interpolation</h1>
 </div>
 
 
@@ -412,46 +413,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>In this week, we will learn about GNSS.</p>
-<section id="lecture-slides" class="level2">
-<h2 class="anchored" data-anchor-id="lecture-slides">👨‍🏫 Lecture Slides</h2>
-<p>We’ll learn:</p>
-<ul>
-<li><p><a href="https://tinyurl.com/49w9wb7k">What is GNSS?</a>?</p></li>
-<li><p>How to use handheld GNSS devices?</p></li>
-<li><p>How to download GNSS data to a computer?</p></li>
-<li><p>What is the positional accuracy of GNSS data?</p></li>
-</ul>
+<p>In this week, we will learn about <em>spatial interpolation</em>, a geostatistical technique for estimating values of continuous surfaces from point values sampled in the field.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">👨‍🏫 Slides</h2>
+<p>You can find the slides <a href="../../../2026/weeks/week13/slides.html">here</a></p>
 </section>
-<section id="practical-exercises" class="level2">
-<h2 class="anchored" data-anchor-id="practical-exercises"><strong>Practical exercises</strong>:</h2>
-<section id="working-with-gnss-data" class="level4">
-<h4 class="anchored" data-anchor-id="working-with-gnss-data">Working with GNSS data</h4>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><a href="https://www.youtube.com/watch?v=ik00P5_LNks">Importing GNSS data to QGIS3.x</a></p>
-</div>
-</div>
-</div>
+<section id="r-practical" class="level2">
+<h2 class="anchored" data-anchor-id="r-practical">R Practical</h2>
+<p>Detailed instructions are provided on July 8-9 in the classroom.</p>
 </section>
+<section id="informe-no.2-deadline" class="level2">
+<h2 class="anchored" data-anchor-id="informe-no.2-deadline">✍️ Informe No.2 deadline</h2>
+<p>🚧 Make sure you complete the <em>notebooks</em> before 23th July at 11:59 pm 🚧</p>
 </section>
-<section id="homework" class="level2">
-<h2 class="anchored" data-anchor-id="homework">Homework</h2>
-<p>Students prepare 8 targets for the campus practice 🎥</p>
-</section>
-<section id="recommended-reading" class="level2">
-<h2 class="anchored" data-anchor-id="recommended-reading">📚 Recommended Reading</h2>
-<p>Study <a href="https://www.geospatialworld.net/blogs/how-gnss-works/">How GNSS works</a>.</p>
+<section id="useful-references" class="level2">
+<h2 class="anchored" data-anchor-id="useful-references">Useful references:</h2>
+<p><a href="https://www.publichealth.columbia.edu/research/population-health-methods/kriging-interpolation">Kriging Interpolation</a></p>
+<p><a href="https://rpubs.com/ials2un/Spatial_Interpolation">Spatial interpolation</a></p>
+<p><a href="https://carto.com/blog/spatial-interpolation-techniques-tutorial">Carto tutorial</a></p>
+<p>🎥</p>
 
 
 </section>
@@ -864,6 +844,15 @@ Important
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../../2026/weeks/week12/page.html" class="pagination-link" aria-label="Week 12">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Week 12</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
