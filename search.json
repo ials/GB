@@ -2,9 +2,9 @@
   {
     "objectID": "2026/weeks/week14/page.html",
     "href": "2026/weeks/week14/page.html",
-    "title": "🗓️ Week 14 - Spatial interpolation",
+    "title": "🗓️ Week 14 - Open geospatial data",
     "section": "",
-    "text": "In this week, we will learn what is spatial interpolation.",
+    "text": "In this week, we will learn what are spatial web services and know several Colombia’s examples.",
     "crumbs": [
       "🗓️ Weeks",
       "Week 14"
@@ -13,9 +13,9 @@
   {
     "objectID": "2026/weeks/week14/page.html#lecture-slides",
     "href": "2026/weeks/week14/page.html#lecture-slides",
-    "title": "🗓️ Week 14 - Spatial interpolation",
+    "title": "🗓️ Week 14 - Open geospatial data",
     "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\n\nWhat is spatial estimation?",
+    "text": "👨‍🏫 Lecture Slides\n\nSpatial web services\nDatos abiertos de Colombia",
     "crumbs": [
       "🗓️ Weeks",
       "Week 14"
@@ -24,20 +24,20 @@
   {
     "objectID": "2026/weeks/week14/page.html#practical-exercises",
     "href": "2026/weeks/week14/page.html#practical-exercises",
-    "title": "🗓️ Week 14 - Spatial interpolation",
+    "title": "🗓️ Week 14 - Open geospatial data",
     "section": "Practical exercises:",
-    "text": "Practical exercises:\n\nDownload 250-m SOC data for your study area\nDue on 16.11.2023\n\n\nInterpolation of SOC data for your study area\nDue on 23.11.2023",
+    "text": "Practical exercises:\n\nSistema para la planificacion rural agropecuaria\nSistema para la gestion de riesgos agropecuarios\nOrtoimagen Bogota",
     "crumbs": [
       "🗓️ Weeks",
       "Week 14"
     ]
   },
   {
-    "objectID": "2026/weeks/week14/page.html#recommended-reading",
-    "href": "2026/weeks/week14/page.html#recommended-reading",
-    "title": "🗓️ Week 14 - Spatial interpolation",
-    "section": "📚 Recommended Reading",
-    "text": "📚 Recommended Reading\nStudy Spatial interpolation.",
+    "objectID": "2026/weeks/week14/page.html#informe-no.-2-25",
+    "href": "2026/weeks/week14/page.html#informe-no.-2-25",
+    "title": "🗓️ Week 14 - Open geospatial data",
+    "section": "📚 Informe No. 2 (25%)",
+    "text": "📚 Informe No. 2 (25%)\n\nPublish your third notebook similar to this one\nDue on 23.07.2026 at 11:59 pm.",
     "crumbs": [
       "🗓️ Weeks",
       "Week 14"
