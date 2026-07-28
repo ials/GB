@@ -1,5 +1,38 @@
 [
   {
+    "objectID": "2026/weeks/week15/page.html",
+    "href": "2026/weeks/week15/page.html",
+    "title": "🗓️ Week 15 - Geomatics for Agronomy",
+    "section": "",
+    "text": "In this week, we will synthetize what we have learned in this course.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 15"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week15/page.html#lecture-slides",
+    "href": "2026/weeks/week15/page.html#lecture-slides",
+    "title": "🗓️ Week 15 - Geomatics for Agronomy",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\n\nGeomatics for Agronomy",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 15"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week15/page.html#grades",
+    "href": "2026/weeks/week15/page.html#grades",
+    "title": "🗓️ Week 15 - Geomatics for Agronomy",
+    "section": "📚 Grades",
+    "text": "📚 Grades\n\nExamen 2\nInforme 2",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 15"
+    ]
+  },
+  {
     "objectID": "2026/weeks/week14/page.html",
     "href": "2026/weeks/week14/page.html",
     "title": "🗓️ Week 14 - Open geospatial data",
@@ -1617,6 +1650,41 @@
   {
     "objectID": "2026/weeks/week14/Npage.html#recommended-reading",
     "href": "2026/weeks/week14/Npage.html#recommended-reading",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy how slope works."
+  },
+  {
+    "objectID": "2026/weeks/week15/Npage.html",
+    "href": "2026/weeks/week15/Npage.html",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "",
+    "text": "In this week, we will learn about digital elevation models (DEMs)."
+  },
+  {
+    "objectID": "2026/weeks/week15/Npage.html#lecture-slides",
+    "href": "2026/weeks/week15/Npage.html#lecture-slides",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat is a DEM?\nWhat variables can be derived from a DEM?\nHow to calculate slope from a DEM?"
+  },
+  {
+    "objectID": "2026/weeks/week15/Npage.html#practical-exercises",
+    "href": "2026/weeks/week15/Npage.html#practical-exercises",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDEM processing and analysis\n\n\n\n\n\n\nImportant\n\n\n\n\n\nDEM notebook"
+  },
+  {
+    "objectID": "2026/weeks/week15/Npage.html#homework",
+    "href": "2026/weeks/week15/Npage.html#homework",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Homework",
+    "text": "Homework\nReplicate and publish the DEM notebook 🎥"
+  },
+  {
+    "objectID": "2026/weeks/week15/Npage.html#recommended-reading",
+    "href": "2026/weeks/week15/Npage.html#recommended-reading",
     "title": "🗓️ Week 10 - Digital elevation data",
     "section": "📚 Recommended Reading",
     "text": "📚 Recommended Reading\nStudy how slope works."
