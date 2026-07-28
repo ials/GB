@@ -1,31 +1,25 @@
 ---
-title: "🗓️ Week 15 - Kriging interpolation"
+title: "🗓️ Week 15 - Geomatics for Agronomy"
 ---
 
-In this week, we will learn what is kriging interpolation. 
+In this week, we will synthetize what we have learned in this course. 
 
 
 ## 👨‍🏫 Lecture Slides 
 
 
-- [Introduction to kriging](https://mycourses.aalto.fi/pluginfile.php/1265858/course/section/161436/Lecture%204%20Introduction%20to%20kriging.pdf)
-
-- [How kriging works?](https://pro.arcgis.com/en/pro-app/latest/tool-reference/3d-analyst/how-kriging-works.htm)
+- [Geomatics for Agronomy](https://drive.google.com/file/d/1EeevFnt9BkKT7tNzxcI81aSvfVILUgtc/view?usp=sharing)
 
 
-## **Practical exercises**:
 
-#### [Download 250-m SOC data for your study area](https://rpubs.com/ials2un/gettingSoilGrids)
 
-Due on 16.11.2023
 
-#### [Interpolation of SOC data for your study area](https://rpubs.com/ials2un/soc_interp)
+## 📚 Grades
 
-Due on 23.11.2023
+- [Examen 2](https://drive.google.com/file/d/1LUMpwI2mlqTyWW4MXFdqDtJyfH0i2dI6/view?usp=sharing)
 
-## 📚 Recommended Reading 
+- [Informe 2](https://drive.google.com/file/d/19f9R7b0pksbUpPWlL-luGtCM8X4cd9q2/view?usp=sharing)
 
-Study [Kriging interpolation](https://www.publichealth.columbia.edu/research/population-health-methods/kriging-interpolation).
 
 
 
